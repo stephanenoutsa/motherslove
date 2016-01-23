@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.babyandi.stephnoutsa.babyandi.Management"
+    tools:showIn="@layout/activity_management"
+    android:background="@color/colorMalnutrition">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/management_text"
+        android:id="@+id/manageText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="@color/colorTextPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/choose_category"
+        android:id="@+id/manageCategory"
+        android:layout_below="@+id/manageText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:textColor="@color/colorTextPrimary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_mild_malnutrition"
+        android:id="@+id/buttonMildMalnutrition"
+        android:layout_below="@+id/manageCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_standard_border"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickMildMalnutrition" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_moderate_malnutrition"
+        android:id="@+id/buttonModerateMalnutrition"
+        android:layout_below="@+id/buttonMildMalnutrition"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorTextSecondary"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickModerateMalnutrition" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_severe_malnutrition"
+        android:id="@+id/buttonSevereMalnutrition"
+        android:layout_below="@+id/buttonModerateMalnutrition"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorTextSecondary"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickSevereMalnutrition" />
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.babyandi.stephnoutsa.babyandi.HIVApproach"
+    tools:showIn="@layout/activity_hivapproach"
+    android:background="@color/colorSpecialNeeds">
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hivstep1"
+        android:id="@+id/buttonHIVStep1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickHIVStep1"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hivstep2"
+        android:id="@+id/buttonHIVStep2"
+        android:layout_below="@+id/buttonHIVStep1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHIVStep2"
+        android:textColor="@color/colorTextSecondary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hivstep3"
+        android:id="@+id/buttonHIVStep3"
+        android:layout_below="@+id/buttonHIVStep2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickHIVStep3"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hivstep4"
+        android:id="@+id/buttonHIVStep4"
+        android:layout_below="@+id/buttonHIVStep3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHIVStep4"
+        android:textColor="@color/colorTextSecondary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hivstep5"
+        android:id="@+id/buttonHIVStep5"
+        android:layout_below="@+id/buttonHIVStep4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickHIVStep5"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hivstep6"
+        android:id="@+id/buttonHIVStep6"
+        android:layout_below="@+id/buttonHIVStep5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHIVStep6"
+        android:textColor="@color/colorTextSecondary" />
+</RelativeLayout>

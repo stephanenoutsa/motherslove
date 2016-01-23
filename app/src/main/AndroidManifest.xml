@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.babyandi.stephnoutsa.babyandi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchableActivity" />
+
+        <activity
+            android:name=".Home"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ANC"
+            android:label="@string/title_activity_anc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Malnutrition"
+            android:label="@string/title_activity_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Diarrhoea"
+            android:label="@string/title_activity_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpecialNeeds"
+            android:label="@string/title_activity_special_needs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SearchableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".HowToDiagnose"
+            android:label="@string/title_activity_how_to_diagnose"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Management"
+            android:label="@string/title_activity_management"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IntroductionMalnutrition"
+            android:label="@string/title_activity_introduction_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CriteriaMalnutrition"
+            android:label="@string/title_activity_criteria_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignsMalnutrition"
+            android:label="@string/title_activity_signs_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MildMalnutrition"
+            android:label="@string/title_activity_mild_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModerateMalnutrition"
+            android:label="@string/title_activity_moderate_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SevereMalnutrition"
+            android:label="@string/title_activity_severe_malnutrition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AcuteDiarrhoea"
+            android:label="@string/title_activity_acute_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersistentDiarrhoea"
+            android:label="@string/title_activity_persistent_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dysentery"
+            android:label="@string/title_activity_dysentery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PresentationAcuteDiarrhoea"
+            android:label="@string/title_activity_presentation_acute_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DefinitionAcuteDiarrhoea"
+            android:label="@string/title_activity_definition_acute_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManagementAcuteDiarrhoea"
+            android:label="@string/title_activity_management_acute_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoDehydration"
+            android:label="@string/title_activity_no_dehydration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LittleDehydration"
+            android:label="@string/title_activity_little_dehydration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SevereDehydration"
+            android:label="@string/title_activity_severe_dehydration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersistentDiarrhoeaDefinition"
+            android:label="@string/title_activity_persistent_diarrhoea_definition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PersistentDiarrhoeaTypes"
+            android:label="@string/title_activity_persistent_diarrhoea_types"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeverePersistentDiarrhoea"
+            android:label="@string/title_activity_severe_persistent_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NonSeverePersistentDiarrhoea"
+            android:label="@string/title_activity_non_severe_persistent_diarrhoea"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NonSeverePersistentDiarrhoeaDefinition"
+            android:label="@string/title_activity_non_severe_persistent_diarrhoea_definition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NonSeverePersistentDiarrhoeaTreatment"
+            android:label="@string/title_activity_non_severe_persistent_diarrhoea_treatment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DysenteryDefinition"
+            android:label="@string/title_activity_dysentery_definition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DysenteryDiagnosis"
+            android:label="@string/title_activity_dysentery_diagnosis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DysenteryTreatment"
+            android:label="@string/title_activity_dysentery_treatment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeverePersistentDiarrhoeaDefinition"
+            android:label="@string/title_activity_severe_persistent_diarrhoea_definition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeverePersistentDiarrhoeaTreatment"
+            android:label="@string/title_activity_severe_persistent_diarrhoea_treatment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIV"
+            android:label="@string/title_activity_hiv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hepatitis"
+            android:label="@string/title_activity_hepatitis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVIntroduction"
+            android:label="@string/title_activity_hivintroduction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVApproach"
+            android:label="@string/title_activity_hivapproach"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVStep1"
+            android:label="@string/title_activity_hivstep1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVStep2"
+            android:label="@string/title_activity_hivstep2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVStep3"
+            android:label="@string/title_activity_hivstep3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVStep4"
+            android:label="@string/title_activity_hivstep4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVStep5"
+            android:label="@string/title_activity_hivstep5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIVStep6"
+            android:label="@string/title_activity_hivstep6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisIntroduction"
+            android:label="@string/title_activity_hepatitis_introduction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisApproach"
+            android:label="@string/title_activity_hepatitis_approach"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisStep1"
+            android:label="@string/title_activity_hepatitis_step1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisStep2"
+            android:label="@string/title_activity_hepatitis_step2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisStep3"
+            android:label="@string/title_activity_hepatitis_step3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisStep4"
+            android:label="@string/title_activity_hepatitis_step4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HepatitisStep5"
+            android:label="@string/title_activity_hepatitis_step5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notifications"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_notifications"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeforeBirthANC"
+            android:label="@string/title_activity_before_birth_anc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeforeBirth"
+            android:label="@string/title_activity_before_birth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HEDuringPregnancy"
+            android:label="@string/title_activity_heduring_pregnancy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CommonComplaintsDuringPregnancy"
+            android:label="@string/title_activity_common_complaints_during_pregnancy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HighRiskPregnancies"
+            android:label="@string/title_activity_high_risk_pregnancies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DangerSignsDuringPregnancy"
+            android:label="@string/title_activity_danger_signs_during_pregnancy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Labour"
+            android:label="@string/title_activity_labour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WhenYoullDeliver"
+            android:label="@string/title_activity_when_youll_deliver"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PreparingForLabour"
+            android:label="@string/title_activity_preparing_for_labour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignsOfLabour"
+            android:label="@string/title_activity_signs_of_labour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PainManagement"
+            android:label="@string/title_activity_pain_management"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AfterBirth"
+            android:label="@string/title_activity_after_birth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AfterBirthIntroduction"
+            android:label="@string/title_activity_after_birth_introduction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangesAfterDelivery"
+            android:label="@string/title_activity_changes_after_delivery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FrequentComplaintsAfterDelivery"
+            android:label="@string/title_activity_frequent_complaints_after_delivery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HEAfterDelivery"
+            android:label="@string/title_activity_heafter_delivery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Immunization"
+            android:label="@string/title_activity_immunization"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScheduleForInfants"
+            android:label="@string/title_activity_schedule_for_infants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScheduleForPregnantWomen"
+            android:label="@string/title_activity_schedule_for_pregnant_women"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

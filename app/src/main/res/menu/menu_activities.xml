@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.babyandi.stephnoutsa.babyandi">
+    <item
+        android:id="@+id/search"
+        android:title="@string/menu_search"
+        android:icon="@drawable/search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/notifications"
+        android:title="@string/menu_notifications"
+        android:icon="@drawable/notifications"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="5"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/go_to_anc"
+        android:orderInCategory="1"
+        android:title="@string/menu_anc"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_to_malnutrition"
+        android:orderInCategory="2"
+        android:title="@string/menu_malnutrition"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_to_diarrhoea"
+        android:orderInCategory="3"
+        android:title="@string/menu_diarrhoea"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_to_special_needs"
+        android:orderInCategory="4"
+        android:title="@string/menu_special_needs"
+        app:showAsAction="never" />
+</menu>

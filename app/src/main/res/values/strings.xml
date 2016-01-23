@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Mother\'s Love</string>
+    <string name="app_label">Mother\'s Love</string>
+    <string name="search_hint">Search Mother\'s Love</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_anc">Antenatal Clinic</string>
+    <string name="menu_malnutrition">Malnutrition</string>
+    <string name="menu_diarrhoea">Diarrhoea</string>
+    <string name="menu_special_needs">Special Needs</string>
+    <string name="home_text">Lorem ipsum dolor sit amet</string>
+    <string name="button_anc">Antenatal Care</string>
+    <string name="button_malnutrition">Malnutrition</string>
+    <string name="button_diarrhoea">Diarrhoea</string>
+    <string name="button_special_needs">Special Needs</string>
+    <string name="title_activity_anc">Antenatal Care</string>
+    <string name="title_activity_malnutrition">Malnutrition</string>
+    <string name="title_activity_diarrhoea">Diarrhoea</string>
+    <string name="title_activity_special_needs">Special Needs</string>
+    <string name="menu_diagnosis">How to Diagnose</string>
+    <string name="menu_management">Management</string>
+    <string name="menu_acute_diarrhoea">Acute Diarrhoea</string>
+    <string name="menu_persistent_diarrhoea">Persistent Diarrhoea</string>
+    <string name="menu_dysentery">Dysentery</string>
+    <string name="menu_hiv">HIV with Pregnancy</string>
+    <string name="menu_hepatitis">Hepatitis with Pregnancy</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="choose_category">Choose a category below</string>
+    <string name="malnutrition_text">Lorem ipsum dolor sit amet</string>
+    <string name="diagnose_text">Lorem ipsum dolor sit amet</string>
+    <string name="management_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_how_to_diagnose">How To Diagnose</string>
+    <string name="title_activity_management">Management</string>
+    <string name="title_activity_introduction_malnutrition">Introduction</string>
+    <string name="title_activity_criteria_malnutrition">Main Criteria</string>
+    <string name="title_activity_signs_malnutrition">Signs &amp; Symptoms</string>
+    <string name="title_activity_mild_malnutrition">Mild Malnutrition</string>
+    <string name="title_activity_moderate_malnutrition">Moderate Malnutrition</string>
+    <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
+    <string name="diarrhoea_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
+    <string name="title_activity_persistent_diarrhoea">Persistent Diarrhoea</string>
+    <string name="title_activity_dysentery">Dysentery</string>
+    <string name="acute_diarrhoea_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_presentation_acute_diarrhoea">Presentation</string>
+    <string name="title_activity_definition_acute_diarrhoea">Definition</string>
+    <string name="title_activity_management_acute_diarrhoea">Management</string>
+    <string name="management_acute_diarrhoea_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_no_dehydration">No Dehydration (Mild)</string>
+    <string name="title_activity_little_dehydration">Some Dehydration (Moderate)</string>
+    <string name="title_activity_severe_dehydration">Severe Dehydration</string>
+    <string name="persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_persistent_diarrhoea_definition">
+        Definition
+    </string>
+    <string name="title_activity_persistent_diarrhoea_types">Types</string>
+    <string name="persistent_diarrhoea_types_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_severe_persistent_diarrhoea">Severe Persistent Diarrhoea</string>
+    <string name="title_activity_non_severe_persistent_diarrhoea">
+        Non-Severe Persistent Diarrhoea
+    </string>
+    <string name="non_severe_persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_non_severe_persistent_diarrhoea_definition">
+        Definition
+    </string>
+    <string name="title_activity_non_severe_persistent_diarrhoea_treatment">
+        Treatment
+    </string>
+    <string name="dysentery_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_dysentery_definition">Definition</string>
+    <string name="title_activity_dysentery_diagnosis">Diagnosis</string>
+    <string name="title_activity_dysentery_treatment">Treatment</string>
+    <string name="severe_persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_severe_persistent_diarrhoea_definition">
+        Definition
+    </string>
+    <string name="title_activity_severe_persistent_diarrhoea_treatment">
+        Treatment
+    </string>
+    <string name="special_needs_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_hiv">HIV &amp; Pregnancy</string>
+    <string name="title_activity_hepatitis">Hepatitis &amp; Pregnancy</string>
+    <string name="hiv_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_hivintroduction">Introduction</string>
+    <string name="title_activity_hivapproach">Approach</string>
+    <string name="title_activity_hivstep1">Step 1</string>
+    <string name="title_activity_hivstep2">Step 2</string>
+    <string name="title_activity_hivstep3">Step 3</string>
+    <string name="title_activity_hivstep4">Step 4</string>
+    <string name="title_activity_hivstep5">Step 5</string>
+    <string name="title_activity_hivstep6">Step 6</string>
+    <string name="hepatitis_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_hepatitis_introduction">Introduction</string>
+    <string name="title_activity_hepatitis_approach">Approach</string>
+    <string name="title_activity_hepatitis_step1">Step 1</string>
+    <string name="title_activity_hepatitis_step2">Step 2</string>
+    <string name="title_activity_hepatitis_step3">Step 3</string>
+    <string name="title_activity_hepatitis_step4">Step 4</string>
+    <string name="title_activity_hepatitis_step5">Step 5</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="anc_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_before_birth_anc">Antenatal Clinic</string>
+    <string name="title_activity_before_birth">Before Birth</string>
+    <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
+    <string name="title_activity_common_complaints_during_pregnancy">
+        Common Complaints During Pregnancy
+    </string>
+    <string name="title_activity_high_risk_pregnancies">High Risk Pregnancies</string>
+    <string name="title_activity_danger_signs_during_pregnancy">
+        Danger Signs During Pregnancy
+    </string>
+    <string name="title_activity_labour">Labour</string>
+    <string name="title_activity_when_youll_deliver">When You\'ll Deliver?</string>
+    <string name="title_activity_preparing_for_labour">Preparing For Labour</string>
+    <string name="title_activity_signs_of_labour">Signs Of Labour</string>
+    <string name="title_activity_pain_management">Pain Management</string>
+    <string name="title_activity_after_birth">After Birth</string>
+    <string name="title_activity_after_birth_introduction">Introduction</string>
+    <string name="title_activity_changes_after_delivery">Changes After Delivery</string>
+    <string name="title_activity_frequent_complaints_after_delivery">
+        Frequent Complaints After Delivery
+    </string>
+    <string name="title_activity_heafter_delivery">Health Education After Delivery</string>
+    <string name="title_activity_immunization">Immunization</string>
+    <string name="title_activity_schedule_for_infants">Schedule For Infants</string>
+    <string name="title_activity_schedule_for_pregnant_women">Schedule For Pregnant Women</string>
+    <string name="immunization_text">Lorem ipsum dolor sit amet</string>
+    <string name="title_activity_home_screen">Mother\'s Love</string>
+</resources>

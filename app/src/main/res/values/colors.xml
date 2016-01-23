@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F0E8C4</color>
+    <color name="colorPrimaryDark">#EFD6AD</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHome">#FF85FD</color>
+    <color name="colorAnc">#FF4081</color>
+    <color name="colorMalnutrition">#C2191C</color>
+    <color name="colorDiarrhoea">#EBB61C</color>
+    <color name="colorSpecialNeeds">#AF00D3</color>
+    <color name="colorTextPrimary">#FEFEFE</color>
+    <!--<color name="colorSecondary">#F0E8C4</color>-->
+    <color name="colorTextSecondary">#0E0E0E</color>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.babyandi.stephnoutsa.babyandi.HepatitisApproach"
+    tools:showIn="@layout/activity_hepatitis_approach"
+    android:background="@color/colorSpecialNeeds">
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hepatitis_step1"
+        android:id="@+id/buttonHepatitisStep1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHepatitisStep1"
+        android:textColor="@color/colorTextSecondary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hepatitis_step2"
+        android:id="@+id/buttonHepatitisStep2"
+        android:layout_below="@+id/buttonHepatitisStep1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickHepatitisStep2"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hepatitis_step3"
+        android:id="@+id/buttonHepatitisStep3"
+        android:layout_below="@+id/buttonHepatitisStep2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHepatitisStep3"
+        android:textColor="@color/colorTextSecondary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hepatitis_step4"
+        android:id="@+id/buttonHepatitisStep4"
+        android:layout_below="@+id/buttonHepatitisStep3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickHepatitisStep4"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_hepatitis_step5"
+        android:id="@+id/buttonHepatitisStep5"
+        android:layout_below="@+id/buttonHepatitisStep4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHepatitisStep5"
+        android:textColor="@color/colorTextSecondary" />
+</RelativeLayout>

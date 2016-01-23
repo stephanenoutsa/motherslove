@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.babyandi.stephnoutsa.babyandi.AfterBirth"
+    tools:showIn="@layout/activity_after_birth"
+    android:background="@color/colorAnc">
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_after_birth_introduction"
+        android:id="@+id/buttonAfterBirthIntroduction"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickAfterBirthIntroduction"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_changes_after_delivery"
+        android:id="@+id/buttonChangesAfterDelivery"
+        android:layout_below="@+id/buttonAfterBirthIntroduction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickChangesAfterDelivery"
+        android:textColor="@color/colorTextSecondary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_frequent_complaints_after_delivery"
+        android:id="@+id/buttonFrequentComplaintsAfterDelivery"
+        android:layout_below="@+id/buttonChangesAfterDelivery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickFrequentComplaintsAfterDelivery"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_heafter_delivery"
+        android:id="@+id/buttonHEAfterDelivery"
+        android:layout_below="@+id/buttonFrequentComplaintsAfterDelivery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickHEAfterDelivery"
+        android:textColor="@color/colorTextSecondary" />
+</RelativeLayout>

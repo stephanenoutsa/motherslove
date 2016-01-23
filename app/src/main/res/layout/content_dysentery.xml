@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.babyandi.stephnoutsa.babyandi.Dysentery"
+    tools:showIn="@layout/activity_dysentery"
+    android:background="@color/colorDiarrhoea">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dysentery_text"
+        android:id="@+id/dysenteryText"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTextPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/choose_category"
+        android:id="@+id/dysenteryCategory"
+        android:layout_below="@+id/dysenteryText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:textColor="@color/colorTextPrimary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_dysentery_definition"
+        android:id="@+id/buttonDysenteryDefinition"
+        android:layout_below="@+id/dysenteryCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickDysenteryDefinition"
+        android:textColor="@color/colorTextSecondary" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_dysentery_diagnosis"
+        android:id="@+id/buttonDysenteryDiagnosis"
+        android:layout_below="@+id/buttonDysenteryDefinition"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickDysenteryDiagnosis"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_dysentery_treatment"
+        android:id="@+id/buttonDysenteryTreatment"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_standard_border"
+        android:layout_below="@+id/buttonDysenteryDiagnosis"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickDysenteryTreatment"
+        android:textColor="@color/colorTextSecondary" />
+</RelativeLayout>
