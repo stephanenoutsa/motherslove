@@ -13,36 +13,13 @@
     tools:showIn="@layout/activity_how_to_diagnose"
     android:background="@color/colorMalnutrition">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/diagnose_text"
-        android:id="@+id/diagnoseText"
-        android:layout_marginTop="46dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorTextPrimary" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/choose_category"
-        android:id="@+id/diagnoseCategory"
-        android:layout_below="@+id/diagnoseText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:textColor="@color/colorTextPrimary" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_activity_introduction_malnutrition"
         android:id="@+id/buttonIntroduction"
-        android:layout_below="@+id/diagnoseCategory"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickMalnutritionIntro"
         android:textColor="@color/colorTextSecondary" />
