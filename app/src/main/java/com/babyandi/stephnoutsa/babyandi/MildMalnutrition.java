@@ -76,8 +76,9 @@ public class MildMalnutrition extends AppCompatActivity {
             onSearchRequested();
             return true;
         }
-        if (id == R.id.settings) {
-            return true;
+        if (id == R.id.about) {
+            Intent i = new Intent(this, About.class);
+            startActivity(i);
         }
         if (id == R.id.go_to_anc) {
             onClickAnc();
