@@ -13,36 +13,13 @@
     tools:showIn="@layout/activity_management"
     android:background="@color/colorMalnutrition">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/management_text"
-        android:id="@+id/manageText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:textColor="@color/colorTextPrimary" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/choose_category"
-        android:id="@+id/manageCategory"
-        android:layout_below="@+id/manageText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:textColor="@color/colorTextPrimary" />
-
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_mild_malnutrition"
         android:id="@+id/buttonMildMalnutrition"
-        android:layout_below="@+id/manageCategory"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/button_standard_border"
         android:textColor="@color/colorTextSecondary"
         android:onClick="onClickMildMalnutrition" />
