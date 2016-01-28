@@ -13,36 +13,13 @@
     tools:showIn="@layout/activity_anc"
     android:background="@color/colorAnc">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/anc_text"
-        android:id="@+id/ANCText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/colorTextPrimary" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/choose_category"
-        android:id="@+id/ANCCategory"
-        android:layout_below="@+id/ANCText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:textColor="@color/colorTextPrimary" />
-
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_before_birth"
         android:id="@+id/buttonBeforeBirth"
-        android:layout_below="@+id/ANCCategory"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:textColor="@color/colorTextSecondary"
         android:onClick="onClickBeforeBirth"
         android:background="@drawable/button_standard_border" />
