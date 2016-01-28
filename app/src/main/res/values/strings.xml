@@ -128,4 +128,5 @@
     <string name="title_activity_schedule_for_pregnant_women">Schedule For Pregnant Women</string>
     <string name="immunization_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_home_screen">Mother\'s Love</string>
+    <string name="title_activity_about">About</string>
 </resources>
