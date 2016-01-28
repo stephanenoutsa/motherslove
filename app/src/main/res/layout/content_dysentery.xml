@@ -13,36 +13,13 @@
     tools:showIn="@layout/activity_dysentery"
     android:background="@color/colorDiarrhoea">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/dysentery_text"
-        android:id="@+id/dysenteryText"
-        android:layout_marginTop="46dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorTextPrimary" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/choose_category"
-        android:id="@+id/dysenteryCategory"
-        android:layout_below="@+id/dysenteryText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:textColor="@color/colorTextPrimary" />
-
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_dysentery_definition"
         android:id="@+id/buttonDysenteryDefinition"
-        android:layout_below="@+id/dysenteryCategory"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickDysenteryDefinition"
         android:textColor="@color/colorTextSecondary" />
