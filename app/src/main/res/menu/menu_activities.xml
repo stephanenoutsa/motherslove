@@ -14,10 +14,10 @@
         android:icon="@drawable/notifications"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/settings"
+        android:id="@+id/about"
         android:orderInCategory="5"
-        android:title="@string/menu_settings"
-        android:icon="@drawable/settings"
+        android:title="@string/menu_about"
+        android:icon="@drawable/about"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/go_to_anc"
