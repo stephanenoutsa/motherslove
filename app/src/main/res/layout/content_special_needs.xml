@@ -13,36 +13,13 @@
     tools:showIn="@layout/activity_special_needs"
     android:background="@color/colorSpecialNeeds">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/special_needs_text"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:textColor="@color/colorTextPrimary" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/choose_category"
-        android:id="@+id/specialNeedsCategory"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:textColor="@color/colorTextPrimary" />
-
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_hiv"
         android:id="@+id/buttonHIV"
-        android:layout_below="@+id/specialNeedsCategory"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:textColor="@color/colorTextSecondary"
         android:onClick="onClickHIV"
         android:background="@drawable/button_standard_border" />
