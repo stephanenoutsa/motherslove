@@ -27,18 +27,22 @@
         <activity
             android:name=".ANC"
             android:label="@string/title_activity_anc"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Malnutrition"
             android:label="@string/title_activity_malnutrition"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Diarrhoea"
             android:label="@string/title_activity_diarrhoea"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SpecialNeeds"
             android:label="@string/title_activity_special_needs"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SearchableActivity">
             <intent-filter>
@@ -52,10 +56,12 @@
         <activity
             android:name=".HowToDiagnose"
             android:label="@string/title_activity_how_to_diagnose"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Management"
             android:label="@string/title_activity_management"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".IntroductionMalnutrition"
@@ -64,6 +70,7 @@
         <activity
             android:name=".CriteriaMalnutrition"
             android:label="@string/title_activity_criteria_malnutrition"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SignsMalnutrition"
@@ -84,14 +91,17 @@
         <activity
             android:name=".AcuteDiarrhoea"
             android:label="@string/title_activity_acute_diarrhoea"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PersistentDiarrhoea"
             android:label="@string/title_activity_persistent_diarrhoea"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Dysentery"
             android:label="@string/title_activity_dysentery"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PresentationAcuteDiarrhoea"
@@ -104,6 +114,7 @@
         <activity
             android:name=".ManagementAcuteDiarrhoea"
             android:label="@string/title_activity_management_acute_diarrhoea"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NoDehydration"
@@ -124,14 +135,17 @@
         <activity
             android:name=".PersistentDiarrhoeaTypes"
             android:label="@string/title_activity_persistent_diarrhoea_types"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SeverePersistentDiarrhoea"
             android:label="@string/title_activity_severe_persistent_diarrhoea"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NonSeverePersistentDiarrhoea"
             android:label="@string/title_activity_non_severe_persistent_diarrhoea"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".NonSeverePersistentDiarrhoeaDefinition"
@@ -164,10 +178,12 @@
         <activity
             android:name=".HIV"
             android:label="@string/title_activity_hiv"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Hepatitis"
             android:label="@string/title_activity_hepatitis"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HIVIntroduction"
@@ -176,6 +192,7 @@
         <activity
             android:name=".HIVApproach"
             android:label="@string/title_activity_hivapproach"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HIVStep1"
@@ -208,6 +225,7 @@
         <activity
             android:name=".HepatitisApproach"
             android:label="@string/title_activity_hepatitis_approach"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HepatitisStep1"
@@ -243,6 +261,7 @@
         <activity
             android:name=".BeforeBirth"
             android:label="@string/title_activity_before_birth"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HEDuringPregnancy"
@@ -263,6 +282,7 @@
         <activity
             android:name=".Labour"
             android:label="@string/title_activity_labour"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".WhenYoullDeliver"
@@ -283,6 +303,7 @@
         <activity
             android:name=".AfterBirth"
             android:label="@string/title_activity_after_birth"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AfterBirthIntroduction"
@@ -303,6 +324,7 @@
         <activity
             android:name=".Immunization"
             android:label="@string/title_activity_immunization"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ScheduleForInfants"
@@ -315,6 +337,7 @@
         <activity
             android:name=".HomeScreen"
             android:label="@string/title_activity_home_screen"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
