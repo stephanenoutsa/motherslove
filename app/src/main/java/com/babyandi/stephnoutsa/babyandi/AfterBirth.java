@@ -91,10 +91,10 @@ public class AfterBirth extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.search) {
+        /*if (id == R.id.search) {
             onSearchRequested();
             return true;
-        }
+        }*/
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
