@@ -20,7 +20,7 @@ public class HomeScreen extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Set android for navigation
+        // Set logo for navigation
         toolbar.setNavigationIcon(R.drawable.android);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
