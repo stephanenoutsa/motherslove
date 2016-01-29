@@ -92,6 +92,10 @@ public class Management extends AppCompatActivity {
             onSearchRequested();
             return true;
         }*/
+        if (id == R.id.notifications) {
+            Intent i = new Intent(this, Notifications.class);
+            startActivity(i);
+        }
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
