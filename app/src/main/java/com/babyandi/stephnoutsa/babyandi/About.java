@@ -20,7 +20,7 @@ public class About extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Set logo for navigation
+        // Set logo on navigation bar
         toolbar.setNavigationIcon(R.drawable.android);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
