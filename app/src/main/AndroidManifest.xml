@@ -251,6 +251,7 @@
             android:name=".Notifications"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_notifications"
+            android:screenOrientation="portrait"
             android:launchMode="singleTask"
             android:taskAffinity=""
             android:theme="@style/AppTheme.NoActionBar" />
