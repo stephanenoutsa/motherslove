@@ -84,6 +84,18 @@
     <string name="title_activity_hepatitis">Hepatitis &amp; Pregnancy</string>
     <string name="hiv_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_hivintroduction">Introduction</string>
+    <string name="hiv_intro_text" formatted="false">
+        - This section will focus on diagnosis and prevention of mother to child transmission (PMTCT)
+        of HIV as 90% of children infected with HIV get it from their mothers.\n\n
+        - In 2012, there were still an estimated 260000 new infections in children.\n\n
+        - It is however possible to have healthy HIV negative children from HIV positive mothers.
+        HIV/AIDS does not prevent you from having children.\n\n
+        - Without treatment, there is a 15-45% chance of the infection getting to your baby. With
+        treatment, this value goes below 5%.\n\n
+        - Therefore there is the need on the part of mothers and health care practitioners to know
+        and implement the appropriate information to reduce mother to child transmission (MTCT) values
+        to the minimum.
+    </string>
     <string name="title_activity_hivapproach">Approach</string>
     <string name="title_activity_hivstep1">Step 1</string>
     <string name="title_activity_hivstep2">Step 2</string>

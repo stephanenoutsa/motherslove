@@ -6,9 +6,11 @@ import android.os.Bundle;
 //import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -33,6 +35,8 @@ public class HIVIntroduction extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+        TextView hivIntroduction = (TextView) findViewById(R.id.hivIntroduction);
+        hivIntroduction.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////
