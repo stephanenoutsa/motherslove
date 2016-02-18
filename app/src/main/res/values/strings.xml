@@ -168,6 +168,18 @@
     </string>
     <string name="hepatitis_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_hepatitis_introduction">Introduction</string>
+    <string name="hepatitis_intro_text" formatted="false">
+        - Hepatitis B is the inflammation of the liver as a result of infection from hepatitis B virus.
+        It may or may not present itself with symptoms such as fever, loss of appetite, vomiting, diarrhoea,
+        yellowing of the eyes, tiredness, body pains, dark urine and pale-coloured stool.\n\n
+        - This virus can be transmitted through contact with infected blood, semen, vaginal secretions
+        and, to a lesser extent, saliva.\n\n
+        - Your immune system can protect you from hepatitis B infection within a few months even without
+        treatment. However 5% of people continue carrying the virus. This leads to damages to your liver
+        in the long run.\n\n
+        - 10-20% of women who are Hepatitis B surface antigen (HBsAg) positive will transmit the infection
+        to their babies without appropriate treatment of the mother and child.
+    </string>
     <string name="title_activity_hepatitis_approach">Approach</string>
     <string name="title_activity_hepatitis_step1">Step 1</string>
     <string name="title_activity_hepatitis_step2">Step 2</string>
