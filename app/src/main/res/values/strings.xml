@@ -162,6 +162,10 @@
         - If the child tests positive, he/she is positive.
     </string>
     <string name="title_activity_hivstep6">Step 6</string>
+    <string name="hiv_step_6" formatted="false">
+        - If your baby tests negative, it is important that your baby stays that way.\n
+        - If your baby tests positive, he/she should be placed on treatment as soon as possible.
+    </string>
     <string name="hepatitis_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_hepatitis_introduction">Introduction</string>
     <string name="title_activity_hepatitis_approach">Approach</string>
