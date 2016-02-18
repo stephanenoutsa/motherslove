@@ -182,7 +182,7 @@
     </string>
     <string name="title_activity_hepatitis_approach">Approach</string>
     <string name="title_activity_hepatitis_step1">Step 1</string>
-    <string name="hepatitis_step_1">
+    <string name="hepatitis_step_1" formatted="false">
         At your booking visit (1st ANC visit), among the tests requested to be done on you will be
         Hepatitis B surface antigen (HBsAg).\n\n
         i. If you test negative, it is important you stay that way.\n\n
@@ -190,6 +190,15 @@
         the level of the virus in your blood. This is called the viral load.
     </string>
     <string name="title_activity_hepatitis_step2">Step 2</string>
+    <string name="hepatitis_step_2" formatted="false">
+        i. If the viral load is low, your doctor will surely not put you on treatment immediately.\n\n
+        ii. If the viral load is high you may be offered treatment either with lamivudine or tenofovir.
+        Treatment will often start in the 3rd trimester of pregnancy (i.e. last 3 months of your pregnancy)
+        and continue to the 12th week after delivery, and could even extend beyond this date depending
+        on your response to the treatment and the evaluation from your doctor.\n\n
+        <b>NB: </b>If you have already been diagnosed and placed on treatment prior to your pregnancy,
+        inform your doctor about your treatment to ensure the safety of your baby.
+    </string>
     <string name="title_activity_hepatitis_step3">Step 3</string>
     <string name="title_activity_hepatitis_step4">Step 4</string>
     <string name="title_activity_hepatitis_step5">Step 5</string>
