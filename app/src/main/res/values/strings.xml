@@ -98,15 +98,24 @@
     </string>
     <string name="title_activity_hivapproach">Approach</string>
     <string name="title_activity_hivstep1">Step 1</string>
-    <string name="hiv_step_1">
+    <string name="hiv_step_1" formatted="false">
         At your booking visit (1st ANC visit) you will be given a series of tests to do including the
         HIV test. You will be counselled prior to and after the test results are out.\n\n
         i. If you test negative for HIV; it is important that you stay negative. If you have unprotected
         sex, share needles and syringes test again.\n\n
-        ii. If you test positive for HIV; pay careful attention during your counselling about your health. You will be given a series of tests to do (pre-therapeutic work up) after which you should report to your doctor with the results.
--Then move to STEP TWO.
+        ii. If you test positive for HIV; pay careful attention during your counselling about your health.
+        You will be given a series of tests to do (pre-therapeutic work up) after which you should
+        report to your doctor with the results.\n
+        -Then move to STEP TWO.
     </string>
     <string name="title_activity_hivstep2">Step 2</string>
+    <string name="hiv_step_2" formatted="false">
+        International guidelines by the World Health organisation (WHO) option B+ demand that you should
+        be placed on treatment as soon as you are diagnosed. You should adhere to this treatment for life.
+        You should take the drugs at a particular time of the day at your convenience and for the rest
+        of your life. If complications occur, please <b>SEE YOUR DOCTOR</b> for assessment and maybe a change
+        of the drugs. <b>Do not stop the drugs without informing your doctor.</b>
+    </string>
     <string name="title_activity_hivstep3">Step 3</string>
     <string name="title_activity_hivstep4">Step 4</string>
     <string name="title_activity_hivstep5">Step 5</string>
