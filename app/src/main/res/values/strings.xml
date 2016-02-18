@@ -100,13 +100,13 @@
     <string name="title_activity_hivstep1">Step 1</string>
     <string name="hiv_step_1" formatted="false">
         At your booking visit (1st ANC visit) you will be given a series of tests to do including the
-        HIV test. You will be counselled prior to and after the test results are out.\n\n
-        i. If you test negative for HIV; it is important that you stay negative. If you have unprotected
-        sex, share needles and syringes test again.\n\n
-        ii. If you test positive for HIV; pay careful attention during your counselling about your health.
+        HIV test. You will be counselled prior to and after the release of the test results.\n\n
+        i. If you test negative for HIV, it is important that you stay negative. If you have unprotected
+        sex, and/or share needles and syringes, then test again.\n\n
+        ii. If you test positive for HIV, pay careful attention during your counselling about your health.
         You will be given a series of tests to do (pre-therapeutic work up) after which you should
         report to your doctor with the results.\n
-        -Then move to STEP TWO.
+        - Then move to STEP TWO.
     </string>
     <string name="title_activity_hivstep2">Step 2</string>
     <string name="hiv_step_2" formatted="false">
@@ -114,9 +114,25 @@
         be placed on treatment as soon as you are diagnosed. You should adhere to this treatment for life.
         You should take the drugs at a particular time of the day at your convenience and for the rest
         of your life. If complications occur, please <b>SEE YOUR DOCTOR</b> for assessment and maybe a change
-        of the drugs. <b>Do not stop the drugs without informing your doctor.</b>
+        of the drugs. <b>Do not stop the drugs without informing your doctor.</b>\n\n
+        <b><u>NB:</u></b>\n
+        <u>Benefits of Antiretrovirals:</u>\n
+        - Keep you strong and healthy\n
+        - Make you less infectious\n
+        - Protect your baby\n\n
+        <u>Things to avoid:</u>\n
+        - Smoking\n
+        - Alcohol
     </string>
     <string name="title_activity_hivstep3">Step 3</string>
+    <string name="hiv_step_3" formatted="false">
+        When you get into labour at the hospital, inform the doctor or midwife about your HIV status
+        so that dispositions can be taken to minimise chances of transmission to your baby. You can
+        deliver vaginally, as being HIV positive does not prevent this. However, caesarean delivery
+        will be the safest and fastest mode of delivery for you.\n\n
+        The decision on the route of delivery will be made based on the situations surrounding delivery,
+        your doctor’s opinion and your consent.
+    </string>
     <string name="title_activity_hivstep4">Step 4</string>
     <string name="title_activity_hivstep5">Step 5</string>
     <string name="title_activity_hivstep6">Step 6</string>
