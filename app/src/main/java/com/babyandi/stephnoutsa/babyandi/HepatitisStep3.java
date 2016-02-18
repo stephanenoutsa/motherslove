@@ -6,9 +6,11 @@ import android.os.Bundle;
 //import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class HepatitisStep3 extends AppCompatActivity {
 
@@ -31,6 +33,9 @@ public class HepatitisStep3 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView hepatitisStep3 = (TextView) findViewById(R.id.hepatitisStep3);
+        hepatitisStep3.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////
