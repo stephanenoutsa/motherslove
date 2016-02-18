@@ -146,6 +146,21 @@
         birth until 6 weeks of age.
     </string>
     <string name="title_activity_hivstep5">Step 5</string>
+    <string name="hiv_step_5" formatted="false">
+        The age at which your baby can be tested for HIV depends on the kind of test done and the
+        method of feeding.\n\n
+        <b>1. PCR TEST</b>\n
+        <b>If the baby is breastfeeding: </b>PCR test can be done from age 1 month and repeated 3 months
+        after the child stops breastfeeding to ensure the child is negative.\n
+        <b>If the child is not breastfeeding: </b>PCR test can be done from age 1 month and repeated
+        when the child is 4 months old to confirm the child is negative.\n
+        <b>If the child is on Nevirapine: </b>PCR test can be done from age 1 month and should be repeated
+        2-4 weeks after Nevirapine is stopped.\n\n
+        <b>2. ANTIBODY TEST</b>\n
+        This test should be done when the child is at least 18 months old.\n
+        - If the child tests negative, he/she is negative.\n
+        - If the child tests positive, he/she is positive.
+    </string>
     <string name="title_activity_hivstep6">Step 6</string>
     <string name="hepatitis_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_hepatitis_introduction">Introduction</string>
