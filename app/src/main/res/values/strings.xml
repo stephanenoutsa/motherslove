@@ -134,6 +134,17 @@
         your doctor’s opinion and your consent.
     </string>
     <string name="title_activity_hivstep4">Step 4</string>
+    <string name="hiv_step_4" formatted="false">
+        i.\tFeeding method depends on availability of resources.\n
+        \t\t- If the resources are available, bottle feeding is the gold standard. Seek appropriate
+        counselling on how this is done and hygiene should be prioritised.\n
+        \t\t- However if the resources are not available, exclusive breastfeeding for 6 months should be done.\n
+        \t\t- <b>Mixed feeding should be avoided.</b>\n\n
+        ii.\t- <b>If you decide to breastfeed</b>, your child should be given Nevirapine once a day
+        from birth until 1 week after you stop breastfeeding.\n
+        \t\t- <b>If you decide not to breastfeed</b>, your child should receive Nevirapine once a day from
+        birth until 6 weeks of age.
+    </string>
     <string name="title_activity_hivstep5">Step 5</string>
     <string name="title_activity_hivstep6">Step 6</string>
     <string name="hepatitis_text">Lorem ipsum dolor sit amet</string>
