@@ -223,6 +223,11 @@
         It is safe for you to breastfeed your baby as long as he/she is receiving his/her vaccines.
     </string>
     <string name="title_activity_hepatitis_step5">Step 5</string>
+    <string name="hepatitis_step_5" formatted="false">
+        Your baby should have a blood test around his/her 1st birthday to check if all the viruses are gone.\n\n
+        i. If your baby tests negative, it is important he/she stays that way.\n\n
+        ii. If your baby tests positive, you should see a doctor for a more detailed evaluation of your child.
+    </string>
     <string name="title_activity_notifications">Notifications</string>
     <string name="anc_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_before_birth_anc">Antenatal Clinic</string>
