@@ -182,6 +182,13 @@
     </string>
     <string name="title_activity_hepatitis_approach">Approach</string>
     <string name="title_activity_hepatitis_step1">Step 1</string>
+    <string name="hepatitis_step_1">
+        At your booking visit (1st ANC visit), among the tests requested to be done on you will be
+        Hepatitis B surface antigen (HBsAg).\n\n
+        i. If you test negative, it is important you stay that way.\n\n
+        ii. If you test positive, you will be directed to a doctor who will run a test to check for
+        the level of the virus in your blood. This is called the viral load.
+    </string>
     <string name="title_activity_hepatitis_step2">Step 2</string>
     <string name="title_activity_hepatitis_step3">Step 3</string>
     <string name="title_activity_hepatitis_step4">Step 4</string>
