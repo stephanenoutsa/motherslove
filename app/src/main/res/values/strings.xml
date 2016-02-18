@@ -206,6 +206,22 @@
         - You can deliver vaginally, given that being hepatitis B positive doesn’t prevent you from doing so.
     </string>
     <string name="title_activity_hepatitis_step4">Step 4</string>
+    <string name="hepatitis_step_4" formatted="false">
+        <b>Vaccination</b>\n
+        - At birth, your baby should receive the Hepatitis B vaccine.\n
+        - This vaccine should be followed up by an injection with antibodies against Hepatitis B.\n
+        - Your baby will need another vaccine at ages 1 month, 2 months and 1 year. A booster is recommended
+        for these vaccines at the age of 5 years.\n
+        <b>
+            * It is important for your baby to receive the vaccines because 9 out of 10 babies who get
+            infected from their mothers go on to have chronic hepatitis.\n
+            * When you go for routine vaccination according to the Expanded Program for Immunisation,
+            inform the nurse of your status, emphasizing that your child is already receiving hepatitis
+            vaccines.\n\n
+            Feeding\n
+        </b>
+        It is safe for you to breastfeed your baby as long as he/she is receiving his/her vaccines.
+    </string>
     <string name="title_activity_hepatitis_step5">Step 5</string>
     <string name="title_activity_notifications">Notifications</string>
     <string name="anc_text">Lorem ipsum dolor sit amet</string>
