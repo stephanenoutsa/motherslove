@@ -191,6 +191,13 @@
     <string name="loose_stool_image_description">Loose Stool Containing Blood</string>
     <string name="loose_stool_image_label"><b>Picture: </b>Loose Stool Containing Blood</string>
     <string name="title_activity_dysentery_diagnosis">Diagnosis</string>
+    <string name="dysentery_diagnosis" formatted="false">
+        A child with dysentery will have some or all of the following signs:\n
+        \t- Abdominal pain\n
+        \t- Fever\n
+        \t- Severe body weakness\n
+        \t- Dehydration
+    </string>
     <string name="title_activity_dysentery_treatment">Treatment</string>
     <string name="severe_persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_severe_persistent_diarrhoea_definition">
