@@ -185,6 +185,11 @@
     </string>
     <string name="dysentery_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_dysentery_definition">Definition</string>
+    <string name="dysentery_definition" formatted="false">
+        Dysentery is defined as loose stools containing blood.\n
+    </string>
+    <string name="loose_stool_image_description">Loose Stool Containing Blood</string>
+    <string name="loose_stool_image_label"><b>Picture: </b>Loose Stool Containing Blood</string>
     <string name="title_activity_dysentery_diagnosis">Diagnosis</string>
     <string name="title_activity_dysentery_treatment">Treatment</string>
     <string name="severe_persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
