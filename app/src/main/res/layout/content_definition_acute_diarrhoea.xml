@@ -31,7 +31,7 @@
         android:layout_below="@+id/acuteDiarrhoeaDefinition"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/diarrhoea1"
+        android:src="@drawable/diarrhoea"
         android:contentDescription="@string/normal_stool_color" />
 
     <TextView
