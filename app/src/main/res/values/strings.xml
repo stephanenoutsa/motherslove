@@ -170,6 +170,33 @@
     <string name="title_activity_severe_persistent_diarrhoea_treatment">
         Treatment
     </string>
+    <string name="severe_persistent_diarrhoea_treatment" formatted="false">
+        - <b>Take the child to the hospital</b>\n
+        - Child should be assessed and treated according to Plan B (Some Dehydration) or Plan C (Severe
+        Dehydration) depending on the level of dehydration\n
+        - ORS is effective for most children with persistent diarrhoea. However, if the child does not
+        tolerate ORS (i.e. there is an increase in stool volume, thirst or worsening of signs of dehydration),
+        such children should be given treatment <b>at a hospital or health centre</b> until ORS can be tolerated
+        without worsening of the diarrhoea.\n
+        - <b>Antibiotics treatment is NOT NECESSARY</b> unless there is evidence of an intestinal or
+        non intestinal infection.\n\n
+        <b>Feeding</b>\n
+        <i><u>Children less than 6 months</u></i>\n
+        \t- Breastfeeding should be continued for as often and long as the child wants.\n
+        \t- Other foods should not be given for as long as 4 to 6 hours to allow for rehydration to be
+        done, depending on the level of dehydration.\n\n
+        <i><u>Children over 6 months</u></i>\n
+        \t- Restart feeding as soon as the child can eat. Feed the child at least 6 times a day to ensure
+        they meet adequate energy requirements.\n\n
+        <b>Follow Up</b>\n
+        Check the following to ensure that the child is improving:\n
+        \t- Weight gain: Increase in weight for 3 consecutive days shows favourable response to treatment.\n
+        \t- Temperature: Absence of fever shows appropriate response to treatment.\n
+        \t- Number of stools per day: Passage of less than 3 loose stools per day shows favourable
+        response to treatment.\n
+        \t- Food taken in: Increase in quantity of food taken in by the child shows favourable response
+        to treatment.
+    </string>
     <string name="special_needs_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_hiv">HIV &amp; Pregnancy</string>
     <string name="title_activity_hepatitis">Hepatitis &amp; Pregnancy</string>
