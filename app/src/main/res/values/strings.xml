@@ -199,6 +199,23 @@
         \t- Dehydration
     </string>
     <string name="title_activity_dysentery_treatment">Treatment</string>
+    <string name="dysentery_treatment" formatted="false">
+        <b><i>Take the child to a hospital or health centre as soon as possible.</i></b>\n\n
+        <b>Follow Up</b>\n
+        Two days after starting the treatment at the hospital or health centre, check for signs of
+        improvement such as:\n
+        \t- No fever\n
+        \t- Fewer stools with less blood\n
+        \t- Improved appetite\n\n
+        If there is no improvement, return to the hospital.\n\n
+        Treat for dehydration depending on the level of dehydration.\n\n
+        <b>Feeding</b>\n
+        <i><u>Less than 6 months</u></i>\n
+        \t- Continue breastfeeding throughout the illness, but do so more frequently than usual.\n\n
+        <i><u>Over 6 months</u></i>\n
+        \t- They should receive their normal meals.\n
+        \t- Encourage the child to eat, and allow the child to select preferred foods.
+    </string>
     <string name="severe_persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_severe_persistent_diarrhoea_definition">
         Definition
