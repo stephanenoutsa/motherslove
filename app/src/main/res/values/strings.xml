@@ -129,7 +129,7 @@
     <string name="severe_dehydration_text" formatted="false">
         <b>Should be treated at a hospital or health centre.</b>\n\n
         <i>Fluids to use:</i>\n
-        Isotonic fluids like Ringer’s lactate solution (Hartmann’s solution) and Normal Saline
+        Isotonic fluids like Ringer\’s lactate solution (Hartmann\’s solution) and Normal Saline
         solution (0.9% NaCl).\n\n
         <i>Do not use the following:</i>\n
         5% glucose (dextrose) or 0.18 Saline with 5% dextrose solution.\n
@@ -168,18 +168,18 @@
         - <b>Antibiotics treatment is NOT NECESSARY</b> unless there is evidence of an intestinal or
         non intestinal infection.\n\n
         <b>Feeding</b>\n
-        \t- Reduce the amount of milk in the child's diet temporarily.\n
+        \t- Reduce the amount of milk in the child\'s diet temporarily.\n
         \t- Continue breastfeeding more often and longer by day and night.\n
         \t- If the child is taking some other form of milk, replace animal milk with fermented milk
         like yogurt which contains less lactose and is well tolerated.\n
         \t- If the above mentioned replacement is not possible, reduce animal milk to a maximum of
-        50ml/kg (i.e. 50 x child's weight in kg) in 24 hours.\n
+        50ml/kg (i.e. 50 x child\'s weight in kg) in 24 hours.\n
         \t- Formula-fed children that are older than 4 months should start taking in solid foods.\n
         \t- Give frequent small feeds, at least 6 times per day.\n\n
         <b>Follow Up</b>\n
         \t- Take the child back to the hospital or health centre after 5 days at most if the diarrhoea
         worsens or other problems develop.\n
-        \t- Check for signs of dehydration and the child's body temperature to ensure there is no fever.\n
+        \t- Check for signs of dehydration and the child\'s body temperature to ensure there is no fever.\n
         \t- If the child has gained weight and has less than 3 loose stools per day, they may resume
         the normal diet for their age.
     </string>
