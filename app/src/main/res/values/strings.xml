@@ -72,6 +72,37 @@
     <string name="title_activity_management_acute_diarrhoea">Management</string>
     <string name="management_acute_diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_no_dehydration">No Dehydration (Mild)</string>
+    <string name="no_dehydration_text" formatted="false">
+        <b>Treatment is given at home</b>\n\n
+        <b>How to prepare Oral Rehydration Solution (ORS) at home: </b>In 1 litre of clean water, add
+        8 cubes of sugar + 1 teaspoon of salt + 1 lemon, then mix properly so the sugar and salt dissolve.\n\n
+        The treatment at home should follow the active rules listed below:\n
+        \t- Continue feeding\n
+        \t- Give extra fluids\n
+        \t- Give zinc supplements\n
+        \t- When to go to the hospital or health centre\n\n
+        <b>I.\tContinue Feeding</b>\n
+        - If the child is breastfed, feed more frequently or longer.\n
+        - If exclusively breastfed, give ORS or clean water in addition to breast milk.\n\n
+        <b>II.\tGive Extra Fluids</b>\n
+        - If not exclusively breastfed, give either <b>ORS</b> or <b>CLEAN WATER</b>.\n
+        - To prevent dehydration, give as much fluid as the child will take, that is,\n
+        \t\t* Less than 2 years: 50 - 100ml after every loose stool\n
+        \t\t* Greater than 2 years: 100 - 200ml after every loose stool\n
+        - Give small sips from a cup. If the child vomits, wait 10 minutes then give more slowly. Continue
+        extra fluids till diarrhoea reduces.\n
+        - Mother should have two extra packets of ORS or already locally prepared ORS at home.\n\n
+        <b>III.\tGive Zinc Supplements</b>\n
+        Give zinc supplements as follows:\n
+        \t* Less than 6 months: 1/2 tablet (10mg) per day for 10 - 14 days.\n
+        \t* Greater than 6 months: 1 tablet (20mg) per day for 10 - 14 days.\n
+        Dissolve the zinc tablet in breast milk, clean water or ORS before administering to the child.\n\n
+        <b>IV.\t When to go to the Hospital or Health Centre</b>\n
+        - If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
+        having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
+        - If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
+        Administer the same treatment if the child suffers from similar diarrhoea again.
+    </string>
     <string name="title_activity_little_dehydration">Some Dehydration (Moderate)</string>
     <string name="title_activity_severe_dehydration">Severe Dehydration</string>
     <string name="persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
