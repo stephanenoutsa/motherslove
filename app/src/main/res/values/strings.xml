@@ -41,6 +41,11 @@
     <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
     <string name="diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
+    <string name="acute_diarrhoea_definition" formatted="false">
+        Passage of greater than 3 loose stools in a day, with no blood in the stools.
+    </string>
+    <string name="normal_stool_color">Normal Stool Color</string>
+    <string name="normal_stool_color_label" formatted="false"><b>Picture:</b> Normal Stool Color</string>
     <string name="title_activity_persistent_diarrhoea">Persistent Diarrhoea</string>
     <string name="title_activity_dysentery">Dysentery</string>
     <string name="acute_diarrhoea_text">Lorem ipsum dolor sit amet</string>
