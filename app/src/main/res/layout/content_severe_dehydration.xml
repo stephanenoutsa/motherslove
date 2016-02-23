@@ -13,4 +13,14 @@
     tools:showIn="@layout/activity_severe_dehydration"
     android:background="@color/colorDiarrhoea">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/severe_dehydration_text"
+        android:id="@+id/severeDehydration"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorTextPrimary" />
 </RelativeLayout>

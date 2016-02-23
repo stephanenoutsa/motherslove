@@ -105,6 +105,15 @@
     </string>
     <string name="title_activity_little_dehydration">Some Dehydration (Moderate)</string>
     <string name="title_activity_severe_dehydration">Severe Dehydration</string>
+    <string name="severe_dehydration_text" formatted="false">
+        <b>Should be done at a hospital or health centre.</b>\n\n
+        <i>Fluids to use:</i>\n
+        Isotonic fluids like Ringer’s lactate solution (Hartmann’s solution) and Normal Saline
+        solution (0.9% NaCl).\n\n
+        <i>Do not use the following:</i>\n
+        5% glucose (dextrose) or 0.18 Saline with 5% dextrose solution.\n
+        They increase the risk of hyponatraemia which can in turn cause cerebral oedema.
+    </string>
     <string name="persistent_diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_persistent_diarrhoea_definition">
         Definition
