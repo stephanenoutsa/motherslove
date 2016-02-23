@@ -50,6 +50,24 @@
     <string name="title_activity_dysentery">Dysentery</string>
     <string name="acute_diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_presentation_acute_diarrhoea">Presentation</string>
+    <string name="acute_diarrhoea_presentation" formatted="false">
+        All children with diarrhoea should be assessed and classified as either having severe dehydration,
+        some (moderate) dehydration, or no (mild) dehydration.\n\n
+        <b>Severe Dehydration</b>\n
+        Characterised by at least two of the following:\n
+        - Severe body weakness (lethargy) or unconsciousness\n
+        - Sunken eyes\n
+        - Unable to drink or drinks poorly\n
+        - After pinching the skin, it returns to normal very slowly (two seconds or more)\n\n
+        <b>Some (Moderate) Dehydration</b>\n
+        Characterised by at least two of the following:\n
+        - Restlessness or irritability
+        - Sunken eyes
+        - Drinks eagerly; thirsty
+        - After pinching the skin, it returns to normal slowly\n\n
+        <b>No (Mild) Dehydration</b>\n
+        Not enough signs to classify as some dehydration or severe dehydration.
+    </string>
     <string name="title_activity_definition_acute_diarrhoea">Definition</string>
     <string name="title_activity_management_acute_diarrhoea">Management</string>
     <string name="management_acute_diarrhoea_text">Lorem ipsum dolor sit amet</string>
