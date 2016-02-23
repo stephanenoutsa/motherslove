@@ -164,6 +164,9 @@
     <string name="title_activity_severe_persistent_diarrhoea_definition">
         Definition
     </string>
+    <string name="severe_persistent_diarrhoea_definition" formatted="false">
+        This is diarrhoea lasting 14 days or more, with signs of some dehydration or severe dehydration.
+    </string>
     <string name="title_activity_severe_persistent_diarrhoea_treatment">
         Treatment
     </string>
