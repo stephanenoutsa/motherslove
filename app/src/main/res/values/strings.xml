@@ -153,6 +153,9 @@
     <string name="title_activity_non_severe_persistent_diarrhoea_definition">
         Definition
     </string>
+    <string name="non_severe_persistent_diarrhoea_definition" formatted="false">
+        This is diarrhoea lasting 14 days or more with no signs of dehydration and no severe malnutrition.
+    </string>
     <string name="title_activity_non_severe_persistent_diarrhoea_treatment">
         Treatment
     </string>
