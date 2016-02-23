@@ -139,6 +139,10 @@
     <string name="title_activity_persistent_diarrhoea_definition">
         Definition
     </string>
+    <string name="persistent_diarrhoea_definition" formatted="false">
+        Persistent diarrhoea is defined as diarrhoea with or without blood in the stool which begins
+        acutely, lasting 14 days or more.
+    </string>
     <string name="title_activity_persistent_diarrhoea_types">Types</string>
     <string name="persistent_diarrhoea_types_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_severe_persistent_diarrhoea">Severe Persistent Diarrhoea</string>
