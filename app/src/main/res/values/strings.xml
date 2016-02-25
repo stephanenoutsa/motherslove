@@ -103,6 +103,11 @@
         \t- Loss of appetite.
     </string>
     <string name="title_activity_mild_malnutrition">Mild Malnutrition</string>
+    <string name="mild_malnutrition_text" formatted="false">
+        Encourage a balanced diet with protein-rich foods (e.g. beans, groundnuts) and calorie-rich
+        foods (e.g rice, plantains, cocoyams, etc).\n
+        Also encourage intake of vegetables.
+    </string>
     <string name="title_activity_moderate_malnutrition">Moderate Malnutrition</string>
     <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
     <string name="diarrhoea_text">Lorem ipsum dolor sit amet</string>
