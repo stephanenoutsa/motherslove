@@ -757,7 +757,7 @@ public class ZScore extends AppCompatActivity {
             zScore.setText(R.string.zscore_out_of_bounds);
         }
         else {
-            if (score >= -1 && score <= -2) {
+            if (score <= -1 && score >= -2) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
                 zScore.append(getResources().getString(R.string.zscore_normal));
