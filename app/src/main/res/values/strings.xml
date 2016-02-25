@@ -66,7 +66,7 @@
     <string name="zscore_out_of_bounds" formatted="false">
         Sorry, we cannot calculate your z-score for the given height. Check the height again
     </string>
-    <string name="zscore_announcer">Your z-score is </string>
+    <string name="zscore_announcer">The z-score is</string>
     <string name="zscore_malnourished" formatted="false">
         This implies that your child is severely malnourished.
     </string>
