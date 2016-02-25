@@ -60,7 +60,8 @@
                 android:layout_below="@+id/zScoreText"
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/button_standard_border"
-                android:onClick="toZScore" />
+                android:onClick="toZScore"
+                android:layout_marginBottom="50dp" />
         </RelativeLayout>
     </ScrollView>
 
