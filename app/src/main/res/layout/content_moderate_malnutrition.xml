@@ -13,4 +13,23 @@
     tools:showIn="@layout/activity_moderate_malnutrition"
     android:background="@color/colorMalnutrition">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/moderate_malnutrition_text"
+                android:id="@+id/moderateMalnutrition"
+                android:textColor="@color/colorTextPrimary" />
+        </RelativeLayout>
+    </ScrollView>
+
 </RelativeLayout>

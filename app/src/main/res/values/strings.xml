@@ -109,6 +109,10 @@
         Also encourage intake of vegetables.
     </string>
     <string name="title_activity_moderate_malnutrition">Moderate Malnutrition</string>
+    <string name="moderate_malnutrition_text" formatted="false">
+        Supplementary feeding; This would be by using local foods such as rice, beans and vegetables.\n
+        Blended cereals such as corn-soya blend should also be given to the child. (Not soya beans)
+    </string>
     <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
     <string name="diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
