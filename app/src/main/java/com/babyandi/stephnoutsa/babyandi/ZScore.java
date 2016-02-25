@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 public class ZScore extends AppCompatActivity {
 
     EditText heightInput;
@@ -750,12 +752,15 @@ public class ZScore extends AppCompatActivity {
             zScore.setText(R.string.zscore_out_of_bounds);
         }
         else {
-            zScore.setText(R.string.zscore_announcer + score + "\n");
             if (score >= -1 && score <= -2) {
-                zScore.setText(R.string.zscore_normal);
+                zScore.setText(R.string.zscore_announcer);
+                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(getResources().getString(R.string.zscore_normal));
             }
             else {
-                zScore.setText(R.string.zscore_malnourished);
+                zScore.setText(R.string.zscore_announcer);
+                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(getResources().getString(R.string.zscore_malnourished));
             }
         }
     }
