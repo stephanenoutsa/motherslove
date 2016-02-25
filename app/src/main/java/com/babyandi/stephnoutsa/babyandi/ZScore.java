@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 import java.text.DecimalFormat;
 
+import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
+
 public class ZScore extends AppCompatActivity {
 
     EditText heightInput;
@@ -27,6 +29,9 @@ public class ZScore extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //Set an Icon for navigation
+        toolbar.setNavigationIcon(android);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
