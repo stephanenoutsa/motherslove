@@ -13,4 +13,86 @@
     tools:showIn="@layout/activity_signs_malnutrition"
     android:background="@color/colorMalnutrition">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/signs_malnutrition_1"
+                android:id="@+id/signsMalnutrition1"
+                android:textColor="@color/colorTextPrimary" />
+
+            <ImageView
+                android:layout_width="@dimen/home_image_dimen"
+                android:layout_height="@dimen/home_image_dimen"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/signsMalnutrition1"
+                android:contentDescription="@string/oedema_image1_description"
+                android:src="@drawable/malnutrition3"
+                android:id="@+id/oedemaImage1" />
+
+            <ImageView
+                android:layout_width="@dimen/home_image_dimen"
+                android:layout_height="@dimen/home_image_dimen"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/signsMalnutrition1"
+                android:layout_toEndOf="@+id/oedemaImage1"
+                android:layout_toRightOf="@+id/oedemaImage1"
+                android:contentDescription="@string/oedema_image2_description"
+                android:src="@drawable/malnutrition2"
+                android:id="@+id/oedemaImage2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oedemaImage1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/signs_malnutrition_2"
+                android:id="@+id/signsMalnutrition2"
+                android:textColor="@color/colorTextPrimary" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signsMalnutrition2"
+                android:contentDescription="@string/loose_skin_image_description"
+                android:src="@drawable/malnutrition4"
+                android:id="@+id/looseSkinImage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/looseSkinImage"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/signs_malnutrition_3"
+                android:id="@+id/signsMalnutrition3"
+                android:textColor="@color/colorTextPrimary" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signsMalnutrition3"
+                android:contentDescription="@string/wasting_image_description"
+                android:src="@drawable/malnutrition5"
+                android:id="@+id/wastingImage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wastingImage"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/signs_malnutrition_4"
+                android:id="@+id/signsMalnutrition4"
+                android:textColor="@color/colorTextPrimary" />
+        </RelativeLayout>
+
+    </ScrollView>
+
 </RelativeLayout>

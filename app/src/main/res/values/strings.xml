@@ -74,6 +74,34 @@
         This implies that your child is not malnourished.
     </string>
     <string name="title_activity_signs_malnutrition">Signs &amp; Symptoms</string>
+    <string name="signs_malnutrition_1" formatted="false">
+        The following signs and symptoms would indicate your child is malnourished:\n
+        \t- Pitting oedema on dorsum of foot (see images below)
+    </string>
+    <string name="oedema_image1_description">Pressing of dorsum of foot</string>
+    <string name="oedema_image2_description">Pitting oedema on dorsum of foot</string>
+    <string name="signs_malnutrition_2" formatted="false">
+        \t- Ineffective feeding, that is, suckling difficulties observed for 15 to 20 minutes in
+        children less than 6 months of age.\n
+        \t- Moon (round) face.\n
+        \t- Old man\'s face.\n
+        \t- Brown, scanty and brittle (easily broken) hair when compared to that of other family members.\n
+        \t- Loose and wrinkled skin (see image below).
+    </string>
+    <string name="loose_skin_image_description">Loose and wrinkled skin</string>
+    <string name="signs_malnutrition_3" formatted="false">
+        \t- Distended (large) abdomen.\n
+        \t- Severe body weakness.\n
+        \t- Child not interested in surroundings.\n
+        \t- Muscle wasting, especially in buttocks.\n
+        \t- Visible severe wasting (see image below).
+    </string>
+    <string name="wasting_image_description">Visible severe wasting</string>
+    <string name="signs_malnutrition_4" formatted="false">
+        \t- Hypo or hyper pigmentation of skin (loss of normal skin color).\n
+        \t- Diarrhoea.\n
+        \t- Loss of appetite.
+    </string>
     <string name="title_activity_mild_malnutrition">Mild Malnutrition</string>
     <string name="title_activity_moderate_malnutrition">Moderate Malnutrition</string>
     <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
