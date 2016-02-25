@@ -114,6 +114,79 @@
         Blended cereals such as corn-soya blend should also be given to the child. (Not soya beans)
     </string>
     <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
+    <string name="severe_malnutrition_text" formatted="false">
+        <i><u>For children less than 6 months</u></i>\n
+        \t- Increase frequency and duration of breastfeeding if baby is breastfed.\n
+        \t- Babies not suffering from oedema should be given supplementary feeding using expressed
+        breast milk. If that is not possible, artificial milk (tin milk) or F75 should be given either
+        alone or together with expressed breast milk.\n
+        Care of the malnourished child should continue at a health centre, so <b>PLEASE SEE A DOCTOR</b>
+        as soon as possible.\n\n
+        <i><u>For children over 6 months</u></i>\n
+        The management of their severe malnutrition is divided in 2 phases: the Stabilization phase
+        and the Rehabilitation phase.\n
+        \t<i><b>i) Stabilization Phase</b></i>\n
+        \t\t<b>It is worth noting that by the end of the second day following the diagnosis, the child
+    should have been taken to the nearest health care facility for proper medical care.</b>\n
+        \t\tThe stabilization is done using F75, a modified milk feed diet to treat the immediate
+        complications of malnutrition.\n\n
+        \t\t<b>How to prepare F75 at home:</b>\n
+        \t\t\t- 35g of milk (about 8 table spoons)\n
+        \t\t\t- 70g of sugar (about 16 cubes)\n
+        \t\t\t- 20g of oil, Mayor or Azur (1 table spoon or 1 tea spoon)\n
+        \t\t\t- 35g of Bledina or Cerelac (about 8 table spoons)\n
+        \t\t\t- 10ml of multivitamins or 1 sachet of Genesvit junior\n
+        \t\t\t- Mix the above components in 1l of clean water.\n
+        \t\t<b>NB:The F75 prepared as shown above should be stored in a fridge and placed in warm water
+        before each feed.</b>\n\n
+        \t\t<b>How to give F75 to the child</b>\n
+        \t\t\t<i><u>Days 1-2:</u></i>\n
+        \t\t\t<i>Frequency(How often to feed): </i>Two times each hour.\n
+        \t\t\t<i>Quantity/kg per feed: </i>11ml\n
+        \t\t\t<i>Quantity/kg per day: </i>130ml\n\n
+        \t\t\t<i><u>Days 3-5:</u></i>\n
+        \t\t\t<i>Frequency(How often to feed): </i>Three times each hour.\n
+        \t\t\t<i>Quantity/kg per feed: </i>16ml\n
+        \t\t\t<i>Quantity/kg per day: </i>130ml\n\n
+        \t\t\t<i><u>Days 6 onwards:</u></i>\n
+        \t\t\t<i>Frequency(How often to feed): </i>Four times each hour.\n
+        \t\t\t<i>Quantity/kg per feed: </i>22ml\n
+        \t\t\t<i>Quantity/kg per day: </i>130ml\n\n
+        \t\t\t<b>*Quantity/kg = corresponding figure for day x weight of child in kg</b>\n\n
+        \t\tFeed the child from a cup or bowl using a spoon, or better still, a syringe (<b>Without
+    the needle</b>).\n\n
+        \t\t<b>Monitoring</b>\n
+        \t\t\t- Always record amount of feed given and leftover.\n
+        \t\t\t- Take note if child vomits.\n
+        \t\t\t- Check for increased respiratory rate, that is, child breathes faster than normal.
+        If it is the case, <b>you should see a doctor.</b>\n
+        \t\t\t- How many times does the child pass stool in a day? Are the stools soft, watery or
+        normal?\n
+        \t\t\t- Check for signs of improvement such as:\n
+        \t\t\t\t* Return of appetite\n
+        \t\t\t\t* Most or all of oedema (swelling) is gone\n\n
+        \t<i><b>ii) Rehabilitation Phase</b></i>\n
+        \t\t<b>NB: The doctor will inform parents when the child is ready to begin the rehabilitation phase.</b>\n
+        \t\tThe rehabilitation phase is done using diluted F100.\n\n
+        \t\t<b>How to prepare diluted F100 at home:</b>\n
+        \t\t\t- 110g of milk (about twenty four and a half table spoons)\n
+        \t\t\t- 50g of sugar (about eleven and a half cubes)\n
+        \t\t\t- About 2 table spoons of oil, Mayor or Azur\n
+        \t\t\t- 1 sachet of Genesvit junior\n
+        \t\t\t- Mix all the above in 1l of water, then add 300ml of water.\n\n
+        \t\t<b>NB: The F100 prepared as shown above should be stored in a fridge and placed in warm
+        water before each feed.</b>\n\n
+        <b>Other Aspects of Management</b>\n
+        Milk feeds aside (F75 and F100), the child also needs:\n
+        \t- Lots of tenderness, love and care.\n
+        \t- A cheerful/happy environment.\n
+        \t- 5 to 30 minutes of play time each day.\n\n
+        <b><u>A Malnourished Child with Diarrhoea</u></b>\n
+        \t- If a malnourished child has diarrhoea, they are considered to have some (moderate)
+        dehydration.\n
+        \t- This is treated using ReSoMal (Rehydration Solution for the Malnourished) at a hospital
+        or health centre. <b>PLEASE SEE A DOCTOR!!!</b>
+    </string>
     <string name="diarrhoea_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
     <string name="acute_diarrhoea_definition" formatted="false">
