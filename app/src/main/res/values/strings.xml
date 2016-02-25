@@ -40,6 +40,39 @@
         in the "SIGNS &amp; SYMPTOMS" section.
     </string>
     <string name="title_activity_criteria_malnutrition">Main Criteria</string>
+    <string name="muac_text" formatted="false">
+        <b>Mid Upper Arm Circumference (MUAC)</b>\n
+        MUAC is measured using a tailor\'s tape. The tape is placed midway between the elbow and the
+        shoulder as shown below:\n
+    </string>
+    <string name="muac_image_description">MUAC</string>
+    <string name="zscore_text" formatted="false">
+        <b>Normal: </b>&gt;12.5cm\n
+        <b>Moderate Malnutrition: </b>11.0 - 12.5cm\n
+        <b>Severe Malnutrition: </b>&lt;11.0cm\n\n
+        <b>OR</b>\n\n
+        <b>Z-Score (Standard Deviation Score)</b>\n
+        \t- Calculated using the child\'s most recent weight and height, with the height measured using
+        a tape.\n
+        \t- A Z-Score between -1 and -2 indicates that your child is not malnourished.\n
+        \t- A Z-Score of less than -3 (i.e. -3 and -4) indicates severe malnutrition.\n\n
+        You could determine if your child is malnourished by clicking the button below.\n
+    </string>
+    <string name="zscore_button_text">Calculate Z-Score</string>
+    <string name="height_label_text">Enter height (in cm)</string>
+    <string name="weight_label_text">Enter weight (in kg)</string>
+    <string name="calculate_button_text">Calculate</string>
+    <string name="zscore_results">Fill above fields and click &quot;Calculate&quot; button</string>
+    <string name="zscore_out_of_bounds" formatted="false">
+        Sorry, we cannot calculate your z-score for the given height. Check the height again
+    </string>
+    <string name="zscore_announcer">Your z-score is </string>
+    <string name="zscore_malnourished" formatted="false">
+        This implies that your child is severely malnourished.
+    </string>
+    <string name="zscore_normal" formatted="false">
+        This implies that your child is not malnourished.
+    </string>
     <string name="title_activity_signs_malnutrition">Signs &amp; Symptoms</string>
     <string name="title_activity_mild_malnutrition">Mild Malnutrition</string>
     <string name="title_activity_moderate_malnutrition">Moderate Malnutrition</string>
@@ -437,4 +470,5 @@
     <string name="immunization_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_home_screen">Mother\'s Love</string>
     <string name="title_activity_about">About</string>
+    <string name="title_activity_zscore">Z-Score</string>
 </resources>
