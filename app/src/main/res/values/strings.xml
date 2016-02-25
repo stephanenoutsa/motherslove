@@ -34,6 +34,11 @@
     <string name="title_activity_how_to_diagnose">How To Diagnose</string>
     <string name="title_activity_management">Management</string>
     <string name="title_activity_introduction_malnutrition">Introduction</string>
+    <string name="malnutrition_intro_text" formatted="false">
+        The diagnosis of malnutrition can be done using either the <b>Mid Upper Arm Circumference (MUAC)</b>
+        or the <b>Z-Score</b> as main criteria, with or without the <b>signs and symptoms</b> listed
+        in the "SIGNS &amp; SYMPTOMS" section.
+    </string>
     <string name="title_activity_criteria_malnutrition">Main Criteria</string>
     <string name="title_activity_signs_malnutrition">Signs &amp; Symptoms</string>
     <string name="title_activity_mild_malnutrition">Mild Malnutrition</string>

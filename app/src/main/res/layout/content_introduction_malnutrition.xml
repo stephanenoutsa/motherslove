@@ -13,4 +13,15 @@
     tools:showIn="@layout/activity_introduction_malnutrition"
     android:background="@color/colorMalnutrition">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/malnutrition_intro_text"
+        android:id="@+id/malnutrititonIntro"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="vertical"
+        android:textColor="@color/colorTextPrimary" />
 </RelativeLayout>

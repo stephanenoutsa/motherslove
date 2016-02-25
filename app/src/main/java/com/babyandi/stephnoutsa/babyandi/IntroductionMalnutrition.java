@@ -5,10 +5,12 @@ import android.os.Bundle;
 //import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.Intent;
+import android.widget.TextView;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -33,6 +35,9 @@ public class IntroductionMalnutrition extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView malnutritionIntro = (TextView) findViewById(R.id.malnutrititonIntro);
+        malnutritionIntro.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////
