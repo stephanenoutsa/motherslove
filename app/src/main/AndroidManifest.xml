@@ -251,8 +251,8 @@
             android:name=".Notifications"
             android:excludeFromRecents="true"
             android:label="@string/title_activity_notifications"
-            android:screenOrientation="portrait"
             android:launchMode="singleTask"
+            android:screenOrientation="portrait"
             android:taskAffinity=""
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -343,6 +343,10 @@
         <activity
             android:name=".About"
             android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ZScore"
+            android:label="@string/title_activity_zscore"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

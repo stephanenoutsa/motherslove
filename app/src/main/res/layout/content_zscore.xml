@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.babyandi.stephnoutsa.babyandi.ZScore"
+    tools:showIn="@layout/activity_zscore"
+    android:background="@color/colorMalnutrition">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/height_label_text"
+                android:id="@+id/heightLabel"
+                android:textColor="@color/colorTextPrimary"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="@dimen/text_field_width"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heightLabel"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/heightInput"
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorTextPrimary"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heightInput"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/weight_label_text"
+                android:id="@+id/weightLabel"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/colorTextPrimary" />
+
+            <EditText
+                android:layout_width="@dimen/text_field_width"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weightLabel"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/weightInput"
+                android:textColor="@color/colorTextPrimary"
+                android:inputType="numberDecimal"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weightInput"
+                android:layout_centerHorizontal="true"
+                android:text="@string/calculate_button_text"
+                android:id="@+id/calculateButton"
+                android:onClick="calculateZScore"
+                android:background="@drawable/button_standard_border"
+                android:layout_marginTop="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/calculateButton"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/zscore_results"
+                android:id="@+id/zScore"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/colorTextPrimary"
+                android:gravity="center" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
