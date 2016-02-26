@@ -347,6 +347,14 @@
             android:name=".ZScore"
             android:label="@string/title_activity_zscore"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANCIntro"
+            android:label="@string/title_activity_ancintro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANCPackage"
+            android:label="@string/title_activity_ancpackage"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
