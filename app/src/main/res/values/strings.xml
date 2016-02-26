@@ -604,4 +604,42 @@
     <string name="second_visit_button_text">Second ANC Visit</string>
     <string name="third_visit_button_text">Third ANC Visit</string>
     <string name="fourth_visit_button_text">Fourth ANC Visit</string>
+    <string name="title_activity_first_anc_visit">First ANC Visit</string>
+    <string name="first_anc_visit_text" formatted="false">
+        <b>AIM:</b>\n
+        \t- Confirm pregnancy and calculate estimated date of delivery (EDD).\n
+        \t- Classify women for basic ANC (four visits) or more specialized care.\n
+        \t- Screen, treat and give preventive measures for diseases.\n
+        \t- Develop a birth and emergency plan.\n
+        \t- Advise and counsel pregnant women.\n\n
+        <b>SCREENING:</b>\n
+        \t- Family/personal past history\n
+        \t- Weight\n
+        \t- Blood pressure\n
+        \t- Anemia\n
+        \t- Fundal height\n\n
+        <b>TESTS:</b>\n
+        \t- Haemoglobin\n
+        \t- Blood/Rhesus group\n
+        \t- Veneral disease screening\n
+        \t- Hepatitis B &amp; C/toxoplasmosis/rubella/HIV tests\n
+        \t- Urine analysis\n
+        \t- Stool analysis\n
+        \t- Ultrasound\n\n
+        <b>TREATMENT</b>\n
+        \t- Commence HIV treatment if positive.\n
+        \t- Treat infections/diseases if indicated.\n
+        \t- Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension)\n\n
+        <b>PREVENTIVE MEASURES FOR DISEASES</b>\n
+        \t- Tetanus toxoid\n
+        \t- Iron and folate supplements\n\n
+        <b>HEALTH EDUCATION, ADVICE AND COUNSELING</b>\n
+        \t- Self-care\n
+        \t- Alcohol and tobacco use\n
+        \t- Nutrition\n
+        \t- Safe sex\n
+        \t- Rest\n
+        \t- Sleeping under ITN\n
+        \t- Birth and emergency plan
+    </string>
 </resources>
