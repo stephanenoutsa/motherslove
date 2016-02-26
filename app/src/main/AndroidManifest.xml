@@ -362,6 +362,10 @@
         <activity
             android:name=".SecondAncVisit"
             android:label="@string/title_activity_second_anc_visit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThirdAncVisit"
+            android:label="@string/title_activity_third_anc_visit"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
