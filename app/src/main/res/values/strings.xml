@@ -584,5 +584,15 @@
     <string name="title_activity_about">About</string>
     <string name="title_activity_zscore">Z-Score</string>
     <string name="title_activity_ancintro">Introduction</string>
+    <string name="anc_intro_text" formatted="false">
+        Antenatal Clinic (ANC) refers to the continuous care given to mothers and their unborn babies
+        throughout the pregnancy period.\n\n
+        ANC provides women and their families with appropriate information and advice for a healthy
+        pregnancy, safe delivery, and recovery after delivery.\n
+        It also includes care of the newborn, promotion of early, exclusive breastfeeding, and assistance
+        with deciding on future pregnancies (family planning) in order to improve pregnancy outcomes.\n\n
+        An effective ANC package depends on competent health care providers in a well-equipped functioning
+        health system, which can provide referral services and has laboratory support.
+    </string>
     <string name="title_activity_ancpackage">ANC Package</string>
 </resources>
