@@ -584,6 +584,17 @@
     <string name="title_activity_common_complaints_during_pregnancy">
         Common Complaints During Pregnancy
     </string>
+    <string name="common_pregnancy_complaints_text" formatted="false">
+        - Nausea and vomiting\n
+        - Heart burn\n
+        - Phyalism (excessive salivation)\n
+        - Constipation\n
+        - Hemorrhoids and varicose veins\n
+        - Swelling of feet\n
+        - Leg cramps\n
+        - Excessive colorless, odorless vaginal discharge not associated with burning sensations or itches.\n
+        - Back ache
+    </string>
     <string name="title_activity_high_risk_pregnancies">High Risk Pregnancies</string>
     <string name="title_activity_danger_signs_during_pregnancy">
         Danger Signs During Pregnancy
