@@ -33,6 +33,26 @@ public class ANCPackage extends AppCompatActivity {
         });*/
     }
 
+    public void onClickFirstVisit(View view) {
+        Intent i = new Intent(this, FirstAncVisit.class);
+        startActivity(i);
+    }
+
+    public void onClickSecondVisit(View view) {
+        Intent i = new Intent(this, SecondAncVisit.class);
+        startActivity(i);
+    }
+
+    public void onClickThirdVisit(View view) {
+        Intent i = new Intent(this, ThirdAncVisit.class);
+        startActivity(i);
+    }
+
+    public void onClickFourthVisit(View view) {
+        Intent i = new Intent(this, FourthAncVisit.class);
+        startActivity(i);
+    }
+
     ////////////Intents for menu items////////////
     public void onClickAnc() {
         Intent i = new Intent(this, ANC.class);

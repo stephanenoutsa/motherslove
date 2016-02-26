@@ -595,4 +595,13 @@
         health system, which can provide referral services and has laboratory support.
     </string>
     <string name="title_activity_ancpackage">ANC Package</string>
+    <string name="anc_package_text" formatted="false">
+        The World Health Organization (WHO) now recommends each pregnant woman to have at least FOUR
+        focused antenatal care visits before delivery of the baby.\n\n
+        The goals and activities of ANC are summarized in each of the sections below:\n
+    </string>
+    <string name="first_visit_button_text">First ANC Visit</string>
+    <string name="second_visit_button_text">Second ANC Visit</string>
+    <string name="third_visit_button_text">Third ANC Visit</string>
+    <string name="fourth_visit_button_text">Fourth ANC Visit</string>
 </resources>
