@@ -622,7 +622,17 @@
         Danger Signs During Pregnancy
     </string>
     <string name="pregnancy_danger_signs_text" formatted="false">
-
+        Pregnant women should seek IMMEDIATE care if they experience any of the following symptoms or
+        signs:\n
+        \t- Vaginal bleeding, no matter how small it is.\n
+        \t- Severe swelling (of lower limbs, face or fingers).\n
+        \t- Spontaneous escape of fluid from the Vagina.\n
+        \t- Abnormal gain or loss of weight.\n
+        \t- Decrease or cessation of fetal movements.\n
+        \t- Severe headache.\n
+        \t- Epigastric pain.\n
+        \t- Fever.\n
+        \t- Persistent vomiting.
     </string>
     <string name="title_activity_labour">Labour</string>
     <string name="title_activity_when_youll_deliver">When You\'ll Deliver?</string>
