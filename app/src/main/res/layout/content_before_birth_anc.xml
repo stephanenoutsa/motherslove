@@ -13,4 +13,25 @@
     tools:showIn="@layout/activity_before_birth_anc"
     android:background="@color/colorAnc">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anc_intro_button_text"
+        android:id="@+id/ancIntro"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickAncIntro" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anc_package_button_text"
+        android:id="@+id/ancPackage"
+        android:layout_below="@+id/ancIntro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_standard_border"
+        android:onClick="onClickAncPackage" />
 </RelativeLayout>

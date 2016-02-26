@@ -33,6 +33,16 @@ public class BeforeBirthANC extends AppCompatActivity {
         });*/
     }
 
+    public void onClickAncIntro(View view) {
+        Intent i = new Intent(this, ANCIntro.class);
+        startActivity(i);
+    }
+
+    public void onClickAncPackage(View view) {
+        Intent i = new Intent(this, ANCPackage.class);
+        startActivity(i);
+    }
+
     ////////////Intents for menu items////////////
     public void onClickAnc() {
         Intent i = new Intent(this, ANC.class);

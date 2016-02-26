@@ -553,6 +553,8 @@
     <string name="title_activity_notifications">Notifications</string>
     <string name="anc_text">Lorem ipsum dolor sit amet</string>
     <string name="title_activity_before_birth_anc">Antenatal Clinic</string>
+    <string name="anc_intro_button_text">Introduction</string>
+    <string name="anc_package_button_text">ANC Package</string>
     <string name="title_activity_before_birth">Before Birth</string>
     <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
     <string name="title_activity_common_complaints_during_pregnancy">
@@ -581,4 +583,6 @@
     <string name="title_activity_home_screen">Mother\'s Love</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_zscore">Z-Score</string>
+    <string name="title_activity_ancintro">Introduction</string>
+    <string name="title_activity_ancpackage">ANC Package</string>
 </resources>
