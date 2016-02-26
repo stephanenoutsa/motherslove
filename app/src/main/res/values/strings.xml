@@ -596,8 +596,33 @@
         - Back ache
     </string>
     <string name="title_activity_high_risk_pregnancies">High Risk Pregnancies</string>
+    <string name="high_risk_pregnancies_text" formatted="false">
+        Certain pregnancies are classified as HIGH risk because they have a greater probability of
+        jeopardizing maternal and fetal welfare. These conditions require a keener follow up during
+        pregnancy. They include:\n
+        \t- Early first pregnancy, less than 18 years old.\n
+        \t- Late first pregnancy, more than 35 years old.\n
+        \t- Long duration of marriage with infertility and use of ovulatory drugs.\n
+        \t- Women who have had 5 or more deliveries.\n
+        \t- Previous intrauterine death or neonatal death.\n
+        \t- Previous fetal malformation.\n
+        \t- Previous second trimester (fourth to sixth months of pregnancy) abortion or preterm labour.\n
+        \t- Recurrent first trimester (first to third months of pregnancy) abortions.\n
+        \t- Previous caesarian delivery.\n
+        \t- Previous postpartum hemorrhage.\n
+        \t- Past history of hypertension, heart disease or murmur.\n
+        \t- Chronic illnesses e.g. cancer, diabetes.\n
+        \t- Previous surgery to uterus, including cervical cerclages.\n
+        \t- Maternal height less than 1.50m.\n\n
+        Women who fall into any of these groups should inform their attending physicians about this
+        so that special attention can be shown to them or they could be referred to higher levels of
+        health for follow up.
+    </string>
     <string name="title_activity_danger_signs_during_pregnancy">
         Danger Signs During Pregnancy
+    </string>
+    <string name="pregnancy_danger_signs_text" formatted="false">
+
     </string>
     <string name="title_activity_labour">Labour</string>
     <string name="title_activity_when_youll_deliver">When You\'ll Deliver?</string>
