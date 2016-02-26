@@ -557,6 +557,30 @@
     <string name="anc_package_button_text">ANC Package</string>
     <string name="title_activity_before_birth">Before Birth</string>
     <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
+    <string name="he_during_pregnancy_text" formatted="false">
+        <b>Adequate nutrition: </b>Pregnant women are encouraged to eat foods rich in protein, vitamins,
+        iron and calcium.\n\n
+        <b>Clothing: </b>Should be free, light and hanging from shoulders. Avoid high heels, shoes with
+        thin soles, belts and corsets.\n\n
+        <b>Good Hygiene: </b>The mouth and breasts should be kept very clean throughout pregnancy and after
+        delivery.\n\n
+        <b>Sexual activity: </b>To be avoided by pregnant women with threatened abortion, preterm labour
+        or antepartum hemorrhage.\n\n
+        <b>Travelling: </b>It is allowed when comfortable. For patients with a history of antepartum
+        hemorrhage or preterm labour, it is better to avoid travelling.\n\n
+        <b>Weight Gain: </b>1 - 2kg in the first trimester (first three months) of pregnancy, and an
+        average weight gain of 0.4kg/week from 20 weeks onwards.\n\n
+        <b>Baths: </b>Showers are preferable over tub baths. No vaginal douches are allowed.\n\n
+        <b>Exercise: </b>Exercises should be mild. Walking should be the preferred option. House work,
+        if it is not too tiring, is allowed.\n\n
+        <b>Rest and Sleep: </b>Rest eight hours at night and two hours in the afternoon. Increase rest
+        sleep hours towards term.\n\n
+        <b>Drugs: </b>Avoid all unnecessary drugs during pregnancy. Minor should be managed without the
+        use of drugs whenever possible, by reassuring the patient.\n\n
+        <b>Smoking and Alcohol Consumption: </b>These should NOT be attempted during pregnancy given that
+        they cause a lot of complications.\n\n
+        <b>Irradiation: </b>Avoid exposure to irradiation because of its teratogenic effect on the fetus.
+    </string>
     <string name="title_activity_common_complaints_during_pregnancy">
         Common Complaints During Pregnancy
     </string>
