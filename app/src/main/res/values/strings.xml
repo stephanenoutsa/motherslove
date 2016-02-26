@@ -705,4 +705,36 @@
         \t- Pregnancy spacing.\n
         \t- Reinforcement of previous advice.
     </string>
+    <string name="title_activity_fourth_anc_visit">Fourth ANC Visit</string>
+    <string name="fourth_anc_visit_text" formatted="false">
+        <b><u>FOURTH VISIT (36 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t- Assess maternal and fetal well-being.\n
+        \t- Exclude PIH, anaemia, multiple pregnancies and malpresentation.\n
+        \t- Give preventive measures for diseases.\n
+        \t- Review and modify birth and emergency plan.\n
+        \t- Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t- Weight\n
+        \t- Blood pressure\n
+        \t- Anaemia\n
+        \t- Fundal height\n\n
+        <b>Tests:</b>\n
+        \t- Urine analysis\n
+        \t- Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t- Commence HIV treatment if positive.\n
+        \t- Treat infections/diseases if indicated.\n
+        \t- Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n
+        \t- Rotation/referral for rotation of fetus if in breech.\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t- Iron and folate supplements.\n
+        \t- ARV\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t- Birth and emergency plan.\n
+        \t- Infant feeding.\n
+        \t- Postpartum/postnatal care.\n
+        \t- Pregnancy spacing.\n
+        \t- Reinforcement of previous advice.
+    </string>
 </resources>
