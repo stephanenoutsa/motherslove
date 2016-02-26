@@ -358,6 +358,10 @@
         <activity
             android:name=".FirstAncVisit"
             android:label="@string/title_activity_first_anc_visit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SecondAncVisit"
+            android:label="@string/title_activity_second_anc_visit"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

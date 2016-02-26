@@ -606,19 +606,20 @@
     <string name="fourth_visit_button_text">Fourth ANC Visit</string>
     <string name="title_activity_first_anc_visit">First ANC Visit</string>
     <string name="first_anc_visit_text" formatted="false">
-        <b>AIM:</b>\n
+        <b><u>FIRST ANC VISIT (8 - 12 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
         \t- Confirm pregnancy and calculate estimated date of delivery (EDD).\n
         \t- Classify women for basic ANC (four visits) or more specialized care.\n
         \t- Screen, treat and give preventive measures for diseases.\n
         \t- Develop a birth and emergency plan.\n
         \t- Advise and counsel pregnant women.\n\n
-        <b>SCREENING:</b>\n
+        <b>Screening:</b>\n
         \t- Family/personal past history\n
         \t- Weight\n
         \t- Blood pressure\n
         \t- Anemia\n
         \t- Fundal height\n\n
-        <b>TESTS:</b>\n
+        <b>Tests:</b>\n
         \t- Haemoglobin\n
         \t- Blood/Rhesus group\n
         \t- Veneral disease screening\n
@@ -626,14 +627,14 @@
         \t- Urine analysis\n
         \t- Stool analysis\n
         \t- Ultrasound\n\n
-        <b>TREATMENT</b>\n
+        <b>Treatment:</b>\n
         \t- Commence HIV treatment if positive.\n
         \t- Treat infections/diseases if indicated.\n
         \t- Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension)\n\n
-        <b>PREVENTIVE MEASURES FOR DISEASES</b>\n
+        <b>Preventive measures for diseases:</b>\n
         \t- Tetanus toxoid\n
         \t- Iron and folate supplements\n\n
-        <b>HEALTH EDUCATION, ADVICE AND COUNSELING</b>\n
+        <b>Health education, advice and counseling:</b>\n
         \t- Self-care\n
         \t- Alcohol and tobacco use\n
         \t- Nutrition\n
@@ -642,4 +643,34 @@
         \t- Sleeping under ITN\n
         \t- Birth and emergency plan
     </string>
+    <string name="second_anc_visit_text" formatted="false">
+        <b><u>SECOND ANC VISIT (22 - 24 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t- Assess maternal and fetal well-being.\n
+        \t- Exclude PIH and anaemia.\n
+        \t- Give preventive measures for diseases.\n
+        \t- Review and modify birth and emergency plan.\n
+        \t- Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t- Weight\n
+        \t- Blood pressure\n
+        \t- Anemia\n
+        \t- Fundal height\n\n
+        <b>Tests:</b>\n
+        \t- Urine analysis\n
+        \t- Screen for diabetes mellitus\n\n
+        <b>Treatment:</b>\n
+        \t- Commence HIV treatment if positive.\n
+        \t- Treat infections/diseases if infected.\n
+        \t- Continue management of preexisting/de novo conditions (e.g diabetes, hypertension)\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t- Tetanus toxoid\n
+        \t- Iron and folate supplements\n
+        \t- IPTp\n
+        \t- ARV\n\n
+        <b>Health education, advice and counseling</b>\n
+        \t- Birth and emergency plan.\n
+        \t- Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_second_anc_visit">Second ANC Visit</string>
 </resources>
