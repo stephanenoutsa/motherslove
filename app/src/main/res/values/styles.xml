@@ -27,7 +27,7 @@
     
     <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
         <item name="android:firstDayOfWeek">2</item>
-        <item name="android:focusedMonthDateColor">@color/colorPrimary</item>
+        <item name="android:focusedMonthDateColor">@color/colorTextPrimary</item>
         <item name="android:selectedWeekBackgroundColor">@color/colorSpecialNeeds</item>
         <item name="android:showWeekNumber">false</item>
         <!--<item name="android:weekNumberColor">@color/colorTextSecondary</item>-->
