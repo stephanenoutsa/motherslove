@@ -1,19 +1,26 @@
 package com.babyandi.stephnoutsa.babyandi;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.support.v4.app.NotificationCompat;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+
+import java.util.List;
 
 public class Notifications extends AppCompatActivity {
 
-    private static final int id = 181091;
+    MyDBHandler dbHandler = new MyDBHandler(this, null, null, 1);
+    List<Notification> notificationList;
+    ListView listView;
+    Context context = this;
+    int count;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,34 +42,46 @@ public class Notifications extends AppCompatActivity {
             }
         });*/
 
-        // Instantiate a Builder object.
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
-        // Delete notification from notification center after it has been viewed
-        builder.setAutoCancel(true);
-        // Creates an Intent for the Activity
-        Intent notifyIntent =
-                new Intent(this, Notifications.class);
-        // Sets the Activity to start in a new, empty task
-        notifyIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
-                | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        // Creates the PendingIntent
-        PendingIntent notifyPendingIntent =
-                PendingIntent.getActivity(
-                        this,
-                        0,
-                        notifyIntent,
-                        PendingIntent.FLAG_UPDATE_CURRENT
-                );
+        final Handler handler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                // Get total number of notifications in database
+                count = dbHandler.getNotificationsCount();
 
-        // Puts the PendingIntent into the notification builder
-        builder.setContentIntent(notifyPendingIntent);
-        // Notifications are issued by sending them to the
-        // NotificationManager system service.
-        NotificationManager mNotificationManager =
-                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        // Builds an anonymous Notification object from the builder, and
-        // passes it to the NotificationManager
-        mNotificationManager.notify(id, builder.build());
+                // Get all notifications from database
+                notificationList = dbHandler.getAllNotifications();
+
+                // Get each notification into a string and put in an array
+                String [] notifications = new String[count];
+                int i = 1;
+                for(Notification n : notificationList) {
+                    int a = i - 1;
+                    //String notif[] = {n.getNday(), n.getNmessage()};
+
+                    String notif = "<b>" + n.getNday() + "</b>" + "\n" + "\"" + n.getNmessage() + "\"";
+
+                    notifications[a] = notif;
+                    i++;
+                }
+
+                // Get the notifications into an adapter's list
+                ListAdapter listAdapter = new CustomAdapter(context, notifications);
+
+                // Set the adapter to display the notifications
+                listView = (ListView) findViewById(R.id.notificationsList);
+                listView.setAdapter(listAdapter);
+
+            }
+        };
+
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                handler.sendEmptyMessage(0);
+            }
+        };
+        Thread thread = new Thread(r);
+        thread.start();
 
     }
 
