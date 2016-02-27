@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListAdapter;
@@ -59,8 +58,7 @@ public class Notifications extends AppCompatActivity {
                     int a = i - 1;
                     //String notif[] = {n.getNday(), n.getNmessage()};
 
-                    CharSequence styledNotif = Html.fromHtml("<b>" + n.getNday() + "</b>" + "\n" + "\"" + n.getNmessage() + "\"");
-                    String notif = styledNotif.toString();
+                    String notif = n.getNday() + "\n" + "\"" + n.getNmessage() + "\"";
 
                     notifications[a] = notif;
                     i++;
