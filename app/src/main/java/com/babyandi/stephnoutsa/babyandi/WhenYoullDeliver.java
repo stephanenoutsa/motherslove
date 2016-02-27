@@ -89,7 +89,8 @@ public class WhenYoullDeliver extends AppCompatActivity {
         dbDate = sdf.format(selectedDate.getTime());
 
         // Display expected date of delivery
-        eDD.setText(dbDate);
+        eDD.setText(getResources().getString(R.string.edd_value));
+        eDD.append(dbDate);
 
         // Start service
         Intent service = new Intent(this, MyService.class);

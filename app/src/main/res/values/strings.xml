@@ -643,6 +643,9 @@
     <string name="edd_text" formatted="false">
         Your expected date of delivery (EDD) will be displayed here.
     </string>
+    <string name="edd_value" formatted="false">
+        Your expected date of delivery is:\n
+    </string>
     <string name="notification_ticker">Don\'t forget your checkup next week</string>
     <string name="notification_title">Mother\'s Love</string>
     <string name="notification_1_text">
