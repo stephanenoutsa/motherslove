@@ -51,19 +51,7 @@
                 android:layout_centerHorizontal="true"
                 android:onClick="onClickSubmitDate"
                 android:background="@drawable/button_standard_border"
-                android:layout_marginTop="20dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/buttonSubmit"
-                android:layout_centerHorizontal="true"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/edd_text"
-                android:id="@+id/eDD"
-                android:gravity="center_horizontal"
-                android:textColor="@color/colorTextPrimary"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="5dp" />
 
         </RelativeLayout>
     </ScrollView>

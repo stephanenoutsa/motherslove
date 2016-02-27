@@ -641,7 +641,7 @@
     </string>
     <string name="submit_date">Submit Date</string>
     <string name="edd_text" formatted="false">
-        Your expected date of delivery (EDD) will be displayed here.
+        Your expected date of delivery (EDD) should be displayed here.
     </string>
     <string name="edd_value" formatted="false">
         Your expected date of delivery is:\n

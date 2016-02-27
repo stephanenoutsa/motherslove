@@ -25,7 +25,6 @@ import java.util.GregorianCalendar;
 public class WhenYoullDeliver extends AppCompatActivity {
 
     MyDBHandler dbHandler;
-    TextView eDD;
     String dbDate;
     int yr, mth, day;
     public GregorianCalendar selectedDate = new GregorianCalendar();
@@ -51,7 +50,6 @@ public class WhenYoullDeliver extends AppCompatActivity {
         });*/
 
         dbHandler = new MyDBHandler(this, null, null, 1);
-        eDD = (TextView) findViewById(R.id.eDD);
 
         CalendarView date = (CalendarView) findViewById(R.id.calendarView);
 
@@ -82,16 +80,6 @@ public class WhenYoullDeliver extends AppCompatActivity {
         LMP lmp = new LMP(date);
         dbHandler.addLMP(lmp);
 
-        // Calculate expected date of delivery
-        selectedDate.add(Calendar.MONTH, -3);
-        selectedDate.add(Calendar.DAY_OF_MONTH, 7);
-        selectedDate.add(Calendar.YEAR, 1);
-        dbDate = sdf.format(selectedDate.getTime());
-
-        // Display expected date of delivery
-        eDD.setText(getResources().getString(R.string.edd_value));
-        eDD.append(dbDate);
-
         // Start service
         Intent service = new Intent(this, MyService.class);
         PendingIntent pendingIntent = PendingIntent.getService(this, 0, service, 0);
@@ -109,7 +97,8 @@ public class WhenYoullDeliver extends AppCompatActivity {
                 PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
                 PackageManager.DONT_KILL_APP);
 
-
+        Intent i = new Intent(this, ExpectedDateOfDelivery.class);
+        startActivity(i);
     }
 
     ////////////Intents for menu items////////////

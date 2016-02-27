@@ -10,6 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.ExpectedDateOfDelivery"
-    tools:showIn="@layout/activity_expected_date_of_delivery">
+    tools:showIn="@layout/activity_expected_date_of_delivery"
+    android:background="@color/colorAnc">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/edd_text"
+        android:id="@+id/eDDText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTextPrimary"
+        android:gravity="center_horizontal" />
 </RelativeLayout>
