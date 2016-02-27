@@ -389,8 +389,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ExpectedDateOfDelivery"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_expected_date_of_delivery"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
