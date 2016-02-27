@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:id="@+id/calendarView"
-                android:theme="@android:calendarViewStyle"
+                android:theme="@style/Theme.Custom"
                 android:layout_below="@+id/lmpText"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
