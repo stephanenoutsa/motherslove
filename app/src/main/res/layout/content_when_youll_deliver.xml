@@ -13,4 +13,58 @@
     tools:showIn="@layout/activity_when_youll_deliver"
     android:background="@color/colorAnc">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CalendarView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/calendarView"
+                android:theme="@android:calendarViewStyle"
+                android:layout_below="@+id/lmpText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/lmp_text"
+                android:id="@+id/lmpText"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorTextPrimary"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit_date"
+                android:id="@+id/buttonSubmit"
+                android:layout_below="@+id/calendarView"
+                android:layout_centerHorizontal="true"
+                android:onClick="onClickSubmitDate"
+                android:background="@drawable/button_standard_border"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonSubmit"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/edd_text"
+                android:id="@+id/eDD"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

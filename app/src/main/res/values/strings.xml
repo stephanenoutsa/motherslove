@@ -636,6 +636,13 @@
     </string>
     <string name="title_activity_labour">Labour</string>
     <string name="title_activity_when_youll_deliver">When You\'ll Deliver?</string>
+    <string name="lmp_text" formatted="false">
+        When was the last time you saw your menses?
+    </string>
+    <string name="submit_date">Submit Date</string>
+    <string name="edd_text" formatted="false">
+        Your expected date of delivery (EDD) will be displayed here.
+    </string>
     <string name="title_activity_preparing_for_labour">Preparing For Labour</string>
     <string name="title_activity_signs_of_labour">Signs Of Labour</string>
     <string name="title_activity_pain_management">Pain Management</string>
