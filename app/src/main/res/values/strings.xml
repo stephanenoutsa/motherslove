@@ -822,4 +822,5 @@
         \t- Pregnancy spacing.\n
         \t- Reinforcement of previous advice.
     </string>
+    <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
 </resources>
