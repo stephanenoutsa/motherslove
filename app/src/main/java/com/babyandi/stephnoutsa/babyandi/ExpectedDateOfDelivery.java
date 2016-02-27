@@ -22,7 +22,7 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
     SimpleDateFormat sdf;
     GregorianCalendar selectedDate;
     Date lmpDate;
-    String dbDate;
+    String dbDate, date;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,9 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        // Set an icon for navigation
+        toolbar.setNavigationIcon(R.drawable.android);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -52,22 +55,20 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
                 sdf = new SimpleDateFormat(expectedPattern);
                 try {
                     lmpDate = sdf.parse(dbDate);
+                    selectedDate.setTime(lmpDate);
 
+                    // Calculate expected date of delivery
+                    selectedDate.add(Calendar.MONTH, -3);
+                    selectedDate.add(Calendar.DAY_OF_MONTH, 7);
+                    selectedDate.add(Calendar.YEAR, 1);
+                    date = sdf.format(selectedDate.getTime());
+
+                    // Print the EDD
+                    eDDText.setText(getResources().getString(R.string.edd_value));
+                    eDDText.append(date);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
-                selectedDate.setTime(lmpDate);
-
-                // Calculate expected date of delivery
-                selectedDate.add(Calendar.MONTH, -3);
-                selectedDate.add(Calendar.DAY_OF_MONTH, 7);
-                selectedDate.add(Calendar.YEAR, 1);
-                dbDate = sdf.format(selectedDate.getTime());
-
-                // Print the EDD
-                eDDText.setText(getResources().getString(R.string.edd_value));
-                eDDText.append(dbDate);
             }
         };
 
