@@ -11,6 +11,13 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.Notifications"
     tools:showIn="@layout/activity_notifications"
-    android:background="@color/colorHome">
+    android:background="@color/colorPrimary">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/notificationsList"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
