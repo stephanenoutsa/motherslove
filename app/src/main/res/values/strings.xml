@@ -672,6 +672,25 @@
         accessible corner of the house.
     </string>
     <string name="title_activity_signs_of_labour">Signs Of Labour</string>
+    <string name="signs_of_labour_text" formatted="false">
+        <b>Bloody Show</b>\n
+        As the cervix begins to get thin and dilate (open), a pink or bloody substance could be
+        discharged.\n
+        You might also see a “plug” of mucus. This can happen several days before, or at the beginning
+        of labour.\n\n
+        <b>Ruptured Membranes</b>\n
+        This manifests as a gush or slow leak of amniotic fluid from the vagina. If this happens, you
+        should immediately report to the hospital.\n\n
+        <b>Contractions</b>\n
+        When labor begins, the contractions feel like cramps. They become stronger, get closer together,
+        and last longer.\n
+        Usually, first-time mothers come to the hospital when there is an interval of five minutes
+        between contractions (for at least 1-2 hours), each lasting 45-60 seconds.\n
+        Second or third-time mothers come in when there is an interval of ten minutes between contractions
+        which don’t go away even when you rest.\n\n
+        <b><i>If you experience any of the  above signs of labour, get your emergency box and consult
+            at any health facility of your choice.</i></b>
+    </string>
     <string name="title_activity_pain_management">Pain Management</string>
     <string name="title_activity_after_birth">After Birth</string>
     <string name="title_activity_after_birth_introduction">Introduction</string>
