@@ -692,6 +692,25 @@
             at any health facility of your choice.</i></b>
     </string>
     <string name="title_activity_pain_management">Coping with Labour Pain</string>
+    <string name="pain_management_text" formatted="false">
+        There are many effective and helpful ways of reducing the amount of pain you feel when you have
+        contractions. The effect varies from woman to woman, and often a combination of techniques are
+        used to achieve this.\n
+        These techniques help you avoid medications, they are easy to do, and they give personal satisfaction.\n
+        Some of these techniques are:\n\n
+        \t- Childbirth preparation classes. Learning about childbirth has been proven to decrease anxiety.
+        This is one of the activities during ANC. Women mostly learn breathing exercises that decrease
+        labour pain.\n
+        \t- Help from a supportive individual. Either a partner or close relative/friend is very valuable
+        to help with your comfort and emotional support throughout the labour experience.\n
+        \t- Being active during labour rather than staying in bed. Position changes like walking, squatting,
+        sitting, moving the hands and knees, and using a birthing ball can all be helpful.\n
+        \t- Pleasant surroundings - music, dim lights and aromatherapy.\n
+        \t- Taking a warm water bath or shower may help reduce labour pain.\n\n
+        <b>AVOID DRINKING TRADITIONAL CONCOCTIONS OR HONEY PRIOR TO/DURING LABOUR. THESE SUBSTANCES
+            ARE OXYTOCIC AND THEREFORE INCREASE THE NUMBER OF CONTRACTIONS OCCURRING EACH MINUTE. THIS
+            IS HARMFUL AS IT CAN LEAD TO THE RUPTURE OF THE UTERUS OR CAUSE FETAL DISTRESS.</b>
+    </string>
     <string name="title_activity_after_birth">After Birth</string>
     <string name="title_activity_after_birth_introduction">Introduction</string>
     <string name="title_activity_changes_after_delivery">Changes After Delivery</string>
