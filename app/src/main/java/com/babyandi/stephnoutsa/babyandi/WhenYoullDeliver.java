@@ -61,6 +61,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
         // Set minimum date to be displayed
         GregorianCalendar currentDate = new GregorianCalendar();
         currentDate.add(Calendar.MONTH, -9);
+        currentDate.add(Calendar.DAY_OF_MONTH, -7);
         long min = currentDate.getTimeInMillis();
         date.setMinDate(min);
 
