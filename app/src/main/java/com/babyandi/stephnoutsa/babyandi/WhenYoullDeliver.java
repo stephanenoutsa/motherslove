@@ -20,6 +20,7 @@ import android.widget.TextView;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class WhenYoullDeliver extends AppCompatActivity {
@@ -56,6 +57,12 @@ public class WhenYoullDeliver extends AppCompatActivity {
         // Set maximum date to be displayed
         long max = date.getDate();
         date.setMaxDate(max);
+
+        // Set minimum date to be displayed
+        GregorianCalendar currentDate = new GregorianCalendar();
+        currentDate.add(Calendar.MONTH, -9);
+        long min = currentDate.getTimeInMillis();
+        date.setMinDate(min);
 
         date.setOnDateChangeListener( new CalendarView.OnDateChangeListener() {
             public GregorianCalendar calendar;
