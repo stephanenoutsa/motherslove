@@ -80,6 +80,16 @@ public class WhenYoullDeliver extends AppCompatActivity {
         LMP lmp = new LMP(date);
         dbHandler.addLMP(lmp);
 
+        // Calculate the EDD
+        selectedDate.add(Calendar.MONTH, -3);
+        selectedDate.add(Calendar.YEAR, 1);
+        selectedDate.add(Calendar.DAY_OF_MONTH, 7);
+
+        // Save the EDD to the database
+        String eddate = sdf.format(selectedDate.getTime());
+        EDD edd = new EDD(eddate);
+        dbHandler.addEDD(edd);
+
         // Start service
         Intent service = new Intent(this, MyService.class);
         PendingIntent pendingIntent = PendingIntent.getService(this, 0, service, 0);
