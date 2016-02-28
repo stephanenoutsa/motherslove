@@ -13,7 +13,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class ExpectedDateOfDelivery extends AppCompatActivity {
 
@@ -49,8 +52,22 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
             @Override
             public void handleMessage(Message msg) {
                 eddate = dbHandler.getEDD();
-                eDDText.setText(getResources().getString(R.string.edd_value));
-                eDDText.append(eddate);
+                DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
+                long currentDate = new GregorianCalendar().getTimeInMillis();
+                try {
+                    Date edDate = sdf.parse(eddate);
+                    long date = edDate.getTime();
+
+                    if (date <= currentDate) {
+                        eDDText.setText(getResources().getString(R.string.edd_unhandled));
+                    }
+                    else {
+                        eDDText.setText(getResources().getString(R.string.edd_value));
+                        eDDText.append(eddate);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         };
 
