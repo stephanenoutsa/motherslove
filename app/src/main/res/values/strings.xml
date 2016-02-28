@@ -656,6 +656,21 @@
         You are in the first trimester of pregnancy. Next week you need to go for your Antenatal Clinic.
     </string>
     <string name="title_activity_preparing_for_labour">Preparing For Labour</string>
+    <string name="preparing_for_labour_text" formatted="false">
+        Every pregnant woman should have the following things ready by the seventh month (28th week)
+        of pregnancy:\n\n
+        \t- Many clean napkins\n
+        \t- An antiseptic soap\n
+        \t- A packet of sterile gauze\n
+        \t- A packet of pad\n
+        \t- 10 packets of sterile gloves\n
+        \t- 2 sets of warm baby clothing, and clothing and underwear for the mother\n
+        \t- Alcohol\n
+        \t- A clean towel and other toiletries\n
+        \t- A clean bed sheet\n\n
+        All these have to be well arranged in a box, and the box has to be closed and placed in an easily
+        accessible corner of the house.
+    </string>
     <string name="title_activity_signs_of_labour">Signs Of Labour</string>
     <string name="title_activity_pain_management">Pain Management</string>
     <string name="title_activity_after_birth">After Birth</string>

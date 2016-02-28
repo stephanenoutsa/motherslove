@@ -13,4 +13,22 @@
     tools:showIn="@layout/activity_preparing_for_labour"
     android:background="@color/colorAnc">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/preparing_for_labour_text"
+                android:id="@+id/preparingForLabour"
+                android:textColor="@color/colorTextPrimary" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
