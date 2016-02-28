@@ -104,7 +104,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
 
         AlarmManager alarmManager = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
         alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,
-                0, 1000 * 60 * 60 * 24,
+                0, AlarmManager.INTERVAL_DAY,
                 pendingIntent);
 
         // Enable receiver when device boots
