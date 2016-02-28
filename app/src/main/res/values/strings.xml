@@ -637,7 +637,7 @@
     <string name="title_activity_labour">Labour</string>
     <string name="title_activity_when_youll_deliver">When You\'ll Deliver?</string>
     <string name="lmp_text" formatted="false">
-        When was the last time you had your menses?
+        When was your last menstrual period (LMP)?
     </string>
     <string name="submit_date">Submit Date</string>
     <string name="edd_text" formatted="false">
@@ -645,6 +645,10 @@
     </string>
     <string name="edd_value" formatted="false">
         Your expected date of delivery is:\n
+    </string>
+    <string name="edd_unhandled" formatted="false">
+        Sorry, but we cannot give you an answer for your selected date. Try to remember your LMP and
+        try again.
     </string>
     <string name="notification_ticker">Don\'t forget your checkup next week</string>
     <string name="notification_title">Mother\'s Love</string>
