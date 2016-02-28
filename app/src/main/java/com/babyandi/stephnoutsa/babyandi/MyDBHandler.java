@@ -20,6 +20,9 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String N_COLUMN_ID = "_nid";
     public static final String N_COLUMN_DAY = "nday";
     public static final String N_COLUMN_MESSAGE = "nmessage";
+    public static final String TABLE_EDD = "edd";
+    public static final String EDD_COLUMN_ID = "_eddid";
+    public static final String EDD_COLUMN_DAY = "eddate";
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
@@ -40,12 +43,18 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 N_COLUMN_MESSAGE + " TEXT " +
                 ")";
         db.execSQL(query2);
+
+        String query3 = "CREATE TABLE " + TABLE_EDD + "(" +
+                EDD_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                EDD_COLUMN_DAY + " TEXT" + ")";
+        db.execSQL(query3);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NOTIFICATIONS + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_EDD + ";");
         onCreate(db);
     }
 
@@ -69,6 +78,32 @@ public class MyDBHandler extends SQLiteOpenHelper {
         String lmpDate = c.getString(c.getColumnIndex(LMP_COLUMN_DATE));
         try {
             return lmpDate;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Add new EDD to EDD table
+    public void addEDD(EDD edd) {
+        ContentValues values = new ContentValues();
+        values.put(EDD_COLUMN_DAY, String.valueOf(edd.getEddate()));
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_EDD, null, values);
+        db.close();
+    }
+
+    // Get the EDD
+    public String getEDD() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_EDD + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return null;
+        c.moveToLast();
+        String eddate = c.getString(c.getColumnIndex(EDD_COLUMN_DAY));
+        try {
+            return eddate;
         } finally {
             c.close();
             db.close();
