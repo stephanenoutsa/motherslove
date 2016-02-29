@@ -33,9 +33,6 @@ public class HepatitisStep4 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView hepatitisStep4 = (TextView) findViewById(R.id.hepatitisStep4);
-        hepatitisStep4.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

@@ -35,9 +35,6 @@ public class HIVStep4 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView hivStep4 = (TextView) findViewById(R.id.hivStep4);
-        hivStep4.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

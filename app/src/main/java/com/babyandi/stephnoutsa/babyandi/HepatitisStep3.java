@@ -33,9 +33,6 @@ public class HepatitisStep3 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView hepatitisStep3 = (TextView) findViewById(R.id.hepatitisStep3);
-        hepatitisStep3.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

@@ -35,8 +35,6 @@ public class HIVIntroduction extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-        TextView hivIntroduction = (TextView) findViewById(R.id.hivIntroduction);
-        hivIntroduction.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

@@ -13,15 +13,23 @@
     tools:showIn="@layout/activity_hepatitis_step3"
     android:background="@color/colorSpecialNeeds">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/hepatitis_step_3"
-        android:id="@+id/hepatitisStep3"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:scrollbars="vertical"
-        android:textColor="@color/colorTextPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/hepatitis_step_3"
+                android:id="@+id/hepatitisStep3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorTextPrimary" />
+        </RelativeLayout>
+    </ScrollView>
+
 </RelativeLayout>

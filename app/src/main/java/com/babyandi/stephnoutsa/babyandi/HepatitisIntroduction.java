@@ -35,9 +35,6 @@ public class HepatitisIntroduction extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView hepatitisIntroduction = (TextView) findViewById(R.id.hepatitisIntroduction);
-        hepatitisIntroduction.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

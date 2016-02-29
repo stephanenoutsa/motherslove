@@ -35,9 +35,6 @@ public class HIVStep6 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView hivStep6 = (TextView) findViewById(R.id.hivStep6);
-        hivStep6.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////
