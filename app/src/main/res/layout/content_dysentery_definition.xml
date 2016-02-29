@@ -13,36 +13,45 @@
     tools:showIn="@layout/activity_dysentery_definition"
     android:background="@color/colorDiarrhoea">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/dysentery_definition"
-        android:id="@+id/dysenteryDefinition"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="@color/colorTextPrimary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/dysentery_definition"
+                android:id="@+id/dysenteryDefinition"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorTextPrimary" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/looseStoolWithBlood"
-        android:layout_below="@+id/dysenteryDefinition"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:src="@drawable/dysentery"
-        android:contentDescription="@string/loose_stool_image_description" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/looseStoolWithBlood"
+                android:layout_below="@+id/dysenteryDefinition"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/dysentery"
+                android:contentDescription="@string/loose_stool_image_description" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/loose_stool_image_label"
-        android:id="@+id/looseStoolWithBloodLabel"
-        android:layout_below="@+id/looseStoolWithBlood"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:labelFor="@id/looseStoolWithBlood"
-        android:textColor="@color/colorTextPrimary" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/loose_stool_image_label"
+                android:id="@+id/looseStoolWithBloodLabel"
+                android:layout_below="@+id/looseStoolWithBlood"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:labelFor="@id/looseStoolWithBlood"
+                android:textColor="@color/colorTextPrimary" />
+        </RelativeLayout>
+    </ScrollView>
+
 </RelativeLayout>

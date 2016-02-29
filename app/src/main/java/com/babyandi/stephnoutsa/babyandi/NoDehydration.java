@@ -35,9 +35,6 @@ public class NoDehydration extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView noDehydration = (TextView) findViewById(R.id.noDehydration);
-        noDehydration.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

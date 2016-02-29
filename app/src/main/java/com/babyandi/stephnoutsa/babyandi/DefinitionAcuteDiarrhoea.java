@@ -35,9 +35,6 @@ public class DefinitionAcuteDiarrhoea extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView acuteDiarrhoeaDefinition = (TextView) findViewById(R.id.acuteDiarrhoeaDefinition);
-        acuteDiarrhoeaDefinition.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

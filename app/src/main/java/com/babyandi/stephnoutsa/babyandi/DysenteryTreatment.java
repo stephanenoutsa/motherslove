@@ -37,9 +37,6 @@ public class DysenteryTreatment extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView dysenteryTreatment = (TextView) findViewById(R.id.dysenteryTreatment);
-        dysenteryTreatment.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

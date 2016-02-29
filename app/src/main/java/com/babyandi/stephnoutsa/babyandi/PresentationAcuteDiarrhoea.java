@@ -35,9 +35,6 @@ public class PresentationAcuteDiarrhoea extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView acuteDiarrhoeaPresentation = (TextView) findViewById(R.id.acuteDiarrhoeaPresentation);
-        acuteDiarrhoeaPresentation.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

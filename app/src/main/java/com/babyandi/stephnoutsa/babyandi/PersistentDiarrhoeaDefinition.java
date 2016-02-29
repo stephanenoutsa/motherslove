@@ -35,9 +35,6 @@ public class PersistentDiarrhoeaDefinition extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView persistentDiarrhoeaDefinition = (TextView) findViewById(R.id.persistentDiarrhoeaDefinition);
-        persistentDiarrhoeaDefinition.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

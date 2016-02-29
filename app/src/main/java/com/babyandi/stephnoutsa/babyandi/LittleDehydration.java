@@ -35,9 +35,6 @@ public class LittleDehydration extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView littleDehydration = (TextView) findViewById(R.id.littleDehydration);
-        littleDehydration.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

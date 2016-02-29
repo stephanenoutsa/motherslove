@@ -35,9 +35,6 @@ public class SevereDehydration extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView severeDehydration = (TextView) findViewById(R.id.severeDehydration);
-        severeDehydration.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////

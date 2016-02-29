@@ -35,9 +35,6 @@ public class SeverePersistentDiarrhoeaTreatment extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView severePersistentDiarrhoeaTreatment = (TextView) findViewById(R.id.severePersistentDiarrhoeaTreatment);
-        severePersistentDiarrhoeaTreatment.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////
