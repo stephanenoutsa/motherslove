@@ -813,6 +813,51 @@
         \t- Anemia
     </string>
     <string name="title_activity_heafter_delivery">Health Education After Delivery</string>
+    <string name="heafter_delivery_text" formatted="false">
+        This is a very important part of management after delivery as women are taught ways of keeping
+        themselves and their babies healthy.\n
+        Information is also provided for birth spacing in subsequent pregnancies.\n
+        Before leaving the health facility, each woman should receive education on the following:\n\n
+        <b>CARE OF THE NEWBORN</b>\n
+        \t- Immediately after birth, mothers should ensure that their children receive vitamin K injection
+        to prevent them from developing hemorrhagic disease of the newborn. Also, to prevent a newborn\'s
+        eyes from dangerous conjunctivitis, mothers should ensure that a little tetracycline eye ointment
+        or 1% silver nitrate is dropped in their baby\’s eyes after birth.\n
+        \t- Protect the baby from cold, but also from too much heat. Dress the baby as warmly as you
+        feel like dressing yourself.\n\n
+        <b>HYGIENE OF THE BABY</b>\n
+        \t- Change the baby\’s diapers (nappy) each time he wets or dirties them. If the skin gets sore,
+        change the diaper more often, or better still, leave it off.\n
+        \t- Special care should be shown to keeping the umbilical cord clean. Mothers should be taught
+        how to wash their babies and how to clean the umbilical region especially. After the cord drops
+        off, bathe the baby daily with soap and warm water.\n
+        \t- If there are flies or mosquitoes, cover the baby\’s crib with mosquito netting or a thin cloth.\n
+        \t- Persons with open sores, colds, sore throat, tuberculosis or other infectious illnesses
+        should not touch or go near the baby.\n
+        \t- Keep the baby in a clean place away from smoke and dust.\n\n
+        <b>HYGIENE OF THE MOTHER</b>\n
+        Mothers should be encouraged to bathe at least twice a day, or have at least 2 bed baths for
+        women who gave birth through caesarian deliveries. The breast area should especially be kept
+        clean. Mothers should always wash their hands before feeding their babies. Pads should be changed
+        once they are wet, and women should complain if they notice an offensive discharge.\n\n
+        <b>VACCINATION</b>\n
+        Mothers should ensure that their babies receive the required vaccines at birth and thereafter.
+        Mothers should also endeavor to receive all their tetanus toxoid vaccines as scheduled. (Check
+        the section on “Immunization” for details)\n\n
+        <b>EDUCATION ON A DISEASE WHICH CAN BE TRANSMITTED FROM MOTHER TO CHILD</b>\n
+        Before being discharged from the hospital, women shall be educated on at least one disease which
+        can be transmitted from mother to child, or on prevention of certain pregnancy complications.
+        Women should be keen on reminding their doctors/nurses/midwives, in case these forget.\n\n
+        <b>FAMILY PLANNING</b>\n
+        Mothers will also be told when it would be appropriate for them to plan their next pregnancy,
+        if that is their desire. To achieve this, they shall be introduced to various methods of contraception,
+        from which they will choose one they are comfortable with.\n
+        Mothers who no longer desire pregnancy will also be proposed methods they can use.\n
+        The aim is to have adequate spacing among children, for a healthy growth.\n\n
+        <b>RENDEZVOUS</b>\n
+        It is recommended that mothers report to the hospital with their babies six weeks after delivery
+        for checkup.
+    </string>
     <string name="title_activity_immunization">Immunization</string>
     <string name="title_activity_schedule_for_infants">Schedule For Infants</string>
     <string name="title_activity_schedule_for_pregnant_women">Schedule For Pregnant Women</string>
