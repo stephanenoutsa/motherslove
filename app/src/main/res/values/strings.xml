@@ -713,6 +713,13 @@
     </string>
     <string name="title_activity_after_birth">After Birth</string>
     <string name="title_activity_after_birth_introduction">Introduction</string>
+    <string name="after_birth_intro_text" formatted="false">
+        The postpartum period (period after delivery) is the six week period after child birth, during
+        which body tissues which have undergone changes during pregnancy return to their pre pregnancy
+        state. It is also known as the puerperium. Women have to be aware of the course of these changes
+        so as to reduce unnecessary fear and anxiety in them while the changes occur, and also so that
+        they could quickly be aware if complications arise.
+    </string>
     <string name="title_activity_changes_after_delivery">Changes After Delivery</string>
     <string name="title_activity_frequent_complaints_after_delivery">
         Frequent Complaints After Delivery
