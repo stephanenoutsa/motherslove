@@ -797,6 +797,21 @@
     <string name="title_activity_frequent_complaints_after_delivery">
         Frequent Complaints After Delivery
     </string>
+    <string name="frequent_complaints_text" formatted="false">
+        Women may experience problems following delivery. Occurrence of these problems varies from woman
+        to woman. Women should report to their health care givers if they develop any of the following
+        problems after delivery. They shall be provided with appropriate solutions:\n
+        \t- Fever\n
+        \t- Bladder problems (retention of urine)\n
+        \t- Backache\n
+        \t- Frequent headaches\n
+        \t- Pain at the genital region\n
+        \t- Hemorrhoids\n
+        \t- Constipation\n
+        \t- Depression, anxiety and extreme tiredness\n
+        \t- Breast problems (engorgement, mastitis, cracked/sore/bleeding nipples, inverted nipples)\n
+        \t- Anemia
+    </string>
     <string name="title_activity_heafter_delivery">Health Education After Delivery</string>
     <string name="title_activity_immunization">Immunization</string>
     <string name="title_activity_schedule_for_infants">Schedule For Infants</string>
