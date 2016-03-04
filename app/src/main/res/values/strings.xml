@@ -721,6 +721,79 @@
         they could quickly be aware if complications arise.
     </string>
     <string name="title_activity_changes_after_delivery">Changes After Delivery</string>
+    <string name="changes_after_delivery_text1" formatted="false">
+        <b>1. BREASTFEEDING</b>\n
+        \t<b>1.1 Importance of Breastfeeding</b>\n
+        \t\tThe establishment and maintenance of breastfeeding should be one of the major goals of good
+        postpartum care. Human breast milk is the optimal food for newborn infants. It is clean. When
+        other foods are given, especially by bottle feeding, it is very hard to keep things clean enough
+        to prevent the baby from getting diarrhea and other sicknesses. The temperature of breast milk
+        is always right.\n
+        \t\tNot only is the breast milk nutritive, but it is also immune protective as it contains antibodies
+        which protect the body against infections.\n
+        \t\tModified cow milk preparations or “formula” have become readily available. These preparations
+        are close to human milk in nutrient quantity, but still very different in quality, and lacking
+        in immune factors.\n
+        \t\tIn developing countries artificial feeding is associated with a much higher infant morbidity
+        and mortality than breastfeeding, primarily caused by infections and malnutrition.\n\n
+        \t<b>1.2 Initiation of Breastfeeding</b>\n
+        \t\tIt is recommended that the baby is given to the mother to hold immediately after delivery,
+        to provide skin-to-skin contact and for the baby to start suckling as soon as he/she shows signs
+        of readiness - normally within 30 minutes to 1 hour after birth. Early skin-to-skin contact
+        and suckling are associated with more affectionate behavior of mothers towards their infants;
+        mothers who start to breastfeed early have fewer problems with breastfeeding.\n\n
+        \t<b>1.3 Positioning and Attaching the Baby to the Breast</b>\n
+        \t\tIf the baby is incorrectly attached, milk is not effectively removed and the nipple may
+        be damaged by friction as the teat is drawn in and out of the mouth. If the attachment is not
+        corrected, sore nipples and engorgement are more common developments, the baby may get insufficient
+        milk, and the mother is more likely to stop breastfeeding.\n
+        \t\tGood breast feeding positions are illustrated below:
+    </string>
+    <string name="breastfeeding_image_description">Breastfeeding positions</string>
+    <string name="changes_after_delivery_text2" formatted="false">
+        \t<b>1.4 The Need to Avoid Supplementary Feeds</b>\n
+        \t\tIn some hospitals it is common practice to give breastfed babies supplements of formula
+        or glucose water while lactation is becoming established. This practice is unnecessary because
+        a healthy baby does not need extra fluids or feeds before breastfeeding is established, and
+        it is harmful because bottle feeding may interfere with the initiation and continuation of
+        breastfeeding. Babies who have had their appetite satisfied with an artificial feed may lose
+        interest in trying to breastfeed.\n
+        \t\tWHO recommends that infants should be fed exclusively on breast milk from birth to at least
+        4 and if possible 6 months of age. Breastfeeding should be given as often as the child desires,
+        day and night, at least eight times in 24 hours. Often a sharp decline in breastfeeding occurs
+        in the weeks after delivery.\n\n
+        \t<b>1.5 Consequences of Not Breastfeeding</b>\n
+        \t\tIf the baby is not put to the breasts early enough, the breasts become engorged about the
+        third to fourth day after delivery because of the increased production of milk at this time.
+        This will cause discomfort to the mother and can later predispose her to infections.\n
+        \t\tThis is also the reason why women who lose their babies during labor are given medication
+        to suppress lactation.\n\n
+        <b>2. After Pains</b>\n
+        This refers to intermittent uterine contractions felt by a breastfeeding mother in the region
+        of the lower abdomen in the course of breastfeeding her baby.\n
+        This is normal and is as a result of physiological processes occurring in the body during the
+        time of breastfeeding. They can be relieved by taking simple pain medication.\n\n
+        <b>3. Return to Normal Size of the Uterus</b>\n
+        The uterus extends above the level of the umbilicus in most women immediately after delivery.
+        It should gradually reduce daily after delivery with the result being that by the end of the second
+        week it should no longer be felt. This is a natural process. As such, practices such as tying
+        the stomach tight or applying very hot water unto it are strongly discouraged.\n
+        Failure of the uterus to reduce in size is not normal, especially if it is associated with fever.
+        This should be reported to a health personnel if noticed.\n\n
+        <b>4. Lochia</b>\n
+        During these same 2 weeks, a woman should experience vaginal discharges called lochia. For the
+        first few days after delivery (1 – 5 days) the lochia appears red. After 4 – 5 days it becomes
+        pale in color. After about the 10th day it becomes yellowish-white in color.\n
+        If lochia persists, or develops an offensive odor, or fails to follow the above pattern of color
+        change, it is not normal and should be reported to a health personnel.\n\n
+        <b>5. Return of Menses</b>\n
+        The time of return of the menses after a normal delivery is quite varied. Many women who are
+        not breastfeeding may resume normal menses about 6 weeks after delivery. For mothers who are
+        breastfeeding, the picture is different. Those who introduce supplemental feeding to breastfeeding
+        quite early may have their menses return before 6 weeks. The women who do exclusive breastfeeding
+        could have their menses delay for as long as six months. However they should be aware that they
+        could still get pregnant despite this absence of menstruation.
+    </string>
     <string name="title_activity_frequent_complaints_after_delivery">
         Frequent Complaints After Delivery
     </string>

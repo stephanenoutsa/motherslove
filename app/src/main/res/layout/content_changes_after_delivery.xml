@@ -13,4 +13,38 @@
     tools:showIn="@layout/activity_changes_after_delivery"
     android:background="@color/colorAnc">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/changes_after_delivery_text1"
+                android:id="@+id/changesAfterDelivery"
+                android:textColor="@color/colorTextPrimary" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/changesAfterDelivery"
+                android:id="@+id/breastfeeding"
+                android:contentDescription="@string/breastfeeding_image_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/breastfeeding"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/changes_after_delivery_text2"
+                android:id="@+id/changesAfterDelivery2"
+                android:textColor="@color/colorTextPrimary" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
