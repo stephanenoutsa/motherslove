@@ -65,6 +65,7 @@
             android:layout_alignParentTop="false"
             android:layout_alignParentRight="false"
             android:layout_alignParentEnd="false"
+            android:layout_toRightOf="@+id/imageANC"
             android:layout_toEndOf="@+id/imageANC"
             android:layout_alignTop="@+id/imageANC"
             android:layout_centerHorizontal="true" />
@@ -120,6 +121,7 @@
             android:layout_alignParentRight="false"
             android:layout_alignParentEnd="false"
             android:layout_alignStart="@+id/imageMalnutrition"
+            android:layout_alignLeft="@+id/imageMalnutrition"
             android:textSize="@dimen/button_home_text_size" />
 
         <Button
