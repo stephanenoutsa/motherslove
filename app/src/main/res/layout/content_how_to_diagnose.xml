@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.HowToDiagnose"
     tools:showIn="@layout/activity_how_to_diagnose"
-    android:background="@color/colorMalnutrition">
+    android:background="@drawable/image_malnutrition">
 
     <Button
         android:layout_width="wrap_content"
