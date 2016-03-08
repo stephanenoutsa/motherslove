@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.HIVStep2"
     tools:showIn="@layout/activity_hivstep2"
-    android:background="@color/colorSpecialNeeds">
+    android:background="@drawable/image_special_needs">
 
     <ScrollView
         android:layout_width="match_parent"

@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.HIV"
     tools:showIn="@layout/activity_hiv"
-    android:background="@color/colorSpecialNeeds">
+    android:background="@drawable/image_special_needs">
 
     <Button
         android:layout_width="@dimen/button_standard_width"
