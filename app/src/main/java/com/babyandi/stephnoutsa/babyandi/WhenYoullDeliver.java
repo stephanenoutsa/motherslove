@@ -1,9 +1,7 @@
 package com.babyandi.stephnoutsa.babyandi;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
+
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -15,17 +13,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CalendarView;
-import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class WhenYoullDeliver extends AppCompatActivity {
 
     MyDBHandler dbHandler;
+    AlarmStart alarmStart = new AlarmStart();
     String dbDate;
     int yr, mth, day;
     public GregorianCalendar selectedDate = new GregorianCalendar();
@@ -98,14 +95,8 @@ public class WhenYoullDeliver extends AppCompatActivity {
         EDD edd = new EDD(eddate);
         dbHandler.addEDD(edd);
 
-        // Start service
-        Intent service = new Intent(this, MyService.class);
-        PendingIntent pendingIntent = PendingIntent.getService(this, 0, service, 0);
-
-        AlarmManager alarmManager = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
-        alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,
-                0, AlarmManager.INTERVAL_DAY,
-                pendingIntent);
+        // Start alarm
+        alarmStart.startAlarm(this);
 
         // Enable receiver when device boots
         ComponentName receiver = new ComponentName(this, BootReceiver.class);
