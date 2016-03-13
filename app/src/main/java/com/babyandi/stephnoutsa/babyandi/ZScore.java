@@ -770,7 +770,7 @@ public class ZScore extends AppCompatActivity {
                 linkButton.setText(getResources().getString(R.string.title_activity_severe_malnutrition));
                 //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
                 linkButton.setBackgroundResource(R.drawable.button_standard_border);
-                linkButton.setId(1);
+                linkButton.setId(R.id.link_button);
 
                 RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.WRAP_CONTENT,
@@ -810,7 +810,7 @@ public class ZScore extends AppCompatActivity {
                 linkButton.setText(getResources().getString(R.string.title_activity_mild_malnutrition));
                 //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
                 linkButton.setBackgroundResource(R.drawable.button_standard_border);
-                linkButton.setId(1);
+                linkButton.setId(R.id.link_button);
 
                 RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.WRAP_CONTENT,
@@ -843,7 +843,7 @@ public class ZScore extends AppCompatActivity {
                 linkButton.setText(getResources().getString(R.string.title_activity_moderate_malnutrition));
                 //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
                 linkButton.setBackgroundResource(R.drawable.button_standard_border);
-                linkButton.setId(1);
+                linkButton.setId(R.id.link_button);
 
                 RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.WRAP_CONTENT,
@@ -876,7 +876,7 @@ public class ZScore extends AppCompatActivity {
                 linkButton.setText(getResources().getString(R.string.title_activity_severe_malnutrition));
                 //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
                 linkButton.setBackgroundResource(R.drawable.button_standard_border);
-                linkButton.setId(1);
+                linkButton.setId(R.id.link_button);
 
                 RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
                         RelativeLayout.LayoutParams.WRAP_CONTENT,
