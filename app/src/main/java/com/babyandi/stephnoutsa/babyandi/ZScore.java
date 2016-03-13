@@ -12,8 +12,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.text.DecimalFormat;
-
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
 public class ZScore extends AppCompatActivity {
@@ -759,27 +757,27 @@ public class ZScore extends AppCompatActivity {
         else {
             if (score > 2) {
                 zScore.setText(R.string.zscore_announcer);
-                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
             }
             else if (score >= 0 && score <= 2) {
                 zScore.setText(R.string.zscore_announcer);
-                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_normal));
             }
             else if (score == -1) {
                 zScore.setText(R.string.zscore_announcer);
-                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_mild_malnutrition));
             }
             else if (score == -2) {
                 zScore.setText(R.string.zscore_announcer);
-                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_moderate_malnutrition));
             }
             else if (score <= -3) {
                 zScore.setText(R.string.zscore_announcer);
-                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
             }
         }
