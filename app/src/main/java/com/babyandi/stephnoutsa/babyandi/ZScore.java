@@ -1,7 +1,9 @@
 package com.babyandi.stephnoutsa.babyandi;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Build;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +12,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Button;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -759,26 +763,140 @@ public class ZScore extends AppCompatActivity {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
+
+                // Add button to link to SevereMalnutrition activity in this case
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
+                Button linkButton = new Button(this);
+                linkButton.setText(getResources().getString(R.string.title_activity_severe_malnutrition));
+                //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
+                linkButton.setBackgroundResource(R.drawable.button_standard_border);
+                linkButton.setId(1);
+
+                RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                        RelativeLayout.LayoutParams.WRAP_CONTENT,
+                        RelativeLayout.LayoutParams.WRAP_CONTENT
+                );
+
+                buttonDetails.addRule(RelativeLayout.BELOW, zScore.getId());
+                buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+
+                relativeLayout.addView(linkButton, buttonDetails);
+
+                final Context context = this;
+
+                linkButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(context, SevereMalnutrition.class);
+                        startActivity(i);
+                    }
+                });
             }
             else if (score >= 0 && score <= 2) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_normal));
+
+                /**Look for a way to make any previous buttons disappear**/
             }
             else if (score == -1) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_mild_malnutrition));
+
+                // Add button to link to SevereMalnutrition activity in this case
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
+                Button linkButton = new Button(this);
+                linkButton.setText(getResources().getString(R.string.title_activity_mild_malnutrition));
+                //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
+                linkButton.setBackgroundResource(R.drawable.button_standard_border);
+                linkButton.setId(1);
+
+                RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                        RelativeLayout.LayoutParams.WRAP_CONTENT,
+                        RelativeLayout.LayoutParams.WRAP_CONTENT
+                );
+
+                buttonDetails.addRule(RelativeLayout.BELOW, zScore.getId());
+                buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+
+                relativeLayout.addView(linkButton, buttonDetails);
+
+                final Context context = this;
+
+                linkButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(context, MildMalnutrition.class);
+                        startActivity(i);
+                    }
+                });
             }
             else if (score == -2) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_moderate_malnutrition));
+
+                // Add button to link to SevereMalnutrition activity in this case
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
+                Button linkButton = new Button(this);
+                linkButton.setText(getResources().getString(R.string.title_activity_moderate_malnutrition));
+                //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
+                linkButton.setBackgroundResource(R.drawable.button_standard_border);
+                linkButton.setId(1);
+
+                RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                        RelativeLayout.LayoutParams.WRAP_CONTENT,
+                        RelativeLayout.LayoutParams.WRAP_CONTENT
+                );
+
+                buttonDetails.addRule(RelativeLayout.BELOW, zScore.getId());
+                buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+
+                relativeLayout.addView(linkButton, buttonDetails);
+
+                final Context context = this;
+
+                linkButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(context, ModerateMalnutrition.class);
+                        startActivity(i);
+                    }
+                });
             }
             else if (score <= -3) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
+
+                // Add button to link to SevereMalnutrition activity in this case
+                RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
+                Button linkButton = new Button(this);
+                linkButton.setText(getResources().getString(R.string.title_activity_severe_malnutrition));
+                //linkButton.setTextColor(getColor(R.color.colorTextSecondary));
+                linkButton.setBackgroundResource(R.drawable.button_standard_border);
+                linkButton.setId(1);
+
+                RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
+                        RelativeLayout.LayoutParams.WRAP_CONTENT,
+                        RelativeLayout.LayoutParams.WRAP_CONTENT
+                );
+
+                buttonDetails.addRule(RelativeLayout.BELOW, zScore.getId());
+                buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+
+                relativeLayout.addView(linkButton, buttonDetails);
+
+                final Context context = this;
+
+                linkButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(context, SevereMalnutrition.class);
+                        startActivity(i);
+                    }
+                });
             }
         }
     }

@@ -63,13 +63,16 @@
     </string>
     <string name="zscore_announcer">The z-score is</string>
     <string name="zscore_severe_malnutrition" formatted="false">
-        This implies that your child is severely malnourished.
+        This implies that your child is severely malnourished.\n
+        For more information, click the button below.\n
     </string>
     <string name="zscore_moderate_malnutrition" formatted="false">
-        This implies that your child is moderately malnourished.
+        This implies that your child is moderately malnourished.\n
+        For more information, click the button below.\n
     </string>
     <string name="zscore_mild_malnutrition" formatted="false">
-        This implies that your child is mildly malnourished.
+        This implies that your child is mildly malnourished.\n
+        For more information, click the button below.\n
     </string>
     <string name="zscore_normal" formatted="false">
         This implies that your child is not malnourished.
