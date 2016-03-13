@@ -62,8 +62,14 @@
         Sorry, we cannot calculate your z-score for the given height. Check the height again
     </string>
     <string name="zscore_announcer">The z-score is</string>
-    <string name="zscore_malnourished" formatted="false">
+    <string name="zscore_severe_malnutrition" formatted="false">
         This implies that your child is severely malnourished.
+    </string>
+    <string name="zscore_moderate_malnutrition" formatted="false">
+        This implies that your child is moderately malnourished.
+    </string>
+    <string name="zscore_mild_malnutrition" formatted="false">
+        This implies that your child is mildly malnourished.
     </string>
     <string name="zscore_normal" formatted="false">
         This implies that your child is not malnourished.

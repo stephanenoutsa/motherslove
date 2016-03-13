@@ -50,7 +50,7 @@ public class ZScore extends AppCompatActivity {
     public void calculateZScore(View view) {
         double h = Double.parseDouble(heightInput.getText().toString());
         double w = Double.parseDouble(weightInput.getText().toString());
-        double score;
+        int score;
         double meanWeight = 0;
         double standardDeviation = 0;
 
@@ -751,21 +751,36 @@ public class ZScore extends AppCompatActivity {
             standardDeviation = 3.050;
         }
 
-        score = (w - meanWeight) / standardDeviation;
+        score = (int) ((w - meanWeight) / standardDeviation);
 
         if (h < 50 || h >= 137.5){
             zScore.setText(R.string.zscore_out_of_bounds);
         }
         else {
-            if (score <= -1 && score >= -2) {
+            if (score > 2) {
+                zScore.setText(R.string.zscore_announcer);
+                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
+            }
+            else if (score >= 0 && score <= 2) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
                 zScore.append(getResources().getString(R.string.zscore_normal));
             }
-            else {
+            else if (score == -1) {
                 zScore.setText(R.string.zscore_announcer);
                 zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
-                zScore.append(getResources().getString(R.string.zscore_malnourished));
+                zScore.append(getResources().getString(R.string.zscore_mild_malnutrition));
+            }
+            else if (score == -2) {
+                zScore.setText(R.string.zscore_announcer);
+                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(getResources().getString(R.string.zscore_moderate_malnutrition));
+            }
+            else if (score <= -3) {
+                zScore.setText(R.string.zscore_announcer);
+                zScore.append(" " + new DecimalFormat("##.##").format(score) + "\n");
+                zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
             }
         }
     }
