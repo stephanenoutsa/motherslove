@@ -13,14 +13,63 @@
     tools:showIn="@layout/activity_expected_date_of_delivery"
     android:background="@drawable/image_anc">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/edd_text"
-        android:id="@+id/eDDText"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorTextPrimary"
-        android:gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/edd_text"
+                android:id="@+id/eDDText"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorTextPrimary"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eDDText"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/sn_select_text"
+                android:id="@+id/specialNeedsText"
+                android:textColor="@color/colorTextPrimary"
+                android:layout_marginTop="10dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/specialNeedsText"
+                android:text="@string/hiv_checkbox_text"
+                android:id="@+id/hiv"
+                android:textColor="@color/colorTextPrimary" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hiv"
+                android:text="@string/hepatitis_checkbox_text"
+                android:id="@+id/hepatitis"
+                android:textColor="@color/colorTextPrimary" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hepatitis"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/submitButton"
+                android:background="@drawable/button_standard_border"
+                android:text="@string/submit_button_text"
+                android:textColor="@color/colorTextSecondary"
+                android:onClick="onSubmitSN"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
 </RelativeLayout>
