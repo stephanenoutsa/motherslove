@@ -1015,4 +1015,12 @@
         \t\u2022 Reinforcement of previous advice.
     </string>
     <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
+    <string name="sn_select_text" formatted="false">
+        To help us better follow you up and prevent the transmission of certain diseases to your child,
+        please check any (or both) of the checkboxes below if you have the corresponding disease.\n
+        We can\'t access the information you provide, so it is strictly confidential.
+    </string>
+    <string name="hiv_checkbox_text">HIV positive?</string>
+    <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
+    <string name="submit_button_text">Submit</string>
 </resources>
