@@ -11,7 +11,10 @@ import android.support.v7.widget.Toolbar;
 //import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -22,8 +25,7 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
 
     TextView eDDText;
     MyDBHandler dbHandler;
-    SimpleDateFormat sdf;
-    String eddate;
+    String eddate, hiv, hepatitis;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +81,48 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         };
         Thread stephThread = new Thread(r);
         stephThread.start();
+    }
+
+    // Handle the button click
+    public void onSubmitSN(View view) {
+        CheckBox cHiv = (CheckBox) findViewById(R.id.hiv);
+        CheckBox cHepatitis = (CheckBox) findViewById(R.id.hepatitis);
+
+        // Check which checkbox was clicked
+        if (cHiv.isChecked()) {
+            hiv = "positive";
+        }
+        else {
+            hiv = "negative";
+        }
+
+        if (cHepatitis.isChecked()) {
+            hepatitis = "positive";
+        }
+        else {
+            hepatitis = "negative";
+        }
+
+        /*switch (view.getId()) {
+            case R.id.hiv:
+                if(cHiv.isChecked())
+                    hiv = "positive";
+                else
+                    hiv = "negative";
+                break;
+            case R.id.hepatitis:
+                if(cHepatitis.isChecked())
+                    hepatitis = "positive";
+                else
+                    hepatitis = "negative";
+                break;
+        }*/
+
+        // Add the user's choice(s) to the database
+        SpecialNeed specialNeed = new SpecialNeed(hiv, hepatitis);
+        dbHandler.addSN(specialNeed);
+
+        Toast.makeText(this, "HIV: " + hiv + "\nHepatitis: " + hepatitis, Toast.LENGTH_LONG).show();
     }
 
     ////////////Intents for menu items////////////
