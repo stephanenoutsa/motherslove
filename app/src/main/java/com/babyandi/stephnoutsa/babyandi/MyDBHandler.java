@@ -23,6 +23,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String TABLE_EDD = "edd";
     public static final String EDD_COLUMN_ID = "_eddid";
     public static final String EDD_COLUMN_DAY = "eddate";
+    public static final String TABLE_SPECIAL_NEEDS = "special_needs";
+    public static final String SN_COLUMN_ID = "_snid";
+    public static final String SN_COLUMN_HIV = "hiv";
+    public static final String SN_COLUMN_HEPATITIS = "hepatitis";
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
@@ -31,23 +35,29 @@ public class MyDBHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         //db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP);
-        String query1 = "CREATE TABLE " + TABLE_LMP + "(" +
+        String lmp = "CREATE TABLE " + TABLE_LMP + "(" +
                 LMP_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 LMP_COLUMN_DATE + " DATE " +
                 ")";
-        db.execSQL(query1);
+        db.execSQL(lmp);
 
-        String query2 = "CREATE TABLE " + TABLE_NOTIFICATIONS + "(" +
+        String notif = "CREATE TABLE " + TABLE_NOTIFICATIONS + "(" +
                 N_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 N_COLUMN_DAY + " TEXT " + ", " +
                 N_COLUMN_MESSAGE + " TEXT " +
                 ")";
-        db.execSQL(query2);
+        db.execSQL(notif);
 
-        String query3 = "CREATE TABLE " + TABLE_EDD + "(" +
+        String edd = "CREATE TABLE " + TABLE_EDD + "(" +
                 EDD_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 EDD_COLUMN_DAY + " TEXT" + ")";
-        db.execSQL(query3);
+        db.execSQL(edd);
+
+        String sn = "CREATE TABLE " + TABLE_SPECIAL_NEEDS + "(" +
+                SN_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                SN_COLUMN_HIV + "TEXT" + ", " +
+                SN_COLUMN_HEPATITIS + " TEXT" + ")";
+        db.execSQL(sn);
     }
 
     @Override
@@ -171,6 +181,50 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
         try {
             return c.getCount();
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Add Special Needs details to its table
+    public void addSN(SpecialNeed specialNeed) {
+        ContentValues values = new ContentValues();
+        values.put(SN_COLUMN_HIV, String.valueOf(specialNeed.getHiv()));
+        values.put(N_COLUMN_MESSAGE, String.valueOf(specialNeed.getHepatitis()));
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_SPECIAL_NEEDS, null, values);
+        db.close();
+    }
+
+    // Get the HIV status
+    public String getHivStatus() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_SPECIAL_NEEDS + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return null;
+        c.moveToLast();
+        String hiv = c.getString(c.getColumnIndex(SN_COLUMN_HIV));
+        try {
+            return hiv;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Get the hepatitis status
+    public String getHepatitisStatus() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_SPECIAL_NEEDS + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return null;
+        c.moveToLast();
+        String hepatitis = c.getString(c.getColumnIndex(SN_COLUMN_HEPATITIS));
+        try {
+            return hepatitis;
         } finally {
             c.close();
             db.close();
