@@ -794,7 +794,8 @@ public class ZScore extends AppCompatActivity {
                 zScore.append(" " + score + "\n");
                 zScore.append(getResources().getString(R.string.zscore_normal));
 
-                /**Look for a way to make any previous buttons disappear**/
+                // Remove any previous button from layout
+                relativeLayout.removeView(linkButton);
             }
             else if (score == -1) {
                 zScore.setText(R.string.zscore_announcer);
