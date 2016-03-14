@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -57,7 +58,7 @@ public class ZScore extends AppCompatActivity {
         linkButton = new Button(this);
         linkButton.setBackgroundResource(R.drawable.button_standard_border);
         linkButton.setId(R.id.link_button);
-        linkButton.setTextColor(getResources().getColor(R.color.colorTextSecondary, getTheme()));
+        linkButton.setTextColor(ContextCompat.getColor(this, R.color.colorTextSecondary));
         buttonDetails.addRule(RelativeLayout.BELOW, zScore.getId());
         buttonDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
     }
