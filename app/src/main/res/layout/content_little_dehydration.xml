@@ -29,6 +29,26 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:textColor="@color/colorTextPrimary" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/littleDehydration"
+                android:layout_centerHorizontal="true"
+                android:text="@string/see_table_button_text"
+                android:id="@+id/seeTableButton"
+                android:background="@drawable/button_standard_border"
+                android:onClick="onClickSeeTable"
+                android:textColor="@color/colorTextSecondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seeTableButton"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/little_dehydration_text_continued"
+                android:id="@+id/littleDehydrationContinued"
+                android:textColor="@color/colorTextPrimary" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

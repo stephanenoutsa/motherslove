@@ -260,7 +260,12 @@
         health centre or pharmacy. ORS can also be made at home.\n\n
         <b>How to prepare ORS at home: </b>In 1 litre of clean water, add 8 cubes of sugar + 1 teaspoon
         of salt + 1 lemon (squeezed), then mix properly so that the sugar and salt dissolve.\n\n
-        <b><i>**Missing table**</i></b>\n\n
+        <b><i>Click on the button below to see what quantity of ORS to give to the child.\n
+        You should give the ORS with respect to the weight of the child, and THE SOLUTION SHOULD BE GIVEN
+        OVER A 4 HOUR PERIOD</i></b>\n
+    </string>
+    <string name="see_table_button_text">See Table</string>
+    <string name="little_dehydration_text_continued" formatted="false">
         \u2022 If the child wants more ORS than is prescribed above, feel free to give more.\n
         \u2022 Give frequent sips from a cup. If the child vomits, wait 10 minutes then continue, but more
         slowly.\n
@@ -1041,4 +1046,6 @@
     <string name="hiv_checkbox_text">HIV positive?</string>
     <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
     <string name="submit_button_text">Submit</string>
+    <string name="title_activity_little">Little</string>
+    <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
 </resources>
