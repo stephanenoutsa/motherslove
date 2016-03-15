@@ -1048,4 +1048,31 @@
     <string name="submit_button_text">Submit</string>
     <string name="title_activity_little">Little</string>
     <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
+    <string name="age_cell_text"><b>AGE</b></string>
+    <string name="age1_text"><b>&lt;4 months</b></string>
+    <string name="age2_text"><b>4 - 12 months</b></string>
+    <string name="age3_text"><b>1 - 2 years</b></string>
+    <string name="age4_text"><b>2 - 5 years</b></string>
+    <string name="weight_cell_text"><b>WEIGHT</b></string>
+    <string name="weight1_text"><b>&lt;6 kg</b></string>
+    <string name="weight2_text"><b>6 - &lt;10 kg</b></string>
+    <string name="weight3_text"><b>10 - &lt;12 kg</b></string>
+    <string name="weight4_text"><b>12 - 19 kg</b></string>
+    <string name="amount_cell_text"><b>AMOUNT OF ORS TO GIVE</b></string>
+    <string name="amount1_text" formatted="false">
+        <b>200 - 400 ml</b>\n
+        e.g. one smallest-sized plastic brasseries bottle (350ml)
+    </string>
+    <string name="amount2_text" formatted="false">
+        <b>400 - 700 ml</b>\n
+        e.g. two smallest-sized plastic brasseries bottles (2 x 350ml)
+    </string>
+    <string name="amount3_text" formatted="false">
+        <b>700 - 900 ml</b>\n
+        e.g. 3/4 of a brasseries 1 litre plastic bottle (750ml)
+    </string>
+    <string name="amount4_text" formatted="false">
+        <b>900 - 1400 ml</b>\n
+        e.g. a brasseries 1 litre plastic bottle
+    </string>
 </resources>
