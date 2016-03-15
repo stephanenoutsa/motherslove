@@ -652,6 +652,12 @@
     <string name="notification_1_text">
         You are in the first trimester of pregnancy. Next week you need to go for your Antenatal Clinic.
     </string>
+    <string name="notification_1_text_hepatitis">
+        Remember to follow our guidelines to prevent mother to child transmission of hepatitis.
+    </string>
+    <string name="notification_1_text_hiv">
+        Remember to follow our guidelines to prevent mother to child transmission of HIV.
+    </string>
     <string name="title_activity_preparing_for_labour">Preparing For Labour</string>
     <string name="preparing_for_labour_text" formatted="false">
         Every pregnant woman should have the following things ready by the seventh month (28th week)
