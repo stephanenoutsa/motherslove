@@ -349,6 +349,7 @@
         <activity
             android:name=".ScheduleForPregnantWomen"
             android:label="@string/title_activity_schedule_for_pregnant_women"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HomeScreen"
