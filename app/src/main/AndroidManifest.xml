@@ -273,6 +273,7 @@
         <activity
             android:name=".BeforeBirthANC"
             android:label="@string/title_activity_before_birth_anc"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BeforeBirth"
