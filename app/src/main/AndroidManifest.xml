@@ -396,7 +396,12 @@
         <receiver
             android:name=".MyBroadcastReceiver"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true" />
+
+        <activity
+            android:name=".LittleDehydrationTable"
+            android:label="@string/title_activity_little_dehydration_table"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
