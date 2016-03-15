@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.FourthAncVisit"
     tools:showIn="@layout/activity_fourth_anc_visit"
-    android:background="@drawable/image_anc">
+    android:background="@drawable/imageANC">
 
     <ScrollView
         android:layout_width="match_parent"
