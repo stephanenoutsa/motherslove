@@ -110,6 +110,12 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
 
     // Handle the button click
     public void onSubmitSN(View view) {
+        // Handle scenario where user does not click any checkbox
+        if(hiv == null)
+            hiv = "negative";
+        if(hepatitis == null)
+            hepatitis = "negative";
+
         // Add the user's choice(s) to the database
         SpecialNeed specialNeed = new SpecialNeed(hiv, hepatitis);
         dbHandler.addSN(specialNeed);
