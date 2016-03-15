@@ -401,7 +401,8 @@
         <activity
             android:name=".LittleDehydrationTable"
             android:label="@string/title_activity_little_dehydration_table"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
