@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.HIVApproach"
     tools:showIn="@layout/activity_hivapproach"
-    android:background="@drawable/imageSpecialNeeds">
+    android:background="@drawable/special_needs_image">
 
     <Button
         android:layout_width="@dimen/button_standard_width"

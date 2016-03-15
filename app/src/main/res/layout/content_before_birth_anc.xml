@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.BeforeBirthANC"
     tools:showIn="@layout/activity_before_birth_anc"
-    android:background="@drawable/imageANC">
+    android:background="@drawable/anc_image">
 
     <Button
         android:layout_width="wrap_content"

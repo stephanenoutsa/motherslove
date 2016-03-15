@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.HEAfterDelivery"
     tools:showIn="@layout/activity_heafter_delivery"
-    android:background="@drawable/imageANC">
+    android:background="@drawable/anc_image">
 
     <ScrollView
         android:layout_width="match_parent"
