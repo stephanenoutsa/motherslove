@@ -26,6 +26,8 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
     TextView eDDText;
     MyDBHandler dbHandler;
     String eddate, hiv, hepatitis;
+    CheckBox cHiv;
+    CheckBox cHepatitis;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +51,9 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
 
         dbHandler = new MyDBHandler(this, null, null, 1);
         eDDText = (TextView) findViewById(R.id.eDDText);
+
+        cHiv = (CheckBox) findViewById(R.id.hiv);
+        cHepatitis = (CheckBox) findViewById(R.id.hepatitis);
 
         final Handler handler = new Handler() {
             @Override
@@ -83,41 +88,28 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         stephThread.start();
     }
 
-    // Handle the button click
-    public void onSubmitSN(View view) {
-        CheckBox cHiv = (CheckBox) findViewById(R.id.hiv);
-        CheckBox cHepatitis = (CheckBox) findViewById(R.id.hepatitis);
-
-        // Check which checkbox was clicked
+    // When hiv checkbox is clicked
+    public void hivClicked(View view) {
         if (cHiv.isChecked()) {
             hiv = "positive";
         }
         else {
             hiv = "negative";
         }
+    }
 
+    // When hepatitis checkbox is clicked
+    public void hepatitisClicked(View view) {
         if (cHepatitis.isChecked()) {
             hepatitis = "positive";
         }
         else {
             hepatitis = "negative";
         }
+    }
 
-        /*switch (view.getId()) {
-            case R.id.hiv:
-                if(cHiv.isChecked())
-                    hiv = "positive";
-                else
-                    hiv = "negative";
-                break;
-            case R.id.hepatitis:
-                if(cHepatitis.isChecked())
-                    hepatitis = "positive";
-                else
-                    hepatitis = "negative";
-                break;
-        }*/
-
+    // Handle the button click
+    public void onSubmitSN(View view) {
         // Add the user's choice(s) to the database
         SpecialNeed specialNeed = new SpecialNeed(hiv, hepatitis);
         dbHandler.addSN(specialNeed);

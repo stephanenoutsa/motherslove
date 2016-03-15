@@ -47,7 +47,8 @@
                 android:layout_below="@+id/specialNeedsText"
                 android:text="@string/hiv_checkbox_text"
                 android:id="@+id/hiv"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:onClick="hivClicked" />
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -55,7 +56,8 @@
                 android:layout_below="@+id/hiv"
                 android:text="@string/hepatitis_checkbox_text"
                 android:id="@+id/hepatitis"
-                android:textColor="@color/colorTextPrimary" />
+                android:textColor="@color/colorTextPrimary"
+                android:onClick="hepatitisClicked" />
 
             <Button
                 android:layout_width="wrap_content"
