@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.ModerateMalnutrition"
     tools:showIn="@layout/activity_moderate_malnutrition"
-    android:background="@drawable/image_malnutrition">
+    android:background="@drawable/imageMalnutrition">
 
     <ScrollView
         android:layout_width="match_parent"
