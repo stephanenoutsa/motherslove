@@ -64,8 +64,16 @@ public class Notifications extends AppCompatActivity {
                     i++;
                 }
 
+                // Reverse the order of the notifications (first to last and vice versa)
+                String notifs [] = new String[count];
+                int c = count - 1;
+                for(int x = 0; x < count; x++) {
+                    notifs[x] = notifications[c];
+                    c--;
+                }
+
                 // Get the notifications into an adapter's list
-                ListAdapter listAdapter = new CustomAdapter(context, notifications);
+                ListAdapter listAdapter = new CustomAdapter(context, notifs);
 
                 // Set the adapter to display the notifications
                 listView = (ListView) findViewById(R.id.notificationsList);
