@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.app.NotificationManager;
 
 import java.util.List;
 
@@ -41,6 +42,11 @@ public class Notifications extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        // Remove notification(s) from notification tray
+        String ns = Context.NOTIFICATION_SERVICE;
+        NotificationManager nMgr = (NotificationManager) getApplicationContext().getSystemService(ns);
+        nMgr.cancelAll();
 
         final Handler handler = new Handler() {
             @Override
