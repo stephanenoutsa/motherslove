@@ -173,6 +173,23 @@ public class MyDBHandler extends SQLiteOpenHelper {
         return  notificationList;
     }
 
+    // Get last notification date
+    public String getLastNotifDay() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_NOTIFICATIONS + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return null;
+        c.moveToLast();
+        String ndate = c.getString(c.getColumnIndex(N_COLUMN_DAY));
+        try {
+            return ndate;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
     // Get notifications count
     public int getNotificationsCount() {
         String query = "SELECT * FROM " + TABLE_NOTIFICATIONS + ";";
