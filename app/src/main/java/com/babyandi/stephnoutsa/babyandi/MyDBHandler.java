@@ -55,7 +55,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
         String sn = "CREATE TABLE " + TABLE_SPECIAL_NEEDS + "(" +
                 SN_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
-                SN_COLUMN_HIV + "TEXT" + ", " +
+                SN_COLUMN_HIV + " TEXT" + ", " +
                 SN_COLUMN_HEPATITIS + " TEXT" + ")";
         db.execSQL(sn);
     }
@@ -208,7 +208,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void addSN(SpecialNeed specialNeed) {
         ContentValues values = new ContentValues();
         values.put(SN_COLUMN_HIV, String.valueOf(specialNeed.getHiv()));
-        values.put(N_COLUMN_MESSAGE, String.valueOf(specialNeed.getHepatitis()));
+        values.put(SN_COLUMN_HEPATITIS, String.valueOf(specialNeed.getHepatitis()));
         SQLiteDatabase db = getWritableDatabase();
         db.insert(TABLE_SPECIAL_NEEDS, null, values);
         db.close();
