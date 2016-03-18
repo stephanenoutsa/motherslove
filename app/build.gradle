@@ -12,6 +12,7 @@ android {
         versionName "2.0.5"
     }
     lintOptions {
+        checkReleaseBuilds false
         abortOnError false
     }
     buildTypes {
