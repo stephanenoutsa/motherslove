@@ -25,6 +25,230 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/headingsRow">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/column1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_text"
+                                android:id="@+id/contact"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_1_text"
+                                android:id="@+id/contact1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_2_text"
+                                android:id="@+id/contact2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_3_text"
+                                android:id="@+id/contact3"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_4_text"
+                                android:id="@+id/contact4"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_5_text"
+                                android:id="@+id/contact5"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/contact_6_text"
+                                android:id="@+id/contact6"
+                                android:textColor="@color/colorTextPrimary" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/column2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_text"
+                                android:id="@+id/vaccines"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_1_1_text"
+                                android:id="@+id/vaccines1_1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_1_2_text"
+                                android:id="@+id/vaccines1_2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_2_1_text"
+                                android:id="@+id/vaccines2_1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_2_2_text"
+                                android:id="@+id/vaccines2_2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_2_3_text"
+                                android:id="@+id/vaccines2_3"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_2_4_text"
+                                android:id="@+id/vaccines2_4"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_3_1_text"
+                                android:id="@+id/vaccines3_1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_3_2_text"
+                                android:id="@+id/vaccines3_2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_3_3_text"
+                                android:id="@+id/vaccines3_3"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_3_4_text"
+                                android:id="@+id/vaccines3_4"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_4_1_text"
+                                android:id="@+id/vaccines4_1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_4_2_text"
+                                android:id="@+id/vaccines4_2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_4_3_text"
+                                android:id="@+id/vaccines4_3"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_5_1_text"
+                                android:id="@+id/vaccines5_1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_5_2_text"
+                                android:id="@+id/vaccines5_2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_5_3_text"
+                                android:id="@+id/vaccines5_3"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/vaccines_6_text"
+                                android:id="@+id/vaccines6"
+                                android:textColor="@color/colorTextPrimary" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
             </RelativeLayout>
         </HorizontalScrollView>
 
