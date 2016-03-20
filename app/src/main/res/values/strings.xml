@@ -907,6 +907,7 @@
     <string name="duration3_text">5 years</string>
     <string name="duration4_text">10 years</string>
     <string name="duration5_text">Entire child bearing age range</string>
+    <string name="ttv_text"><b>NB:</b> \"TTV\" stands for \"Tetanus Toxoid Vaccine\".</string>
     <string name="title_activity_home_screen">Mother\'s Love</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_zscore">Z-Score</string>
