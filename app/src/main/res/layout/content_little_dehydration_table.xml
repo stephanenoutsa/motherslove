@@ -56,17 +56,34 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/weight_cell_text"
-                                android:id="@+id/weight"
+                                android:text="@string/age1_text"
+                                android:id="@+id/ag1"
                                 android:textColor="@color/colorTextPrimary" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/amount_cell_text"
-                                android:id="@+id/amount"
+                                android:text="@string/age2_text"
+                                android:id="@+id/age2"
                                 android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/age3_text"
+                                android:id="@+id/age3"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/age4_text"
+                                android:id="@+id/age4"
+                                android:textColor="@color/colorTextPrimary" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -81,8 +98,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/age1_text"
-                                android:id="@+id/ag1"
+                                android:text="@string/weight_cell_text"
+                                android:id="@+id/weight"
                                 android:textColor="@color/colorTextPrimary" />
 
                             <TextView
@@ -97,58 +114,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/amount1_text"
-                                android:id="@+id/amount1"
-                                android:textColor="@color/colorTextPrimary" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:id="@+id/column3"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginEnd="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/age2_text"
-                                android:id="@+id/age2"
-                                android:textColor="@color/colorTextPrimary" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
                                 android:text="@string/weight2_text"
                                 android:id="@+id/weight2"
-                                android:textColor="@color/colorTextPrimary" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/amount2_text"
-                                android:id="@+id/amount2"
-                                android:textColor="@color/colorTextPrimary" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:id="@+id/column4"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginEnd="10dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/age3_text"
-                                android:id="@+id/age3"
                                 android:textColor="@color/colorTextPrimary" />
 
                             <TextView
@@ -163,9 +130,69 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/weight4_text"
+                                android:id="@+id/weight4"
+                                android:textColor="@color/colorTextPrimary" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/column3"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginEnd="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/amount_cell_text"
+                                android:id="@+id/amount"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/amount1_text"
+                                android:id="@+id/amount1"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/amount2_text"
+                                android:id="@+id/amount2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
                                 android:text="@string/amount3_text"
                                 android:id="@+id/amount3"
                                 android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/amount4_text"
+                                android:id="@+id/amount4"
+                                android:textColor="@color/colorTextPrimary" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/column4"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginEnd="10dp">
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -176,29 +203,6 @@
                             android:layout_marginRight="10dp"
                             android:layout_marginEnd="10dp">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/age4_text"
-                                android:id="@+id/age4"
-                                android:textColor="@color/colorTextPrimary" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/weight4_text"
-                                android:id="@+id/weight4"
-                                android:textColor="@color/colorTextPrimary" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceLarge"
-                                android:text="@string/amount4_text"
-                                android:id="@+id/amount4"
-                                android:textColor="@color/colorTextPrimary" />
                         </LinearLayout>
                     </TableRow>
                 </TableLayout>
