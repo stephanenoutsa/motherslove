@@ -27,11 +27,6 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true" />
-
         <receiver
             android:name=".BootReceiver"
             android:enabled="false">
@@ -346,6 +341,7 @@
         <activity
             android:name=".ScheduleForInfants"
             android:label="@string/title_activity_schedule_for_infants"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ScheduleForPregnantWomen"
