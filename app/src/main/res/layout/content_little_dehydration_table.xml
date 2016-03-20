@@ -185,25 +185,6 @@
                                 android:textColor="@color/colorTextPrimary" />
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:id="@+id/column4"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginEnd="10dp">
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:id="@+id/column5"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginEnd="10dp">
-
-                        </LinearLayout>
                     </TableRow>
                 </TableLayout>
             </RelativeLayout>
