@@ -401,6 +401,11 @@
             android:label="@string/title_activity_little_dehydration_table"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".InstantNotifReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
     </application>
 
 </manifest>
