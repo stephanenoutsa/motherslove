@@ -637,6 +637,17 @@
         When was your last menstrual period (LMP)?
     </string>
     <string name="submit_date">Submit Date</string>
+    <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
+    <string name="first_notification_1" formatted="false">
+        Your expected date of delivery saved in the database is:\n
+    </string>
+    <string name="first_notification_2" formatted="false">
+        You will be receiving notifications based on this date to guide you throughout the remaining
+        phases of your pregnancy.\n
+        You should not forget to reinsert the LMP you just chose if you ever happen to change it along
+        the line so that we can continue guiding you.\n
+        Best regards from the Mother\'s Love team!
+    </string>
     <string name="edd_text" formatted="false">
         Your expected date of delivery (EDD) should be displayed here.
     </string>
@@ -871,7 +882,7 @@
     <string name="contact_5_text"><b>9 Months After\n Birth</b>\n\n</string>
     <string name="contact_6_text"><b>12 - 59 Months</b></string>
     <string name="vaccines_text"><b>VACCINES (ADMINISTRATION SITE)</b>\n</string>
-    <string name="vaccines_1_1_text">BCG (Upper 1/3 of the front face of the left forearm)</string>
+    <string name="vaccines_1_1_text">BCG (Upper &#8531; of the front face of the left forearm)</string>
     <string name="vaccines_1_2_text">OPV0 (In the mouth)\n</string>
     <string name="vaccines_2_1_text">OPV1 (In the mouth)</string>
     <string name="vaccines_2_2_text">DTC1-HEP B1-Hib1 (Left buttock)</string>

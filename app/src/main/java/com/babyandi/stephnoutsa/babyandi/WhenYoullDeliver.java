@@ -2,17 +2,20 @@ package com.babyandi.stephnoutsa.babyandi;
 
 
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.CalendarView;
+import android.widget.DatePicker;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -23,9 +26,9 @@ public class WhenYoullDeliver extends AppCompatActivity {
 
     MyDBHandler dbHandler;
     AlarmStart alarmStart = new AlarmStart();
-    String dbDate;
     int yr, mth, day;
     public GregorianCalendar selectedDate = new GregorianCalendar();
+    Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,30 +52,35 @@ public class WhenYoullDeliver extends AppCompatActivity {
 
         dbHandler = new MyDBHandler(this, null, null, 1);
 
-        CalendarView date = (CalendarView) findViewById(R.id.calendarView);
+        DatePicker date = (DatePicker) findViewById(R.id.datePicker);
 
         // Set maximum date to be displayed
-        long max = date.getDate();
+        GregorianCalendar currentDate = new GregorianCalendar();
+        long max = currentDate.getTimeInMillis();
         date.setMaxDate(max);
 
         // Set minimum date to be displayed
-        GregorianCalendar currentDate = new GregorianCalendar();
-        currentDate.add(Calendar.MONTH, -9);
-        currentDate.add(Calendar.DAY_OF_MONTH, -7);
-        long min = currentDate.getTimeInMillis();
+        GregorianCalendar minDate = new GregorianCalendar();
+        minDate.add(Calendar.MONTH, -9);
+        minDate.add(Calendar.DAY_OF_MONTH, -7);
+        long min = minDate.getTimeInMillis();
         date.setMinDate(min);
 
-        date.setOnDateChangeListener( new CalendarView.OnDateChangeListener() {
-            public GregorianCalendar calendar;
+        int year = currentDate.get(Calendar.YEAR);
+        int month = currentDate.get(Calendar.MONTH);
+        int today = currentDate.get(Calendar.DAY_OF_MONTH);
 
-            public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
-                this.calendar = new GregorianCalendar(year, month, dayOfMonth);
+        date.init(year, month, today, new DatePicker.OnDateChangedListener() {
+            public GregorianCalendar calendar;
+            @Override
+            public void onDateChanged(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                this.calendar = new GregorianCalendar(year, monthOfYear, dayOfMonth);
                 yr = calendar.get(Calendar.YEAR);
-                mth = calendar.get(Calendar.MONTH);
+                mth = calendar.get(Calendar.MONTH) + 1;
                 day = calendar.get(Calendar.DAY_OF_MONTH);
                 selectedDate = new GregorianCalendar(yr, mth, day);
                 //Put a toast on the screen for testing purposes
-                //Toast.makeText(getApplicationContext(), calendar + "/" + mth + "/" + year, Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), day + "/" + mth + "/" + yr, Toast.LENGTH_LONG).show();
             }
         });
 
@@ -80,34 +88,51 @@ public class WhenYoullDeliver extends AppCompatActivity {
 
     // Function to retrieve selected date
     public void onClickSubmitDate(View view) {
-        DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
-        String date = sdf.format(selectedDate.getTime());
-        LMP lmp = new LMP(date);
-        dbHandler.addLMP(lmp);
+        final Handler handler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
+                String date = sdf.format(selectedDate.getTime());
+                LMP lmp = new LMP(date);
+                dbHandler.addLMP(lmp);
 
-        // Calculate the EDD
-        selectedDate.add(Calendar.MONTH, -3);
-        selectedDate.add(Calendar.YEAR, 1);
-        selectedDate.add(Calendar.DAY_OF_MONTH, 7);
+                // Calculate the EDD
+                selectedDate.add(Calendar.MONTH, -3);
+                selectedDate.add(Calendar.YEAR, 1);
+                selectedDate.add(Calendar.DAY_OF_MONTH, 7);
 
-        // Save the EDD to the database
-        String eddate = sdf.format(selectedDate.getTime());
-        EDD edd = new EDD(eddate);
-        dbHandler.addEDD(edd);
+                // Save the EDD to the database
+                String eddate = sdf.format(selectedDate.getTime());
+                EDD edd = new EDD(eddate);
+                dbHandler.addEDD(edd);
 
-        // Start alarm
-        alarmStart.startAlarm(this);
+                // Fire first notification
+                alarmStart.instantNotif(context);
 
-        // Enable receiver when device boots
-        ComponentName receiver = new ComponentName(this, BootReceiver.class);
-        PackageManager pm = this.getPackageManager();
+                // Start alarm
+                alarmStart.startAlarm(context);
 
-        pm.setComponentEnabledSetting(receiver,
-                PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
-                PackageManager.DONT_KILL_APP);
+                // Enable receiver when device boots
+                ComponentName receiver = new ComponentName(context, BootReceiver.class);
+                PackageManager pm = context.getPackageManager();
 
-        Intent i = new Intent(this, ExpectedDateOfDelivery.class);
-        startActivity(i);
+                pm.setComponentEnabledSetting(receiver,
+                        PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                        PackageManager.DONT_KILL_APP);
+
+                Intent intent = new Intent(context, ExpectedDateOfDelivery.class);
+                startActivity(intent);
+            }
+        };
+
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                handler.sendEmptyMessage(0);
+            }
+        };
+        Thread thread = new Thread(r);
+        thread.start();
     }
 
     ////////////Intents for menu items////////////
