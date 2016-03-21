@@ -11,6 +11,13 @@ android {
         versionCode 1
         versionName "2.0.5"
     }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
     lintOptions {
         checkReleaseBuilds false
         abortOnError false
