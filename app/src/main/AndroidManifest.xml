@@ -299,6 +299,7 @@
         <activity
             android:name=".WhenYoullDeliver"
             android:label="@string/title_activity_when_youll_deliver"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PreparingForLabour"
