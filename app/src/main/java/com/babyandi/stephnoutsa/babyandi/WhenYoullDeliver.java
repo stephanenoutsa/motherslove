@@ -76,7 +76,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
             public void onDateChanged(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
                 this.calendar = new GregorianCalendar(year, monthOfYear, dayOfMonth);
                 yr = calendar.get(Calendar.YEAR);
-                mth = calendar.get(Calendar.MONTH) + 1;
+                mth = calendar.get(Calendar.MONTH);
                 day = calendar.get(Calendar.DAY_OF_MONTH);
                 selectedDate = new GregorianCalendar(yr, mth, day);
                 //Put a toast on the screen for testing purposes
