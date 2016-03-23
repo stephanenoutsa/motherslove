@@ -3,12 +3,11 @@ package com.babyandi.stephnoutsa.babyandi;
 import android.content.Intent;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+//import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 public class About extends AppCompatActivity {
 
@@ -34,6 +33,11 @@ public class About extends AppCompatActivity {
     }
 
     ////////////Intents for menu items////////////
+    public void onClickHome() {
+        Intent i = new Intent(this, HomeScreen.class);
+        startActivity(i);
+    }
+
     public void onClickAnc() {
         Intent i = new Intent(this, ANC.class);
         startActivity(i);
@@ -81,6 +85,10 @@ public class About extends AppCompatActivity {
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
+        }
+        if (id == R.id.go_to_home) {
+            onClickHome();
+            return true;
         }
         if (id == R.id.go_to_anc) {
             onClickAnc();

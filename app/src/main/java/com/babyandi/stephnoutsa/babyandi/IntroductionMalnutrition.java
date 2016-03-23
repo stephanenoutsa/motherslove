@@ -5,12 +5,9 @@ import android.os.Bundle;
 //import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.content.Intent;
-import android.widget.TextView;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -35,12 +32,14 @@ public class IntroductionMalnutrition extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        TextView malnutritionIntro = (TextView) findViewById(R.id.malnutrititonIntro);
-        malnutritionIntro.setMovementMethod(new ScrollingMovementMethod());
     }
 
     ////////////Intents for menu items////////////
+    public void onClickHome() {
+        Intent i = new Intent(this, HomeScreen.class);
+        startActivity(i);
+    }
+
     public void onClickAnc() {
         Intent i = new Intent(this, ANC.class);
         startActivity(i);
@@ -65,7 +64,7 @@ public class IntroductionMalnutrition extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activities, menu);
+        getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
 
@@ -88,6 +87,10 @@ public class IntroductionMalnutrition extends AppCompatActivity {
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
+        }
+        if (id == R.id.go_to_home) {
+            onClickHome();
+            return true;
         }
         if (id == R.id.go_to_anc) {
             onClickAnc();

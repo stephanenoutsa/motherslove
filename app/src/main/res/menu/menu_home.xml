@@ -14,31 +14,38 @@
         app:showAsAction="always"/>
     <item
         android:id="@+id/about"
-        android:orderInCategory="5"
+        android:orderInCategory="6"
         android:title="@string/menu_about"
         android:icon="@drawable/about"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/go_to_home"
+        android:orderInCategory="1"
+        android:title="@string/menu_home"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/go_to_anc"
-        android:orderInCategory="1"
+        android:orderInCategory="2"
         android:title="@string/menu_anc"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/go_to_malnutrition"
-        android:orderInCategory="2"
+        android:orderInCategory="3"
         android:title="@string/menu_malnutrition"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/go_to_diarrhoea"
-        android:orderInCategory="3"
+        android:orderInCategory="4"
         android:title="@string/menu_diarrhoea"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/go_to_special_needs"
-        android:orderInCategory="4"
+        android:orderInCategory="5"
         android:title="@string/menu_special_needs"
         app:showAsAction="never" />
 </menu>

@@ -44,6 +44,11 @@ public class BeforeBirthANC extends AppCompatActivity {
     }
 
     ////////////Intents for menu items////////////
+    public void onClickHome() {
+        Intent i = new Intent(this, HomeScreen.class);
+        startActivity(i);
+    }
+
     public void onClickAnc() {
         Intent i = new Intent(this, ANC.class);
         startActivity(i);
@@ -68,7 +73,7 @@ public class BeforeBirthANC extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activities, menu);
+        getMenuInflater().inflate(R.menu.menu_home, menu);
         return true;
     }
 
@@ -91,6 +96,10 @@ public class BeforeBirthANC extends AppCompatActivity {
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
+        }
+        if (id == R.id.go_to_home) {
+            onClickHome();
+            return true;
         }
         if (id == R.id.go_to_anc) {
             onClickAnc();

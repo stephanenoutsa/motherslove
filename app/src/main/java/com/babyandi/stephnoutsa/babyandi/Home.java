@@ -7,12 +7,10 @@ import android.os.Message;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
 import android.os.Handler;
-import android.widget.ImageButton;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -55,6 +53,11 @@ public class Home extends AppCompatActivity {
     }
 
     ////////////Intents for menu items////////////
+    public void onClickHome() {
+        Intent i = new Intent(this, HomeScreen.class);
+        startActivity(i);
+    }
+
     public void onClickAnc() {
         Intent i = new Intent(this, ANC.class);
         startActivity(i);
@@ -102,6 +105,10 @@ public class Home extends AppCompatActivity {
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
+        }
+        if (id == R.id.go_to_home) {
+            onClickHome();
+            return true;
         }
         if (id == R.id.go_to_anc) {
             onClickAnc();
