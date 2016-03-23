@@ -58,8 +58,8 @@ public class InstantNotifReceiver extends BroadcastReceiver {
                 // Add the notification to the database
                 DateFormat f = new SimpleDateFormat("MMM d, yyyy");
                 String nday = f.format(new Date().getTime());
-                String nmessage = cont.getString(R.string.notification_1_text_hiv);
-                notif = new Notification(nday, nmessage);
+                notif = new Notification(nday, notifText);
+                dbHandler.addNotification(notif);
             }
         };
 

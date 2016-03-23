@@ -113,6 +113,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notification_1_text_hiv);
                             notif = new Notification(nday, nmessage);
+                            dbHandler.addNotification(notif);
                         }
 
                         // Add the notification to the database
@@ -181,6 +182,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notification_1_text_hiv);
                             notif = new Notification(nday, nmessage);
+                            dbHandler.addNotification(notif);
                         }
 
                         // Add the notification to the database
@@ -249,6 +251,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notification_1_text_hiv);
                             notif = new Notification(nday, nmessage);
+                            dbHandler.addNotification(notif);
                         }
 
                         // Add the notification to the database
