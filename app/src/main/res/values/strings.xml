@@ -50,8 +50,10 @@
         <b>Z-Score (Standard Deviation Score)</b>\n
         \t\u2022 Calculated using the child\'s most recent weight and height, with the height measured using
         a tape.\n
-        \t\u2022 A Z-Score between -1 and -2 indicates that your child is not malnourished.\n
-        \t\u2022 A Z-Score of less than -3 (i.e. -3 and -4) indicates severe malnutrition.\n\n
+        \t\u2022 A Z-Score greater than +2 indicates severe malnutrition (overweight).\n
+        \t\u2022 A Z-Score between -2 and +2 indicates that your child is not malnourished.\n
+        \t\u2022 A Z-Score between -3 and -2 indicates moderate malnutrition (undernutrition).\n
+        \t\u2022 A Z-Score of less than -3 indicates severe malnutrition (severe undernutrition).\n\n
         You could determine if your child is malnourished by clicking the button below.\n
     </string>
     <string name="zscore_button_text">Calculate Z-Score</string>
@@ -356,7 +358,7 @@
         Two days after starting the treatment at the hospital or health centre, check for signs of
         improvement such as:\n
         \t\u2022 No fever\n
-        \t\u2022 Fewer stools with less blood\n
+        \t\u2022 Fewer loose stools with less blood\n
         \t\u2022 Improved appetite\n\n
         If there is no improvement, return to the hospital.\n\n
         Treat for dehydration depending on the level of dehydration.\n\n
@@ -453,7 +455,7 @@
         deliver vaginally, as being HIV positive does not prevent this. However, caesarean delivery
         will be the safest and fastest mode of delivery for you.\n\n
         The decision on the route of delivery will be made based on the situations surrounding delivery,
-        your doctor’s opinion and your consent.
+        your doctor\’s opinion and your consent.
     </string>
     <string name="title_activity_hivstep4">Step 4</string>
     <string name="hiv_step_4" formatted="false">
@@ -523,8 +525,8 @@
     <string name="title_activity_hepatitis_step3">Step 3</string>
     <string name="hepatitis_step_3" formatted="false">
         \u2022 When you get into labour, inform the doctor or midwife of your hepatitis B status so that the
-        necessary precautions can be taken to ensure your baby’s safety.\n\n
-        \u2022 You can deliver vaginally, given that being hepatitis B positive doesn’t prevent you from doing so.
+        necessary precautions can be taken to ensure your baby\’s safety.\n\n
+        \u2022 You can deliver vaginally, given that being hepatitis B positive doesn\’t prevent you from doing so.
     </string>
     <string name="title_activity_hepatitis_step4">Step 4</string>
     <string name="hepatitis_step_4" formatted="false">

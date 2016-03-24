@@ -795,7 +795,7 @@ public class ZScore extends AppCompatActivity {
                             }
                         });
                     }
-                    else if (score >= 0 && score <= 2) {
+                    else if (score >= -2 && score <= 2) {
                         zScore.setText(R.string.zscore_announcer);
                         zScore.append(" " + score + "\n");
                         zScore.append(getResources().getString(R.string.zscore_normal));
@@ -803,28 +803,12 @@ public class ZScore extends AppCompatActivity {
                         // Remove any previous button from layout
                         relativeLayout.removeView(linkButton);
                     }
-                    else if (score == -1) {
-                        zScore.setText(R.string.zscore_announcer);
-                        zScore.append(" " + score + "\n");
-                        zScore.append(getResources().getString(R.string.zscore_mild_malnutrition));
-
-                        // Add button to link to MildMalnutrition activity in this case
-                        linkButton.setText(getResources().getString(R.string.title_activity_mild_malnutrition));
-                        relativeLayout.addView(linkButton, buttonDetails);
-                        linkButton.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                Intent i = new Intent(context, MildMalnutrition.class);
-                                startActivity(i);
-                            }
-                        });
-                    }
-                    else if (score == -2) {
+                    else if (score >= -3 && score < -2) {
                         zScore.setText(R.string.zscore_announcer);
                         zScore.append(" " + score + "\n");
                         zScore.append(getResources().getString(R.string.zscore_moderate_malnutrition));
 
-                        // Add button to link to ModerateMalnutrition activity in this case
+                        // Add button to link to MildMalnutrition activity in this case
                         linkButton.setText(getResources().getString(R.string.title_activity_moderate_malnutrition));
                         relativeLayout.addView(linkButton, buttonDetails);
                         linkButton.setOnClickListener(new View.OnClickListener() {
@@ -835,7 +819,7 @@ public class ZScore extends AppCompatActivity {
                             }
                         });
                     }
-                    else if (score <= -3) {
+                    else if (score < -3) {
                         zScore.setText(R.string.zscore_announcer);
                         zScore.append(" " + score + "\n");
                         zScore.append(getResources().getString(R.string.zscore_severe_malnutrition));
