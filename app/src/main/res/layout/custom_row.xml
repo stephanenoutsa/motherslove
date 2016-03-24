@@ -9,5 +9,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
         android:id="@+id/notificationBody"
-        android:layout_margin="5dp" />
+        android:layout_margin="5dp"
+        android:textColor="@color/colorTextPrimary" />
 </LinearLayout>
