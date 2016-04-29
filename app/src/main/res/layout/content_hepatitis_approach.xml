@@ -13,63 +13,74 @@
     tools:showIn="@layout/activity_hepatitis_approach"
     android:background="@drawable/special_needs_image">
 
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_hepatitis_step1"
-        android:id="@+id/buttonHepatitisStep1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/button_standard_border"
-        android:onClick="onClickHepatitisStep1"
-        android:textColor="@color/colorTextSecondary" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
 
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_hepatitis_step2"
-        android:id="@+id/buttonHepatitisStep2"
-        android:layout_below="@+id/buttonHepatitisStep1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/colorTextSecondary"
-        android:onClick="onClickHepatitisStep2"
-        android:background="@drawable/button_standard_border" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_hepatitis_step3"
-        android:id="@+id/buttonHepatitisStep3"
-        android:layout_below="@+id/buttonHepatitisStep2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_standard_border"
-        android:onClick="onClickHepatitisStep3"
-        android:textColor="@color/colorTextSecondary" />
+            <Button
+                android:layout_width="@dimen/button_standard_width"
+                android:layout_height="@dimen/button_standard_height"
+                android:text="@string/title_activity_hepatitis_step1"
+                android:id="@+id/buttonHepatitisStep1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_standard_border"
+                android:onClick="onClickHepatitisStep1"
+                android:textColor="@color/colorTextSecondary" />
 
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_hepatitis_step4"
-        android:id="@+id/buttonHepatitisStep4"
-        android:layout_below="@+id/buttonHepatitisStep3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/colorTextSecondary"
-        android:onClick="onClickHepatitisStep4"
-        android:background="@drawable/button_standard_border" />
+            <Button
+                android:layout_width="@dimen/button_standard_width"
+                android:layout_height="@dimen/button_standard_height"
+                android:text="@string/title_activity_hepatitis_step2"
+                android:id="@+id/buttonHepatitisStep2"
+                android:layout_below="@+id/buttonHepatitisStep1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorTextSecondary"
+                android:onClick="onClickHepatitisStep2"
+                android:background="@drawable/button_standard_border" />
 
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_hepatitis_step5"
-        android:id="@+id/buttonHepatitisStep5"
-        android:layout_below="@+id/buttonHepatitisStep4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_standard_border"
-        android:onClick="onClickHepatitisStep5"
-        android:textColor="@color/colorTextSecondary" />
+            <Button
+                android:layout_width="@dimen/button_standard_width"
+                android:layout_height="@dimen/button_standard_height"
+                android:text="@string/title_activity_hepatitis_step3"
+                android:id="@+id/buttonHepatitisStep3"
+                android:layout_below="@+id/buttonHepatitisStep2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_standard_border"
+                android:onClick="onClickHepatitisStep3"
+                android:textColor="@color/colorTextSecondary" />
+
+            <Button
+                android:layout_width="@dimen/button_standard_width"
+                android:layout_height="@dimen/button_standard_height"
+                android:text="@string/title_activity_hepatitis_step4"
+                android:id="@+id/buttonHepatitisStep4"
+                android:layout_below="@+id/buttonHepatitisStep3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorTextSecondary"
+                android:onClick="onClickHepatitisStep4"
+                android:background="@drawable/button_standard_border" />
+
+            <Button
+                android:layout_width="@dimen/button_standard_width"
+                android:layout_height="@dimen/button_standard_height"
+                android:text="@string/title_activity_hepatitis_step5"
+                android:id="@+id/buttonHepatitisStep5"
+                android:layout_below="@+id/buttonHepatitisStep4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_standard_border"
+                android:onClick="onClickHepatitisStep5"
+                android:textColor="@color/colorTextSecondary" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
