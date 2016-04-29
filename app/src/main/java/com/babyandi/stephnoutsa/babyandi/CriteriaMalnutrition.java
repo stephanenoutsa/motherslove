@@ -36,8 +36,13 @@ public class CriteriaMalnutrition extends AppCompatActivity {
     }
 
     ////Intents to link to other activities////
-    public void toZScore(View view) {
-        Intent i = new Intent(this, ZScore.class);
+    public void onClickMuac(View view) {
+        Intent i = new Intent(this, MUAC.class);
+        startActivity(i);
+    }
+
+    public void onClickZscore(View view) {
+        Intent i = new Intent(this, Zscores.class);
         startActivity(i);
     }
     //////////////End of intents//////////////

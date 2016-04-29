@@ -36,25 +36,32 @@
         in the "SIGNS &amp; SYMPTOMS" section.
     </string>
     <string name="title_activity_criteria_malnutrition">Main Criteria</string>
+    <string name="muac_button_text">Mid Upper Arm Circumference</string>
+    <string name="or_button_text"><b>OR</b></string>
+    <string name="zscores_button_text">Z-Score (Standard Deviation Score)</string>
     <string name="muac_text" formatted="false">
         <b>Mid Upper Arm Circumference (MUAC)</b>\n
         MUAC is measured using a tailor\'s tape. The tape is placed midway between the elbow and the
         shoulder as shown below:\n
     </string>
     <string name="muac_image_description">MUAC</string>
-    <string name="zscore_text" formatted="false">
+    <string name="muac_text2" formatted="false">
         <b>Normal: </b>&gt;12.5cm\n
         <b>Moderate Malnutrition: </b>11.0 - 12.5cm\n
-        <b>Severe Malnutrition: </b>&lt;11.0cm\n\n
-        <b>OR</b>\n\n
+        <b>Severe Malnutrition: </b>&lt;11.0cm
+    </string>
+    <string name="zscore_text" formatted="false">
         <b>Z-Score (Standard Deviation Score)</b>\n
         \t\u2022 Calculated using the child\'s most recent weight and height, with the height measured using
         a tape.\n
+        You could determine if your child is malnourished by clicking the button below.\n
+    </string>
+
+    <string name="zscore_text2" formatted="false">
         \t\u2022 A Z-Score greater than +2 indicates severe malnutrition (overweight).\n
         \t\u2022 A Z-Score between -2 and +2 indicates that your child is not malnourished.\n
         \t\u2022 A Z-Score between -3 and -2 indicates moderate malnutrition (undernutrition).\n
-        \t\u2022 A Z-Score of less than -3 indicates severe malnutrition (severe undernutrition).\n\n
-        You could determine if your child is malnourished by clicking the button below.\n
+        \t\u2022 A Z-Score of less than -3 indicates severe malnutrition (severe undernutrition).
     </string>
     <string name="zscore_button_text">Calculate Z-Score</string>
     <string name="height_label_text">Enter height (in cm)</string>
@@ -1123,4 +1130,6 @@
         e.g. a brasseries 1 litre plastic\n
         bottle
     </string>
+    <string name="title_activity_muac">Mid Upper Arm Circumference</string>
+    <string name="title_activity_zscores">Z-Score</string>
 </resources>
