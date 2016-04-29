@@ -16,10 +16,22 @@
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
+        android:text="@string/title_activity_when_youll_deliver"
+        android:id="@+id/whenYoullDeliver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorTextSecondary"
+        android:onClick="onClickWhenYoullDeliver"
+        android:background="@drawable/button_standard_border" />
+
+    <Button
+        android:layout_width="@dimen/button_standard_width"
+        android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_before_birth"
         android:id="@+id/buttonBeforeBirth"
+        android:layout_below="@+id/whenYoullDeliver"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:textColor="@color/colorTextSecondary"
         android:onClick="onClickBeforeBirth"
         android:background="@drawable/button_standard_border" />

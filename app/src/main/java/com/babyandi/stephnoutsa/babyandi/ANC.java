@@ -38,6 +38,11 @@ public class ANC extends AppCompatActivity {
     }
 
     /////Intents to link to other activities//////
+    public void onClickWhenYoullDeliver(View view) {
+        Intent i = new Intent(this, WhenYoullDeliver.class);
+        startActivity(i);
+    }
+
     public void onClickBeforeBirth(View view) {
         Intent i = new Intent(this, BeforeBirth.class);
         startActivity(i);

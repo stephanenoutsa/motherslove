@@ -34,11 +34,6 @@ public class Labour extends AppCompatActivity {
     }
 
     /////Intents to link to other activities//////
-    public void onClickWhenYoullDeliver(View view) {
-        Intent i = new Intent(this, WhenYoullDeliver.class);
-        startActivity(i);
-    }
-
     public void onClickPreparingForLabour(View view) {
         Intent i = new Intent(this, PreparingForLabour.class);
         startActivity(i);

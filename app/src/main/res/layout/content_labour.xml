@@ -16,23 +16,11 @@
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_when_youll_deliver"
-        android:id="@+id/buttonWhenYoullDeliver"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:textColor="@color/colorTextSecondary"
-        android:onClick="onClickWhenYoullDeliver"
-        android:background="@drawable/button_standard_border" />
-
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_preparing_for_labour"
         android:id="@+id/buttonPreparingForLabour"
-        android:layout_below="@+id/buttonWhenYoullDeliver"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickPreparingForLabour"
         android:textColor="@color/colorTextSecondary" />
