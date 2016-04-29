@@ -15,7 +15,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -41,28 +42,83 @@
                 android:textColor="@color/colorTextPrimary"
                 android:layout_marginTop="10dp" />
 
-            <CheckBox
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/specialNeedsText"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/hiv_checkbox_text"
-                android:id="@+id/hiv"
-                android:textColor="@color/colorTextPrimary"
-                android:onClick="hivClicked" />
+                android:id="@+id/hivCheckboxText"
+                android:layout_below="@+id/specialNeedsText"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextPrimary" />
 
-            <CheckBox
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/hivCheckboxText"
+                android:layout_alignRight="@+id/hepatitisCheckboxText"
+                android:layout_alignEnd="@+id/hepatitisCheckboxText"
+                android:id="@+id/hivGroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sn_status_positive"
+                    android:id="@+id/hiv_yes"
+                    android:textColor="@color/colorTextPrimary"
+                    android:onClick="hivClicked" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sn_status_negative"
+                    android:id="@+id/hiv_no"
+                    android:textColor="@color/colorTextPrimary"
+                    android:onClick="hivClicked"/>
+
+            </RadioGroup>
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/hiv"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/hepatitis_checkbox_text"
-                android:id="@+id/hepatitis"
-                android:textColor="@color/colorTextPrimary"
-                android:onClick="hepatitisClicked" />
+                android:id="@+id/hepatitisCheckboxText"
+                android:layout_below="@+id/hivGroup"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextPrimary" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/hepatitisCheckboxText"
+                android:layout_alignRight="@+id/hepatitisCheckboxText"
+                android:layout_alignEnd="@+id/hepatitisCheckboxText"
+                android:id="@+id/hepatitisGroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sn_status_positive"
+                    android:id="@+id/hepatitis_yes"
+                    android:textColor="@color/colorTextPrimary"
+                    android:onClick="hepatitisClicked" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sn_status_negative"
+                    android:id="@+id/hepatitis_no"
+                    android:textColor="@color/colorTextPrimary"
+                    android:onClick="hepatitisClicked"/>
+            </RadioGroup>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/hepatitis"
+                android:layout_below="@+id/hepatitisGroup"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/submitButton"
                 android:background="@drawable/button_standard_border"
