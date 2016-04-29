@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.Home"
     tools:showIn="@layout/activity_home_screen"
-    android:background="@color/colorHome">
+    android:background="@drawable/image_standard">
 
     <!--<TextView
         android:layout_width="wrap_content"
