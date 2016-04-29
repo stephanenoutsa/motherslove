@@ -11,9 +11,10 @@ import java.util.List;
 
 public class MyDBHandler extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private static final String DATABASE_NAME = "lmp.db";
     public static final String TABLE_LMP = "lmp";
+    public static final String TABLE_RECEIVED = "received";
     public static final String LMP_COLUMN_ID = "_lmpid";
     public static final String LMP_COLUMN_DATE = "lmpdate";
     public static final  String TABLE_NOTIFICATIONS = "notifications";
@@ -27,6 +28,8 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String SN_COLUMN_ID = "_snid";
     public static final String SN_COLUMN_HIV = "hiv";
     public static final String SN_COLUMN_HEPATITIS = "hepatitis";
+    public static final String R_COLUMN_ID = "_rid";
+    public static final String R_COLUMN_NUMBER = "number";
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
@@ -58,6 +61,11 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 SN_COLUMN_HIV + " TEXT" + ", " +
                 SN_COLUMN_HEPATITIS + " TEXT" + ")";
         db.execSQL(sn);
+
+        String r = "CREATE TABLE " + TABLE_RECEIVED + "(" +
+                R_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                R_COLUMN_NUMBER + " INTEGER" + ")";
+        db.execSQL(r);
     }
 
     @Override
@@ -65,6 +73,8 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NOTIFICATIONS + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_EDD + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_SPECIAL_NEEDS + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECEIVED + ";");
         onCreate(db);
     }
 
@@ -246,6 +256,39 @@ public class MyDBHandler extends SQLiteOpenHelper {
             c.close();
             db.close();
         }
+    }
+
+    // Add new received number
+    public void addReceived(int received) {
+        ContentValues values = new ContentValues();
+        values.put(R_COLUMN_NUMBER, received);
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_RECEIVED, null, values);
+        db.close();
+    }
+
+    // Get the received number
+    public int getReceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_RECEIVED + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return 0;
+        c.moveToLast();
+        int received = Integer.parseInt(c.getString(c.getColumnIndex(R_COLUMN_NUMBER)));
+        try {
+            return received;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Delete the received number
+    public void deleteReceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE * FROM " + TABLE_RECEIVED + " WHERE 1;";
+        db.execSQL(query);
     }
 
 }
