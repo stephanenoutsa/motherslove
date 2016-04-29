@@ -22,7 +22,6 @@ import java.util.GregorianCalendar;
 
 public class WhenYoullDeliver extends AppCompatActivity {
 
-    MyDBHandler dbHandler;
     int yr, mth, day;
     public GregorianCalendar selectedDate = new GregorianCalendar();
     Context context = this;
@@ -46,8 +45,6 @@ public class WhenYoullDeliver extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
-
-        dbHandler = new MyDBHandler(this, null, null, 1);
 
         DatePicker date = (DatePicker) findViewById(R.id.datePicker);
 
@@ -90,8 +87,6 @@ public class WhenYoullDeliver extends AppCompatActivity {
             public void handleMessage(Message msg) {
                 DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
                 String date = sdf.format(selectedDate.getTime());
-                LMP lmp = new LMP(date);
-                dbHandler.addLMP(lmp);
 
                 // Calculate the EDD
                 selectedDate.add(Calendar.MONTH, -3);
@@ -103,6 +98,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
 
                 Intent intent = new Intent(context, ExpectedDateOfDelivery.class);
                 intent.putExtra("edd", eddate);
+                intent.putExtra("lmp", date);
                 startActivity(intent);
             }
         };
