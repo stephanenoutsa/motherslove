@@ -1,10 +1,8 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -25,7 +23,6 @@ import java.util.GregorianCalendar;
 public class WhenYoullDeliver extends AppCompatActivity {
 
     MyDBHandler dbHandler;
-    AlarmStart alarmStart = new AlarmStart();
     int yr, mth, day;
     public GregorianCalendar selectedDate = new GregorianCalendar();
     Context context = this;
@@ -101,26 +98,11 @@ public class WhenYoullDeliver extends AppCompatActivity {
                 selectedDate.add(Calendar.YEAR, 1);
                 selectedDate.add(Calendar.DAY_OF_MONTH, 7);
 
-                // Save the EDD to the database
+                // Retrieve String value of EDD from database
                 String eddate = sdf.format(selectedDate.getTime());
-                EDD edd = new EDD(eddate);
-                dbHandler.addEDD(edd);
-
-                // Fire first notification
-                alarmStart.instantNotif(context);
-
-                // Start alarm
-                alarmStart.startAlarm(context);
-
-                // Enable receiver when device boots
-                ComponentName receiver = new ComponentName(context, BootReceiver.class);
-                PackageManager pm = context.getPackageManager();
-
-                pm.setComponentEnabledSetting(receiver,
-                        PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
-                        PackageManager.DONT_KILL_APP);
 
                 Intent intent = new Intent(context, ExpectedDateOfDelivery.class);
+                intent.putExtra("edd", eddate);
                 startActivity(intent);
             }
         };
