@@ -405,7 +405,16 @@
         <receiver
             android:name=".InstantNotifReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
+
+        <activity
+            android:name=".MUAC"
+            android:label="@string/title_activity_muac"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zscores"
+            android:label="@string/title_activity_zscores"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
