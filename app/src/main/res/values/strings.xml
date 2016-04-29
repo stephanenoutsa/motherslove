@@ -635,7 +635,7 @@
         \t\u2022 Persistent vomiting.
     </string>
     <string name="title_activity_labour">Labour</string>
-    <string name="title_activity_when_youll_deliver">When You\'ll Deliver?</string>
+    <string name="title_activity_when_youll_deliver">Calculate Delivery Date</string>
     <string name="lmp_text" formatted="false">
         When was your last menstrual period (LMP)?
     </string>
