@@ -13,52 +13,34 @@
     tools:showIn="@layout/activity_when_youll_deliver"
     android:background="@drawable/anc_image">
 
-    <ScrollView
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lmp_text"
+        android:id="@+id/lmpText"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTextPrimary"
+        android:gravity="center_horizontal" />
+
+    <DatePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView" >
+        android:layout_below="@+id/lmpText"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Theme.Custom"
+        android:id="@+id/datePicker"
+        android:calendarViewShown="true"
+        android:spinnersShown="false" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/relativeLayout">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/lmp_text"
-                android:id="@+id/lmpText"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:textColor="@color/colorTextPrimary"
-                android:gravity="center_horizontal" />
-
-            <DatePicker
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/lmpText"
-                android:layout_centerHorizontal="true"
-                android:id="@+id/datePicker"
-                android:theme="@style/Theme.Custom"
-                android:calendarViewShown="true"
-                android:spinnersShown="false"
-                android:paddingLeft="-20dp"
-                android:paddingStart="-20dp"
-                android:paddingRight="20dp"
-                android:paddingEnd="20dp"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/submit_date"
-                android:id="@+id/buttonSubmit"
-                android:layout_centerHorizontal="true"
-                android:onClick="onClickSubmitDate"
-                android:background="@drawable/button_standard_border"
-                android:layout_marginTop="5dp"
-                android:layout_below="@+id/datePicker" />
-
-        </RelativeLayout>
-    </ScrollView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_date"
+        android:id="@+id/buttonSubmit"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickSubmitDate"
+        android:background="@drawable/button_standard_border"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/datePicker" />
 </RelativeLayout>
