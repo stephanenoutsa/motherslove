@@ -59,16 +59,4 @@
         android:textColor="@color/colorTextSecondary"
         android:onClick="onClickAfterBirth"
         android:background="@drawable/button_standard_border" />
-
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_immunization"
-        android:id="@+id/buttonImmunization"
-        android:layout_below="@+id/buttonHighRiskPregnancies"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/button_standard_border"
-        android:onClick="onClickImmunization"
-        android:textColor="@color/colorTextSecondary" />
 </RelativeLayout>

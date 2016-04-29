@@ -56,11 +56,6 @@ public class ANC extends AppCompatActivity {
         Intent i = new Intent(this, AfterBirth.class);
         startActivity(i);
     }
-
-    public void onClickImmunization(View view) {
-        Intent i = new Intent(this, Immunization.class);
-        startActivity(i);
-    }
     //////////End of Intents/////////////////////
 
     ////////////Intents for menu items////////////
