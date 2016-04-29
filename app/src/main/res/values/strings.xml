@@ -1089,7 +1089,7 @@
     <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
     <string name="sn_status_positive">Yes</string>
     <string name="sn_status_negative">No</string>
-    <string name="submit_button_text">Submit</string>
+    <string name="submit_button_text">Save</string>
     <string name="title_activity_little">Little</string>
     <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
     <string name="age_cell_text"><b>AGE</b></string>
