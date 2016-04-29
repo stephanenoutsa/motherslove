@@ -1087,6 +1087,8 @@
     </string>
     <string name="hiv_checkbox_text">HIV positive?</string>
     <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
+    <string name="sn_status_positive">Yes</string>
+    <string name="sn_status_negative">No</string>
     <string name="submit_button_text">Submit</string>
     <string name="title_activity_little">Little</string>
     <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
