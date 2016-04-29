@@ -1,6 +1,9 @@
 package com.babyandi.stephnoutsa.babyandi;
 
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -12,7 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.CheckBox;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,9 +28,10 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
 
     TextView eDDText;
     MyDBHandler dbHandler;
-    String eddate, hiv, hepatitis;
-    CheckBox cHiv;
-    CheckBox cHepatitis;
+    AlarmStart alarmStart;
+    String eddate, hiv, hepatitis, lmp;
+    RadioButton cHivy, cHivn,cHepy, cHepn;
+    Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,15 +54,20 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         });*/
 
         dbHandler = new MyDBHandler(this, null, null, 1);
+        alarmStart = new AlarmStart();
         eDDText = (TextView) findViewById(R.id.eDDText);
 
-        cHiv = (CheckBox) findViewById(R.id.hiv);
-        cHepatitis = (CheckBox) findViewById(R.id.hepatitis);
+        cHivy = (RadioButton) findViewById(R.id.hiv_yes);
+        cHivn = (RadioButton) findViewById(R.id.hiv_no);
+        cHepy = (RadioButton) findViewById(R.id.hepatitis_yes);
+        cHepn = (RadioButton) findViewById(R.id.hepatitis_no);
 
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
-                eddate = dbHandler.getEDD();
+                eddate = getIntent().getExtras().getString("edd");
+                lmp = getIntent().getExtras().getString("lmp");
+                Toast.makeText(context, "LMP is: " + lmp, Toast.LENGTH_SHORT).show();
                 DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
                 long currentDate = new GregorianCalendar().getTimeInMillis();
                 try {
@@ -88,27 +97,43 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         stephThread.start();
     }
 
-    // When hiv checkbox is clicked
+    // When hiv radiobuttons are checked
     public void hivClicked(View view) {
-        if (cHiv.isChecked()) {
-            hiv = "positive";
-        }
-        else {
-            hiv = "negative";
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.hiv_yes:
+                if (checked)
+                    hiv = "positive";
+                break;
+            case R.id.hiv_no:
+                if (checked)
+                    hiv = "negative";
+                break;
         }
     }
 
-    // When hepatitis checkbox is clicked
+    // When hepatitis radiobuttons are checked
     public void hepatitisClicked(View view) {
-        if (cHepatitis.isChecked()) {
-            hepatitis = "positive";
-        }
-        else {
-            hepatitis = "negative";
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.hepatitis_yes:
+                if (checked)
+                    hepatitis = "positive";
+                    break;
+            case R.id.hepatitis_no:
+                if (checked)
+                    hepatitis = "negative";
+                    break;
         }
     }
 
-    // Handle the button click
+    // Handle the save button click
     public void onSubmitSN(View view) {
         // Handle scenario where user does not click any checkbox
         if(hiv == null)
@@ -119,6 +144,32 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         // Add the user's choice(s) to the database
         SpecialNeed specialNeed = new SpecialNeed(hiv, hepatitis);
         dbHandler.addSN(specialNeed);
+
+        // Save the LMP to the database
+        LMP Lmp = new LMP(lmp);
+        dbHandler.addLMP(Lmp);
+
+        // Save the EDD to the database
+        EDD edd = new EDD(eddate);
+        dbHandler.addEDD(edd);
+
+        // Add received number to the database
+        int received = 0;
+        dbHandler.addReceived(received);
+
+        // Fire first notification
+        alarmStart.instantNotif(context);
+
+        // Start alarm
+        alarmStart.instantCheck(context);
+
+        // Enable receiver when device boots
+        ComponentName receiver = new ComponentName(context, BootReceiver.class);
+        PackageManager pm = context.getPackageManager();
+
+        pm.setComponentEnabledSetting(receiver,
+                PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                PackageManager.DONT_KILL_APP);
 
         Toast.makeText(this, "HIV: " + hiv + "\nHepatitis: " + hepatitis, Toast.LENGTH_LONG).show();
     }
