@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/zscore_text"
-                android:id="@+id/zScoreText"
+                android:id="@+id/muacText2"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/zscore_button_text"
                 android:id="@+id/buttonToZscore"
-                android:layout_below="@+id/zScoreText"
+                android:layout_below="@+id/muacText2"
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/button_standard_border"
                 android:onClick="toZScore" />
