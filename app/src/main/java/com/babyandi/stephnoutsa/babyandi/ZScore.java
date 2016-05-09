@@ -808,7 +808,7 @@ public class ZScore extends AppCompatActivity {
                         zScore.append(" " + score + "\n");
                         zScore.append(getResources().getString(R.string.zscore_moderate_malnutrition));
 
-                        // Add button to link to MildMalnutrition activity in this case
+                        // Add button to link to ModerateMalnutrition activity in this case
                         linkButton.setText(getResources().getString(R.string.title_activity_moderate_malnutrition));
                         relativeLayout.addView(linkButton, buttonDetails);
                         linkButton.setOnClickListener(new View.OnClickListener() {

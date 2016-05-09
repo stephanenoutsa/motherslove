@@ -87,10 +87,6 @@
             android:label="@string/title_activity_signs_malnutrition"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MildMalnutrition"
-            android:label="@string/title_activity_mild_malnutrition"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".ModerateMalnutrition"
             android:label="@string/title_activity_moderate_malnutrition"
             android:theme="@style/AppTheme.NoActionBar" />
