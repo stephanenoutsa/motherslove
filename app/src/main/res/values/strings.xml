@@ -41,19 +41,24 @@
     <string name="zscores_button_text">Z-Score (Standard Deviation Score)</string>
     <string name="muac_text" formatted="false">
         <b>Mid Upper Arm Circumference (MUAC)</b>\n
-        MUAC is measured using a tailor\'s tape. The tape is placed midway between the elbow and the
+        MUAC can be measured using a tailor\'s tape. The tape is placed midway between the child\'s elbow and the
         shoulder as shown below:\n
     </string>
     <string name="muac_image_description">MUAC</string>
-    <string name="muac_text2" formatted="false">
-        <b>Normal: </b>&gt;12.5cm\n
-        <b>Moderate Malnutrition: </b>11.0 - 12.5cm\n
-        <b>Severe Malnutrition: </b>&lt;11.0cm
-    </string>
+    <string name="muac_image_text">Picture showing how MUAC is measured.\n</string>
+    <string name="muac_interpretation_text"><b><u>INTERPRETATION OF RESULTS</u></b></string>
+    <string name="muac_reading_text"><b>MUAC</b></string>
+    <string name="muac_reading1_text">&gt;12.5cm</string>
+    <string name="muac_reading2_text">11.0 - 12.5cm</string>
+    <string name="muac_reading3_text">&lt;11.0cm</string>
+    <string name="significance_text"><b>SIGNIFICANCE</b></string>
+    <string name="significance1_text">Normal</string>
+    <string name="significance2_text">Moderate Malnutrition</string>
+    <string name="significance3_text">Severe Malnutrition</string>
     <string name="zscore_text" formatted="false">
         <b>Z-Score (Standard Deviation Score)</b>\n
-        \t\u2022 Calculated using the child\'s most recent weight and height, with the height measured using
-        a tape.\n
+        \t\u2022 Calculated using the child\'s most recent weight and height. The height should be measured
+        using a tape.\n
         You could determine if your child is malnourished by clicking the button below.\n
     </string>
 
@@ -89,17 +94,17 @@
     </string>
     <string name="title_activity_signs_malnutrition">Signs &amp; Symptoms</string>
     <string name="signs_malnutrition_1" formatted="false">
-        The following signs and symptoms would indicate your child is malnourished:\n
+        Use the following signs and symptoms to check for malnutrition in your child:\n
         \t\u2022 Pitting oedema on dorsum of foot (see images below)
     </string>
     <string name="oedema_image1_description">Pressing of dorsum of foot</string>
     <string name="oedema_image2_description">Pitting oedema on dorsum of foot</string>
     <string name="signs_malnutrition_2" formatted="false">
-        \t\u2022 Ineffective feeding, that is, suckling difficulties observed for 15 to 20 minutes in
+        \t\u2022 Ineffective feeding. That is, suckling difficulties observed for 15 to 20 minutes in
         children less than 6 months of age.\n
         \t\u2022 Moon (round) face.\n
         \t\u2022 Old man\'s face.\n
-        \t\u2022 Brown, scanty and brittle (easily broken) hair when compared to that of other family members.\n
+        \t\u2022 Brown, scanty and brittle (easily breaking) hair.\n
         \t\u2022 Loose and wrinkled skin (see image below).
     </string>
     <string name="loose_skin_image_description">Loose and wrinkled skin</string>
@@ -116,38 +121,32 @@
         \t\u2022 Diarrhoea.\n
         \t\u2022 Loss of appetite.
     </string>
-    <string name="title_activity_mild_malnutrition">Mild Malnutrition</string>
-    <string name="mild_malnutrition_text" formatted="false">
-        Encourage a balanced diet with protein-rich foods (e.g. beans, groundnuts) and calorie-rich
-        foods (e.g rice, plantains, cocoyams, etc).\n
-        Also encourage intake of vegetables.
-    </string>
     <string name="title_activity_moderate_malnutrition">Moderate Malnutrition</string>
     <string name="moderate_malnutrition_text" formatted="false">
-        Supplementary feeding; This would be by using local foods such as rice, beans and vegetables.\n
+        Supplementary feeding; this should be done by using local foods such as rice, beans and vegetables.\n
         Blended cereals such as corn-soya blend should also be given to the child. (Not soya beans)
     </string>
     <string name="title_activity_severe_malnutrition">Severe Malnutrition</string>
     <string name="severe_malnutrition_text" formatted="false">
         <i><u>For children less than 6 months</u></i>\n
-        \t\u2022 Increase frequency and duration of breastfeeding if baby is breastfed.\n
-        \t\u2022 Babies not suffering from oedema should be given supplementary feeding using expressed
+        \t\u2022 Increase frequency and duration of breastfeeding if baby is being breastfed.\n
+        \t\u2022 Babies not presenting with oedema should be given supplementary feeding using expressed
         breast milk. If that is not possible, artificial milk (tin milk) or F75 should be given either
         alone or together with expressed breast milk.\n
         Care of the malnourished child should continue at a health centre, so <b>PLEASE SEE A DOCTOR</b>
         as soon as possible.\n\n
         <i><u>For children over 6 months</u></i>\n
-        The management of their severe malnutrition is divided in 2 phases: the Stabilization phase
+        The management of severe malnutrition is divided in 2 phases: the Stabilization phase
         and the Rehabilitation phase.\n
         \t<i><b>i) Stabilization Phase</b></i>\n
         \t\t<b>It is worth noting that by the end of the second day following the diagnosis, the child
     should have been taken to the nearest health care facility for proper medical care.</b>\n
-        \t\tThe stabilization is done using F75, a modified milk feed diet to treat the immediate
+        \t\tStabilization is done using F75, a modified milk feed diet to treat the immediate
         complications of malnutrition.\n\n
         \t\t<b>How to prepare F75 at home:</b>\n
         \t\t\t\u2022 35g of milk (about 8 table spoons)\n
         \t\t\t\u2022 70g of sugar (about 16 cubes)\n
-        \t\t\t\u2022 20g of oil, Mayor or Azur (1 table spoon or 1 tea spoon)\n
+        \t\t\t\u2022 20g of groundnut oil (1 table spoon or 1 tea spoon)\n
         \t\t\t\u2022 35g of Bledina or Cerelac (about 8 table spoons)\n
         \t\t\t\u2022 10ml of multivitamins or 1 sachet of Genesvit junior\n
         \t\t\t\u2022 Mix the above components in 1l of clean water.\n
@@ -221,9 +220,9 @@
         \u2022 After pinching the skin, it returns to normal very slowly (two seconds or more)\n\n
         <b>Some (Moderate) Dehydration</b>\n
         Characterised by at least two of the following:\n
-        \u2022 Restlessness or irritability
-        \u2022 Sunken eyes
-        \u2022 Drinks eagerly; thirsty
+        \u2022 Restlessness or irritability\n
+        \u2022 Sunken eyes\n
+        \u2022 Drinks eagerly; thirsty\n
         \u2022 After pinching the skin, it returns to normal slowly\n\n
         <b>No (Mild) Dehydration</b>\n
         Not enough signs to classify as some dehydration or severe dehydration.
@@ -242,7 +241,7 @@
         \t\u2022 Give zinc supplements\n
         \t\u2022 When to go to the hospital or health centre\n\n
         <b>I.\tContinue Feeding</b>\n
-        \u2022 If the child is breastfed, feed more frequently or longer.\n
+        \u2022 If the child is breastfed, feed more frequently or increase duration of feeding.\n
         \u2022 If exclusively breastfed, give ORS or clean water in addition to breast milk.\n\n
         <b>II.\tGive Extra Fluids</b>\n
         \u2022 If not exclusively breastfed, give either <b>ORS</b> or <b>CLEAN WATER</b>.\n
@@ -258,10 +257,10 @@
         \t* Greater than 6 months: 1 tablet (20mg) per day for 10 - 14 days.\n
         Dissolve the zinc tablet in breast milk, clean water or ORS before administering to the child.\n\n
         <b>IV.\t When to go to the Hospital or Health Centre</b>\n
-        u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
+        \u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
         having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
         \u2022 If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
-        Administer the same treatment if the child suffers from similar diarrhoea again.
+        Administer the same treatment if the child suffers from a similar episode of diarrhoea.
     </string>
     <string name="title_activity_little_dehydration">Some Dehydration (Moderate)</string>
     <string name="little_dehydration_text" formatted="false">
@@ -287,7 +286,7 @@
         \u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
         having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
         \u2022 If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
-        Administer the same treatment if the child suffers from similar diarrhoea again.
+        Administer the same treatment if the child suffers from a similar episode of diarrhoea.
     </string>
     <string name="title_activity_severe_dehydration">Severe Dehydration</string>
     <string name="severe_dehydration_text" formatted="false">
@@ -303,8 +302,8 @@
         Definition
     </string>
     <string name="persistent_diarrhoea_definition" formatted="false">
-        Persistent diarrhoea is defined as diarrhoea with or without blood in the stool which begins
-        acutely, lasting 14 days or more.
+        Persistent diarrhoea is defined as diarrhoea with or without blood in stool which begins
+        acutely and lasts 14 days or more.
     </string>
     <string name="title_activity_persistent_diarrhoea_types">Types</string>
     <string name="title_activity_severe_persistent_diarrhoea">Severe Persistent Diarrhoea</string>
@@ -409,7 +408,7 @@
         \t\u2022 Temperature: Absence of fever shows appropriate response to treatment.\n
         \t\u2022 Number of stools per day: Passage of less than 3 loose stools per day shows favourable
         response to treatment.\n
-        \t\u2022 Food taken in: Increase in quantity of food taken in by the child shows favourable response
+        \t\u2022 Food intake: Increased food intake by the child shows favourable response
         to treatment.
     </string>
     <string name="title_activity_hiv">HIV &amp; Pregnancy</string>
@@ -418,11 +417,11 @@
     <string name="hiv_intro_text" formatted="false">
         \u2022 This section will focus on diagnosis and prevention of mother to child transmission (PMTCT)
         of HIV as 90% of children infected with HIV get it from their mothers.\n\n
-        \u2022 In 2012, there were still an estimated 260000 new infections in children.\n\n
+        \u2022 In 2012, there were still an estimated 260,000 new infections among children.\n\n
         \u2022 It is however possible to have healthy HIV negative children from HIV positive mothers.
         HIV/AIDS does not prevent you from having children.\n\n
         \u2022 Without treatment, there is a 15-45% chance of the infection getting to your baby. With
-        treatment, this value goes below 5%.\n\n
+        treatment, this value decreases to less than 5%.\n\n
         \u2022 Therefore there is the need on the part of mothers and health care practitioners to know
         and implement the appropriate information to reduce mother to child transmission (MTCT) values
         to the minimum.
@@ -459,7 +458,7 @@
     <string name="hiv_step_3" formatted="false">
         When you get into labour at the hospital, inform the doctor or midwife about your HIV status
         so that dispositions can be taken to minimise chances of transmission to your baby. You can
-        deliver vaginally, as being HIV positive does not prevent this. However, caesarean delivery
+        deliver vaginally, as being HIV positive does not prevent this. However, cesarean delivery
         will be the safest and fastest mode of delivery for you.\n\n
         The decision on the route of delivery will be made based on the situations surrounding delivery,
         your doctor\’s opinion and your consent.
@@ -504,7 +503,7 @@
         yellowing of the eyes, tiredness, body pains, dark urine and pale-coloured stool.\n\n
         \u2022 This virus can be transmitted through contact with infected blood, semen, vaginal secretions
         and, to a lesser extent, saliva.\n\n
-        \u2022 Your immune system can protect you from hepatitis B infection within a few months even without
+        \u2022 Your immune system can protect you from hepatitis B infection for a few months even without
         treatment. However 5% of people continue carrying the virus. This leads to damages to your liver
         in the long run.\n\n
         \u2022 10-20% of women who are Hepatitis B surface antigen (HBsAg) positive will transmit the infection
@@ -711,7 +710,7 @@
         Usually, first-time mothers come to the hospital when there is an interval of five minutes
         between contractions (for at least 1-2 hours), each lasting 45-60 seconds.\n
         Second or third-time mothers come in when there is an interval of ten minutes between contractions
-        which don’t go away even when you rest.\n\n
+        which don\’t go away even when you rest.\n\n
         <b><i>If you experience any of the  above signs of labour, get your emergency box and consult
             at any health facility of your choice.</i></b>
     </string>
@@ -850,24 +849,24 @@
         \t\u2022 Protect the baby from cold, but also from too much heat. Dress the baby as warmly as you
         feel like dressing yourself.\n\n
         <b>HYGIENE OF THE BABY</b>\n
-        \t\u2022 Change the baby\’s diapers (nappy) each time he wets or dirties them. If the skin gets sore,
+        \t\u2022 Change the baby\'s diapers (nappy) each time he wets or dirties them. If the skin gets sore,
         change the diaper more often, or better still, leave it off.\n
         \t\u2022 Special care should be shown to keeping the umbilical cord clean. Mothers should be taught
         how to wash their babies and how to clean the umbilical region especially. After the cord drops
         off, bathe the baby daily with soap and warm water.\n
-        \t\u2022 If there are flies or mosquitoes, cover the baby\’s crib with mosquito netting or a thin cloth.\n
+        \t\u2022 If there are flies or mosquitoes, cover the baby\'s crib with mosquito netting or a thin cloth.\n
         \t\u2022 Persons with open sores, colds, sore throat, tuberculosis or other infectious illnesses
         should not touch or go near the baby.\n
         \t\u2022 Keep the baby in a clean place away from smoke and dust.\n\n
         <b>HYGIENE OF THE MOTHER</b>\n
         Mothers should be encouraged to bathe at least twice a day, or have at least 2 bed baths for
-        women who gave birth through caesarian deliveries. The breast area should especially be kept
+        women who gave birth through cesarean deliveries. The breast area should especially be kept
         clean. Mothers should always wash their hands before feeding their babies. Pads should be changed
         once they are wet, and women should complain if they notice an offensive discharge.\n\n
         <b>VACCINATION</b>\n
         Mothers should ensure that their babies receive the required vaccines at birth and thereafter.
         Mothers should also endeavor to receive all their tetanus toxoid vaccines as scheduled. (Check
-        the section on “Immunization” for details)\n\n
+        the section on \"Immunization\" for details)\n\n
         <b>EDUCATION ON A DISEASE WHICH CAN BE TRANSMITTED FROM MOTHER TO CHILD</b>\n
         Before being discharged from the hospital, women shall be educated on at least one disease which
         can be transmitted from mother to child, or on prevention of certain pregnancy complications.

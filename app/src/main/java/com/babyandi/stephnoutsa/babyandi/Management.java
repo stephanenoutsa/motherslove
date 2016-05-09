@@ -36,11 +36,6 @@ public class Management extends AppCompatActivity {
     }
 
     /////Intents to link to other activities//////
-    public void onClickMildMalnutrition(View view) {
-        Intent i = new Intent(this, MildMalnutrition.class);
-        startActivity(i);
-    }
-
     public void onClickModerateMalnutrition(View view) {
         Intent i = new Intent(this, ModerateMalnutrition.class);
         startActivity(i);

@@ -47,12 +47,114 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/muac_text2"
+                android:text="@string/muac_image_text"
                 android:layout_below="@+id/muac_image"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:id="@+id/zScoreText"
+                android:id="@+id/muac_image_text"
                 android:textColor="@color/colorTextPrimary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@+id/muac_image_text"
+                android:text="@string/muac_interpretation_text"
+                android:id="@+id/muacInterpretation"
+                android:textColor="@color/colorTextPrimary" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/muacInterpretation"
+                android:id="@+id/muacTable">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/headingsRow">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:id="@+id/column1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/muac_reading_text"
+                            android:id="@+id/muacReading"
+                            android:textColor="@color/colorTextPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/muac_reading1_text"
+                            android:id="@+id/muacReading1"
+                            android:textColor="@color/colorTextPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/muac_reading2_text"
+                            android:id="@+id/muacReading2"
+                            android:textColor="@color/colorTextPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/muac_reading3_text"
+                            android:id="@+id/muacReading3"
+                            android:textColor="@color/colorTextPrimary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/column2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/significance_text"
+                            android:id="@+id/significance"
+                            android:textColor="@color/colorTextPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/significance1_text"
+                            android:id="@+id/significance1"
+                            android:textColor="@color/colorTextPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/significance2_text"
+                            android:id="@+id/significance2"
+                            android:textColor="@color/colorTextPrimary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/significance3_text"
+                            android:id="@+id/significance3"
+                            android:textColor="@color/colorTextPrimary" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
 
         </RelativeLayout>
     </ScrollView>

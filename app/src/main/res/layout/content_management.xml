@@ -16,22 +16,10 @@
     <Button
         android:layout_width="@dimen/button_standard_width"
         android:layout_height="@dimen/button_standard_height"
-        android:text="@string/title_activity_mild_malnutrition"
-        android:id="@+id/buttonMildMalnutrition"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/button_standard_border"
-        android:textColor="@color/colorTextSecondary"
-        android:onClick="onClickMildMalnutrition" />
-
-    <Button
-        android:layout_width="@dimen/button_standard_width"
-        android:layout_height="@dimen/button_standard_height"
         android:text="@string/title_activity_moderate_malnutrition"
         android:id="@+id/buttonModerateMalnutrition"
-        android:layout_below="@+id/buttonMildMalnutrition"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:textColor="@color/colorTextSecondary"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickModerateMalnutrition" />
