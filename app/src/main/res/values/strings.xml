@@ -1160,4 +1160,24 @@
     <string name="notif_msg9" formatted="false">
         Content of labour emergency bag. Safe delivery and congratulations in advance.
     </string>
+
+    <!-- About Us text -->
+    <string name="about_us_text" formatted="false">
+        Mother\'s Love Initiative is a team comprising medical students, doctors and app developers all
+        sharing a similar vision with regards to health care provision especially in the aspect of maternal
+        and child health. Our ambition is to shift the focus from curative medicine which manages infirmity
+        and complications when they have already occurred, to shed more light on aspects of preventive
+        medicine which is the ultimate solution to dent staggering values of morbidity and mortality
+        in the developing world.\n
+        We do not intend to replace hospitals and their incredible personnel in their noble role of saving
+        lives. We rather seek to complement and partner them by empowering users of this application
+        to prevent, promptly recognise and even start the basic home management of complications prior
+        to hospital arrival if they eventually occur.\n
+        This app can serve as a tool to expectant mothers, mothers, their relatives, medical students
+        and medical personnel as it provides information ranging from basic reminders of key dates to
+        expectant mothers to complex inbuilt calculators to diagnose malnutrition, and provides interpretations
+        to these results. We therefore hope this app ultimately helps specifically improve prevention
+        of mother to child transmission of HIV and Hepatitis B, and globally reduce maternal and child
+        mortality.
+    </string>
 </resources>
