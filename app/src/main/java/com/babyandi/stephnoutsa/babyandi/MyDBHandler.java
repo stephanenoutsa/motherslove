@@ -11,12 +11,14 @@ import java.util.List;
 
 public class MyDBHandler extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
     private static final String DATABASE_NAME = "lmp.db";
     public static final String TABLE_LMP = "lmp";
-    public static final String TABLE_RECEIVED = "received";
     public static final String LMP_COLUMN_ID = "_lmpid";
     public static final String LMP_COLUMN_DATE = "lmpdate";
+    public static final String TABLE_RECEIVED = "received";
+    public static final String R_COLUMN_ID = "_rid";
+    public static final String R_COLUMN_NUMBER = "number";
     public static final  String TABLE_NOTIFICATIONS = "notifications";
     public static final String N_COLUMN_ID = "_nid";
     public static final String N_COLUMN_DAY = "nday";
@@ -28,8 +30,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String SN_COLUMN_ID = "_snid";
     public static final String SN_COLUMN_HIV = "hiv";
     public static final String SN_COLUMN_HEPATITIS = "hepatitis";
-    public static final String R_COLUMN_ID = "_rid";
-    public static final String R_COLUMN_NUMBER = "number";
+    public static final String TABLE_DOB = "dob";
+    public static final String D_COLUMN_ID = "_did";
+    public static final String D_COLUMN_DAY = "dday";
+    public static final String D_COLUMN_R = "dreceived";
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
@@ -66,6 +70,12 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 R_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 R_COLUMN_NUMBER + " INTEGER" + ")";
         db.execSQL(r);
+
+        String dob = "CREATE TABLE " + TABLE_DOB + "(" +
+                D_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                D_COLUMN_DAY + " TEXT" + ", " +
+                D_COLUMN_R + " INTEGER" + ")";
+        db.execSQL(dob);
     }
 
     @Override
@@ -75,6 +85,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_EDD + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_SPECIAL_NEEDS + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECEIVED + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_DOB + ";");
         onCreate(db);
     }
 
@@ -288,6 +299,43 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void deleteReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "DELETE * FROM " + TABLE_RECEIVED + " WHERE 1;";
+        db.execSQL(query);
+    }
+
+    // Add new DOB to DOB table
+    public void addDOB(DOB dob) {
+        ContentValues values = new ContentValues();
+        values.put(D_COLUMN_DAY, String.valueOf(dob.getDday()));
+        values.put(D_COLUMN_R, dob.getDreceived());
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_DOB, null, values);
+        db.close();
+    }
+
+    // Get the DOB
+    public DOB getDOB() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_DOB + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return null;
+        c.moveToLast();
+        int _did = c.getInt(c.getColumnIndex(D_COLUMN_ID));
+        String dday = c.getString(c.getColumnIndex(D_COLUMN_DAY));
+        int dreceived = c.getInt(c.getColumnIndex(D_COLUMN_R));
+        DOB dob = new DOB(_did, dday, dreceived);
+        try {
+            return dob;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Delete the DOB
+    public void deleteDOB() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE * FROM " + TABLE_DOB + " WHERE 1;";
         db.execSQL(query);
     }
 
