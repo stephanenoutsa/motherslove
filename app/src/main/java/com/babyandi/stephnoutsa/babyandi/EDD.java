@@ -24,6 +24,7 @@ public class EDD {
         this.eddate = edd;
     }
 
+    // Getter and setter methods
     public int get_eddid() {
         return _eddid;
     }
