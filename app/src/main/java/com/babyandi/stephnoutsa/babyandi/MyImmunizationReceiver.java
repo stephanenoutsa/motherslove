@@ -14,7 +14,7 @@ public class MyImmunizationReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         // Start service
-        Intent service = new Intent(context, MyImmunizationReceiver.class);
+        Intent service = new Intent(context, MyImmunizationService.class);
         context.startService(service);
 
         //Schedule next alarm
