@@ -416,6 +416,30 @@
             android:name=".MyService"
             android:enabled="true"
             android:exported="true" />
+
+        <activity
+            android:name=".ChildDOB"
+            android:label="@string/title_activity_child_dob"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllowImmNotif"
+            android:label="@string/title_activity_allow_imm_notif"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".MyImmunizationReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".MyImmunizationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".InfantScheduleOptions"
+            android:label="@string/title_activity_infact_schedule_options"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
