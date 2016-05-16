@@ -34,7 +34,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Set an android for navigation
+        // Set an icon for navigation
         toolbar.setNavigationIcon(R.drawable.android);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -93,7 +93,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
                 selectedDate.add(Calendar.YEAR, 1);
                 selectedDate.add(Calendar.DAY_OF_MONTH, 7);
 
-                // Retrieve String value of EDD from database
+                // Get String value of EDD
                 String eddate = sdf.format(selectedDate.getTime());
 
                 Intent intent = new Intent(context, ExpectedDateOfDelivery.class);
