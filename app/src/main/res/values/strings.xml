@@ -1088,7 +1088,7 @@
     <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
     <string name="sn_select_text" formatted="false">
         To help us better follow you up and prevent the transmission of certain diseases to your child,
-        please check any (or both) of the checkboxes below if you have the corresponding disease.\n
+        please select the box(es) below if you have any or both of the corresponding conditions.\n
         We can\'t access the information you provide, so it is strictly confidential.
     </string>
     <string name="hiv_checkbox_text">HIV positive?</string>
@@ -1180,4 +1180,72 @@
         of mother to child transmission of HIV and Hepatitis B, and globally reduce maternal and child
         mortality.
     </string>
+
+    <string name="title_activity_child_dob">Child\'s Date Of Birth</string>
+    <string name="dob_text" formatted="false">
+        When was your child born?\n
+        (The immunization schedule is only for children less than nine months of age)
+    </string>
+    <string name="dob_submit_button_text">Submit Date</string>
+    <string name="title_activity_allow_imm_notif">Immunization Notification</string>
+    <string name="allow_imm_text1" formatted="false">
+        You are about to save your child\'s date of birth (DOB) as:\n
+    </string>
+    <string name="allow_imm_text2" formatted="false">
+        \nBased on this DOB, you will receive notifications on your child\'s upcoming vaccines to be taken.
+        If the above DOB is correct, click the button below.
+    </string>
+    <string name="button_allow_imm_text">Save DOB</string>
+    <string name="displayed_dob_text">Your child\'s DOB is:\n</string>
+
+    <!-- Immunization messages -->
+    <string name="welcome_msg">
+        WELCOME TO THE MLI FAMILY. WE WILL PROVIDE YOU WITH UPDATES ABOUT YOUR CHILD\'S VACCINATION AND
+        HEALTH UP TO THE AGE OF 1. THANKS FOR BEING A PART OF THIS FAMILY
+    </string>
+    <string name="msg2">
+        CONGRATS on your delivery! We hope baby received its 1st vaccines (OPV, BCG). BREASTFEED
+        EXCLUSIVELY for 6 months, DO NOT give water and DO NOT mix feed.
+    </string>
+    <string name="msg3">
+        Report to the nearest health facility if you have any of the following WARNING SIGNS: fever,
+        abdominal pain, blurred vision, excessive bleeding or breast pain.
+    </string>
+    <string name="msg4">
+        Ensure proper hygiene for yourself and your baby to prevent disease. Wash your breast with soap
+        and water before breastfeeding. FAMILY PLANNING is advised.
+    </string>
+    <string name="msg5">
+        HELLO! Your baby is about 6 weeks old. Remember taking baby for its 6 weeks
+        vaccines (OPV1, DPT-1-HEP B1-Hib1, PNEUMO 13.1 and ROTA 1).
+    </string>
+    <string name="msg6">
+        HELLO! Your baby is about 10 weeks old. Remember taking baby for its 10 weeks
+        vaccines (OPV2, DPT-2-HEP B2-Hib2, PNEUMO 13.2 and ROTA 2).
+    </string>
+    <string name="msg7">
+        HELLO! Your baby is about 14 weeks old. Remember taking baby for its 14 weeks
+        vaccines (OPV3, DPT-3-HEP B3-Hib3, PNEUMO 13.3).
+    </string>
+    <string name="msg8">
+        HELLO! Your baby is now 6 months old. Remember taking baby for its 6 months vaccine (VITAMIN
+        A). Ensure baby drinks CLEAN water to prevent diarrhoea.
+    </string>
+    <string name="msg9">
+        HELLO! Your baby is now 9 months old. Remember taking him/her for vaccination (MEASLES, YELLOW
+        FEVER). Your baby will then be fully immunised according to EPI.
+    </string>
+    <!-- End of messages -->
+    
+    <string name="title_activity_infact_schedule_options">Infact Schedule Options</string>
+    <string name="first_option_text" formatted="false">
+        To receive notifications to remind you of your child\'s immunization schedule, click the first
+        button below and select your child\'s date of birth (DOB). Note that your child should be less
+        than nine (9) months old.
+    </string>
+    <string name="receive_notifs_button_text">Select Child\'s DOB</string>
+    <string name="second_option_text" formatted="false">
+        Otherwise click the button below to see a table displaying the regular infant immunization schedule.
+    </string>
+    <string name="see_infant_schedule_button_text">See Infant Immunization Schedule</string>
 </resources>
