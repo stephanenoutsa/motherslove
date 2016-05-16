@@ -35,7 +35,7 @@ public class Immunization extends AppCompatActivity {
 
     /////Intents to link to other activities//////
     public void onClickScheduleForInfants(View view) {
-        Intent i = new Intent(this, ScheduleForInfants.class);
+        Intent i = new Intent(this, InfantScheduleOptions.class);
         startActivity(i);
     }
 
