@@ -49,7 +49,9 @@ public class ChildDOB extends AppCompatActivity {
 
         // Set maximum date to be displayed
         GregorianCalendar currentDate = new GregorianCalendar();
-        long max = currentDate.getTimeInMillis();
+        GregorianCalendar maxDate = new GregorianCalendar();
+        maxDate.add(Calendar.DAY_OF_WEEK, 1);
+        long max = maxDate.getTimeInMillis();
         date.setMaxDate(max);
 
         // Set minimum date to be displayed
