@@ -27,6 +27,8 @@
     <string name="menu_hiv">HIV with Pregnancy</string>
     <string name="menu_hepatitis">Hepatitis with Pregnancy</string>
     <string name="title_activity_searchable">SearchableActivity</string>
+
+    <!-- Malnutrition Literature Start -->
     <string name="title_activity_how_to_diagnose">How To Diagnose</string>
     <string name="title_activity_management">Management</string>
     <string name="title_activity_introduction_malnutrition">Introduction</string>
@@ -85,13 +87,13 @@
         This implies that your child is moderately malnourished.\n
         For more information, click the button below.\n
     </string>
-    <string name="zscore_mild_malnutrition" formatted="false">
-        This implies that your child is mildly malnourished.\n
-        For more information, click the button below.\n
-    </string>
     <string name="zscore_normal" formatted="false">
         This implies that your child is not malnourished.
     </string>
+    <string name="title_activity_zscore">Z-Score</string>
+    <string name="title_activity_little">Little</string>
+    <string name="title_activity_muac">Mid Upper Arm Circumference</string>
+    <string name="title_activity_zscores">Z-Score</string>
     <string name="title_activity_signs_malnutrition">Signs &amp; Symptoms</string>
     <string name="signs_malnutrition_1" formatted="false">
         Use the following signs and symptoms to check for malnutrition in your child:\n
@@ -200,6 +202,9 @@
         \t\u2022 This is treated using ReSoMal (Rehydration Solution for the Malnourished) at a hospital
         or health centre. <b>PLEASE SEE A DOCTOR!!!</b>
     </string>
+    <!-- Malnutrition End -->
+
+    <!-- Diarrhoea Literature Start -->
     <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
     <string name="acute_diarrhoea_definition" formatted="false">
         Passage of greater than 3 loose stools in a day, with no blood in the stools.
@@ -274,6 +279,38 @@
         OVER A 4 HOUR PERIOD</i></b>\n
     </string>
     <string name="see_table_button_text">See Table</string>
+    <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
+    <string name="age_cell_text"><b>AGE</b></string>
+    <string name="age1_text"><b>&lt;4 months</b>\n\n</string>
+    <string name="age2_text"><b>4 - 12 months</b>\n\n</string>
+    <string name="age3_text"><b>1 - 2 years</b>\n\n</string>
+    <string name="age4_text"><b>2 - 5 years</b>\n\n</string>
+    <string name="weight_cell_text"><b>WEIGHT</b></string>
+    <string name="weight1_text"><b>&lt;6 kg</b>\n\n</string>
+    <string name="weight2_text"><b>6 - &lt;10 kg</b>\n\n</string>
+    <string name="weight3_text"><b>10 - &lt;12 kg</b>\n\n</string>
+    <string name="weight4_text"><b>12 - 19 kg</b>\n\n</string>
+    <string name="amount_cell_text"><b>AMOUNT OF ORS TO GIVE</b></string>
+    <string name="amount1_text" formatted="false">
+        <b>200 - 400 ml</b>\n
+        e.g. one smallest-sized plastic\n
+        brasseries bottle (350ml)
+    </string>
+    <string name="amount2_text" formatted="false">
+        <b>400 - 700 ml</b>\n
+        e.g. two smallest-sized plastic\n
+        brasseries bottles (2 x 350ml)
+    </string>
+    <string name="amount3_text" formatted="false">
+        <b>700 - 900 ml</b>\n
+        e.g. 3/4 of a brasseries 1 litre\n
+        plastic bottle (750ml)
+    </string>
+    <string name="amount4_text" formatted="false">
+        <b>900 - 1400 ml</b>\n
+        e.g. a brasseries 1 litre plastic\n
+        bottle
+    </string>
     <string name="little_dehydration_text_continued" formatted="false">
         \n\u2022 If the child wants more ORS than is prescribed above, feel free to give more.\n
         \u2022 Give frequent sips from a cup. If the child vomits, wait 10 minutes then continue, but more
@@ -411,6 +448,9 @@
         \t\u2022 Food intake: Increased food intake by the child shows favourable response
         to treatment.
     </string>
+    <!-- Diarrhoea End -->
+
+    <!-- Special Needs Literature Start -->
     <string name="title_activity_hiv">HIV &amp; Pregnancy</string>
     <string name="title_activity_hepatitis">Hepatitis &amp; Pregnancy</string>
     <string name="title_activity_hivintroduction">Introduction</string>
@@ -557,10 +597,179 @@
         i. If your baby tests negative, it is important he/she stays that way.\n\n
         ii. If your baby tests positive, you should see a doctor for a more detailed evaluation of your child.
     </string>
+    <!-- Special Needs End -->
+
     <string name="title_activity_notifications">Notifications</string>
+
+    <!-- ANC Literature Start -->
     <string name="title_activity_before_birth_anc">Antenatal Clinic</string>
     <string name="anc_intro_button_text">Introduction</string>
     <string name="anc_package_button_text">ANC Package</string>
+    <string name="title_activity_ancintro">Introduction</string>
+    <string name="anc_intro_text" formatted="false">
+        Antenatal Clinic (ANC) refers to the continuous care given to mothers and their unborn babies
+        throughout the pregnancy period.\n\n
+        ANC provides women and their families with appropriate information and advice for a healthy
+        pregnancy, safe delivery, and recovery after delivery.\n
+        It also includes care of the newborn, promotion of early, exclusive breastfeeding, and assistance
+        with deciding on future pregnancies (family planning) in order to improve pregnancy outcomes.\n\n
+        An effective ANC package depends on competent health care providers in a well-equipped functioning
+        health system, which can provide referral services and has laboratory support.
+    </string>
+    <string name="title_activity_ancpackage">ANC Package</string>
+    <string name="anc_package_text" formatted="false">
+        The World Health Organization (WHO) now recommends each pregnant woman to have at least FOUR
+        focused antenatal care visits before delivery of the baby.\n\n
+        The goals and activities of ANC are summarized in each of the sections below:\n
+    </string>
+    <string name="first_visit_button_text">First ANC Visit</string>
+    <string name="second_visit_button_text">Second ANC Visit</string>
+    <string name="third_visit_button_text">Third ANC Visit</string>
+    <string name="fourth_visit_button_text">Fourth ANC Visit</string>
+    <string name="title_activity_first_anc_visit">First ANC Visit</string>
+    <string name="first_anc_visit_text" formatted="false">
+        <b><u>FIRST ANC VISIT (8 - 12 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Confirm pregnancy and calculate estimated date of delivery (EDD).\n
+        \t\u2022 Classify women for basic ANC (four visits) or more specialized care.\n
+        \t\u2022 Screen, treat and give preventive measures for diseases.\n
+        \t\u2022 Develop a birth and emergency plan.\n
+        \t\u2022 Advise and counsel pregnant women.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Family/personal past history\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Haemoglobin\n
+        \t\u2022 Blood/Rhesus group\n
+        \t\u2022 Veneral disease screening\n
+        \t\u2022 Hepatitis B &amp; C/toxoplasmosis/rubella/HIV tests\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Stool analysis\n
+        \t\u2022 Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension)\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Tetanus toxoid\n
+        \t\u2022 Iron and folate supplements\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t\u2022 Self-care\n
+        \t\u2022 Alcohol and tobacco use\n
+        \t\u2022 Nutrition\n
+        \t\u2022 Safe sex\n
+        \t\u2022 Rest\n
+        \t\u2022 Sleeping under ITN\n
+        \t\u2022 Birth and emergency plan
+    </string>
+    <string name="title_activity_second_anc_visit">Second ANC Visit</string>
+    <string name="second_anc_visit_text" formatted="false">
+        <b><u>SECOND ANC VISIT (22 - 24 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Assess maternal and fetal well-being.\n
+        \t\u2022 Exclude PIH and anaemia.\n
+        \t\u2022 Give preventive measures for diseases.\n
+        \t\u2022 Review and modify birth and emergency plan.\n
+        \t\u2022 Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Screen for diabetes mellitus\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g diabetes, hypertension)\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Tetanus toxoid\n
+        \t\u2022 Iron and folate supplements\n
+        \t\u2022 IPTp\n
+        \t\u2022 ARV\n\n
+        <b>Health education, advice and counseling</b>\n
+        \t\u2022 Birth and emergency plan.\n
+        \t\u2022 Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_third_anc_visit">Third ANC Visit</string>
+    <string name="third_anc_visit_text" formatted="false">
+        <b><u>THIRD ANC VISIT (32 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Assess maternal and fetal well-being.\n
+        \t\u2022 Exclude PIH, anaemia and multiple pregnancies.\n
+        \t\u2022 Give preventive measures for diseases.\n
+        \t\u2022 Review and modify birth and emergency plan.\n
+        \t\u2022 Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anaemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Iron and folate supplements.\n
+        \t\u2022 IPTp\n
+        \t\u2022 ARV\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t\u2022 Birth and emergency plan.\n
+        \t\u2022 Infant feeding.\n
+        \t\u2022 Postpartum/postnatal care.\n
+        \t\u2022 Pregnancy spacing.\n
+        \t\u2022 Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_fourth_anc_visit">Fourth ANC Visit</string>
+    <string name="fourth_anc_visit_text" formatted="false">
+        <b><u>FOURTH VISIT (36 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Assess maternal and fetal well-being.\n
+        \t\u2022 Exclude PIH, anaemia, multiple pregnancies and malpresentation.\n
+        \t\u2022 Give preventive measures for diseases.\n
+        \t\u2022 Review and modify birth and emergency plan.\n
+        \t\u2022 Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anaemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n
+        \t\u2022 Rotation/referral for rotation of fetus if in breech.\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Iron and folate supplements.\n
+        \t\u2022 ARV\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t\u2022 Birth and emergency plan.\n
+        \t\u2022 Infant feeding.\n
+        \t\u2022 Postpartum/postnatal care.\n
+        \t\u2022 Pregnancy spacing.\n
+        \t\u2022 Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
+    <string name="sn_select_text" formatted="false">
+        To help us better follow you up and prevent the transmission of certain diseases to your child,
+        please select the box(es) below if you have any or both of the corresponding conditions.\n
+        We can\'t access the information you provide, so it is strictly confidential.
+    </string>
+    <string name="hiv_checkbox_text">HIV positive?</string>
+    <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
+    <string name="sn_status_positive">Yes</string>
+    <string name="sn_status_negative">No</string>
+    <string name="submit_button_text">Save</string>
     <string name="title_activity_before_birth">Before Birth</string>
     <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
     <string name="he_during_pregnancy_text" formatted="false">
@@ -882,6 +1091,32 @@
         for checkup.
     </string>
     <string name="title_activity_immunization">Immunization</string>
+    <string name="title_activity_child_dob">Child\'s Date Of Birth</string>
+    <string name="dob_text" formatted="false">
+        When was your child born?
+    </string>
+    <string name="dob_submit_button_text">Submit Date</string>
+    <string name="title_activity_allow_imm_notif">Immunization Notification</string>
+    <string name="allow_imm_text1" formatted="false">
+        You are about to save your child\'s date of birth (DOB) as:\n
+    </string>
+    <string name="allow_imm_text2" formatted="false">
+        \nBased on this DOB, you will receive notifications on your child\'s upcoming vaccines to be taken.
+        If the above DOB is correct, click the button below.
+    </string>
+    <string name="button_allow_imm_text">Save DOB</string>
+    <string name="displayed_dob_text">Your child\'s DOB is:\n</string>
+    <string name="title_activity_infact_schedule_options">Infact Schedule Options</string>
+    <string name="first_option_text" formatted="false">
+        To receive notifications to remind you of your child\'s immunization schedule, click the first
+        button below and select your child\'s date of birth (DOB). Note that your child should be less
+        than nine (9) months old.
+    </string>
+    <string name="receive_notifs_button_text">Select Child\'s DOB</string>
+    <string name="second_option_text" formatted="false">
+        Otherwise click the button below to see a table displaying the regular infant immunization schedule.
+    </string>
+    <string name="see_infant_schedule_button_text">See Infant Immunization Schedule</string>
     <string name="title_activity_schedule_for_infants">Schedule For Infants</string>
     <string name="contact_text"><b>CONTACT</b>\n</string>
     <string name="contact_1_text"><b>At Birth</b>\n\n</string>
@@ -928,209 +1163,9 @@
     <string name="duration4_text">10 years</string>
     <string name="duration5_text">Entire child bearing age range</string>
     <string name="ttv_text"><b>NB:</b> \"TTV\" stands for \"Tetanus Toxoid Vaccine\".</string>
+    <!-- ANC End -->
+
     <string name="title_activity_home_screen">Mother\'s Love</string>
-    <string name="title_activity_about">About</string>
-    <string name="title_activity_zscore">Z-Score</string>
-    <string name="title_activity_ancintro">Introduction</string>
-    <string name="anc_intro_text" formatted="false">
-        Antenatal Clinic (ANC) refers to the continuous care given to mothers and their unborn babies
-        throughout the pregnancy period.\n\n
-        ANC provides women and their families with appropriate information and advice for a healthy
-        pregnancy, safe delivery, and recovery after delivery.\n
-        It also includes care of the newborn, promotion of early, exclusive breastfeeding, and assistance
-        with deciding on future pregnancies (family planning) in order to improve pregnancy outcomes.\n\n
-        An effective ANC package depends on competent health care providers in a well-equipped functioning
-        health system, which can provide referral services and has laboratory support.
-    </string>
-    <string name="title_activity_ancpackage">ANC Package</string>
-    <string name="anc_package_text" formatted="false">
-        The World Health Organization (WHO) now recommends each pregnant woman to have at least FOUR
-        focused antenatal care visits before delivery of the baby.\n\n
-        The goals and activities of ANC are summarized in each of the sections below:\n
-    </string>
-    <string name="first_visit_button_text">First ANC Visit</string>
-    <string name="second_visit_button_text">Second ANC Visit</string>
-    <string name="third_visit_button_text">Third ANC Visit</string>
-    <string name="fourth_visit_button_text">Fourth ANC Visit</string>
-    <string name="title_activity_first_anc_visit">First ANC Visit</string>
-    <string name="first_anc_visit_text" formatted="false">
-        <b><u>FIRST ANC VISIT (8 - 12 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Confirm pregnancy and calculate estimated date of delivery (EDD).\n
-        \t\u2022 Classify women for basic ANC (four visits) or more specialized care.\n
-        \t\u2022 Screen, treat and give preventive measures for diseases.\n
-        \t\u2022 Develop a birth and emergency plan.\n
-        \t\u2022 Advise and counsel pregnant women.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Family/personal past history\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Haemoglobin\n
-        \t\u2022 Blood/Rhesus group\n
-        \t\u2022 Veneral disease screening\n
-        \t\u2022 Hepatitis B &amp; C/toxoplasmosis/rubella/HIV tests\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Stool analysis\n
-        \t\u2022 Ultrasound\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension)\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Tetanus toxoid\n
-        \t\u2022 Iron and folate supplements\n\n
-        <b>Health education, advice and counseling:</b>\n
-        \t\u2022 Self-care\n
-        \t\u2022 Alcohol and tobacco use\n
-        \t\u2022 Nutrition\n
-        \t\u2022 Safe sex\n
-        \t\u2022 Rest\n
-        \t\u2022 Sleeping under ITN\n
-        \t\u2022 Birth and emergency plan
-    </string>
-    <string name="title_activity_second_anc_visit">Second ANC Visit</string>
-    <string name="second_anc_visit_text" formatted="false">
-        <b><u>SECOND ANC VISIT (22 - 24 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Assess maternal and fetal well-being.\n
-        \t\u2022 Exclude PIH and anaemia.\n
-        \t\u2022 Give preventive measures for diseases.\n
-        \t\u2022 Review and modify birth and emergency plan.\n
-        \t\u2022 Advise and counsel.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Screen for diabetes mellitus\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g diabetes, hypertension)\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Tetanus toxoid\n
-        \t\u2022 Iron and folate supplements\n
-        \t\u2022 IPTp\n
-        \t\u2022 ARV\n\n
-        <b>Health education, advice and counseling</b>\n
-        \t\u2022 Birth and emergency plan.\n
-        \t\u2022 Reinforcement of previous advice.
-    </string>
-    <string name="title_activity_third_anc_visit">Third ANC Visit</string>
-    <string name="third_anc_visit_text" formatted="false">
-        <b><u>THIRD ANC VISIT (32 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Assess maternal and fetal well-being.\n
-        \t\u2022 Exclude PIH, anaemia and multiple pregnancies.\n
-        \t\u2022 Give preventive measures for diseases.\n
-        \t\u2022 Review and modify birth and emergency plan.\n
-        \t\u2022 Advise and counsel.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anaemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Ultrasound\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Iron and folate supplements.\n
-        \t\u2022 IPTp\n
-        \t\u2022 ARV\n\n
-        <b>Health education, advice and counseling:</b>\n
-        \t\u2022 Birth and emergency plan.\n
-        \t\u2022 Infant feeding.\n
-        \t\u2022 Postpartum/postnatal care.\n
-        \t\u2022 Pregnancy spacing.\n
-        \t\u2022 Reinforcement of previous advice.
-    </string>
-    <string name="title_activity_fourth_anc_visit">Fourth ANC Visit</string>
-    <string name="fourth_anc_visit_text" formatted="false">
-        <b><u>FOURTH VISIT (36 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Assess maternal and fetal well-being.\n
-        \t\u2022 Exclude PIH, anaemia, multiple pregnancies and malpresentation.\n
-        \t\u2022 Give preventive measures for diseases.\n
-        \t\u2022 Review and modify birth and emergency plan.\n
-        \t\u2022 Advise and counsel.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anaemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Ultrasound\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n
-        \t\u2022 Rotation/referral for rotation of fetus if in breech.\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Iron and folate supplements.\n
-        \t\u2022 ARV\n\n
-        <b>Health education, advice and counseling:</b>\n
-        \t\u2022 Birth and emergency plan.\n
-        \t\u2022 Infant feeding.\n
-        \t\u2022 Postpartum/postnatal care.\n
-        \t\u2022 Pregnancy spacing.\n
-        \t\u2022 Reinforcement of previous advice.
-    </string>
-    <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
-    <string name="sn_select_text" formatted="false">
-        To help us better follow you up and prevent the transmission of certain diseases to your child,
-        please select the box(es) below if you have any or both of the corresponding conditions.\n
-        We can\'t access the information you provide, so it is strictly confidential.
-    </string>
-    <string name="hiv_checkbox_text">HIV positive?</string>
-    <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
-    <string name="sn_status_positive">Yes</string>
-    <string name="sn_status_negative">No</string>
-    <string name="submit_button_text">Save</string>
-    <string name="title_activity_little">Little</string>
-    <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
-    <string name="age_cell_text"><b>AGE</b></string>
-    <string name="age1_text"><b>&lt;4 months</b>\n\n</string>
-    <string name="age2_text"><b>4 - 12 months</b>\n\n</string>
-    <string name="age3_text"><b>1 - 2 years</b>\n\n</string>
-    <string name="age4_text"><b>2 - 5 years</b>\n\n</string>
-    <string name="weight_cell_text"><b>WEIGHT</b></string>
-    <string name="weight1_text"><b>&lt;6 kg</b>\n\n</string>
-    <string name="weight2_text"><b>6 - &lt;10 kg</b>\n\n</string>
-    <string name="weight3_text"><b>10 - &lt;12 kg</b>\n\n</string>
-    <string name="weight4_text"><b>12 - 19 kg</b>\n\n</string>
-    <string name="amount_cell_text"><b>AMOUNT OF ORS TO GIVE</b></string>
-    <string name="amount1_text" formatted="false">
-        <b>200 - 400 ml</b>\n
-        e.g. one smallest-sized plastic\n
-        brasseries bottle (350ml)
-    </string>
-    <string name="amount2_text" formatted="false">
-        <b>400 - 700 ml</b>\n
-        e.g. two smallest-sized plastic\n
-        brasseries bottles (2 x 350ml)
-    </string>
-    <string name="amount3_text" formatted="false">
-        <b>700 - 900 ml</b>\n
-        e.g. 3/4 of a brasseries 1 litre\n
-        plastic bottle (750ml)
-    </string>
-    <string name="amount4_text" formatted="false">
-        <b>900 - 1400 ml</b>\n
-        e.g. a brasseries 1 litre plastic\n
-        bottle
-    </string>
-    <string name="title_activity_muac">Mid Upper Arm Circumference</string>
-    <string name="title_activity_zscores">Z-Score</string>
 
     <!-- Notification Messages -->
     <string name="notif_msg1" formatted="false">
@@ -1162,6 +1197,7 @@
     </string>
 
     <!-- About Us text -->
+    <string name="title_activity_about">About</string>
     <string name="about_us_text" formatted="false">
         Mother\'s Love Initiative is a team comprising medical students, doctors and app developers all
         sharing a similar vision with regards to health care provision especially in the aspect of maternal
@@ -1181,24 +1217,7 @@
         mortality.
     </string>
 
-    <string name="title_activity_child_dob">Child\'s Date Of Birth</string>
-    <string name="dob_text" formatted="false">
-        When was your child born?\n
-        (The immunization schedule is only for children less than nine months of age)
-    </string>
-    <string name="dob_submit_button_text">Submit Date</string>
-    <string name="title_activity_allow_imm_notif">Immunization Notification</string>
-    <string name="allow_imm_text1" formatted="false">
-        You are about to save your child\'s date of birth (DOB) as:\n
-    </string>
-    <string name="allow_imm_text2" formatted="false">
-        \nBased on this DOB, you will receive notifications on your child\'s upcoming vaccines to be taken.
-        If the above DOB is correct, click the button below.
-    </string>
-    <string name="button_allow_imm_text">Save DOB</string>
-    <string name="displayed_dob_text">Your child\'s DOB is:\n</string>
-
-    <!-- Immunization messages -->
+    <!-- Immunization notification messages -->
     <string name="welcome_msg">
         WELCOME TO THE MLI FAMILY. WE WILL PROVIDE YOU WITH UPDATES ABOUT YOUR CHILD\'S VACCINATION AND
         HEALTH UP TO THE AGE OF 1. THANKS FOR BEING A PART OF THIS FAMILY
@@ -1236,16 +1255,4 @@
         FEVER). Your baby will then be fully immunised according to EPI.
     </string>
     <!-- End of messages -->
-    
-    <string name="title_activity_infact_schedule_options">Infact Schedule Options</string>
-    <string name="first_option_text" formatted="false">
-        To receive notifications to remind you of your child\'s immunization schedule, click the first
-        button below and select your child\'s date of birth (DOB). Note that your child should be less
-        than nine (9) months old.
-    </string>
-    <string name="receive_notifs_button_text">Select Child\'s DOB</string>
-    <string name="second_option_text" formatted="false">
-        Otherwise click the button below to see a table displaying the regular infant immunization schedule.
-    </string>
-    <string name="see_infant_schedule_button_text">See Infant Immunization Schedule</string>
 </resources>
