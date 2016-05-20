@@ -1,0 +1,1266 @@
+<resources>
+    <string name="app_name">Mother\'s Love</string>
+    <string name="app_label">Mother\'s Love</string>
+    <string name="search_hint">Recherchez...</string>
+    <string name="menu_search">Recherchez</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_about">À propos de nous</string>
+    <string name="menu_home">Acceuil</string>
+    <string name="menu_anc">Clinique Anténatal</string>
+    <string name="menu_malnutrition">Malnutrition</string>
+    <string name="menu_diarrhoea">Diarrhée</string>
+    <string name="menu_special_needs">Besoins Spéciaux</string>
+    <string name="button_anc">Soins Anténataux</string>
+    <string name="button_malnutrition">Malnutrition</string>
+    <string name="button_diarrhoea">Diarrhée</string>
+    <string name="button_special_needs">Besoins Spéciaux</string>
+    <string name="title_activity_anc">Soins Anténataux</string>
+    <string name="title_activity_malnutrition">Malnutrition</string>
+    <string name="title_activity_diarrhoea">Diarrhée</string>
+    <string name="title_activity_special_needs">Besoins Spéciaux</string>
+    <string name="menu_diagnosis">Comment Diagnostiquer</string>
+    <string name="menu_management">Gestion</string>
+    <string name="menu_acute_diarrhoea">Diarrhée Aiguë</string>
+    <string name="menu_persistent_diarrhoea">Diarrhée Persistante</string>
+    <string name="menu_dysentery">Dysenterie</string>
+    <string name="menu_hiv">VIH Avec Grossesse</string>
+    <string name="menu_hepatitis">Hépatite Avec Grossesse</string>
+    <string name="title_activity_searchable">Activité Interrogeable</string>
+
+    <!-- Malnutrition Literature Start -->
+    <string name="title_activity_how_to_diagnose">Comment Diagnostiquer</string>
+    <string name="title_activity_management">Gestion</string>
+    <string name="title_activity_introduction_malnutrition">Introduction</string>
+    <string name="malnutrition_intro_text" formatted="false">
+        Le diagnostic de la malnutrition peut être fait en utilisant soit « Mid Upper Arm Circumference
+        (MUAC) » ou « Score Z » comme critères principaux, avec ou sans les signes et les symptômes
+        énumérés dans la section « Signes et Symptômes ».
+    </string>
+    <string name="title_activity_criteria_malnutrition">Critères Principaux</string>
+    <string name="muac_button_text">Mid Upper Arm Circumference</string>
+    <string name="or_button_text"><b>OU</b></string>
+    <string name="zscores_button_text">Z-Score (Standard Deviation Score)</string>
+    <string name="muac_text" formatted="false">
+        <b>Mid Upper Arm Circumference (MUAC)</b>\n
+        MUAC est mesurée en utilisant du ruban de tailleur. La bande est placée à mi-chemin entre le
+        coude et l\'épaule comme indiqué ci-dessous:\n
+    </string>
+    <string name="muac_image_description">MUAC</string>
+    <string name="muac_image_text">Image indiquant comment mésurer MUAC.\n</string>
+    <string name="muac_interpretation_text"><b><u>INTERPRÉTATION DES RESULTATS</u></b></string>
+    <string name="muac_reading_text"><b>MUAC</b></string>
+    <string name="muac_reading1_text">&gt;12.5cm</string>
+    <string name="muac_reading2_text">11.0 - 12.5cm</string>
+    <string name="muac_reading3_text">&lt;11.0cm</string>
+    <string name="significance_text"><b>INTERPRÉTATION</b></string>
+    <string name="significance1_text">Normal</string>
+    <string name="significance2_text">Malnutrition Modérée</string>
+    <string name="significance3_text">Malnutrition Sévère</string>
+    <string name="zscore_text" formatted="false">
+        <b>Z-Score (Standard Deviation Score)</b>\n
+        \t\u2022 Ceci est calculé à partir du poids et de la hauteur les plus récents de l\'enfant,
+        la hauteur ayant été mesurée à l\'aide d\'un ruban.\n
+        Vous pouvez déterminer si votre enfant souffre de malnutrition en cliquant le bouton ci-dessous.\n
+    </string>
+
+    <string name="zscore_text2" formatted="false">
+        \t\u2022 Un Z-score supérieur à +2 indique la malnutrition sévère (surpoids).\n
+        \t\u2022 Un Z-score entre -2 et +2 indique que votre enfant ne souffre pas de malnutrition.\n
+        \t\u2022 Un Z-score entre -3 et -2 indique la malnutrition modérée.\n
+        \t\u2022 Un Z-score inférieur à -3 indique la malnutrition sévère.
+    </string>
+    <string name="zscore_button_text">Calculez Z-Score</string>
+    <string name="height_label_text">Entrez la taille (en cm)</string>
+    <string name="weight_label_text">Entrez le poids (en kg)</string>
+    <string name="calculate_button_text">Calculez</string>
+    <string name="zscore_results">
+        Remplissez les champs ci-dessus et cliquez sur le bouton &quot;Calculez&quot;
+    </string>
+    <string name="zscore_out_of_bounds" formatted="false">
+        Désolé, nous ne pouvons pas calculer votre z-score pour la hauteur donnée. Vérifiez à nouveau
+        la hauteur.
+    </string>
+    <string name="zscore_announcer">Le z-score est :</string>
+    <string name="zscore_severe_malnutrition" formatted="false">
+        Cela implique que votre enfant souffre de malnutrition sévère.\n
+        Pour plus d\'informations, cliquez sur le bouton ci-dessous.\n
+    </string>
+    <string name="zscore_moderate_malnutrition" formatted="false">
+        Cela implique que votre enfant souffre de malnutrition modérée.\n
+        Pour plus d\'informations, cliquez sur le bouton ci-dessous.\n
+    </string>
+    <string name="zscore_normal" formatted="false">
+        Cela implique que votre enfant ne souffre pas de malnutrition.
+    </string>
+    <string name="title_activity_zscore">Z-Score</string>
+    <string name="title_activity_muac">Mid Upper Arm Circumference</string>
+    <string name="title_activity_zscores">Z-Score</string>
+    <string name="title_activity_signs_malnutrition">Signes et Symptômes</string>
+    <string name="signs_malnutrition_1" formatted="false">
+        Les signes et symptômes suivants indiqueraient que votre enfant souffre de malnutrition:\n
+        \t\u2022 Œdèmes sur dos du pied (voir images ci-dessous)
+    </string>
+    <string name="oedema_image1_description">pression sur dos du pied</string>
+    <string name="oedema_image2_description">Œdèmes sur dos du pied</string>
+    <string name="signs_malnutrition_2" formatted="false">
+        \t\u2022 Alimentation Inefficace. C\'est à dire, des difficultés d\'allaitement observées pendant
+        15 à 20 minutes chez les enfants de moins de 6 mois d\'âge.\n
+        \t\u2022 Visage rond.\n
+        \t\u2022 Visage de vieil homme.\n
+        \t\u2022 Très peu de cheveux, qui sont marrons et fragiles.\n
+        \t\u2022 Peau lâche et ridée (voir image ci-dessous)
+    </string>
+    <string name="loose_skin_image_description">Peau lâche et ridée</string>
+    <string name="signs_malnutrition_3" formatted="false">
+        \t\u2022 Gros abdomen.\n
+        \t\u2022 Grave faiblesse du corps.\n
+        \t\u2022 L\'enfant n\'est pas intéressé par les alentours.\n
+        \t\u2022 Atrophie musculaire, en particulier dans les fesses.\n
+        \t\u2022 Émaciation sévère (voir image ci-dessous).
+    </string>
+    <string name="wasting_image_description">Émaciation sévère</string>
+    <string name="signs_malnutrition_4" formatted="false">
+        \t\u2022 Hypo ou hyper pigmentation de la peau (perte de la couleur normale de la peau).\n
+        \t\u2022 Diarrhée.\n
+        \t\u2022 Perte d\'appétit.
+    </string>
+    <string name="title_activity_moderate_malnutrition">Malnutrition Modérée</string>
+    <string name="moderate_malnutrition_text" formatted="false">
+        L\'alimentation complémentaire; Ceci serait effectué en utilisant des produits locaux tels que
+        du riz, du haricot et des légumes.\n
+        Des céréales mixtes, telles qu\'un mélange maïs-soja, devraient également être donnés à l\'enfant.
+        (Pas de fèves de soja)
+    </string>
+    <string name="title_activity_severe_malnutrition">Malnutrition Sévère</string>
+    <string name="severe_malnutrition_text" formatted="false">
+        <i><u>Pour les enfants ayant moins de 6 mois</u></i>\n
+        \t\u2022 Augmenter la fréquence et la durée de l\'allaitement maternel si le bébé est allaité
+        au sein.\n
+        \t\u2022 Les bébés qui ne souffrent pas d\'un œdème doivent recevoir une alimentation complémentaire
+        en utilisant le lait maternel exprimé. Si cela est impossible, du lait artificiel (lait d\'étain)
+        ou F75 devraient être donnés soit seul ou conjointement avec le lait maternel exprimé.\n
+        Les soins de l\'enfant souffrant de malnutrition devraient se poursuivre à un centre de santé,
+        donc <b>VEUILLEZ CONSULTER UN MEDECIN</b> le plus tôt possible.\n\n
+        <i><u>Pour les enfants ayant plus de 6 mois</u></i>\n
+        La gestion de leur malnutrition sévère est divisée en 2 phases: la phase de stabilisation et la
+        phase de réhabilitation.\n
+        \t<i><b>i) Phase de Stabilisation</b></i>\n
+        \t\t<b>Il est à noter que dès la fin du deuxième jour suivant le diagnostic, l\'enfant devrait
+        avoir été transporté à l\'établissement de soins de santé le plus proche pour les soins médicaux
+        appropriés.</b>\n
+        \t\tLa stabilisation se fait en utilisant F75, un régime d\'alimentation de lait modifié pour
+        traiter les complications immédiates de la malnutrition.\n\n
+        \t\t<b>Comment préparer F75 à domicile:</b>\n
+        \t\t\t\u2022 35g de lait (environ 8 cuillères à soupe)\n
+        \t\t\t\u2022 70g de sucre (environ 16 morceaux)\n
+        \t\t\t\u2022 20g d\'huile d\'arachide, Mayor ou Azur (1 cuillère à soupe ou 1 cuillère à thé)\n
+        \t\t\t\u2022 35g de Blédina ou Cérélac (environ 8 cuillères à soupe)\n
+        \t\t\t\u2022 10ml de multivitamines ou 1 sachet de Genesvit junior\n
+        \t\t\t\u2022 Mélanger les composants ci-dessus dans 1l d\'eau potable.\n
+        \t\t<b>NB: Le F75 préparé comme indiqué ci-dessus doit être conservé dans un réfrigérateur et
+        placé dans de l\'eau chaude avant chaque repas.</b>\n\n
+        \t\t<b>Comment donner F75 à l\'enfant:</b>\n
+        \t\t\t<i><u>Jours 1-2:</u></i>\n
+        \t\t\t<i>Fréquence (nombres de repas par heure): </i>deux fois par heure.\n
+        \t\t\t<i>Quantité / kg par alimentation: </i>11ml\n
+        \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
+        \t\t\t<i><u>Jours 3-5:</u></i>\n
+        \t\t\t<i>Fréquence (nombres de repas par heure): </i>trois fois par heure.\n
+        \t\t\t<i>Quantité / kg par alimentation: </i>16ml\n
+        \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
+        \t\t\t<i><u>Jours 6 et suivants:</u></i>\n
+        \t\t\t<i>Fréquence (nombres de repas par heure): </i>Four times each hour.\n
+        \t\t\t<i>Quantité / kg par alimentation: </i>22ml\n
+        \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
+        \t\t\t<b>*Quantité / kg = chiffre correspondant pour le jour x le poids de l\'enfant en kg</b>\n\n
+        \t\tNourrir l\'enfant à partir d\'une tasse ou un bol à l\'aide d\'une cuillère, ou mieux encore,
+        une seringue (<b>sans aiguille</b>).\n\n
+        \t\t<b>Surveillance</b>\n
+        \t\t\t\u2022 Toujours enregistrer la quantité de nourriture donnée et les restes.\n
+        \t\t\t\u2022 Prenez note si l\'enfant vomit.\n
+        \t\t\t\u2022 Vérifier la fréquence respiratoire accrue. C\'est à dire, vérifier si l\'enfant
+        respire plus vite que la normale. Si c\'est le cas, <b>veuillez consulter un médecin.</b>\n
+        \t\t\t\u2022 Combien de fois l\'enfant fait-il des selles par jour? Sont-elles molles, aqueuses
+        ou normales?\n
+        \t\t\t\u2022 Vérifiez les signes d\'amélioration, tels que:\n
+        \t\t\t\t* Retour de l\'appétit\n
+        \t\t\t\t* La plupart ou la totalité d\'un œdème (gonflement) est partie\n\n
+        \t<i><b>ii) Phase de Réhabilitation</b></i>\n
+        \t\t<b>NB: Le médecin informera les parents lorsque l\'enfant est prêt à commencer la phase de
+        réhabilitation.</b>\n
+        \t\tLa phase de réhabilitation est faite en utilisant F100 dilué.\n\n
+        \t\t<b>Comment préparer F100 dilué à domicile:</b>\n
+        \t\t\t\u2022 110g de lait (environ vingt-quatre cuillères à soupe et demi)\n
+        \t\t\t\u2022 50g de sucre (environ onze morceaux et demi)\n
+        \t\t\t\u2022 Environ 2 cuillères à soupe d\'huile, Mayor ou Azur\n
+        \t\t\t\u2022 1 sachet de Genesvit junior\n
+        \t\t\t\u2022 Mélanger tout ce qui précède dans 1l d\'eau, puis ajouter 300 ml d\'eau.\n\n
+        \t\t<b>NB: Le F100 préparé comme indiqué ci-dessus doit être conservé dans un réfrigérateur et
+        placé dans de l\'eau chaude avant chaque repas.</b>\n\n
+        <b>D\'autres Aspects de la Gestion</b>\n
+        En dehors de F75 et F100, l\'enfant a aussi besoin:\n
+        \t\u2022 Beaucoup de tendresse, d\'amour et de soins.\n
+        \t\u2022 Un environnement gai / heureux.\n
+        \t\u2022 5 à 30 minutes de temps de jeu chaque jour.\n\n
+        <b><u>Un Enfant Souffrant de Malnutrition ayant la Diarrhée</u></b>\n
+        \t\u2022 Si un enfant souffrant de malnutrition a la diarrhée, il est considéré comme ayant une
+        déshydratation modérée.\n
+        \t\u2022 Ceci est traité en utilisant SoReMal (Solution de Réhydratation pour la Malnutrition)
+        dans un centre hospitalier ou de santé. <b>VEUILLEZ CONSULTER UN MEDECIN!!!</b>
+    </string>
+    <!-- Malnutrition End -->
+
+    <!-- Diarrhoea Literature Start -->
+    <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
+    <string name="acute_diarrhoea_definition" formatted="false">
+        Passage of greater than 3 loose stools in a day, with no blood in the stools.
+    </string>
+    <string name="normal_stool_color">Normal Stool Color</string>
+    <string name="normal_stool_color_label" formatted="false"><b>Picture:</b> Normal Stool Color</string>
+    <string name="title_activity_persistent_diarrhoea">Persistent Diarrhoea</string>
+    <string name="title_activity_dysentery">Dysentery</string>
+    <string name="title_activity_presentation_acute_diarrhoea">Presentation</string>
+    <string name="acute_diarrhoea_presentation" formatted="false">
+        All children with diarrhoea should be assessed and classified as either having severe dehydration,
+        some (moderate) dehydration, or no (mild) dehydration.\n\n
+        <b>Severe Dehydration</b>\n
+        Characterised by at least two of the following:\n
+        \u2022 Severe body weakness (lethargy) or unconsciousness\n
+        \u2022 Sunken eyes\n
+        \u2022 Unable to drink or drinks poorly\n
+        \u2022 After pinching the skin, it returns to normal very slowly (two seconds or more)\n\n
+        <b>Some (Moderate) Dehydration</b>\n
+        Characterised by at least two of the following:\n
+        \u2022 Restlessness or irritability\n
+        \u2022 Sunken eyes\n
+        \u2022 Drinks eagerly; thirsty\n
+        \u2022 After pinching the skin, it returns to normal slowly\n\n
+        <b>No (Mild) Dehydration</b>\n
+        Not enough signs to classify as some dehydration or severe dehydration.
+    </string>
+    <string name="title_activity_definition_acute_diarrhoea">Definition</string>
+    <string name="title_activity_management_acute_diarrhoea">Management</string>
+    <string name="title_activity_no_dehydration">No Dehydration (Mild)</string>
+    <string name="no_dehydration_text" formatted="false">
+        <b>Treatment is given at home</b>\n\n
+        <b>How to prepare Oral Rehydration Solution (ORS) at home: </b>In 1 litre of clean water, add
+        8 cubes of sugar + 1 teaspoon of salt + 1 lemon (squeezed), then mix properly so that the sugar
+        and salt dissolve.\n\n
+        The treatment at home should follow the active rules listed below:\n
+        \t\u2022 Continue feeding\n
+        \t\u2022 Give extra fluids\n
+        \t\u2022 Give zinc supplements\n
+        \t\u2022 When to go to the hospital or health centre\n\n
+        <b>I.\tContinue Feeding</b>\n
+        \u2022 If the child is breastfed, feed more frequently or increase duration of feeding.\n
+        \u2022 If exclusively breastfed, give ORS or clean water in addition to breast milk.\n\n
+        <b>II.\tGive Extra Fluids</b>\n
+        \u2022 If not exclusively breastfed, give either <b>ORS</b> or <b>CLEAN WATER</b>.\n
+        \u2022 To prevent dehydration, give as much fluid as the child will take, that is,\n
+        \t\t* Less than 2 years: 50 - 100ml after every loose stool\n
+        \t\t* Greater than 2 years: 100 - 200ml after every loose stool\n
+        \u2022 Give small sips from a cup. If the child vomits, wait 10 minutes then continue more slowly. Continue
+        administering extra fluids till diarrhoea reduces.\n
+        \u2022 Mother should have two extra packets of ORS or already locally prepared ORS at home.\n\n
+        <b>III.\tGive Zinc Supplements</b>\n
+        Give zinc supplements as follows:\n
+        \t* Less than 6 months: 1/2 tablet (10mg) per day for 10 - 14 days.\n
+        \t* Greater than 6 months: 1 tablet (20mg) per day for 10 - 14 days.\n
+        Dissolve the zinc tablet in breast milk, clean water or ORS before administering to the child.\n\n
+        <b>IV.\t When to go to the Hospital or Health Centre</b>\n
+        \u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
+        having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
+        \u2022 If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
+        Administer the same treatment if the child suffers from a similar episode of diarrhoea.
+    </string>
+    <string name="title_activity_little_dehydration">Some Dehydration (Moderate)</string>
+    <string name="little_dehydration_text" formatted="false">
+        <b>Could be treated at home if the following steps are well followed</b>\n\n
+        What do you use? Oral Rehydration Solution (ORS). This is sold in packets at the hospital,
+        health centre or pharmacy. ORS can also be made at home.\n\n
+        <b>How to prepare ORS at home: </b>In 1 litre of clean water, add 8 cubes of sugar + 1 teaspoon
+        of salt + 1 lemon (squeezed), then mix properly so that the sugar and salt dissolve.\n\n
+        <b><i>Click on the button below to see what quantity of ORS to give to the child.\n
+        You should give the ORS with respect to the weight of the child, and THE SOLUTION SHOULD BE GIVEN
+        OVER A 4 HOUR PERIOD</i></b>\n
+    </string>
+    <string name="see_table_button_text">See Table</string>
+    <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
+    <string name="age_cell_text"><b>AGE</b></string>
+    <string name="age1_text"><b>&lt;4 months</b>\n\n</string>
+    <string name="age2_text"><b>4 - 12 months</b>\n\n</string>
+    <string name="age3_text"><b>1 - 2 years</b>\n\n</string>
+    <string name="age4_text"><b>2 - 5 years</b>\n\n</string>
+    <string name="weight_cell_text"><b>WEIGHT</b></string>
+    <string name="weight1_text"><b>&lt;6 kg</b>\n\n</string>
+    <string name="weight2_text"><b>6 - &lt;10 kg</b>\n\n</string>
+    <string name="weight3_text"><b>10 - &lt;12 kg</b>\n\n</string>
+    <string name="weight4_text"><b>12 - 19 kg</b>\n\n</string>
+    <string name="amount_cell_text"><b>AMOUNT OF ORS TO GIVE</b></string>
+    <string name="amount1_text" formatted="false">
+        <b>200 - 400 ml</b>\n
+        e.g. one smallest-sized plastic\n
+        brasseries bottle (350ml)
+    </string>
+    <string name="amount2_text" formatted="false">
+        <b>400 - 700 ml</b>\n
+        e.g. two smallest-sized plastic\n
+        brasseries bottles (2 x 350ml)
+    </string>
+    <string name="amount3_text" formatted="false">
+        <b>700 - 900 ml</b>\n
+        e.g. 3/4 of a brasseries 1 litre\n
+        plastic bottle (750ml)
+    </string>
+    <string name="amount4_text" formatted="false">
+        <b>900 - 1400 ml</b>\n
+        e.g. a brasseries 1 litre plastic\n
+        bottle
+    </string>
+    <string name="little_dehydration_text_continued" formatted="false">
+        \n\u2022 If the child wants more ORS than is prescribed above, feel free to give more.\n
+        \u2022 Give frequent sips from a cup. If the child vomits, wait 10 minutes then continue, but more
+        slowly.\n
+        \u2022 Continue breastfeeding whenever the child wants.\n
+        \u2022 Give zinc supplements as follows:\n
+        \t* Less than 6 months: 1/2 tablet (10mg) per day for 10 - 14 days.\n
+        \t* Greater than 6 months: 1 tablet (20mg) per day for 10 - 14 days.\n
+        \tDissolve the zinc tablet in breast milk, clean water or ORS before administering to the child.\n\n
+        \u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
+        having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
+        \u2022 If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
+        Administer the same treatment if the child suffers from a similar episode of diarrhoea.
+    </string>
+    <string name="title_activity_little">Little</string>
+    <string name="title_activity_severe_dehydration">Severe Dehydration</string>
+    <string name="severe_dehydration_text" formatted="false">
+        <b>Should be treated at a hospital or health centre.</b>\n\n
+        <i>Fluids to use:</i>\n
+        Isotonic fluids like Ringer\’s lactate solution (Hartmann\’s solution) and Normal Saline
+        solution (0.9% NaCl).\n\n
+        <i>Do not use the following:</i>\n
+        5% glucose (dextrose) or 0.18 Saline with 5% dextrose solution.\n
+        They increase the risk of hyponatraemia which can in turn cause cerebral oedema.
+    </string>
+    <string name="title_activity_persistent_diarrhoea_definition">
+        Definition
+    </string>
+    <string name="persistent_diarrhoea_definition" formatted="false">
+        Persistent diarrhoea is defined as diarrhoea with or without blood in stool which begins
+        acutely and lasts 14 days or more.
+    </string>
+    <string name="title_activity_persistent_diarrhoea_types">Types</string>
+    <string name="title_activity_severe_persistent_diarrhoea">Severe Persistent Diarrhoea</string>
+    <string name="title_activity_non_severe_persistent_diarrhoea">
+        Non-Severe Persistent Diarrhoea
+    </string>
+    <string name="title_activity_non_severe_persistent_diarrhoea_definition">
+        Definition
+    </string>
+    <string name="non_severe_persistent_diarrhoea_definition" formatted="false">
+        This is diarrhoea lasting 14 days or more with no signs of dehydration and no severe malnutrition.
+    </string>
+    <string name="title_activity_non_severe_persistent_diarrhoea_treatment">
+        Treatment
+    </string>
+    <string name="non_severe_persistent_diarrhoea_treatment" formatted="false">
+        \u2022 Give treatment according to treatment Plan A (No (Mild) Dehydration).\n
+        \u2022 ORS is effective for most children with persistent diarrhoea. However, if the child does not
+        tolerate ORS (i.e. there is an increase in stool volume, thirst or worsening of signs of dehydration),
+        such children should be given treatment <b>at a hospital or health centre</b> until ORS can be tolerated
+        without worsening of the diarrhoea.\n
+        \u2022 <b>Antibiotics treatment is NOT NECESSARY</b> unless there is evidence of an intestinal or
+        non intestinal infection.\n\n
+        <b>Feeding</b>\n
+        \t\u2022 Reduce the amount of milk in the child\'s diet temporarily.\n
+        \t\u2022 Continue breastfeeding more often and longer by day and night.\n
+        \t\u2022 If the child is taking some other form of milk, replace animal milk with fermented milk
+        like yogurt which contains less lactose and is well tolerated.\n
+        \t\u2022 If the above mentioned replacement is not possible, reduce animal milk to a maximum of
+        50ml/kg (i.e. 50 x child\'s weight in kg) in 24 hours.\n
+        \t\u2022 Formula-fed children that are older than 4 months should start taking in solid foods.\n
+        \t\u2022 Give frequent small feeds, at least 6 times per day.\n\n
+        <b>Follow Up</b>\n
+        \t\u2022 Take the child back to the hospital or health centre after 5 days at most if the diarrhoea
+        worsens or other problems develop.\n
+        \t\u2022 Check for signs of dehydration and the child\'s body temperature to ensure there is no fever.\n
+        \t\u2022 If the child has gained weight and has less than 3 loose stools per day, they may resume
+        the normal diet for their age.
+    </string>
+    <string name="title_activity_dysentery_definition">Definition</string>
+    <string name="dysentery_definition" formatted="false">
+        Dysentery is defined as loose stools containing blood.\n
+    </string>
+    <string name="loose_stool_image_description">Loose Stool Containing Blood</string>
+    <string name="loose_stool_image_label"><b>Picture: </b>Loose Stool Containing Blood</string>
+    <string name="title_activity_dysentery_diagnosis">Diagnosis</string>
+    <string name="dysentery_diagnosis" formatted="false">
+        A child with dysentery will have some or all of the following signs:\n
+        \t\u2022 Abdominal pain\n
+        \t\u2022 Fever\n
+        \t\u2022 Severe body weakness\n
+        \t\u2022 Dehydration
+    </string>
+    <string name="title_activity_dysentery_treatment">Treatment</string>
+    <string name="dysentery_treatment" formatted="false">
+        <b><i>Take the child to a hospital or health centre as soon as possible.</i></b>\n\n
+        <b>Follow Up</b>\n
+        Two days after starting the treatment at the hospital or health centre, check for signs of
+        improvement such as:\n
+        \t\u2022 No fever\n
+        \t\u2022 Fewer loose stools with less blood\n
+        \t\u2022 Improved appetite\n\n
+        If there is no improvement, return to the hospital.\n\n
+        Treat for dehydration depending on the level of dehydration.\n\n
+        <b>Feeding</b>\n
+        <i><u>Less than 6 months</u></i>\n
+        \t\u2022 Continue breastfeeding throughout the illness, but do so more frequently than usual.\n\n
+        <i><u>Over 6 months</u></i>\n
+        \t\u2022 They should receive their normal meals.\n
+        \t\u2022 Encourage the child to eat, and allow the child to select preferred foods.
+    </string>
+    <string name="title_activity_severe_persistent_diarrhoea_definition">
+        Definition
+    </string>
+    <string name="severe_persistent_diarrhoea_definition" formatted="false">
+        This is diarrhoea lasting 14 days or more, with signs of some dehydration or severe dehydration.
+    </string>
+    <string name="title_activity_severe_persistent_diarrhoea_treatment">
+        Treatment
+    </string>
+    <string name="severe_persistent_diarrhoea_treatment" formatted="false">
+        \u2022 <b>Take the child to the hospital</b>\n
+        \u2022 Child should be assessed and treated according to Plan B (Some Dehydration) or Plan C (Severe
+        Dehydration) depending on the level of dehydration\n
+        \u2022 ORS is effective for most children with persistent diarrhoea. However, if the child does not
+        tolerate ORS (i.e. there is an increase in stool volume, thirst or worsening of signs of dehydration),
+        such children should be given treatment <b>at a hospital or health centre</b> until ORS can be tolerated
+        without worsening of the diarrhoea.\n
+        \u2022 <b>Antibiotics treatment is NOT NECESSARY</b> unless there is evidence of an intestinal or
+        non intestinal infection.\n\n
+        <b>Feeding</b>\n
+        <i><u>Children less than 6 months</u></i>\n
+        \t\u2022 Breastfeeding should be continued for as often and long as the child wants.\n
+        \t\u2022 Other foods should not be given for as long as 4 to 6 hours to allow for rehydration to be
+        done, depending on the level of dehydration.\n\n
+        <i><u>Children over 6 months</u></i>\n
+        \t\u2022 Restart feeding as soon as the child can eat. Feed the child at least 6 times a day to ensure
+        they meet adequate energy requirements.\n\n
+        <b>Follow Up</b>\n
+        Check the following to ensure that the child is improving:\n
+        \t\u2022 Weight gain: Increase in weight for 3 consecutive days shows favourable response to treatment.\n
+        \t\u2022 Temperature: Absence of fever shows appropriate response to treatment.\n
+        \t\u2022 Number of stools per day: Passage of less than 3 loose stools per day shows favourable
+        response to treatment.\n
+        \t\u2022 Food intake: Increased food intake by the child shows favourable response
+        to treatment.
+    </string>
+    <!-- Diarrhoea End -->
+
+    <!-- Special Needs Literature Start -->
+    <string name="title_activity_hiv">HIV &amp; Pregnancy</string>
+    <string name="title_activity_hepatitis">Hepatitis &amp; Pregnancy</string>
+    <string name="title_activity_hivintroduction">Introduction</string>
+    <string name="hiv_intro_text" formatted="false">
+        \u2022 This section will focus on diagnosis and prevention of mother to child transmission (PMTCT)
+        of HIV as 90% of children infected with HIV get it from their mothers.\n\n
+        \u2022 In 2012, there were still an estimated 260,000 new infections among children.\n\n
+        \u2022 It is however possible to have healthy HIV negative children from HIV positive mothers.
+        HIV/AIDS does not prevent you from having children.\n\n
+        \u2022 Without treatment, there is a 15-45% chance of the infection getting to your baby. With
+        treatment, this value decreases to less than 5%.\n\n
+        \u2022 Therefore there is the need on the part of mothers and health care practitioners to know
+        and implement the appropriate information to reduce mother to child transmission (MTCT) values
+        to the minimum.
+    </string>
+    <string name="title_activity_hivapproach">Approach</string>
+    <string name="title_activity_hivstep1">Step 1</string>
+    <string name="hiv_step_1" formatted="false">
+        At your booking visit (1st ANC visit) you will be given a series of tests to do including the
+        HIV test. You will be counselled prior to and after the release of the test results.\n\n
+        i. If you test negative for HIV, it is important that you stay negative. If you have unprotected
+        sex, and/or share needles and syringes, then test again.\n\n
+        ii. If you test positive for HIV, pay careful attention during your counselling about your health.
+        You will be given a series of tests to do (pre-therapeutic work up) after which you should
+        report to your doctor with the results.\n
+        \u2022 Then move to STEP TWO.
+    </string>
+    <string name="title_activity_hivstep2">Step 2</string>
+    <string name="hiv_step_2" formatted="false">
+        International guidelines by the World Health organisation (WHO) option B+ demand that you should
+        be placed on treatment as soon as you are diagnosed. You should adhere to this treatment for life.
+        You should take the drugs at a particular time of the day at your convenience and for the rest
+        of your life. If complications occur, please <b>SEE YOUR DOCTOR</b> for assessment and maybe a change
+        of the drugs. <b>Do not stop the drugs without informing your doctor.</b>\n\n
+        <b><u>NB:</u></b>\n
+        <u>Benefits of Antiretrovirals:</u>\n
+        \u2022 Keep you strong and healthy\n
+        \u2022 Make you less infectious\n
+        \u2022 Protect your baby\n\n
+        <u>Things to avoid:</u>\n
+        \u2022 Smoking\n
+        \u2022 Alcohol
+    </string>
+    <string name="title_activity_hivstep3">Step 3</string>
+    <string name="hiv_step_3" formatted="false">
+        When you get into labour at the hospital, inform the doctor or midwife about your HIV status
+        so that dispositions can be taken to minimise chances of transmission to your baby. You can
+        deliver vaginally, as being HIV positive does not prevent this. However, cesarean delivery
+        will be the safest and fastest mode of delivery for you.\n\n
+        The decision on the route of delivery will be made based on the situations surrounding delivery,
+        your doctor\’s opinion and your consent.
+    </string>
+    <string name="title_activity_hivstep4">Step 4</string>
+    <string name="hiv_step_4" formatted="false">
+        i.\tFeeding method depends on availability of resources.\n
+        \t\t\u2022 If the resources are available, bottle feeding is the gold standard. Seek appropriate
+        counselling on how this is done and hygiene should be prioritised.\n
+        \t\t\u2022 However if the resources are not available, exclusive breastfeeding for 6 months should be done.\n
+        \t\t\u2022 <b>Mixed feeding should be avoided.</b>\n\n
+        ii.\t\u2022 <b>If you decide to breastfeed</b>, your child should be given Nevirapine once a day
+        from birth until 1 week after you stop breastfeeding.\n
+        \t\t\u2022 <b>If you decide not to breastfeed</b>, your child should receive Nevirapine once a day from
+        birth until 6 weeks of age.
+    </string>
+    <string name="title_activity_hivstep5">Step 5</string>
+    <string name="hiv_step_5" formatted="false">
+        The age at which your baby can be tested for HIV depends on the kind of test done and the
+        method of feeding.\n\n
+        <b>1. PCR TEST</b>\n
+        <b>If the baby is breastfeeding: </b>PCR test can be done from age 1 month and repeated 3 months
+        after the child stops breastfeeding to ensure the child is negative.\n
+        <b>If the child is not breastfeeding: </b>PCR test can be done from age 1 month and repeated
+        when the child is 4 months old to confirm the child is negative.\n
+        <b>If the child is on Nevirapine: </b>PCR test can be done from age 1 month and should be repeated
+        2-4 weeks after Nevirapine is stopped.\n\n
+        <b>2. ANTIBODY TEST</b>\n
+        This test should be done when the child is at least 18 months old.\n
+        \u2022 If the child tests negative, he/she is negative.\n
+        \u2022 If the child tests positive, he/she is positive.
+    </string>
+    <string name="title_activity_hivstep6">Step 6</string>
+    <string name="hiv_step_6" formatted="false">
+        \u2022 If your baby tests negative, it is important that your baby stays that way.\n\n
+        \u2022 If your baby tests positive, he/she should be placed on treatment as soon as possible.
+    </string>
+    <string name="title_activity_hepatitis_introduction">Introduction</string>
+    <string name="hepatitis_intro_text" formatted="false">
+        \u2022 Hepatitis B is the inflammation of the liver as a result of infection from hepatitis B virus.
+        It may or may not present itself with symptoms such as fever, loss of appetite, vomiting, diarrhoea,
+        yellowing of the eyes, tiredness, body pains, dark urine and pale-coloured stool.\n\n
+        \u2022 This virus can be transmitted through contact with infected blood, semen, vaginal secretions
+        and, to a lesser extent, saliva.\n\n
+        \u2022 Your immune system can protect you from hepatitis B infection for a few months even without
+        treatment. However 5% of people continue carrying the virus. This leads to damages to your liver
+        in the long run.\n\n
+        \u2022 10-20% of women who are Hepatitis B surface antigen (HBsAg) positive will transmit the infection
+        to their babies without appropriate treatment of the mother and child.
+    </string>
+    <string name="title_activity_hepatitis_approach">Approach</string>
+    <string name="title_activity_hepatitis_step1">Step 1</string>
+    <string name="hepatitis_step_1" formatted="false">
+        At your booking visit (1st ANC visit), among the tests requested to be done on you will be
+        Hepatitis B surface antigen (HBsAg).\n\n
+        i. If you test negative, it is important you stay that way.\n\n
+        ii. If you test positive, you will be directed to a doctor who will run a test to check for
+        the level of the virus in your blood. This is called the viral load.
+    </string>
+    <string name="title_activity_hepatitis_step2">Step 2</string>
+    <string name="hepatitis_step_2" formatted="false">
+        i. If the viral load is low, your doctor will surely not put you on treatment immediately.\n\n
+        ii. If the viral load is high you may be offered treatment either with lamivudine or tenofovir.
+        Treatment will often start in the 3rd trimester of pregnancy (i.e. last 3 months of your pregnancy)
+        and continue to the 12th week after delivery, and could even extend beyond this date depending
+        on your response to the treatment and the evaluation from your doctor.\n\n
+        <b>NB: </b>If you have already been diagnosed and placed on treatment prior to your pregnancy,
+        inform your doctor about your treatment to ensure the safety of your baby.
+    </string>
+    <string name="title_activity_hepatitis_step3">Step 3</string>
+    <string name="hepatitis_step_3" formatted="false">
+        \u2022 When you get into labour, inform the doctor or midwife of your hepatitis B status so that the
+        necessary precautions can be taken to ensure your baby\’s safety.\n\n
+        \u2022 You can deliver vaginally, given that being hepatitis B positive doesn\’t prevent you from doing so.
+    </string>
+    <string name="title_activity_hepatitis_step4">Step 4</string>
+    <string name="hepatitis_step_4" formatted="false">
+        <b>Vaccination</b>\n
+        \u2022 At birth, your baby should receive the Hepatitis B vaccine.\n
+        \u2022 This vaccine should be followed up by an injection with antibodies against Hepatitis B.\n
+        \u2022 Your baby will need another vaccine at ages 1 month, 2 months and 1 year. A booster is recommended
+        for these vaccines at the age of 5 years.\n
+        <b>
+            * It is important for your baby to receive the vaccines because 9 out of 10 babies who get
+            infected from their mothers go on to have chronic hepatitis.\n
+            * When you go for routine vaccination according to the Expanded Program for Immunisation,
+            inform the nurse of your status, emphasizing that your child is already receiving hepatitis
+            vaccines.\n\n
+            Feeding\n
+        </b>
+        It is safe for you to breastfeed your baby as long as he/she is receiving his/her vaccines.
+    </string>
+    <string name="title_activity_hepatitis_step5">Step 5</string>
+    <string name="hepatitis_step_5" formatted="false">
+        Your baby should have a blood test around his/her 1st birthday to check if all the viruses are gone.\n\n
+        i. If your baby tests negative, it is important he/she stays that way.\n\n
+        ii. If your baby tests positive, you should see a doctor for a more detailed evaluation of your child.
+    </string>
+    <!-- Special Needs End -->
+
+    <string name="title_activity_notifications">Notifications</string>
+
+    <!-- ANC Literature Start -->
+    <string name="title_activity_before_birth_anc">Antenatal Clinic</string>
+    <string name="anc_intro_button_text">Introduction</string>
+    <string name="anc_package_button_text">ANC Package</string>
+    <string name="title_activity_ancintro">Introduction</string>
+    <string name="anc_intro_text" formatted="false">
+        Antenatal Clinic (ANC) refers to the continuous care given to mothers and their unborn babies
+        throughout the pregnancy period.\n\n
+        ANC provides women and their families with appropriate information and advice for a healthy
+        pregnancy, safe delivery, and recovery after delivery.\n
+        It also includes care of the newborn, promotion of early, exclusive breastfeeding, and assistance
+        with deciding on future pregnancies (family planning) in order to improve pregnancy outcomes.\n\n
+        An effective ANC package depends on competent health care providers in a well-equipped functioning
+        health system, which can provide referral services and has laboratory support.
+    </string>
+    <string name="title_activity_ancpackage">ANC Package</string>
+    <string name="anc_package_text" formatted="false">
+        The World Health Organization (WHO) now recommends each pregnant woman to have at least FOUR
+        focused antenatal care visits before delivery of the baby.\n\n
+        The goals and activities of ANC are summarized in each of the sections below:\n
+    </string>
+    <string name="first_visit_button_text">First ANC Visit</string>
+    <string name="second_visit_button_text">Second ANC Visit</string>
+    <string name="third_visit_button_text">Third ANC Visit</string>
+    <string name="fourth_visit_button_text">Fourth ANC Visit</string>
+    <string name="title_activity_first_anc_visit">First ANC Visit</string>
+    <string name="first_anc_visit_text" formatted="false">
+        <b><u>FIRST ANC VISIT (8 - 12 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Confirm pregnancy and calculate estimated date of delivery (EDD).\n
+        \t\u2022 Classify women for basic ANC (four visits) or more specialized care.\n
+        \t\u2022 Screen, treat and give preventive measures for diseases.\n
+        \t\u2022 Develop a birth and emergency plan.\n
+        \t\u2022 Advise and counsel pregnant women.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Family/personal past history\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Haemoglobin\n
+        \t\u2022 Blood/Rhesus group\n
+        \t\u2022 Veneral disease screening\n
+        \t\u2022 Hepatitis B &amp; C/toxoplasmosis/rubella/HIV tests\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Stool analysis\n
+        \t\u2022 Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension)\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Tetanus toxoid\n
+        \t\u2022 Iron and folate supplements\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t\u2022 Self-care\n
+        \t\u2022 Alcohol and tobacco use\n
+        \t\u2022 Nutrition\n
+        \t\u2022 Safe sex\n
+        \t\u2022 Rest\n
+        \t\u2022 Sleeping under ITN\n
+        \t\u2022 Birth and emergency plan
+    </string>
+    <string name="title_activity_second_anc_visit">Second ANC Visit</string>
+    <string name="second_anc_visit_text" formatted="false">
+        <b><u>SECOND ANC VISIT (22 - 24 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Assess maternal and fetal well-being.\n
+        \t\u2022 Exclude PIH and anaemia.\n
+        \t\u2022 Give preventive measures for diseases.\n
+        \t\u2022 Review and modify birth and emergency plan.\n
+        \t\u2022 Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Screen for diabetes mellitus\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g diabetes, hypertension)\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Tetanus toxoid\n
+        \t\u2022 Iron and folate supplements\n
+        \t\u2022 IPTp\n
+        \t\u2022 ARV\n\n
+        <b>Health education, advice and counseling</b>\n
+        \t\u2022 Birth and emergency plan.\n
+        \t\u2022 Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_third_anc_visit">Third ANC Visit</string>
+    <string name="third_anc_visit_text" formatted="false">
+        <b><u>THIRD ANC VISIT (32 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Assess maternal and fetal well-being.\n
+        \t\u2022 Exclude PIH, anaemia and multiple pregnancies.\n
+        \t\u2022 Give preventive measures for diseases.\n
+        \t\u2022 Review and modify birth and emergency plan.\n
+        \t\u2022 Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anaemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Iron and folate supplements.\n
+        \t\u2022 IPTp\n
+        \t\u2022 ARV\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t\u2022 Birth and emergency plan.\n
+        \t\u2022 Infant feeding.\n
+        \t\u2022 Postpartum/postnatal care.\n
+        \t\u2022 Pregnancy spacing.\n
+        \t\u2022 Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_fourth_anc_visit">Fourth ANC Visit</string>
+    <string name="fourth_anc_visit_text" formatted="false">
+        <b><u>FOURTH VISIT (36 weeks):</u></b>\n\n
+        <b>Aim:</b>\n
+        \t\u2022 Assess maternal and fetal well-being.\n
+        \t\u2022 Exclude PIH, anaemia, multiple pregnancies and malpresentation.\n
+        \t\u2022 Give preventive measures for diseases.\n
+        \t\u2022 Review and modify birth and emergency plan.\n
+        \t\u2022 Advise and counsel.\n\n
+        <b>Screening:</b>\n
+        \t\u2022 Weight\n
+        \t\u2022 Blood pressure\n
+        \t\u2022 Anaemia\n
+        \t\u2022 Fundal height\n\n
+        <b>Tests:</b>\n
+        \t\u2022 Urine analysis\n
+        \t\u2022 Ultrasound\n\n
+        <b>Treatment:</b>\n
+        \t\u2022 Commence HIV treatment if positive.\n
+        \t\u2022 Treat infections/diseases if indicated.\n
+        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n
+        \t\u2022 Rotation/referral for rotation of fetus if in breech.\n\n
+        <b>Preventive measures for diseases:</b>\n
+        \t\u2022 Iron and folate supplements.\n
+        \t\u2022 ARV\n\n
+        <b>Health education, advice and counseling:</b>\n
+        \t\u2022 Birth and emergency plan.\n
+        \t\u2022 Infant feeding.\n
+        \t\u2022 Postpartum/postnatal care.\n
+        \t\u2022 Pregnancy spacing.\n
+        \t\u2022 Reinforcement of previous advice.
+    </string>
+    <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
+    <string name="sn_select_text" formatted="false">
+        To help us better follow you up and prevent the transmission of certain diseases to your child,
+        please select the box(es) below if you have any or both of the corresponding conditions.\n
+        We can\'t access the information you provide, so it is strictly confidential.
+    </string>
+    <string name="hiv_checkbox_text">HIV positive?</string>
+    <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
+    <string name="sn_status_positive">Yes</string>
+    <string name="sn_status_negative">No</string>
+    <string name="submit_button_text">Save</string>
+    <string name="title_activity_before_birth">Before Birth</string>
+    <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
+    <string name="he_during_pregnancy_text" formatted="false">
+        <b>Adequate nutrition: </b>Pregnant women are encouraged to eat foods rich in protein, vitamins,
+        iron and calcium.\n\n
+        <b>Clothing: </b>Should be free, light and hanging from shoulders. Avoid high heels, shoes with
+        thin soles, belts and corsets.\n\n
+        <b>Good Hygiene: </b>The mouth and breasts should be kept very clean throughout pregnancy and after
+        delivery.\n\n
+        <b>Sexual activity: </b>To be avoided by pregnant women with threatened abortion, preterm labour
+        or antepartum hemorrhage.\n\n
+        <b>Travelling: </b>It is allowed when comfortable. For patients with a history of antepartum
+        hemorrhage or preterm labour, it is better to avoid travelling.\n\n
+        <b>Weight Gain: </b>1 - 2kg in the first trimester (first three months) of pregnancy, and an
+        average weight gain of 0.4kg/week from 20 weeks onwards.\n\n
+        <b>Baths: </b>Showers are preferable over tub baths. No vaginal douches are allowed.\n\n
+        <b>Exercise: </b>Exercises should be mild. Walking should be the preferred option. House work,
+        if it is not too tiring, is allowed.\n\n
+        <b>Rest and Sleep: </b>Rest eight hours at night and two hours in the afternoon. Increase rest
+        sleep hours towards term.\n\n
+        <b>Drugs: </b>Avoid all unnecessary drugs during pregnancy. Minor should be managed without the
+        use of drugs whenever possible, by reassuring the patient.\n\n
+        <b>Smoking and Alcohol Consumption: </b>These should NOT be attempted during pregnancy given that
+        they cause a lot of complications.\n\n
+        <b>Irradiation: </b>Avoid exposure to irradiation because of its teratogenic effect on the fetus.
+    </string>
+    <string name="title_activity_common_complaints_during_pregnancy">
+        Common Complaints During Pregnancy
+    </string>
+    <string name="common_pregnancy_complaints_text" formatted="false">
+        \u2022 Nausea and vomiting\n
+        \u2022 Heart burn\n
+        \u2022 Phyalism (excessive salivation)\n
+        \u2022 Constipation\n
+        \u2022 Hemorrhoids and varicose veins\n
+        \u2022 Swelling of feet\n
+        \u2022 Leg cramps\n
+        \u2022 Excessive colorless, odorless vaginal discharge not associated with burning sensations or itches.\n
+        \u2022 Back ache
+    </string>
+    <string name="title_activity_high_risk_pregnancies">High Risk Pregnancies</string>
+    <string name="high_risk_pregnancies_text" formatted="false">
+        Certain pregnancies are classified as HIGH risk because they have a greater probability of
+        jeopardizing maternal and fetal welfare. These conditions require a keener follow up during
+        pregnancy. They include:\n
+        \t\u2022 Early first pregnancy, less than 18 years old.\n
+        \t\u2022 Late first pregnancy, more than 35 years old.\n
+        \t\u2022 Long duration of marriage with infertility and use of ovulatory drugs.\n
+        \t\u2022 Women who have had 5 or more deliveries.\n
+        \t\u2022 Previous intrauterine death or neonatal death.\n
+        \t\u2022 Previous fetal malformation.\n
+        \t\u2022 Previous second trimester (fourth to sixth months of pregnancy) abortion or preterm labour.\n
+        \t\u2022 Recurrent first trimester (first to third months of pregnancy) abortions.\n
+        \t\u2022 Previous caesarian delivery.\n
+        \t\u2022 Previous postpartum hemorrhage.\n
+        \t\u2022 Past history of hypertension, heart disease or murmur.\n
+        \t\u2022 Chronic illnesses e.g. cancer, diabetes.\n
+        \t\u2022 Previous surgery to uterus, including cervical cerclages.\n
+        \t\u2022 Maternal height less than 1.50m.\n\n
+        Women who fall into any of these groups should inform their attending physicians about this
+        so that special attention can be shown to them or they could be referred to higher levels of
+        health for follow up.
+    </string>
+    <string name="title_activity_danger_signs_during_pregnancy">
+        Danger Signs During Pregnancy
+    </string>
+    <string name="pregnancy_danger_signs_text" formatted="false">
+        Pregnant women should seek IMMEDIATE care if they experience any of the following symptoms or
+        signs:\n
+        \t\u2022 Vaginal bleeding, no matter how small it is.\n
+        \t\u2022 Severe swelling (of lower limbs, face or fingers).\n
+        \t\u2022 Spontaneous escape of fluid from the Vagina.\n
+        \t\u2022 Abnormal gain or loss of weight.\n
+        \t\u2022 Decrease or cessation of fetal movements.\n
+        \t\u2022 Severe headache.\n
+        \t\u2022 Epigastric pain.\n
+        \t\u2022 Fever.\n
+        \t\u2022 Persistent vomiting.
+    </string>
+    <string name="title_activity_labour">Labour</string>
+    <string name="title_activity_when_youll_deliver">Calculate Delivery Date</string>
+    <string name="lmp_text" formatted="false">
+        When was your last menstrual period (LMP)?
+    </string>
+    <string name="submit_date">Submit Date</string>
+    <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
+    <string name="first_notification_1" formatted="false">
+        Your expected date of delivery saved in the database is:\n
+    </string>
+    <string name="first_notification_2" formatted="false">
+        You will be receiving notifications based on this date to guide you throughout the remaining
+        phases of your pregnancy.\n
+        You should not forget to reinsert the LMP you just chose if you ever happen to change it along
+        the line so that we can continue guiding you.\n
+        Best regards from the Mother\'s Love team!
+    </string>
+    <string name="edd_text" formatted="false">
+        Your expected date of delivery (EDD) should be displayed here.
+    </string>
+    <string name="edd_value" formatted="false">
+        Your expected date of delivery is:\n
+    </string>
+    <string name="edd_unhandled" formatted="false">
+        Sorry, but we cannot give you an answer for your selected date. Try to remember your LMP and
+        try again.
+    </string>
+    <string name="notification_ticker">Don\'t forget your checkup next week</string>
+    <string name="notification_title">Mother\'s Love</string>
+    <string name="notification_1_text">
+        You are in the first trimester of pregnancy. Next week you need to go for your Antenatal Clinic.
+    </string>
+    <string name="notification_1_text_hepatitis">
+        Remember to follow our guidelines to prevent mother to child transmission of hepatitis.
+    </string>
+    <string name="notification_1_text_hiv">
+        Remember to follow our guidelines to prevent mother to child transmission of HIV.
+    </string>
+    <string name="title_activity_preparing_for_labour">Preparing For Labour</string>
+    <string name="preparing_for_labour_text" formatted="false">
+        Every pregnant woman should have the following things ready by the seventh month (28th week)
+        of pregnancy:\n\n
+        \t\u2022 Many clean napkins\n
+        \t\u2022 An antiseptic soap\n
+        \t\u2022 A packet of sterile gauze\n
+        \t\u2022 A packet of pad\n
+        \t\u2022 10 packets of sterile gloves\n
+        \t\u2022 2 sets of warm baby clothing, and clothing and underwear for the mother\n
+        \t\u2022 Alcohol\n
+        \t\u2022 A clean towel and other toiletries\n
+        \t\u2022 A clean bed sheet\n\n
+        All these have to be well arranged in a box, and the box has to be closed and placed in an easily
+        accessible corner of the house.
+    </string>
+    <string name="title_activity_signs_of_labour">Signs Of Labour</string>
+    <string name="signs_of_labour_text" formatted="false">
+        <b>Bloody Show</b>\n
+        As the cervix begins to get thin and dilate (open), a pink or bloody substance could be
+        discharged.\n
+        You might also see a “plug” of mucus. This can happen several days before, or at the beginning
+        of labour.\n\n
+        <b>Ruptured Membranes</b>\n
+        This manifests as a gush or slow leak of amniotic fluid from the vagina. If this happens, you
+        should immediately report to the hospital.\n\n
+        <b>Contractions</b>\n
+        When labor begins, the contractions feel like cramps. They become stronger, get closer together,
+        and last longer.\n
+        Usually, first-time mothers come to the hospital when there is an interval of five minutes
+        between contractions (for at least 1-2 hours), each lasting 45-60 seconds.\n
+        Second or third-time mothers come in when there is an interval of ten minutes between contractions
+        which don\’t go away even when you rest.\n\n
+        <b><i>If you experience any of the  above signs of labour, get your emergency box and consult
+            at any health facility of your choice.</i></b>
+    </string>
+    <string name="title_activity_pain_management">Coping with Labour Pain</string>
+    <string name="pain_management_text" formatted="false">
+        There are many effective and helpful ways of reducing the amount of pain you feel when you have
+        contractions. The effect varies from woman to woman, and often a combination of techniques are
+        used to achieve this.\n
+        These techniques help you avoid medications, they are easy to do, and they give personal satisfaction.\n
+        Some of these techniques are:\n\n
+        \t\u2022 Childbirth preparation classes. Learning about childbirth has been proven to decrease anxiety.
+        This is one of the activities during ANC. Women mostly learn breathing exercises that decrease
+        labour pain.\n
+        \t\u2022 Help from a supportive individual. Either a partner or close relative/friend is very valuable
+        to help with your comfort and emotional support throughout the labour experience.\n
+        \t\u2022 Being active during labour rather than staying in bed. Position changes like walking, squatting,
+        sitting, moving the hands and knees, and using a birthing ball can all be helpful.\n
+        \t\u2022 Pleasant surroundings - music, dim lights and aromatherapy.\n
+        \t\u2022 Taking a warm water bath or shower may help reduce labour pain.\n\n
+        <b>AVOID DRINKING TRADITIONAL CONCOCTIONS OR HONEY PRIOR TO/DURING LABOUR. THESE SUBSTANCES
+            ARE OXYTOCIC AND THEREFORE INCREASE THE NUMBER OF CONTRACTIONS OCCURRING EACH MINUTE. THIS
+            IS HARMFUL AS IT CAN LEAD TO THE RUPTURE OF THE UTERUS OR CAUSE FETAL DISTRESS.</b>
+    </string>
+    <string name="title_activity_after_birth">After Birth</string>
+    <string name="title_activity_after_birth_introduction">Introduction</string>
+    <string name="after_birth_intro_text" formatted="false">
+        The postpartum period (period after delivery) is the six week period after child birth, during
+        which body tissues which have undergone changes during pregnancy return to their pre pregnancy
+        state. It is also known as the puerperium. Women have to be aware of the course of these changes
+        so as to reduce unnecessary fear and anxiety in them while the changes occur, and also so that
+        they could quickly be aware if complications arise.
+    </string>
+    <string name="title_activity_changes_after_delivery">Changes After Delivery</string>
+    <string name="changes_after_delivery_text1" formatted="false">
+        <b>1. BREASTFEEDING</b>\n
+        \t<b>1.1 Importance of Breastfeeding</b>\n
+        \t\tThe establishment and maintenance of breastfeeding should be one of the major goals of good
+        postpartum care. Human breast milk is the optimal food for newborn infants. It is clean. When
+        other foods are given, especially by bottle feeding, it is very hard to keep things clean enough
+        to prevent the baby from getting diarrhea and other sicknesses. The temperature of breast milk
+        is always right.\n
+        \t\tNot only is the breast milk nutritive, but it is also immune protective as it contains antibodies
+        which protect the body against infections.\n
+        \t\tModified cow milk preparations or “formula” have become readily available. These preparations
+        are close to human milk in nutrient quantity, but still very different in quality, and lacking
+        in immune factors.\n
+        \t\tIn developing countries artificial feeding is associated with a much higher infant morbidity
+        and mortality than breastfeeding, primarily caused by infections and malnutrition.\n\n
+        \t<b>1.2 Initiation of Breastfeeding</b>\n
+        \t\tIt is recommended that the baby is given to the mother to hold immediately after delivery,
+        to provide skin-to-skin contact and for the baby to start suckling as soon as he/she shows signs
+        of readiness - normally within 30 minutes to 1 hour after birth. Early skin-to-skin contact
+        and suckling are associated with more affectionate behavior of mothers towards their infants;
+        mothers who start to breastfeed early have fewer problems with breastfeeding.\n\n
+        \t<b>1.3 Positioning and Attaching the Baby to the Breast</b>\n
+        \t\tIf the baby is incorrectly attached, milk is not effectively removed and the nipple may
+        be damaged by friction as the teat is drawn in and out of the mouth. If the attachment is not
+        corrected, sore nipples and engorgement are more common developments, the baby may get insufficient
+        milk, and the mother is more likely to stop breastfeeding.\n
+        \t\tGood breast feeding positions are illustrated below:
+    </string>
+    <string name="breastfeeding_image_description">Breastfeeding positions</string>
+    <string name="changes_after_delivery_text2" formatted="false">
+        \t<b>1.4 The Need to Avoid Supplementary Feeds</b>\n
+        \t\tIn some hospitals it is common practice to give breastfed babies supplements of formula
+        or glucose water while lactation is becoming established. This practice is unnecessary because
+        a healthy baby does not need extra fluids or feeds before breastfeeding is established, and
+        it is harmful because bottle feeding may interfere with the initiation and continuation of
+        breastfeeding. Babies who have had their appetite satisfied with an artificial feed may lose
+        interest in trying to breastfeed.\n
+        \t\tWHO recommends that infants should be fed exclusively on breast milk from birth to at least
+        4 and if possible 6 months of age. Breastfeeding should be given as often as the child desires,
+        day and night, at least eight times in 24 hours. Often a sharp decline in breastfeeding occurs
+        in the weeks after delivery.\n\n
+        \t<b>1.5 Consequences of Not Breastfeeding</b>\n
+        \t\tIf the baby is not put to the breasts early enough, the breasts become engorged about the
+        third to fourth day after delivery because of the increased production of milk at this time.
+        This will cause discomfort to the mother and can later predispose her to infections.\n
+        \t\tThis is also the reason why women who lose their babies during labor are given medication
+        to suppress lactation.\n\n
+        <b>2. After Pains</b>\n
+        This refers to intermittent uterine contractions felt by a breastfeeding mother in the region
+        of the lower abdomen in the course of breastfeeding her baby.\n
+        This is normal and is as a result of physiological processes occurring in the body during the
+        time of breastfeeding. They can be relieved by taking simple pain medication.\n\n
+        <b>3. Return to Normal Size of the Uterus</b>\n
+        The uterus extends above the level of the umbilicus in most women immediately after delivery.
+        It should gradually reduce daily after delivery with the result being that by the end of the second
+        week it should no longer be felt. This is a natural process. As such, practices such as tying
+        the stomach tight or applying very hot water unto it are strongly discouraged.\n
+        Failure of the uterus to reduce in size is not normal, especially if it is associated with fever.
+        This should be reported to a health personnel if noticed.\n\n
+        <b>4. Lochia</b>\n
+        During these same 2 weeks, a woman should experience vaginal discharges called lochia. For the
+        first few days after delivery (1 – 5 days) the lochia appears red. After 4 – 5 days it becomes
+        pale in color. After about the 10th day it becomes yellowish-white in color.\n
+        If lochia persists, or develops an offensive odor, or fails to follow the above pattern of color
+        change, it is not normal and should be reported to a health personnel.\n\n
+        <b>5. Return of Menses</b>\n
+        The time of return of the menses after a normal delivery is quite varied. Many women who are
+        not breastfeeding may resume normal menses about 6 weeks after delivery. For mothers who are
+        breastfeeding, the picture is different. Those who introduce supplemental feeding to breastfeeding
+        quite early may have their menses return before 6 weeks. The women who do exclusive breastfeeding
+        could have their menses delay for as long as six months. However they should be aware that they
+        could still get pregnant despite this absence of menstruation.
+    </string>
+    <string name="title_activity_frequent_complaints_after_delivery">
+        Frequent Complaints After Delivery
+    </string>
+    <string name="frequent_complaints_text" formatted="false">
+        Women may experience problems following delivery. Occurrence of these problems varies from woman
+        to woman. Women should report to their health care givers if they develop any of the following
+        problems after delivery. They shall be provided with appropriate solutions:\n
+        \t\u2022 Fever\n
+        \t\u2022 Bladder problems (retention of urine)\n
+        \t\u2022 Backache\n
+        \t\u2022 Frequent headaches\n
+        \t\u2022 Pain at the genital region\n
+        \t\u2022 Hemorrhoids\n
+        \t\u2022 Constipation\n
+        \t\u2022 Depression, anxiety and extreme tiredness\n
+        \t\u2022 Breast problems (engorgement, mastitis, cracked/sore/bleeding nipples, inverted nipples)\n
+        \t\u2022 Anemia
+    </string>
+    <string name="title_activity_heafter_delivery">Health Education After Delivery</string>
+    <string name="heafter_delivery_text" formatted="false">
+        This is a very important part of management after delivery as women are taught ways of keeping
+        themselves and their babies healthy.\n
+        Information is also provided for birth spacing in subsequent pregnancies.\n
+        Before leaving the health facility, each woman should receive education on the following:\n\n
+        <b>CARE OF THE NEWBORN</b>\n
+        \t\u2022 Immediately after birth, mothers should ensure that their children receive vitamin K injection
+        to prevent them from developing hemorrhagic disease of the newborn. Also, to prevent a newborn\'s
+        eyes from dangerous conjunctivitis, mothers should ensure that a little tetracycline eye ointment
+        or 1% silver nitrate is dropped in their baby\’s eyes after birth.\n
+        \t\u2022 Protect the baby from cold, but also from too much heat. Dress the baby as warmly as you
+        feel like dressing yourself.\n\n
+        <b>HYGIENE OF THE BABY</b>\n
+        \t\u2022 Change the baby\'s diapers (nappy) each time he wets or dirties them. If the skin gets sore,
+        change the diaper more often, or better still, leave it off.\n
+        \t\u2022 Special care should be shown to keeping the umbilical cord clean. Mothers should be taught
+        how to wash their babies and how to clean the umbilical region especially. After the cord drops
+        off, bathe the baby daily with soap and warm water.\n
+        \t\u2022 If there are flies or mosquitoes, cover the baby\'s crib with mosquito netting or a thin cloth.\n
+        \t\u2022 Persons with open sores, colds, sore throat, tuberculosis or other infectious illnesses
+        should not touch or go near the baby.\n
+        \t\u2022 Keep the baby in a clean place away from smoke and dust.\n\n
+        <b>HYGIENE OF THE MOTHER</b>\n
+        Mothers should be encouraged to bathe at least twice a day, or have at least 2 bed baths for
+        women who gave birth through cesarean deliveries. The breast area should especially be kept
+        clean. Mothers should always wash their hands before feeding their babies. Pads should be changed
+        once they are wet, and women should complain if they notice an offensive discharge.\n\n
+        <b>VACCINATION</b>\n
+        Mothers should ensure that their babies receive the required vaccines at birth and thereafter.
+        Mothers should also endeavor to receive all their tetanus toxoid vaccines as scheduled. (Check
+        the section on \"Immunization\" for details)\n\n
+        <b>EDUCATION ON A DISEASE WHICH CAN BE TRANSMITTED FROM MOTHER TO CHILD</b>\n
+        Before being discharged from the hospital, women shall be educated on at least one disease which
+        can be transmitted from mother to child, or on prevention of certain pregnancy complications.
+        Women should be keen on reminding their doctors/nurses/midwives, in case these forget.\n\n
+        <b>FAMILY PLANNING</b>\n
+        Mothers will also be told when it would be appropriate for them to plan their next pregnancy,
+        if that is their desire. To achieve this, they shall be introduced to various methods of contraception,
+        from which they will choose one they are comfortable with.\n
+        Mothers who no longer desire pregnancy will also be proposed methods they can use.\n
+        The aim is to have adequate spacing among children, for a healthy growth.\n\n
+        <b>RENDEZVOUS</b>\n
+        It is recommended that mothers report to the hospital with their babies six weeks after delivery
+        for checkup.
+    </string>
+    <string name="title_activity_immunization">Immunization</string>
+    <string name="title_activity_child_dob">Child\'s Date Of Birth</string>
+    <string name="dob_text" formatted="false">
+        When was your child born?
+    </string>
+    <string name="dob_submit_button_text">Submit Date</string>
+    <string name="title_activity_allow_imm_notif">Immunization Notification</string>
+    <string name="allow_imm_text1" formatted="false">
+        You are about to save your child\'s date of birth (DOB) as:\n
+    </string>
+    <string name="allow_imm_text2" formatted="false">
+        \nBased on this DOB, you will receive notifications on your child\'s upcoming vaccines to be taken.
+        If the above DOB is correct, click the button below.
+    </string>
+    <string name="button_allow_imm_text">Save DOB</string>
+    <string name="displayed_dob_text">Your child\'s DOB is:\n</string>
+    <string name="title_activity_infact_schedule_options">Infact Schedule Options</string>
+    <string name="first_option_text" formatted="false">
+        To receive notifications to remind you of your child\'s immunization schedule, click the first
+        button below and select your child\'s date of birth (DOB). Note that your child should be less
+        than nine (9) months old.
+    </string>
+    <string name="receive_notifs_button_text">Select Child\'s DOB</string>
+    <string name="second_option_text" formatted="false">
+        Otherwise click the button below to see a table displaying the regular infant immunization schedule.
+    </string>
+    <string name="see_infant_schedule_button_text">See Infant Immunization Schedule</string>
+    <string name="title_activity_schedule_for_infants">Schedule For Infants</string>
+    <string name="contact_text"><b>CONTACT</b>\n</string>
+    <string name="contact_1_text"><b>At Birth</b>\n\n</string>
+    <string name="contact_2_text"><b>6 Weeks After\nBirth</b>\n\n\n\n</string>
+    <string name="contact_3_text"><b>10 Weeks After\nBirth</b>\n\n\n</string>
+    <string name="contact_4_text"><b>14 Weeks After\nBirth</b>\n\n</string>
+    <string name="contact_5_text"><b>9 Months After\n Birth</b>\n\n</string>
+    <string name="contact_6_text"><b>12 - 59 Months</b></string>
+    <string name="vaccines_text"><b>VACCINES (ADMINISTRATION SITE)</b>\n</string>
+    <string name="vaccines_1_1_text">BCG (Upper &#8531; of the front face of the left forearm)</string>
+    <string name="vaccines_1_2_text">OPV0 (In the mouth)\n</string>
+    <string name="vaccines_2_1_text">OPV1 (In the mouth)</string>
+    <string name="vaccines_2_2_text">DTC1-HEP B1-Hib1 (Left buttock)</string>
+    <string name="vaccines_2_3_text">Pneumo13.1 (Right buttock)</string>
+    <string name="vaccines_2_4_text">Rota1 (In the mouth)\n</string>
+    <string name="vaccines_3_1_text">OPV2 (In the mouth)</string>
+    <string name="vaccines_3_2_text">DTC2-HEP B2-Hib2 (Left buttock)</string>
+    <string name="vaccines_3_3_text">Pneumo13.2 (Right buttock)</string>
+    <string name="vaccines_3_4_text">Rota2 (In the mouth)\n</string>
+    <string name="vaccines_4_1_text">OPV3 (In the mouth)</string>
+    <string name="vaccines_4_2_text">DTC3-HEP B3-Hib3 (Left buttock)</string>
+    <string name="vaccines_4_3_text">Pneumo13.3 (Right buttock)\n</string>
+    <string name="vaccines_5_1_text">Measles (Left deltoid)</string>
+    <string name="vaccines_5_2_text">Yellow fever (Left buttock)</string>
+    <string name="vaccines_5_3_text">Vitamin A (In the mouth)\n</string>
+    <string name="vaccines_6_text">Vitamin A, 2 times per year (In the mouth)</string>
+    <string name="title_activity_schedule_for_pregnant_women">Schedule For Pregnant Women</string>
+    <string name="dose_cell_text"><b>DOSE</b></string>
+    <string name="ttv1_text"><b>TTV1</b></string>
+    <string name="ttv2_text"><b>TTV2</b></string>
+    <string name="ttv3_text"><b>TTV3</b></string>
+    <string name="ttv4_text"><b>TTV4</b></string>
+    <string name="ttv5_text"><b>TTV5</b></string>
+    <string name="visit_cell_text"><b>INTERVAL BETWEEN DOSES</b></string>
+    <string name="visit1_text">1st contact or 1st prenatal visit</string>
+    <string name="visit2_text">4 weeks after TTV1</string>
+    <string name="visit3_text">6 months after TTV2</string>
+    <string name="visit4_text">1 year after TTV3</string>
+    <string name="visit5_text">1 year after TTV4</string>
+    <string name="duration_cell_text"><b>DURATION OF PROTECTION</b></string>
+    <string name="duration1_text">0</string>
+    <string name="duration2_text">1 - 3 years</string>
+    <string name="duration3_text">5 years</string>
+    <string name="duration4_text">10 years</string>
+    <string name="duration5_text">Entire child bearing age range</string>
+    <string name="ttv_text"><b>NB:</b> \"TTV\" stands for \"Tetanus Toxoid Vaccine\".</string>
+    <!-- ANC End -->
+
+    <string name="title_activity_home_screen">Mother\'s Love</string>
+
+    <!-- Notification Messages -->
+    <string name="notif_msg1" formatted="false">
+        Remember your 1st ANC.
+    </string>
+    <string name="notif_msg2" formatted="false">
+        We hope you went for your 1st ANC and everything is ok. We\'ll keep in touch.
+    </string>
+    <string name="notif_msg3" formatted="false">
+        Remember your 2nd ANC.
+    </string>
+    <string name="notif_msg4" formatted="false">
+        We hope you went for your 2nd ANC and everything is ok. We\'ll keep in touch.
+    </string>
+    <string name="notif_msg5" formatted="false">
+        Remember your 3rd ANC.
+    </string>
+    <string name="notif_msg6" formatted="false">
+        We hope you went for your 3rd ANC and everything is ok. We\'ll keep in touch.
+    </string>
+    <string name="notif_msg7" formatted="false">
+        Remember your 4th ANC.
+    </string>
+    <string name="notif_msg8" formatted="false">
+        We hope you went for your 4th ANC and everything is ok. We\'ll keep in touch.
+    </string>
+    <string name="notif_msg9" formatted="false">
+        Content of labour emergency bag. Safe delivery and congratulations in advance.
+    </string>
+
+    <!-- About Us text -->
+    <string name="title_activity_about">About</string>
+    <string name="about_us_text" formatted="false">
+        Mother\'s Love Initiative is a team comprising medical students, doctors and app developers all
+        sharing a similar vision with regards to health care provision especially in the aspect of maternal
+        and child health. Our ambition is to shift the focus from curative medicine which manages infirmity
+        and complications when they have already occurred, to shed more light on aspects of preventive
+        medicine which is the ultimate solution to dent staggering values of morbidity and mortality
+        in the developing world.\n
+        We do not intend to replace hospitals and their incredible personnel in their noble role of saving
+        lives. We rather seek to complement and partner them by empowering users of this application
+        to prevent, promptly recognise and even start the basic home management of complications prior
+        to hospital arrival if they eventually occur.\n
+        This app can serve as a tool to expectant mothers, mothers, their relatives, medical students
+        and medical personnel as it provides information ranging from basic reminders of key dates to
+        expectant mothers to complex inbuilt calculators to diagnose malnutrition, and provides interpretations
+        to these results. We therefore hope this app ultimately helps specifically improve prevention
+        of mother to child transmission of HIV and Hepatitis B, and globally reduce maternal and child
+        mortality.
+    </string>
+
+    <!-- Immunization notification messages -->
+    <string name="welcome_msg">
+        WELCOME TO THE MLI FAMILY. WE WILL PROVIDE YOU WITH UPDATES ABOUT YOUR CHILD\'S VACCINATION AND
+        HEALTH UP TO THE AGE OF 1. THANKS FOR BEING A PART OF THIS FAMILY
+    </string>
+    <string name="msg2">
+        CONGRATS on your delivery! We hope baby received its 1st vaccines (OPV, BCG). BREASTFEED
+        EXCLUSIVELY for 6 months, DO NOT give water and DO NOT mix feed.
+    </string>
+    <string name="msg3">
+        Report to the nearest health facility if you have any of the following WARNING SIGNS: fever,
+        abdominal pain, blurred vision, excessive bleeding or breast pain.
+    </string>
+    <string name="msg4">
+        Ensure proper hygiene for yourself and your baby to prevent disease. Wash your breast with soap
+        and water before breastfeeding. FAMILY PLANNING is advised.
+    </string>
+    <string name="msg5">
+        HELLO! Your baby is about 6 weeks old. Remember taking baby for its 6 weeks
+        vaccines (OPV1, DPT-1-HEP B1-Hib1, PNEUMO 13.1 and ROTA 1).
+    </string>
+    <string name="msg6">
+        HELLO! Your baby is about 10 weeks old. Remember taking baby for its 10 weeks
+        vaccines (OPV2, DPT-2-HEP B2-Hib2, PNEUMO 13.2 and ROTA 2).
+    </string>
+    <string name="msg7">
+        HELLO! Your baby is about 14 weeks old. Remember taking baby for its 14 weeks
+        vaccines (OPV3, DPT-3-HEP B3-Hib3, PNEUMO 13.3).
+    </string>
+    <string name="msg8">
+        HELLO! Your baby is now 6 months old. Remember taking baby for its 6 months vaccine (VITAMIN
+        A). Ensure baby drinks CLEAN water to prevent diarrhoea.
+    </string>
+    <string name="msg9">
+        HELLO! Your baby is now 9 months old. Remember taking him/her for vaccination (MEASLES, YELLOW
+        FEVER). Your baby will then be fully immunised according to EPI.
+    </string>
+    <!-- End of messages -->
+</resources>
