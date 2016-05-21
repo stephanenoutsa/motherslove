@@ -459,151 +459,162 @@
     <!-- Diarrhoea End -->
 
     <!-- Special Needs Literature Start -->
-    <string name="title_activity_hiv">HIV &amp; Pregnancy</string>
-    <string name="title_activity_hepatitis">Hepatitis &amp; Pregnancy</string>
+    <string name="title_activity_hiv">Le VIH et la Grossesse</string>
+    <string name="title_activity_hepatitis">L\'Hépatite et la Grossesse</string>
     <string name="title_activity_hivintroduction">Introduction</string>
     <string name="hiv_intro_text" formatted="false">
-        \u2022 This section will focus on diagnosis and prevention of mother to child transmission (PMTCT)
-        of HIV as 90% of children infected with HIV get it from their mothers.\n\n
-        \u2022 In 2012, there were still an estimated 260,000 new infections among children.\n\n
-        \u2022 It is however possible to have healthy HIV negative children from HIV positive mothers.
-        HIV/AIDS does not prevent you from having children.\n\n
-        \u2022 Without treatment, there is a 15-45% chance of the infection getting to your baby. With
-        treatment, this value decreases to less than 5%.\n\n
-        \u2022 Therefore there is the need on the part of mothers and health care practitioners to know
-        and implement the appropriate information to reduce mother to child transmission (MTCT) values
-        to the minimum.
+        \u2022 Cette section se focalisera sur le diagnostic et la prévention de la transmission du
+        VIH de la mère à l\'enfant, car 90% des enfants infectés par le VIH l\'obtiennent de leurs mères.\n\n
+        \u2022 En 2012, il y avait encore environ 260000 nouveaux cas d\'enfants infectés.\n\n
+        \u2022 Cependant, il est possible d\'avoir des enfants séronégatifs au VIH nés d\'une mère séropositive
+        au VIH. Le VIH/SIDA ne nous empêche pas d\'avoir des enfants.\n\n
+        \u2022 Sans traitement, il y a entre 15 à 45% de probabilité que votre bébé sera infecté. Avec
+        une bonne prise en charge, ce pourcentage diminue à moins de 5%.\n\n
+        \u2022 Il est donc nécéssaire que les mères et membres du personel sanitaire soient au courant
+        et mettent en pratique les mésures appropriées pour réduire la transmission du VIH de la mère
+        à l\'enfant au minimum.
     </string>
-    <string name="title_activity_hivapproach">Approach</string>
-    <string name="title_activity_hivstep1">Step 1</string>
+    <string name="title_activity_hivapproach">Approche</string>
+    <string name="title_activity_hivstep1">Etape 1</string>
     <string name="hiv_step_1" formatted="false">
-        At your booking visit (1st ANC visit) you will be given a series of tests to do including the
-        HIV test. You will be counselled prior to and after the release of the test results.\n\n
-        i. If you test negative for HIV, it is important that you stay negative. If you have unprotected
-        sex, and/or share needles and syringes, then test again.\n\n
-        ii. If you test positive for HIV, pay careful attention during your counselling about your health.
-        You will be given a series of tests to do (pre-therapeutic work up) after which you should
-        report to your doctor with the results.\n
-        \u2022 Then move to STEP TWO.
+        A votre première réservation prénatale, vous recevrez une liste de tests à faire, y compris
+        celui du VIH. Vous recevrez conseil avant et après que vous ne recevriez vos résultats.\n\n
+        i. Si ce test est négatif, il est important qu\'il en reste ainsi. Si vous avez des relations
+        sexuelles sans protection, partagez des aiguilles ou des seringues, refaites le test.\n\n
+        ii. II. Si vous êtes positive au VIH, prêtez attention aux conseils que vous recevrez concernant
+        votre santé. Vous recevrez ensuite une autre liste de tests à faire (pré-thérapeutique), après
+        lesquels vous devrez retourner chez votre médecin avec les résultats.\n
+        \u2022 Procédez ensuite à l\'Etape 2.
     </string>
-    <string name="title_activity_hivstep2">Step 2</string>
+    <string name="title_activity_hivstep2">Etape 2</string>
     <string name="hiv_step_2" formatted="false">
-        International guidelines by the World Health organisation (WHO) option B+ demand that you should
-        be placed on treatment as soon as you are diagnosed. You should adhere to this treatment for life.
-        You should take the drugs at a particular time of the day at your convenience and for the rest
-        of your life. If complications occur, please <b>SEE YOUR DOCTOR</b> for assessment and maybe a change
-        of the drugs. <b>Do not stop the drugs without informing your doctor.</b>\n\n
+        Les directives internationales par l\'Organisation Mondiale de la Santé (OMS), l'option B+, exigent
+        que l\'on soit placé sous traitement dès que l\'on est diagnostiqué. Vous devez adhérer à ce
+        traitement pour la vie. Vous devez prendre les médicaments à un moment donné de la journée qui
+        vous convient, et pour le reste de votre vie. Si des complications surviennent, <b>VEUILLEZ CONSULTER
+        VOTRE MEDECIN</b> pour une évaluation et peut-être un changement de médicaments. <b>Ne cessez
+        pas de prendre les médicaments sans en informer votre médecin.</b>\n\n
         <b><u>NB:</u></b>\n
-        <u>Benefits of Antiretrovirals:</u>\n
-        \u2022 Keep you strong and healthy\n
-        \u2022 Make you less infectious\n
-        \u2022 Protect your baby\n\n
-        <u>Things to avoid:</u>\n
-        \u2022 Smoking\n
-        \u2022 Alcohol
+        <u>Avantages des Antirétroviraux:</u>\n
+        \u2022 Ils vous gardent fort et en bonne santé\n
+        \u2022 Ils vous rendent moins infectieux\n
+        \u2022 Ils protègent votre bébé\n\n
+        <u>Eléments à éviter:</u>\n
+        \u2022 Cigarette\n
+        \u2022 Alcool
     </string>
-    <string name="title_activity_hivstep3">Step 3</string>
+    <string name="title_activity_hivstep3">Etape 3</string>
     <string name="hiv_step_3" formatted="false">
-        When you get into labour at the hospital, inform the doctor or midwife about your HIV status
-        so that dispositions can be taken to minimise chances of transmission to your baby. You can
-        deliver vaginally, as being HIV positive does not prevent this. However, cesarean delivery
-        will be the safest and fastest mode of delivery for you.\n\n
-        The decision on the route of delivery will be made based on the situations surrounding delivery,
-        your doctor\’s opinion and your consent.
+        Quand vous êtes sur le point d\'accoucher à l\'hôpital, informez le médecin ou la sage-femme
+        de votre statut VIH afin que les dispositions soient prises pour réduire les risques de transmission
+        du virus à votre bébé. Vous pouvez accoucher par voie vaginale, comme étant séropositive ne l\'en
+        empêche pas. Cependant, l\'accouchement par césarienne sera le mode le plus sûr et le plus rapide
+        pour vous.\n\n
+        La décision sur la voie d\'accouchement sera prise en tenant compte des circonstances dans lequelles
+        vous accouchez, l\'avis de votre médecin, et votre consentement.
     </string>
-    <string name="title_activity_hivstep4">Step 4</string>
+    <string name="title_activity_hivstep4">Etape 4</string>
     <string name="hiv_step_4" formatted="false">
-        i.\tFeeding method depends on availability of resources.\n
-        \t\t\u2022 If the resources are available, bottle feeding is the gold standard. Seek appropriate
-        counselling on how this is done and hygiene should be prioritised.\n
-        \t\t\u2022 However if the resources are not available, exclusive breastfeeding for 6 months should be done.\n
-        \t\t\u2022 <b>Mixed feeding should be avoided.</b>\n\n
-        ii.\t\u2022 <b>If you decide to breastfeed</b>, your child should be given Nevirapine once a day
-        from birth until 1 week after you stop breastfeeding.\n
-        \t\t\u2022 <b>If you decide not to breastfeed</b>, your child should receive Nevirapine once a day from
-        birth until 6 weeks of age.
+        i.\tLa méthode d\'alimentation dépend de la disponibilité des ressources.\n
+        \t\t\u2022 Si les ressources sont disponibles, le biberon est l\'étalon-or. Cherchez des conseils
+        appropriés sur la façon d\'allaiter avec le biberon, et l\'hygiène devrait être une priorité.\n
+        \t\t\u2022 Toutefois, si les ressources ne sont pas disponibles, l\'allaitement maternel exclusif
+        pendant 6 mois devrait être fait.\n
+        \t\t\u2022 <b>L\'alimentation mixte doit être évitée.</b>\n\n
+        ii.\t\u2022 <b>Si vous décidez d\'allaiter au sein</b>, votre enfant devra prendre névirapine
+        une fois par jour de sa naissance jusqu\'à 1 semaine après l\'arrêt de l\'allaitement.\n
+        \t\t\u2022 <b>Si vous décidez de ne pas allaiter au sein</b>, votre enfant devra prendre névirapine
+        une fois par jour de sa naissance jusqu\'à 6 semaines d\'âge.
     </string>
-    <string name="title_activity_hivstep5">Step 5</string>
+    <string name="title_activity_hivstep5">Etape 5</string>
     <string name="hiv_step_5" formatted="false">
-        The age at which your baby can be tested for HIV depends on the kind of test done and the
-        method of feeding.\n\n
-        <b>1. PCR TEST</b>\n
-        <b>If the baby is breastfeeding: </b>PCR test can be done from age 1 month and repeated 3 months
-        after the child stops breastfeeding to ensure the child is negative.\n
-        <b>If the child is not breastfeeding: </b>PCR test can be done from age 1 month and repeated
-        when the child is 4 months old to confirm the child is negative.\n
-        <b>If the child is on Nevirapine: </b>PCR test can be done from age 1 month and should be repeated
-        2-4 weeks after Nevirapine is stopped.\n\n
-        <b>2. ANTIBODY TEST</b>\n
-        This test should be done when the child is at least 18 months old.\n
-        \u2022 If the child tests negative, he/she is negative.\n
-        \u2022 If the child tests positive, he/she is positive.
+        L\'âge auquel votre bébé peut être testé pour le VIH dépend du type de test effectué et de la
+        méthode d\'alimentation.\n\n
+        <b>1. TEST « PCR »</b>\n
+        <b>Si le bébé est allaité au sein: </b>le test PCR peut être fait à partir de l\'âge de 1 mois
+        et répété 3 mois après que l\'enfant ne cesse de s\'allaiter au sein pour s\'assurer que l\'enfant
+        est séronégatif.\n
+        <b>Si l\'enfant n\'est pas allaité au sein: </b>le test PCR peut être fait à partir de l\'âge
+        de 1 mois et répété lorsque l\'enfant est âgé de 4 mois pour confirmer que l\'enfant est séronégatif.\n
+        <b>Si l\'enfant prend névirapine: </b>le test PCR peut être fait à partir de l\'âge de 1 mois
+        et devrait être répétée 2 à 4 semaines après que le traitement névirapine soit arrêté.\n\n
+        <b>2. TEST ANTICORPS</b>\n
+        Ce test doit être effectué lorsque l\'enfant est âgé d\'au moins 18 mois.\n
+        \u2022 Si le résultat du test est négatif, l\'enfant est séronégatif.\n
+        \u2022 Si le résultat du test est positiv, l\'enfant est séropositif.
     </string>
-    <string name="title_activity_hivstep6">Step 6</string>
+    <string name="title_activity_hivstep6">Etape 6</string>
     <string name="hiv_step_6" formatted="false">
-        \u2022 If your baby tests negative, it is important that your baby stays that way.\n\n
-        \u2022 If your baby tests positive, he/she should be placed on treatment as soon as possible.
+        \u2022 Si votre enfant est séronégatif, il est important qu\'il en reste ainsi.\n\n
+        \u2022 Si votre enfant est séropositif, il devrait être placé sous traitement le plus tôt possible.
     </string>
     <string name="title_activity_hepatitis_introduction">Introduction</string>
     <string name="hepatitis_intro_text" formatted="false">
-        \u2022 Hepatitis B is the inflammation of the liver as a result of infection from hepatitis B virus.
-        It may or may not present itself with symptoms such as fever, loss of appetite, vomiting, diarrhoea,
-        yellowing of the eyes, tiredness, body pains, dark urine and pale-coloured stool.\n\n
-        \u2022 This virus can be transmitted through contact with infected blood, semen, vaginal secretions
-        and, to a lesser extent, saliva.\n\n
-        \u2022 Your immune system can protect you from hepatitis B infection for a few months even without
-        treatment. However 5% of people continue carrying the virus. This leads to damages to your liver
-        in the long run.\n\n
-        \u2022 10-20% of women who are Hepatitis B surface antigen (HBsAg) positive will transmit the infection
-        to their babies without appropriate treatment of the mother and child.
+        \u2022 L\'hépatite B est l\'inflammation du foie due à une infection par le virus de l\'hépatite
+        B. Il pourrait (comme il ne le pourrait pas) se manifester avec des symptômes tels que de la
+        fièvre, la perte d\'appétit, des vomissements, la diarrhée, le jaunissement des yeux, la fatigue,
+        les douleurs du corps, l\'urine foncée et des selles de couleur pâle.\n\n
+        \u2022 Ce virus peut être transmis par contact avec du sang, du sperme, les sécrétions vaginales
+        et, dans une moindre mesure, de la salive.\n\n
+        \u2022 Votre système immunitaire peut vous protéger contre l\'infection de l\'hépatite B en
+        quelques mois, même sans traitement. Cependant 5% de telles personnes continuent de porter le
+        virus. Cela conduit à des dommages à votre foie à la longue.\n\n
+        \u2022 10-20% des femmes qui sont antigène de surface de l\'hépatite B (AgsHB) positives transmettent
+        l\'infection à leurs bébés sans traitement approprié de la mère et de l\'enfant.
     </string>
-    <string name="title_activity_hepatitis_approach">Approach</string>
-    <string name="title_activity_hepatitis_step1">Step 1</string>
+    <string name="title_activity_hepatitis_approach">Approche</string>
+    <string name="title_activity_hepatitis_step1">Etape 1</string>
     <string name="hepatitis_step_1" formatted="false">
-        At your booking visit (1st ANC visit), among the tests requested to be done on you will be
-        Hepatitis B surface antigen (HBsAg).\n\n
-        i. If you test negative, it is important you stay that way.\n\n
-        ii. If you test positive, you will be directed to a doctor who will run a test to check for
-        the level of the virus in your blood. This is called the viral load.
+        A votre première réservation prénatale, parmi les tests que vous devrez faire sera celui de
+        l\'antigène de surface de l\'hépatite B (AgsHB).\n\n
+        i. Si ce test est négatif, il est important qu\'il en reste ainsi.\n\n
+        ii. Si ce test est positif, vous serez dirigée vers un médecin qui exécutera un test pour vérifier
+        le taux du virus dans votre sang. Ceci est appelé la charge virale.
     </string>
-    <string name="title_activity_hepatitis_step2">Step 2</string>
+    <string name="title_activity_hepatitis_step2">Etape 2</string>
     <string name="hepatitis_step_2" formatted="false">
-        i. If the viral load is low, your doctor will surely not put you on treatment immediately.\n\n
-        ii. If the viral load is high you may be offered treatment either with lamivudine or tenofovir.
-        Treatment will often start in the 3rd trimester of pregnancy (i.e. last 3 months of your pregnancy)
-        and continue to the 12th week after delivery, and could even extend beyond this date depending
-        on your response to the treatment and the evaluation from your doctor.\n\n
-        <b>NB: </b>If you have already been diagnosed and placed on treatment prior to your pregnancy,
-        inform your doctor about your treatment to ensure the safety of your baby.
+        i. Si la charge virale est faible, votre médecin ne vous mettra probablement pas sous traitement
+        immédiatement.\n\n
+        ii. Si la charge virale est élevée, vous serez probablement mise sous un traitement de soit de
+        la lamivudine ou du ténofovir. Le traitement commence très souvent dans le troisième trimestre
+        de la grossesse (derniers trois mois de grossesse) et continue jusqu\'à la 12e semaine après
+        l\'accouchement. il pourrait même prolonger au-delà de cette date en fonction de votre réaction
+        au traitement et de l\'évaluation de votre médecin.\n\n
+        <b>NB: </b>Si vous avez déjà été diagnostiqué et placé sous traitement avant votre grossesse,
+        informez votre médecin de votre traitement pour assurer la sécurité de votre bébé.
     </string>
-    <string name="title_activity_hepatitis_step3">Step 3</string>
+    <string name="title_activity_hepatitis_step3">Etape 3</string>
     <string name="hepatitis_step_3" formatted="false">
-        \u2022 When you get into labour, inform the doctor or midwife of your hepatitis B status so that the
-        necessary precautions can be taken to ensure your baby\’s safety.\n\n
-        \u2022 You can deliver vaginally, given that being hepatitis B positive doesn\’t prevent you from doing so.
+        \u2022 Lorsque vous êtes sur le point d\'accoucher, informez le médecin ou la sage-femme de votre
+        statut d\'hépatite B afin que les précautions nécessaires puissent être prises pour assurer la
+        sécurité de votre bébé.\n\n
+        \u2022 Vous pouvez accoucher par voie vaginale, étant donné que l\'hépatite B ne vous en empêche pas.
     </string>
-    <string name="title_activity_hepatitis_step4">Step 4</string>
+    <string name="title_activity_hepatitis_step4">Etape 4</string>
     <string name="hepatitis_step_4" formatted="false">
         <b>Vaccination</b>\n
-        \u2022 At birth, your baby should receive the Hepatitis B vaccine.\n
-        \u2022 This vaccine should be followed up by an injection with antibodies against Hepatitis B.\n
-        \u2022 Your baby will need another vaccine at ages 1 month, 2 months and 1 year. A booster is recommended
-        for these vaccines at the age of 5 years.\n
+        \u2022 À la naissance, votre bébé devrait recevoir le vaccin contre l\'hépatite B.\n
+        \u2022 Ce vaccin devrait être suivi par une injection avec des anticorps contre l\'hépatite B.\n
+        \u2022 Votre bébé aura besoin d\'un autre vaccin aux âges de 1 mois, 2 mois et 1 an. Un booster
+        est recommandé pour ces vaccins à l\'âge de 5 ans.\n
         <b>
-            * It is important for your baby to receive the vaccines because 9 out of 10 babies who get
-            infected from their mothers go on to have chronic hepatitis.\n
-            * When you go for routine vaccination according to the Expanded Program for Immunisation,
-            inform the nurse of your status, emphasizing that your child is already receiving hepatitis
-            vaccines.\n\n
-            Feeding\n
+            * Il est important que votre bébé reçoive ces vaccins parce que 9 sur 10 bébés qui sont
+            infectés par leurs mères grandissent ayant une hépatite chronique.\n
+            * Quand vous allez pour la vaccination de routine selon le Programme Elargi de Vaccination,
+            informez l\'infirmière de votre statut, précisant que votre enfant reçoit déjà des vaccins
+            contre l\'hépatite.\n\n
+
+            Alimentation\n
         </b>
-        It is safe for you to breastfeed your baby as long as he/she is receiving his/her vaccines.
+        Il est sans danger pour vous d\'allaiter votre bébé tant qu\'il reçoit ses vaccins.
     </string>
-    <string name="title_activity_hepatitis_step5">Step 5</string>
+    <string name="title_activity_hepatitis_step5">Etape 5</string>
     <string name="hepatitis_step_5" formatted="false">
-        Your baby should have a blood test around his/her 1st birthday to check if all the viruses are gone.\n\n
-        i. If your baby tests negative, it is important he/she stays that way.\n\n
-        ii. If your baby tests positive, you should see a doctor for a more detailed evaluation of your child.
+        Votre bébé devrait avoir un test sanguin autour de son 1er anniversaire pour vérifier si tous
+        les virus ont disparu.\n\n
+        i. Si ce test est négatif, il est important qu\'il en reste ainsi.\n\n
+        ii. Si ce test est positif, veuillez consulter un médecin pour une évaluation plus détaillée
+        de votre enfant.
     </string>
     <!-- Special Needs End -->
 
