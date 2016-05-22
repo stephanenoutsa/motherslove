@@ -212,249 +212,269 @@
     <!-- Malnutrition End -->
 
     <!-- Diarrhoea Literature Start -->
-    <string name="title_activity_acute_diarrhoea">Acute Diarrhoea</string>
+    <string name="title_activity_acute_diarrhoea">Diarrhée Aigue</string>
     <string name="acute_diarrhoea_definition" formatted="false">
-        Passage of greater than 3 loose stools in a day, with no blood in the stools.
+        Passage de plus de 3 selles molles par jour, sans sang dans les selles.
     </string>
-    <string name="normal_stool_color">Normal Stool Color</string>
-    <string name="normal_stool_color_label" formatted="false"><b>Picture:</b> Normal Stool Color</string>
-    <string name="title_activity_persistent_diarrhoea">Persistent Diarrhoea</string>
-    <string name="title_activity_dysentery">Dysentery</string>
-    <string name="title_activity_presentation_acute_diarrhoea">Presentation</string>
+    <string name="normal_stool_color">Couleur des Selles Normales</string>
+    <string name="normal_stool_color_label" formatted="false"><b>Photo:</b> Couleur des Selles Normales</string>
+    <string name="title_activity_persistent_diarrhoea">Diarrhée Persistante</string>
+    <string name="title_activity_dysentery">Dysenterie</string>
+    <string name="title_activity_presentation_acute_diarrhoea">Présentation</string>
     <string name="acute_diarrhoea_presentation" formatted="false">
-        All children with diarrhoea should be assessed and classified as either having severe dehydration,
-        some (moderate) dehydration, or no (mild) dehydration.\n\n
-        <b>Severe Dehydration</b>\n
-        Characterised by at least two of the following:\n
-        \u2022 Severe body weakness (lethargy) or unconsciousness\n
-        \u2022 Sunken eyes\n
-        \u2022 Unable to drink or drinks poorly\n
-        \u2022 After pinching the skin, it returns to normal very slowly (two seconds or more)\n\n
-        <b>Some (Moderate) Dehydration</b>\n
-        Characterised by at least two of the following:\n
-        \u2022 Restlessness or irritability\n
-        \u2022 Sunken eyes\n
-        \u2022 Drinks eagerly; thirsty\n
-        \u2022 After pinching the skin, it returns to normal slowly\n\n
-        <b>No (Mild) Dehydration</b>\n
-        Not enough signs to classify as some dehydration or severe dehydration.
+        Tous les enfants atteints de diarrhée doivent être évalués et classés comme ayant une déshydratation
+        sévère, «certaine» (modérée) ou pas de (légère) déshydratation.\n\n
+        <b>Déshydratation Sévère</b>\n
+        Indiquée par deux (2) ou plusieurs des éléments suivants:\n
+        \u2022 Grave faiblesse du corps (léthargie) ou l\'inconscience\n
+        \u2022 Yeux enfoncés\n
+        \u2022 Incapable de boire ou boit peu\n
+        \u2022 Lorsque la peau est pincée, elle revient très lentement à la normale (2 secondes ou plus)\n\n
+        <b>Déshydratation Modérée</b>\n
+        Indiquée par deux (2) ou plusieurs des éléments suivants:\n
+        \u2022 Agitation ou irritabilité\n
+        \u2022 Yeux enfoncés\n
+        \u2022 Boit avidement; assoiffé\n
+        \u2022 Lorsque la peau est pincée, elle revient lentement à la normale\n\n
+        <b>Déshydratation Légère</b>\n
+        Lorsqu\'il n\'y a pas assez de signes pour classifier comme étant une déshydratation sévère ou modérée.
     </string>
-    <string name="title_activity_definition_acute_diarrhoea">Definition</string>
-    <string name="title_activity_management_acute_diarrhoea">Management</string>
-    <string name="title_activity_no_dehydration">No Dehydration (Mild)</string>
+    <string name="title_activity_definition_acute_diarrhoea">Définition</string>
+    <string name="title_activity_management_acute_diarrhoea">Gestion</string>
+    <string name="title_activity_no_dehydration">Déshydratation Légère</string>
     <string name="no_dehydration_text" formatted="false">
-        <b>Treatment is given at home</b>\n\n
-        <b>How to prepare Oral Rehydration Solution (ORS) at home: </b>In 1 litre of clean water, add
-        8 cubes of sugar + 1 teaspoon of salt + 1 lemon (squeezed), then mix properly so that the sugar
-        and salt dissolve.\n\n
-        The treatment at home should follow the active rules listed below:\n
-        \t\u2022 Continue feeding\n
-        \t\u2022 Give extra fluids\n
-        \t\u2022 Give zinc supplements\n
-        \t\u2022 When to go to the hospital or health centre\n\n
-        <b>I.\tContinue Feeding</b>\n
-        \u2022 If the child is breastfed, feed more frequently or increase duration of feeding.\n
-        \u2022 If exclusively breastfed, give ORS or clean water in addition to breast milk.\n\n
-        <b>II.\tGive Extra Fluids</b>\n
-        \u2022 If not exclusively breastfed, give either <b>ORS</b> or <b>CLEAN WATER</b>.\n
-        \u2022 To prevent dehydration, give as much fluid as the child will take, that is,\n
-        \t\t* Less than 2 years: 50 - 100ml after every loose stool\n
-        \t\t* Greater than 2 years: 100 - 200ml after every loose stool\n
-        \u2022 Give small sips from a cup. If the child vomits, wait 10 minutes then continue more slowly. Continue
-        administering extra fluids till diarrhoea reduces.\n
-        \u2022 Mother should have two extra packets of ORS or already locally prepared ORS at home.\n\n
-        <b>III.\tGive Zinc Supplements</b>\n
-        Give zinc supplements as follows:\n
-        \t* Less than 6 months: 1/2 tablet (10mg) per day for 10 - 14 days.\n
-        \t* Greater than 6 months: 1 tablet (20mg) per day for 10 - 14 days.\n
-        Dissolve the zinc tablet in breast milk, clean water or ORS before administering to the child.\n\n
-        <b>IV.\t When to go to the Hospital or Health Centre</b>\n
-        \u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
-        having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
-        \u2022 If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
-        Administer the same treatment if the child suffers from a similar episode of diarrhoea.
+        <b>Le traitement est administré à la maison</b>\n\n
+        <b>Comment préparer la Solution de Réhydratation Orale (SRO) à domicile: </b>Dans 1 litre d\'eau
+        propre, ajoutez 8 morceaux de sucre + 1 cuillère à café de sel + 1 citron. Ensuite, bien mélanger
+        afin que le sucre et le sel se dissolvent.\n\n
+        Le traitement à domicile doit suivre les règles actives suivantes:\n
+        \t\u2022 Continuer l\'allaitement\n
+        \t\u2022 Donner des liquides supplémentaires\n
+        \t\u2022 Donner des suppléments de zinc\n
+        \t\u2022 Quand aller au centre hospitalier ou de santé\n\n
+        <b>I.\tContinuez l\'Allaitement</b>\n
+        \u2022 Si l\'enfant est allaité au sein, nourrir plus fréquemment ou davantage.\n
+        \u2022 Si il est allaité exclusivement au sein, donner la SRO ou de l\'eau propre en plus du
+        lait maternel.\n\n
+        <b>II.\tDonner des Liquides Supplémentaires</b>\n
+        \u2022 Si l\'enfant n\'est pas exclusivement allaité au sein, donner lui soit la <b>SRO</b> ou
+        de <b>L\'EAU PROPRE</b>.\n
+        \u2022 Pour éviter la déshydratation, donner autant de liquide que l\'enfant prendra. C\'est à
+        dire,\n
+        \t\t* Moins de 2 ans : 50 – 100 ml après chaque selle molle\n
+        \t\t* Plus de 2 ans : 100 – 200 ml après chaque selle molle\n
+        \u2022 Donnez-lui de petites gorgées à partir d\'une tasse. Si l\'enfant vomit, attendez 10
+        minutes puis reprennez, mais plus lentement. Continuez de lui donner des liquides supplémentaires
+        jusqu\'à ce que la diarrhée diminue.\n
+        \u2022 Les mères devraient avoir deux paquets supplémentaires de SRO, ou de la SRO préparée à
+        domicile.\n\n
+        <b>III.\tDonner des Suppléments de Zinc</b>\n
+        Donnez des suppléments de zinc comme ci-dessous:\n
+        \t* Moins de 6 mois: 1/2 comprimé (10 mg) par jour pendant 10 - 14 jours.\n
+        \t* Plus de 6 mois : 1  comprimé (20 mg) par jour pendant 10 – 14 jours.\n
+        Veuillez dissoudre le comprimé de zinc dans du lait de sein, de l\'eau propre ou de la SRO avant
+        de le donner à l\'enfant.\n\n
+        <b>IV.\tQuand Aller au Centre Hospitalier ou de Santé</b>\n
+        \u2022 Si l\'enfant devient plus malade, incapable de boire ou d\'allaiter, développe une fièvre
+        ou commence à avoir du sang dans les selles, <b>veuillez l\'emmener à l\'hôpital ou un centre
+        de santé le plus tôt possible.</b>\n
+        \u2022 S\'il n\'y a pas d\'amélioration après 5 jours, <b>veuillez l\'emmener à l\'hôpital ou
+        un centre de santé.</b>\n\n
+        Donnez le même traitement si l\'enfant doit souffrir de diarrhée similaire à l\'avenir.
     </string>
-    <string name="title_activity_little_dehydration">Some Dehydration (Moderate)</string>
+    <string name="title_activity_little_dehydration">Déshydratation Modérée</string>
     <string name="little_dehydration_text" formatted="false">
-        <b>Could be treated at home if the following steps are well followed</b>\n\n
-        What do you use? Oral Rehydration Solution (ORS). This is sold in packets at the hospital,
-        health centre or pharmacy. ORS can also be made at home.\n\n
-        <b>How to prepare ORS at home: </b>In 1 litre of clean water, add 8 cubes of sugar + 1 teaspoon
-        of salt + 1 lemon (squeezed), then mix properly so that the sugar and salt dissolve.\n\n
-        <b><i>Click on the button below to see what quantity of ORS to give to the child.\n
-        You should give the ORS with respect to the weight of the child, and THE SOLUTION SHOULD BE GIVEN
-        OVER A 4 HOUR PERIOD</i></b>\n
+        <b>Cela pourrait être fait à la maison si les étapes suivantes sont bien suivies</b>\n\n
+        Que devez-vous utiliser? Solution de Réhydratation Orale (SRO). Ceci est vendu en paquets à l\'hôpital,
+        centre de santé ou la pharmacie. La SRO pourrait également être faite à domicile.\n\n
+        <b>Comment préparer SRO à domicile: </b>Dans 1 litre d\'eau propre, ajoutez 8 morceaux de sucre
+        + 1 cuillère à café de sel + 1 citron. Ensuite, bien mélanger afin que le sucre et le sel se
+        dissolvent.\n\n
+        <b><i>
+            Cliquez sur le bouton ci-dessous pour voir la quantité de SRO à donner à l\'enfant.\n
+            Vous devez donner la SRO par rapport au poids de l\'enfant, et la SOLUTION DOIT ETRE DONNÉE
+            SUR UNE PÉRIODE DE 4 HEURES
+        </i></b>\n
     </string>
-    <string name="see_table_button_text">See Table</string>
-    <string name="title_activity_little_dehydration_table">Little Dehydration Table</string>
+    <string name="see_table_button_text">ADMINISTRER LA SRO</string>
+    <string name="title_activity_little_dehydration_table">Tableau de Déshydratation Légère</string>
     <string name="age_cell_text"><b>AGE</b></string>
-    <string name="age1_text"><b>&lt;4 months</b>\n\n</string>
-    <string name="age2_text"><b>4 - 12 months</b>\n\n</string>
-    <string name="age3_text"><b>1 - 2 years</b>\n\n</string>
-    <string name="age4_text"><b>2 - 5 years</b>\n\n</string>
-    <string name="weight_cell_text"><b>WEIGHT</b></string>
+    <string name="age1_text"><b>&lt;4 mois</b>\n\n</string>
+    <string name="age2_text"><b>4 - 12 mois</b>\n\n</string>
+    <string name="age3_text"><b>1 - 2 ans</b>\n\n</string>
+    <string name="age4_text"><b>2 - 5 ans</b>\n\n</string>
+    <string name="weight_cell_text"><b>POIDS</b></string>
     <string name="weight1_text"><b>&lt;6 kg</b>\n\n</string>
     <string name="weight2_text"><b>6 - &lt;10 kg</b>\n\n</string>
     <string name="weight3_text"><b>10 - &lt;12 kg</b>\n\n</string>
     <string name="weight4_text"><b>12 - 19 kg</b>\n\n</string>
-    <string name="amount_cell_text"><b>AMOUNT OF ORS TO GIVE</b></string>
+    <string name="amount_cell_text"><b>QUANTITÉ DE SRO À DONNER</b></string>
     <string name="amount1_text" formatted="false">
         <b>200 - 400 ml</b>\n
-        e.g. one smallest-sized plastic\n
-        brasseries bottle (350ml)
+        e.g. plus petite bouteille de jus\n
+        brasseries en plastique (350ml)
     </string>
     <string name="amount2_text" formatted="false">
         <b>400 - 700 ml</b>\n
-        e.g. two smallest-sized plastic\n
-        brasseries bottles (2 x 350ml)
+        e.g. deux plus petites bouteilles de\n
+        jus brasseries en plastique (2 x 350ml)
     </string>
     <string name="amount3_text" formatted="false">
         <b>700 - 900 ml</b>\n
-        e.g. 3/4 of a brasseries 1 litre\n
-        plastic bottle (750ml)
+        e.g. 3/4 d\'une bouteille de 1 litre\n
+        de jus brasseries (750ml)
     </string>
     <string name="amount4_text" formatted="false">
         <b>900 - 1400 ml</b>\n
-        e.g. a brasseries 1 litre plastic\n
-        bottle
+        e.g. Une bouteille de 1 litre de jus\n
+        brasseries
     </string>
     <string name="little_dehydration_text_continued" formatted="false">
-        \n\u2022 If the child wants more ORS than is prescribed above, feel free to give more.\n
-        \u2022 Give frequent sips from a cup. If the child vomits, wait 10 minutes then continue, but more
-        slowly.\n
-        \u2022 Continue breastfeeding whenever the child wants.\n
-        \u2022 Give zinc supplements as follows:\n
-        \t* Less than 6 months: 1/2 tablet (10mg) per day for 10 - 14 days.\n
-        \t* Greater than 6 months: 1 tablet (20mg) per day for 10 - 14 days.\n
-        \tDissolve the zinc tablet in breast milk, clean water or ORS before administering to the child.\n\n
-        \u2022 If the child gets sicker, becomes unable to drink or breastfeed, develops a fever, or begins
-        having blood in their stool, <b>take the child to a hospital or health centre as soon as possible.</b>\n
-        \u2022 If there is no improvement after 5 days, <b>take the child to a hospital or health centre.</b>\n\n
-        Administer the same treatment if the child suffers from a similar episode of diarrhoea.
+        \n\u2022 Si l\'enfant veut plus de SRO, donnez lui davantage.\n
+        \u2022 Faire boire fréquemment dans une tasse. Si l\'enfant vomit, attendez 10 minutes puis
+        continuez, mais moins fréquemment.\n
+        \u2022 Continuer l\'allaitement chaque fois que l\'enfant le veut.\n
+        \u2022 Donner des suppléments de zinc comme suit:\n
+        \t* Moins de 6 mois: 1/2 comprimé (10 mg) par jour pendant 10 - 14 jours.\n
+        \t* Plus de 6 mois : 1  comprimé (20 mg) par jour pendant 10 – 14 jours.\n
+        \tVeuillez dissoudre le comprimé de zinc dans la solution avant de le donner à l\'enfant.\n\n
+        \u2022 Si l\'enfant devient plus malade, incapable de boire ou d\'allaiter, développe une fièvre
+        ou commence à avoir du sang dans les selles, <b>veuillez l\'emmener à l\'hôpital ou un centre
+        de santé le plus tôt possible.</b>\n
+        \u2022 S\'il n\'y a pas d\'amélioration après 5 jours, <b>veuillez l\'emmener à l\'hôpital ou
+        un centre de santé.</b>\n\n
+        Donnez le même traitement si l\'enfant doit souffrir de diarrhée similaire à l\'avenir.
     </string>
     <string name="title_activity_little">Little</string>
-    <string name="title_activity_severe_dehydration">Severe Dehydration</string>
+    <string name="title_activity_severe_dehydration">Déshydratation Sévère</string>
     <string name="severe_dehydration_text" formatted="false">
-        <b>Should be treated at a hospital or health centre.</b>\n\n
-        <i>Fluids to use:</i>\n
-        Isotonic fluids like Ringer\’s lactate solution (Hartmann\’s solution) and Normal Saline
-        solution (0.9% NaCl).\n\n
-        <i>Do not use the following:</i>\n
-        5% glucose (dextrose) or 0.18 Saline with 5% dextrose solution.\n
-        They increase the risk of hyponatraemia which can in turn cause cerebral oedema.
+        <b>Cela devrait se faire traité dans un centre hospitalier ou de santé.</b>\n\n
+        <i>Fluides à utiliser:</i>\n
+        Fluides isotoniques comme la solution de «Ringer lactate» (solution d\'Hartmann) et la solution
+        saline normale (NaCl à 0,9%).\n\n
+        <i>N\'utilisez pas les éléments suivants:</i>\n
+        Glucose à 5% (“dextrose”) ou solution «saline 0,18» avec une solution de glucose à 5%.\n
+        Ils augmentent le risque d\'hyponatrémie qui peut à son tour provoquer un œdème cérébral.
     </string>
     <string name="title_activity_persistent_diarrhoea_definition">
-        Definition
+        Définition
     </string>
     <string name="persistent_diarrhoea_definition" formatted="false">
-        Persistent diarrhoea is defined as diarrhoea with or without blood in stool which begins
-        acutely and lasts 14 days or more.
+        La diarrhée persistante est une diarrhée avec ou sans sang, ayant un début aigu et durant 14
+        jours ou plus.
     </string>
     <string name="title_activity_persistent_diarrhoea_types">Types</string>
-    <string name="title_activity_severe_persistent_diarrhoea">Severe Persistent Diarrhoea</string>
+    <string name="title_activity_severe_persistent_diarrhoea">Diarrhée Sévère Persistante</string>
     <string name="title_activity_non_severe_persistent_diarrhoea">
-        Non-Severe Persistent Diarrhoea
+        Diarrhée Non Sévère Persistante
     </string>
     <string name="title_activity_non_severe_persistent_diarrhoea_definition">
-        Definition
+        Définition
     </string>
     <string name="non_severe_persistent_diarrhoea_definition" formatted="false">
-        This is diarrhoea lasting 14 days or more with no signs of dehydration and no severe malnutrition.
+        Ceci est une diarrhée durant 14 jours ou plus, mais sans signes de déshydratation ou malnutrition
+        sévère.
     </string>
     <string name="title_activity_non_severe_persistent_diarrhoea_treatment">
-        Treatment
+        Traitement
     </string>
     <string name="non_severe_persistent_diarrhoea_treatment" formatted="false">
-        \u2022 Give treatment according to treatment Plan A (No (Mild) Dehydration).\n
-        \u2022 ORS is effective for most children with persistent diarrhoea. However, if the child does not
-        tolerate ORS (i.e. there is an increase in stool volume, thirst or worsening of signs of dehydration),
-        such children should be given treatment <b>at a hospital or health centre</b> until ORS can be tolerated
-        without worsening of the diarrhoea.\n
-        \u2022 <b>Antibiotics treatment is NOT NECESSARY</b> unless there is evidence of an intestinal or
-        non intestinal infection.\n\n
-        <b>Feeding</b>\n
-        \t\u2022 Reduce the amount of milk in the child\'s diet temporarily.\n
-        \t\u2022 Continue breastfeeding more often and longer by day and night.\n
-        \t\u2022 If the child is taking some other form of milk, replace animal milk with fermented milk
-        like yogurt which contains less lactose and is well tolerated.\n
-        \t\u2022 If the above mentioned replacement is not possible, reduce animal milk to a maximum of
-        50ml/kg (i.e. 50 x child\'s weight in kg) in 24 hours.\n
-        \t\u2022 Formula-fed children that are older than 4 months should start taking in solid foods.\n
-        \t\u2022 Give frequent small feeds, at least 6 times per day.\n\n
-        <b>Follow Up</b>\n
-        \t\u2022 Take the child back to the hospital or health centre after 5 days at most if the diarrhoea
-        worsens or other problems develop.\n
-        \t\u2022 Check for signs of dehydration and the child\'s body temperature to ensure there is no fever.\n
-        \t\u2022 If the child has gained weight and has less than 3 loose stools per day, they may resume
-        the normal diet for their age.
+        \u2022 Administrer un traitement selon le Plan A (Déshydratation Légère).\n
+        \u2022 La SRO est efficace pour la plupart des enfants. Toutefois, si l\'enfant ne tolère pas
+        la SRO (c\'est à dire, il y a une augmentation dans le volume des selles, l\'enfant est assoifé,
+        ou les signes de déshydratation s\'empirent), il devrait être traité dans un <b>centre hospitalier
+        ou de santé</b> jusqu\'à ce qu\'il puisse tolérer la SRO sans que la diarrhée ne s\'aggrave.\n
+        \u2022 <b>Le traitement aux antibiotiques n\'est PAS NÉCESSAIRE</b>, sauf si il y a preuve d\'une
+        infection, soit elle intestinale ou pas.\n\n
+        <b>Alimentation</b>\n
+        \t\u2022 Réduire la quantité de lait dans l\'alimentation de l\'enfant temporairement.\n
+        \t\u2022 Continuer l\'allaitement plus souvent et plus longtemps, de jour et de nuit.\n
+        \t\u2022 Si l\'enfant prend un autre lait, remplacer le lait des animaux avec du lait fermenté
+        comme le yaourt, qui contient moins de lactose et est bien toléré.\n
+        \t\u2022Si le remplacement mentionné ci-dessus est impossible, réduire le lait des animaux à un
+        maximum de 50 ml / kg (c\'est à dire, 50 x poids de l\'enfant en kg) en 24 heures.\n
+        \t\u2022 Les enfants nourris au lait maternisé âgés de plus de 4 mois devraient commencer à manger
+        des aliments solides.\n
+        \t\u2022 Donnez de petits repas fréquents, au moins 6 fois par jour.\n\n
+        <b>Suivi</b>\n
+        \t\u2022 Ramener l\'enfant au centre hospitalier après 5 jours ou plus tôt si la diarrhée s\'aggrave
+        ou d\'autres problèmes se développent.\n
+        \t\u2022 Vérifiez les signes de déshydratation et la température du corps pour vous assurer qu\'il
+        n\'y a pas de fièvre.\n
+        \t\u2022 Si l\'enfant a pris du poids et fait moins de 3 selles molles par jour, il peut reprendre
+        le régime alimentaire normal pour son âge.
     </string>
-    <string name="title_activity_dysentery_definition">Definition</string>
+    <string name="title_activity_dysentery_definition">Définition</string>
     <string name="dysentery_definition" formatted="false">
-        Dysentery is defined as loose stools containing blood.\n
+        Ceci est une sorte de diarrhée qui se présente comme des selles molles contenant du sang.\n
     </string>
-    <string name="loose_stool_image_description">Loose Stool Containing Blood</string>
-    <string name="loose_stool_image_label"><b>Picture: </b>Loose Stool Containing Blood</string>
-    <string name="title_activity_dysentery_diagnosis">Diagnosis</string>
+    <string name="loose_stool_image_description">Selles Molles Contenant du Sang</string>
+    <string name="loose_stool_image_label"><b>Photo: </b>Selles Molles Contenant du Sang</string>
+    <string name="title_activity_dysentery_diagnosis">Diagnostic</string>
     <string name="dysentery_diagnosis" formatted="false">
-        A child with dysentery will have some or all of the following signs:\n
-        \t\u2022 Abdominal pain\n
-        \t\u2022 Fever\n
-        \t\u2022 Severe body weakness\n
-        \t\u2022 Dehydration
+        Un enfant ayant la dysenterie aura au moins un des signes suivants:\n
+        \t\u2022 Douleur abdominale\n
+        \t\u2022 Fièvre\n
+        \t\u2022 Grave faiblesse du corps\n
+        \t\u2022 Déshydratation
     </string>
-    <string name="title_activity_dysentery_treatment">Treatment</string>
+    <string name="title_activity_dysentery_treatment">Traitement</string>
     <string name="dysentery_treatment" formatted="false">
-        <b><i>Take the child to a hospital or health centre as soon as possible.</i></b>\n\n
-        <b>Follow Up</b>\n
-        Two days after starting the treatment at the hospital or health centre, check for signs of
-        improvement such as:\n
-        \t\u2022 No fever\n
-        \t\u2022 Fewer loose stools with less blood\n
-        \t\u2022 Improved appetite\n\n
-        If there is no improvement, return to the hospital.\n\n
-        Treat for dehydration depending on the level of dehydration.\n\n
-        <b>Feeding</b>\n
-        <i><u>Less than 6 months</u></i>\n
-        \t\u2022 Continue breastfeeding throughout the illness, but do so more frequently than usual.\n\n
-        <i><u>Over 6 months</u></i>\n
-        \t\u2022 They should receive their normal meals.\n
-        \t\u2022 Encourage the child to eat, and allow the child to select preferred foods.
+        <b><i>Veuillez emmener l\'enfant à l\'hôpital ou un centre de santé le plus tôt possible.</i></b>\n\n
+        <b>Suivi</b>\n
+        Vérifiez 2 jours après le début du traitement à l\'hôpital pour des signes d\'amélioration tels
+        que:\n
+        \t\u2022 Pas de fièvre\n
+        \t\u2022 Moins de selles molles contenant moins de sang\n
+        \t\u2022 Amélioration de l\'appétit\n\n
+        Si il n\'y a pas d\'amélioration, retournez à l\'hôpital.\n\n
+        Traiter comme la déshydratation en fonction du degré de déshydratation.\n\n
+        <b>Alimentation</b>\n
+        <i><u>Moins de 6 mois</u></i>\n
+        \t\u2022 Continuer l\'allaitement maternel pendant toute la maladie, et plus fréquemment qu\'auparavant.\n\n
+        <i><u>6 mois ou plus</u></i>\n
+        \t\u2022 Ils devraient recevoir leurs repas normaux.\n
+        \t\u2022 Encourager l\'enfant à manger et permettre à l\'enfant de choisir des aliments préférés.
     </string>
     <string name="title_activity_severe_persistent_diarrhoea_definition">
-        Definition
+        Définition
     </string>
     <string name="severe_persistent_diarrhoea_definition" formatted="false">
-        This is diarrhoea lasting 14 days or more, with signs of some dehydration or severe dehydration.
+        Ceci est une diarrhée durant 14 jours ou plus et ayant des signes de déshydratation sévère ou
+        modérée.
     </string>
     <string name="title_activity_severe_persistent_diarrhoea_treatment">
-        Treatment
+        Traitement
     </string>
     <string name="severe_persistent_diarrhoea_treatment" formatted="false">
-        \u2022 <b>Take the child to the hospital</b>\n
-        \u2022 Child should be assessed and treated according to Plan B (Some Dehydration) or Plan C (Severe
-        Dehydration) depending on the level of dehydration\n
-        \u2022 ORS is effective for most children with persistent diarrhoea. However, if the child does not
-        tolerate ORS (i.e. there is an increase in stool volume, thirst or worsening of signs of dehydration),
-        such children should be given treatment <b>at a hospital or health centre</b> until ORS can be tolerated
-        without worsening of the diarrhoea.\n
-        \u2022 <b>Antibiotics treatment is NOT NECESSARY</b> unless there is evidence of an intestinal or
-        non intestinal infection.\n\n
-        <b>Feeding</b>\n
-        <i><u>Children less than 6 months</u></i>\n
-        \t\u2022 Breastfeeding should be continued for as often and long as the child wants.\n
-        \t\u2022 Other foods should not be given for as long as 4 to 6 hours to allow for rehydration to be
-        done, depending on the level of dehydration.\n\n
-        <i><u>Children over 6 months</u></i>\n
-        \t\u2022 Restart feeding as soon as the child can eat. Feed the child at least 6 times a day to ensure
-        they meet adequate energy requirements.\n\n
-        <b>Follow Up</b>\n
-        Check the following to ensure that the child is improving:\n
-        \t\u2022 Weight gain: Increase in weight for 3 consecutive days shows favourable response to treatment.\n
-        \t\u2022 Temperature: Absence of fever shows appropriate response to treatment.\n
-        \t\u2022 Number of stools per day: Passage of less than 3 loose stools per day shows favourable
-        response to treatment.\n
-        \t\u2022 Food intake: Increased food intake by the child shows favourable response
-        to treatment.
+        \u2022 <b>Veuillez emmener l\'enfant à l\'hôpital</b>\n
+        \u2022 L\'enfant doit être évalué et traité selon le plan B (Déshydratation Modérée) ou le Plan C
+        (Déshydratation Sévère) en fonction du degré de déshydratation.\n
+        \u2022 La SRO est efficace pour la plupart des enfants atteints de diarrhée persistante. Toutefois,
+        si l\'enfant ne tolère pas la SRO (c\'est à dire, il y a une augmentation dans le volume des
+        selles, l\'enfant est assoifé, ou les signes de déshydratation s\'empirent), il devrait être
+        traité dans un <b>centre hospitalier ou de santé</b> jusqu\'à ce qu\'il puisse tolérer la SRO
+        sans que la diarrhée ne s\'aggrave.\n
+        \u2022 <b>Le traitement aux antibiotiques n\'est PAS NÉCESSAIRE</b>, sauf si il y a preuve d\'une
+        infection, soit elle intestinale ou pas.\n\n
+        <b>Alimentation</b>\n
+        <i><u>Enfants ayant moins de 6 mois</u></i>\n
+        \t\u2022 L\'allaitement au sein doit être poursuivi aussi souvent et aussi longtemps que l\'enfant
+        le veut.\n
+        \t\u2022 D\'autres aliments ne doivent pas être administrés pendant aussi longtemps que 4 à 6
+        heures pour permettre que la réhydratation s\'effectue, selon le degré de déshydratation.\n\n
+        <i><u>Enfants ayant plus de 6 mois</u></i>\n
+        \t\u2022 Recommencez l\'alimentation dès que l\'enfant peut manger. Nourrissez l\'enfant au moins
+        6 fois par jour afin d\'assurer qu\'il réponde aux exigences énergétiques adéquates.\n\n
+        <b>Suivi</b>\n
+        Vérifier les points suivants pour vous assurer qu\'il y a une amélioration:\n
+        \t\u2022 Prise de poids : augmentation de poids pendant 3 jours consécutifs indique une bonne
+        réaction au traitement.\n
+        \t\u2022 Température : absence de fièvre indique une réaction appropriée au traitement.\n
+        \t\u2022 Nombre de selles par jour : le passage de moins de 3 selles molles par jour indique
+        une bonne réaction au traitement.\n
+        \t\u2022 Alimentation : augmentation de la quantité de nourriture prise par l\'enfant indique
+        une bonne réaction au traitement.
     </string>
     <!-- Diarrhoea End -->
 
