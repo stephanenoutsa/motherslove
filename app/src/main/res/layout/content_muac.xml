@@ -63,98 +63,105 @@
                 android:id="@+id/muacInterpretation"
                 android:textColor="@color/colorTextPrimary" />
 
-            <TableLayout
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/muacInterpretation"
-                android:id="@+id/muacTable">
+                android:layout_below="@+id/muacInterpretation">
 
-                <TableRow
+                <TableLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/headingsRow">
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/muacInterpretation"
+                    android:id="@+id/muacTable">
 
-                    <LinearLayout
-                        android:orientation="vertical"
+                    <TableRow
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:id="@+id/column1">
+                        android:id="@+id/headingsRow">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/muac_reading_text"
-                            android:id="@+id/muacReading"
-                            android:textColor="@color/colorTextPrimary" />
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:id="@+id/column1">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/muac_reading1_text"
-                            android:id="@+id/muacReading1"
-                            android:textColor="@color/colorTextPrimary" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/muac_reading_text"
+                                android:id="@+id/muacReading"
+                                android:textColor="@color/colorTextPrimary" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/muac_reading2_text"
-                            android:id="@+id/muacReading2"
-                            android:textColor="@color/colorTextPrimary" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/muac_reading1_text"
+                                android:id="@+id/muacReading1"
+                                android:textColor="@color/colorTextPrimary" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/muac_reading3_text"
-                            android:id="@+id/muacReading3"
-                            android:textColor="@color/colorTextPrimary" />
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/muac_reading2_text"
+                                android:id="@+id/muacReading2"
+                                android:textColor="@color/colorTextPrimary" />
 
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/column2">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/muac_reading3_text"
+                                android:id="@+id/muacReading3"
+                                android:textColor="@color/colorTextPrimary" />
+                        </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/significance_text"
-                            android:id="@+id/significance"
-                            android:textColor="@color/colorTextPrimary" />
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/column2">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/significance1_text"
-                            android:id="@+id/significance1"
-                            android:textColor="@color/colorTextPrimary" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/significance_text"
+                                android:id="@+id/significance"
+                                android:textColor="@color/colorTextPrimary" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/significance2_text"
-                            android:id="@+id/significance2"
-                            android:textColor="@color/colorTextPrimary" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/significance1_text"
+                                android:id="@+id/significance1"
+                                android:textColor="@color/colorTextPrimary" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="@string/significance3_text"
-                            android:id="@+id/significance3"
-                            android:textColor="@color/colorTextPrimary" />
-                    </LinearLayout>
-                </TableRow>
-            </TableLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/significance2_text"
+                                android:id="@+id/significance2"
+                                android:textColor="@color/colorTextPrimary" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="@string/significance3_text"
+                                android:id="@+id/significance3"
+                                android:textColor="@color/colorTextPrimary" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+
+            </HorizontalScrollView>
 
         </RelativeLayout>
     </ScrollView>
