@@ -1260,40 +1260,40 @@
 
     <!-- Immunization notification messages -->
     <string name="welcome_msg">
-        WELCOME TO THE MLI FAMILY. WE WILL PROVIDE YOU WITH UPDATES ABOUT YOUR CHILD\'S VACCINATION AND
-        HEALTH UP TO THE AGE OF 1. THANKS FOR BEING A PART OF THIS FAMILY
+        BIENVENUE DANS LA FAMILLE MLI. VOUS RECEVREZ DES MISES À JOUR AU SUJET DE LA VACCINATION ET LA
+        SANTÉ DE VOTRE ENFANT JUSQU\'À L\'AGE DE 1 AN. NOUS VOUS REMERCIONS
     </string>
     <string name="msg2">
-        CONGRATS on your delivery! We hope baby received its 1st vaccines (OPV, BCG). BREASTFEED
-        EXCLUSIVELY for 6 months, DO NOT give water and DO NOT mix feed.
+        Félicitations pour l\'accouchement! Nous espérons que bébé a reçu ses 1ers vaccins. Allaitez-le
+        uniquement au sein pendant 6 mois sans eau ni alimentation mixte.
     </string>
     <string name="msg3">
-        Report to the nearest health facility if you have any of the following WARNING SIGNS: fever,
-        abdominal pain, blurred vision, excessive bleeding or breast pain.
+        Rendez vous au centre de santé le plus proche si vous avez un des suivants: fièvre, douleur
+        abdominale, vision floue, saignement excessif ou douleur mammaire.
     </string>
     <string name="msg4">
-        Ensure proper hygiene for yourself and your baby to prevent disease. Wash your breast with soap
-        and water before breastfeeding. FAMILY PLANNING is advised.
+        Veillez à une bonne hygiène pour vous et votre bébé pour prévenir la maladie. Lavez votre sein
+        avec de l\'eau et du savon avant d\'allaiter.
     </string>
     <string name="msg5">
-        HELLO! Your baby is about 6 weeks old. Remember taking baby for its 6 weeks
-        vaccines (OPV1, DPT-1-HEP B1-Hib1, PNEUMO 13.1 and ROTA 1).
+        BONJOUR! Votre bébé est âgé d\'environ 6 semaines. Souvenez-vous de l\'amener pour ses vaccins
+        de 6ème semaine (VPO1, DTC-HepB + Hib1, PNEUMO 13-1, ROTA 1).
     </string>
     <string name="msg6">
-        HELLO! Your baby is about 10 weeks old. Remember taking baby for its 10 weeks
-        vaccines (OPV2, DPT-2-HEP B2-Hib2, PNEUMO 13.2 and ROTA 2).
+        BONJOUR! Votre bébé est âgé d\'environ 10 semaines. Souvenez-vous de l\'amener pour ses vaccins
+        de 10ème semaine (VPO2, DTC-HepB2 + Hib2, PNEUMO 13-2, ROTA 2).
     </string>
     <string name="msg7">
-        HELLO! Your baby is about 14 weeks old. Remember taking baby for its 14 weeks
-        vaccines (OPV3, DPT-3-HEP B3-Hib3, PNEUMO 13.3).
+        BONJOUR! Votre bébé est âgé d\'environ 14 semaines. Souvenez-vous de l\'amener pour ses vaccins
+        de 14ème semaine (VPO3, DTC-HepB3 + Hib3, PNEUMO 13-3).
     </string>
     <string name="msg8">
-        HELLO! Your baby is now 6 months old. Remember taking baby for its 6 months vaccine (VITAMIN
-        A). Ensure baby drinks CLEAN water to prevent diarrhoea.
+        BONJOUR! Vous approchez la fin du calendrier de vaccination de votre enfant. Assurez-vous qu\'il
+        boive de l\'eau propre pour éviter la diarrhée.
     </string>
     <string name="msg9">
-        HELLO! Your baby is now 9 months old. Remember taking him/her for vaccination (MEASLES, YELLOW
-        FEVER). Your baby will then be fully immunised according to EPI.
+        BONJOUR! Votre bébé est âgé de 9 mois. Amenez-le pour ses derniers vaccins (VITAMINE A, ROUGEOLE,
+        FIEVRE JAUNE). Il sera alors complètement vacciné.
     </string>
     <!-- End of messages -->
 </resources>
