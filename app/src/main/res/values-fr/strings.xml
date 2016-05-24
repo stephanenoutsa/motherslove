@@ -5,7 +5,7 @@
     <string name="menu_search">Recherchez</string>
     <string name="menu_notifications">Notifications</string>
     <string name="menu_settings">Paramètres</string>
-    <string name="menu_about">À propos de nous</string>
+    <string name="menu_about">À Propos de Nous</string>
     <string name="menu_home">Acceuil</string>
     <string name="menu_anc">Soins Anténataux</string>
     <string name="menu_malnutrition">Malnutrition</string>
@@ -1236,24 +1236,26 @@
     </string>
 
     <!-- About Us text -->
-    <string name="title_activity_about">About</string>
+    <string name="title_activity_about">À Propos de Nous</string>
     <string name="about_us_text" formatted="false">
-        Mother\'s Love Initiative is a team comprising medical students, doctors and app developers all
-        sharing a similar vision with regards to health care provision especially in the aspect of maternal
-        and child health. Our ambition is to shift the focus from curative medicine which manages infirmity
-        and complications when they have already occurred, to shed more light on aspects of preventive
-        medicine which is the ultimate solution to dent staggering values of morbidity and mortality
-        in the developing world.\n
-        We do not intend to replace hospitals and their incredible personnel in their noble role of saving
-        lives. We rather seek to complement and partner them by empowering users of this application
-        to prevent, promptly recognise and even start the basic home management of complications prior
-        to hospital arrival if they eventually occur.\n
-        This app can serve as a tool to expectant mothers, mothers, their relatives, medical students
-        and medical personnel as it provides information ranging from basic reminders of key dates to
-        expectant mothers to complex inbuilt calculators to diagnose malnutrition, and provides interpretations
-        to these results. We therefore hope this app ultimately helps specifically improve prevention
-        of mother to child transmission of HIV and Hepatitis B, and globally reduce maternal and child
-        mortality.
+        Mother\'s Love Initiative est une équipe composée d\'étudiants en médecine, des médecins et des
+        développeurs d\'applications, partageant tous la même vision en ce qui concerne la fourniture
+        de soins de santé, en particulier dans l\'aspect de la santé maternelle et infantile. Notre ambition
+        est de mettre l\'accent de la médecine curative qui gère l\'infirmité et les complications quand
+        ils ont déjà eu lieu, pour mettre plus de lumière sur les aspects de la médecine préventive qui
+        est la solution ultime pour réduire les valeurs énormes de morbidité et de mortalité dans le monde
+        en voie de développement.\n
+        Nous ne voulons pas remplacer les hôpitaux et leur personnel incroyables dans leur rôle noble
+        de sauver des vies. Nous cherchons plutôt à les compléter en habilitant les utilisateurs de cette
+        application à prévenir, rapidement reconnaître, et même commencer la gestion de base de ces complications
+        à domicile avant d\'aller à l\'hôpital au cas où elles se produisent.\n
+        Cette application peut servir comme un outil pour des futures mamans, des mères, leurs proches,
+        des étudiants en médecine et des personnels médicaux, car elle fournit des informations allant
+        de rappels de base de dates clés pour les femmes enceintes à des calculatrices encastrables complexes
+        pour diagnostiquer la malnutrition , puis fournit des interprétations de ces résultats. Nous
+        espérons donc que cette application contribuera spécifiquement à améliorer la prévention de la
+        transmission du VIH et de l\'hépatite B de la mère à l\'enfant, et réduira le taux de mortalité
+        maternelle et infantile global.
     </string>
 
     <!-- Immunization notification messages -->
