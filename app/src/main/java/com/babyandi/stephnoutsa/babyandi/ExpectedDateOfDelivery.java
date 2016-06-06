@@ -68,7 +68,7 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
                 eddate = getIntent().getExtras().getString("edd");
                 lmp = getIntent().getExtras().getString("lmp");
                 Toast.makeText(context, "LMP is: " + lmp, Toast.LENGTH_SHORT).show();
-                DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
+                DateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
                 long currentDate = new GregorianCalendar().getTimeInMillis();
                 try {
                     Date edDate = sdf.parse(eddate);

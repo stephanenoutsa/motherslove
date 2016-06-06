@@ -56,7 +56,7 @@ public class InstantNotifReceiver extends BroadcastReceiver {
                 nm.notify(rand, notification.build());
 
                 // Add the notification to the database
-                DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                 String nday = f.format(new Date().getTime());
                 notif = new Notification(nday, notifText);
                 dbHandler.addNotification(notif);

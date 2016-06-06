@@ -46,7 +46,7 @@ public class MyImmunizationService extends Service {
         final MyDBHandler dbHandler = new MyDBHandler(context, null, null, 1);
         final Context cont = context;
 
-        String expectedPattern = "MMM d, yyyy";
+        String expectedPattern = "dd/MM/yyyy";
         sdf = new SimpleDateFormat(expectedPattern);
 
         notification = new NotificationCompat.Builder(cont);
@@ -64,7 +64,7 @@ public class MyImmunizationService extends Service {
 
                     // Check which notification to display, if any
                     String dobString = d.getDday();
-                    String expectedPattern = "MMM d, yyyy";
+                    String expectedPattern = "dd/MM/yyyy";
                     sdf = new SimpleDateFormat(expectedPattern);
 
                     dob = sdf.parse(dobString);
@@ -94,7 +94,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.welcome_msg);
                             notif = new Notification(nday, nmessage);
@@ -143,7 +143,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg2);
                             notif = new Notification(nday, nmessage);
@@ -169,7 +169,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg3);
                             notif = new Notification(nday, nmessage);
@@ -195,7 +195,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg4);
                             notif = new Notification(nday, nmessage);
@@ -221,7 +221,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg5);
                             notif = new Notification(nday, nmessage);
@@ -247,7 +247,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg6);
                             notif = new Notification(nday, nmessage);
@@ -273,7 +273,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg7);
                             notif = new Notification(nday, nmessage);
@@ -299,7 +299,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg8);
                             notif = new Notification(nday, nmessage);
@@ -325,7 +325,7 @@ public class MyImmunizationService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.msg9);
                             notif = new Notification(nday, nmessage);

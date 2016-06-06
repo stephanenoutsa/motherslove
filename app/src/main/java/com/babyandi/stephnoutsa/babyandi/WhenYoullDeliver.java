@@ -85,7 +85,7 @@ public class WhenYoullDeliver extends AppCompatActivity {
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
-                DateFormat sdf = new SimpleDateFormat("MMM d, yyyy");
+                DateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
                 String date = sdf.format(selectedDate.getTime());
 
                 // Calculate the EDD

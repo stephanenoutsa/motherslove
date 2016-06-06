@@ -58,7 +58,7 @@ public class MyService extends Service {
 
                     // Check which notification to display, if any
                     String lmp = dbHandler.getLMP();
-                    String expectedPattern = "MMM d, yyyy";
+                    String expectedPattern = "dd/MM/yyyy";
                     sdf = new SimpleDateFormat(expectedPattern);
 
                     lmpDate = sdf.parse(lmp);
@@ -91,7 +91,7 @@ public class MyService extends Service {
                                 nm.notify(rand, notification.build());
 
                                 // Add the notification to the database
-                                DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                                DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                                 String nday = f.format(new Date().getTime());
                                 String nmessage = cont.getString(R.string.notif_msg1);
                                 notif = new Notification(nday, nmessage);
@@ -145,7 +145,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notification_1_text_hepatitis);
                             notif = new Notification(nday, nmessage);
@@ -166,7 +166,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notification_1_text_hiv);
                             notif = new Notification(nday, nmessage);
@@ -184,7 +184,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg2);
                             notif = new Notification(nday, nmessage);
@@ -206,7 +206,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg3);
                             notif = new Notification(nday, nmessage);
@@ -229,7 +229,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg4);
                             notif = new Notification(nday, nmessage);
@@ -252,7 +252,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg5);
                             notif = new Notification(nday, nmessage);
@@ -275,7 +275,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg6);
                             notif = new Notification(nday, nmessage);
@@ -298,7 +298,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg7);
                             notif = new Notification(nday, nmessage);
@@ -321,7 +321,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg8);
                             notif = new Notification(nday, nmessage);
@@ -344,7 +344,7 @@ public class MyService extends Service {
                             nm.notify(rand, notification.build());
 
                             // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("MMM d, yyyy");
+                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
                             String nday = f.format(new Date().getTime());
                             String nmessage = cont.getString(R.string.notif_msg9);
                             notif = new Notification(nday, nmessage);
