@@ -24,7 +24,6 @@ import java.util.GregorianCalendar;
 
 public class AllowImmNotif extends AppCompatActivity {
 
-    TextView dobT;
     MyDBHandler dbHandler;
     AlarmStart alarmStart;
     String dob;
