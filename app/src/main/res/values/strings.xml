@@ -1149,7 +1149,7 @@
     <!-- Notification Messages -->
     <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
     <string name="first_notification_1" formatted="false">
-        Your expected date of delivery saved in the database is:\n
+        Your expected date of delivery saved in the database is
     </string>
     <string name="first_notification_2" formatted="false">
         You will be receiving notifications based on this date to guide you throughout the remaining

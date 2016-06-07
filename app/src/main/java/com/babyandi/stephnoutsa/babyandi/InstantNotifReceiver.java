@@ -28,8 +28,8 @@ public class InstantNotifReceiver extends BroadcastReceiver {
         final MyDBHandler dbHandler = new MyDBHandler(context, null, null, 1);
         final Context cont = context;
         String dbDate = dbHandler.getEDD();
-        final String notifText = cont.getString(R.string.first_notification_1) + dbDate + "\n" +
-                cont.getString(R.string.first_notification_2);
+        final String notifText = cont.getString(R.string.first_notification_1) + " " + dbDate +
+                ".\n" + cont.getString(R.string.first_notification_2);
         //Toast.makeText(cont, notifText, Toast.LENGTH_LONG).show();
 
         notification = new NotificationCompat.Builder(cont);
