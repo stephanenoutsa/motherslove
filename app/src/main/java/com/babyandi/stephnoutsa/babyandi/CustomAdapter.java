@@ -8,9 +8,11 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-class CustomAdapter extends ArrayAdapter<String> {
+import java.util.List;
 
-    public CustomAdapter(Context context, String[] notifications) {
+class CustomAdapter extends ArrayAdapter<Notification> {
+
+    public CustomAdapter(Context context, List<Notification> notifications) {
         super(context, R.layout.custom_row, notifications);
     }
 
@@ -19,11 +21,14 @@ class CustomAdapter extends ArrayAdapter<String> {
         LayoutInflater inflater = LayoutInflater.from(getContext());
         View customView = inflater.inflate(R.layout.custom_row, parent, false);
 
-        String singleNotifItem = getItem(position);
-        TextView notificationDate = (TextView) customView.findViewById(R.id.notificationBody);
-        //notificationDate.setTypeface(null, Typeface.BOLD);
+        Notification singleNotifItem = getItem(position);
+        TextView notificationDate = (TextView) customView.findViewById(R.id.notificationDate);
+        TextView notificationBody = (TextView) customView.findViewById(R.id.notificationBody);
 
-        notificationDate.setText(singleNotifItem);
+        notificationDate.setTypeface(null, Typeface.BOLD);
+
+        notificationDate.setText(singleNotifItem.getNday());
+        notificationBody.setText(singleNotifItem.getNmessage());
 
         return customView;
     }

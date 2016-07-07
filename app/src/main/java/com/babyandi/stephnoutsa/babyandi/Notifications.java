@@ -62,7 +62,6 @@ public class Notifications extends AppCompatActivity {
                 int i = 1;
                 for(Notification n : notificationList) {
                     int a = i - 1;
-                    //String notif[] = {n.getNday(), n.getNmessage()};
 
                     String notif = n.getNday() + "\n" + "\"" + n.getNmessage() + "\"";
 
@@ -79,7 +78,7 @@ public class Notifications extends AppCompatActivity {
                 }
 
                 // Get the notifications into an adapter's list
-                ListAdapter listAdapter = new CustomAdapter(context, notifs);
+                ListAdapter listAdapter = new CustomAdapter(context, notificationList);
 
                 // Set the adapter to display the notifications
                 listView = (ListView) findViewById(R.id.notificationsList);
