@@ -22,7 +22,6 @@ public class Notifications extends AppCompatActivity {
     List<Notification> notificationList;
     ListView listView;
     Context context = this;
-    int count;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,9 +51,6 @@ public class Notifications extends AppCompatActivity {
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
-                // Get total number of notifications in database
-                count = dbHandler.getNotificationsCount();
-
                 // Get all notifications from database
                 notificationList = dbHandler.getAllNotifications();
 
