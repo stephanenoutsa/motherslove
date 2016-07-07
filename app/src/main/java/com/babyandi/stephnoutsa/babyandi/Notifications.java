@@ -13,6 +13,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.app.NotificationManager;
 
+import java.util.Collections;
 import java.util.List;
 
 public class Notifications extends AppCompatActivity {
@@ -57,25 +58,8 @@ public class Notifications extends AppCompatActivity {
                 // Get all notifications from database
                 notificationList = dbHandler.getAllNotifications();
 
-                // Get each notification into a string and put in an array
-                String [] notifications = new String[count];
-                int i = 1;
-                for(Notification n : notificationList) {
-                    int a = i - 1;
-
-                    String notif = n.getNday() + "\n" + "\"" + n.getNmessage() + "\"";
-
-                    notifications[a] = notif;
-                    i++;
-                }
-
-                // Reverse the order of the notifications (first to last and vice versa)
-                String notifs [] = new String[count];
-                int c = count - 1;
-                for(int x = 0; x < count; x++) {
-                    notifs[x] = notifications[c];
-                    c--;
-                }
+                // Reverse the order of the notifications
+                Collections.reverse(notificationList);
 
                 // Get the notifications into an adapter's list
                 ListAdapter listAdapter = new CustomAdapter(context, notificationList);
