@@ -1085,11 +1085,11 @@
     </string>
     <string name="button_allow_imm_text">Save DOB</string>
     <string name="displayed_dob_text">Your child\'s DOB is:\n</string>
-    <string name="title_activity_infact_schedule_options">Infact Schedule Options</string>
+    <string name="title_activity_infact_schedule_options">Infant Schedule Options</string>
     <string name="first_option_text" formatted="false">
         To receive notifications to remind you of your child\'s immunization schedule, click the first
-        button below and select your child\'s date of birth (DOB). Note that your child should be less
-        than nine (9) months old.
+        button below and select your child\'s date of birth (DOB).
+        <b>Note that your child should be less than nine (9) months old.</b>
     </string>
     <string name="receive_notifs_button_text">Select Child\'s DOB</string>
     <string name="second_option_text" formatted="false">
@@ -1137,7 +1137,7 @@
     <string name="visit5_text">1 year after TTV4</string>
     <string name="duration_cell_text"><b>DURATION OF PROTECTION</b></string>
     <string name="duration1_text">0</string>
-    <string name="duration2_text">1 - 3 years</string>
+    <string name="duration2_text">1 &#8211; 3 years</string>
     <string name="duration3_text">5 years</string>
     <string name="duration4_text">10 years</string>
     <string name="duration5_text">Entire child bearing age range</string>
