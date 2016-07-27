@@ -3,6 +3,7 @@ package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.DatePicker;
+import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -32,6 +34,10 @@ public class WhenYoullDeliver extends AppCompatActivity {
         setContentView(R.layout.activity_when_youll_deliver);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         // Set an icon for navigation
@@ -45,6 +51,10 @@ public class WhenYoullDeliver extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView lmpText = (TextView) findViewById(R.id.lmpText);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        lmpText.setTypeface(typeface);
 
         DatePicker date = (DatePicker) findViewById(R.id.datePicker);
 

@@ -2,6 +2,7 @@ package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -30,7 +31,7 @@ public class ZScore extends AppCompatActivity {
             RelativeLayout.LayoutParams.WRAP_CONTENT
     );
     Button linkButton;
-    TextView zScore;
+    TextView zScore, heightLabel, weightLabel;
     final Context context = this;
 
     @Override
@@ -39,6 +40,10 @@ public class ZScore extends AppCompatActivity {
         setContentView(R.layout.activity_zscore);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         //Set an Icon for navigation
@@ -53,9 +58,16 @@ public class ZScore extends AppCompatActivity {
             }
         });*/
 
+        zScore = (TextView) findViewById(R.id.zScore);
+        heightLabel = (TextView) findViewById(R.id.heightLabel);
+        weightLabel = (TextView) findViewById(R.id.weightLabel);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        zScore.setTypeface(typeface);
+        heightLabel.setTypeface(typeface);
+        weightLabel.setTypeface(typeface);
+
         heightInput = (EditText) findViewById(R.id.heightInput);
         weightInput = (EditText) findViewById(R.id.weightInput);
-        zScore = (TextView) findViewById(R.id.zScore);
         relativeLayout = (RelativeLayout) findViewById(R.id.relativeLayout);
         linkButton = new Button(this);
         linkButton.setBackgroundResource(R.drawable.button_standard_border);

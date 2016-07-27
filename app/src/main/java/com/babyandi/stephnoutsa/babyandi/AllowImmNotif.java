@@ -4,6 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -35,6 +36,10 @@ public class AllowImmNotif extends AppCompatActivity {
         setContentView(R.layout.activity_allow_imm_notif);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         // Set an icon for navigation
@@ -50,6 +55,12 @@ public class AllowImmNotif extends AppCompatActivity {
         });*/
 
         final TextView dobT = (TextView) findViewById(R.id.dob);
+        TextView allowImmText1 = (TextView) findViewById(R.id.allowImmText1);
+        TextView allowImmText2 = (TextView) findViewById(R.id.allowImmText2);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        allowImmText1.setTypeface(typeface);
+        allowImmText2.setTypeface(typeface);
+        dobT.setTypeface(typeface);
         dbHandler = new MyDBHandler(this, null, null, 1);
         alarmStart = new AlarmStart();
 

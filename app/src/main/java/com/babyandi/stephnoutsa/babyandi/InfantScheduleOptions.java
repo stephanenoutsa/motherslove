@@ -1,12 +1,14 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class InfantScheduleOptions extends AppCompatActivity {
 
@@ -16,6 +18,10 @@ public class InfantScheduleOptions extends AppCompatActivity {
         setContentView(R.layout.activity_infant_schedule_options);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         // Set an icon for navigation
@@ -29,6 +35,12 @@ public class InfantScheduleOptions extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView firstOptionText = (TextView) findViewById(R.id.firstOptionText);
+        TextView secondOptionText = (TextView) findViewById(R.id.secondOptionText);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        firstOptionText.setTypeface(typeface);
+        secondOptionText.setTypeface(typeface);
     }
 
     /////////// Intents to link to other activities ///////////

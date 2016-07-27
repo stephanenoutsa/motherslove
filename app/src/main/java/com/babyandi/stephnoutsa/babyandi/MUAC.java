@@ -1,6 +1,7 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -19,6 +21,10 @@ public class MUAC extends AppCompatActivity {
         setContentView(R.layout.activity_muac);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         //Set an Icon for navigation
@@ -32,6 +38,30 @@ public class MUAC extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView muacText = (TextView) findViewById(R.id.muacText);
+        TextView muac_image_text = (TextView) findViewById(R.id.muac_image_text);
+        TextView muacInterpretation = (TextView) findViewById(R.id.muacInterpretation);
+        TextView muacReading = (TextView) findViewById(R.id.muacReading);
+        TextView muacReading1 = (TextView) findViewById(R.id.muacReading1);
+        TextView muacReading2 = (TextView) findViewById(R.id.muacReading2);
+        TextView muacReading3 = (TextView) findViewById(R.id.muacReading3);
+        TextView significance = (TextView) findViewById(R.id.significance);
+        TextView significance1 = (TextView) findViewById(R.id.significance1);
+        TextView significance2 = (TextView) findViewById(R.id.significance2);
+        TextView significance3 = (TextView) findViewById(R.id.significance3);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        muacText.setTypeface(typeface);
+        muac_image_text.setTypeface(typeface);
+        muacInterpretation.setTypeface(typeface);
+        muacReading.setTypeface(typeface);
+        muacReading1.setTypeface(typeface);
+        muacReading2.setTypeface(typeface);
+        muacReading3.setTypeface(typeface);
+        significance.setTypeface(typeface);
+        significance1.setTypeface(typeface);
+        significance2.setTypeface(typeface);
+        significance3.setTypeface(typeface);
     }
 
     ////////////Intents for menu items////////////

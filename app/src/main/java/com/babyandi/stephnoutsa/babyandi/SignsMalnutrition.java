@@ -1,6 +1,7 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
 
@@ -19,6 +21,10 @@ public class SignsMalnutrition extends AppCompatActivity {
         setContentView(R.layout.activity_signs_malnutrition);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         //Set an Icon for navigation
@@ -32,6 +38,16 @@ public class SignsMalnutrition extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView signsMalnutrition1 = (TextView) findViewById(R.id.signsMalnutrition1);
+        TextView signsMalnutrition2 = (TextView) findViewById(R.id.signsMalnutrition2);
+        TextView signsMalnutrition3 = (TextView) findViewById(R.id.signsMalnutrition3);
+        TextView signsMalnutrition4 = (TextView) findViewById(R.id.signsMalnutrition4);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        signsMalnutrition1.setTypeface(typeface);
+        signsMalnutrition2.setTypeface(typeface);
+        signsMalnutrition3.setTypeface(typeface);
+        signsMalnutrition4.setTypeface(typeface);
     }
 
     ////////////Intents for menu items////////////

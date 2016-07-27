@@ -1,6 +1,7 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class AfterBirthIntroduction extends AppCompatActivity {
 
@@ -17,6 +19,10 @@ public class AfterBirthIntroduction extends AppCompatActivity {
         setContentView(R.layout.activity_after_birth_introduction);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         // Set an android for navigation
@@ -30,6 +36,10 @@ public class AfterBirthIntroduction extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView afterBirthIntro = (TextView) findViewById(R.id.afterBirthIntro);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        afterBirthIntro.setTypeface(typeface);
     }
 
     ////////////Intents for menu items////////////

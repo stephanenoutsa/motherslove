@@ -2,6 +2,7 @@ package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -13,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.DatePicker;
+import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -31,6 +33,10 @@ public class ChildDOB extends AppCompatActivity {
         setContentView(R.layout.activity_child_dob);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         // Set an icon for navigation
@@ -44,6 +50,10 @@ public class ChildDOB extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });*/
+
+        TextView dobText = (TextView) findViewById(R.id.dobText);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        dobText.setTypeface(typeface);
 
         DatePicker date = (DatePicker) findViewById(R.id.datePicker);
 

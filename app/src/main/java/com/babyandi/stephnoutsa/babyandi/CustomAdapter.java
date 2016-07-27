@@ -25,7 +25,10 @@ class CustomAdapter extends ArrayAdapter<Notification> {
         TextView notificationDate = (TextView) customView.findViewById(R.id.notificationDate);
         TextView notificationBody = (TextView) customView.findViewById(R.id.notificationBody);
 
-        notificationDate.setTypeface(null, Typeface.BOLD);
+        Typeface typeface = Typeface.createFromAsset(getContext().getAssets(), "fonts/mufferaw rg.ttf");
+
+        notificationDate.setTypeface(typeface, Typeface.BOLD);
+        notificationBody.setTypeface(typeface);
 
         notificationDate.setText(singleNotifItem.getNday());
         notificationBody.setText(singleNotifItem.getNmessage());

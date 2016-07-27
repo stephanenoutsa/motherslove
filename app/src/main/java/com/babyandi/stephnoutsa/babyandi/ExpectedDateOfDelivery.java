@@ -4,6 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -39,6 +40,10 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         setContentView(R.layout.activity_expected_date_of_delivery);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
         // Set an icon for navigation
@@ -53,9 +58,18 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
             }
         });*/
 
+        eDDText = (TextView) findViewById(R.id.eDDText);
+        TextView specialNeedsText = (TextView) findViewById(R.id.specialNeedsText);
+        TextView hivCheckboxText = (TextView) findViewById(R.id.hivCheckboxText);
+        TextView hepatitisCheckboxText = (TextView) findViewById(R.id.hepatitisCheckboxText);
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
+        eDDText.setTypeface(typeface);
+        specialNeedsText.setTypeface(typeface);
+        hivCheckboxText.setTypeface(typeface);
+        hepatitisCheckboxText.setTypeface(typeface);
+
         dbHandler = new MyDBHandler(this, null, null, 1);
         alarmStart = new AlarmStart();
-        eDDText = (TextView) findViewById(R.id.eDDText);
 
         cHivy = (RadioButton) findViewById(R.id.hiv_yes);
         cHivn = (RadioButton) findViewById(R.id.hiv_no);
@@ -67,7 +81,7 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
             public void handleMessage(Message msg) {
                 eddate = getIntent().getExtras().getString("edd");
                 lmp = getIntent().getExtras().getString("lmp");
-                Toast.makeText(context, "LMP is: " + lmp, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(context, "LMP is: " + lmp, Toast.LENGTH_SHORT).show();
                 DateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
                 long currentDate = new GregorianCalendar().getTimeInMillis();
                 try {
@@ -170,8 +184,6 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         pm.setComponentEnabledSetting(receiver,
                 PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
                 PackageManager.DONT_KILL_APP);
-
-        Toast.makeText(this, "HIV: " + hiv + "\nHepatitis: " + hepatitis, Toast.LENGTH_LONG).show();
     }
 
     ////////////Intents for menu items////////////

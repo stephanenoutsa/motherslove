@@ -1,6 +1,7 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class ScheduleForPregnantWomen extends AppCompatActivity {
 
@@ -17,9 +19,13 @@ public class ScheduleForPregnantWomen extends AppCompatActivity {
         setContentView(R.layout.activity_schedule_for_pregnant_women);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
-        // Set an android for navigation
+        // Set an icon for navigation
         toolbar.setNavigationIcon(R.drawable.android);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
