@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.LittleDehydrationTable"
     tools:showIn="@layout/activity_little_dehydration_table"
-    android:background="@color/colorDiarrhoea">
+    android:background="@drawable/diarrhoea_image">
 
     <ScrollView
         android:layout_width="match_parent"

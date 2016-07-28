@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.ManagementAcuteDiarrhoea"
     tools:showIn="@layout/activity_management_acute_diarrhoea"
-    android:background="@color/colorDiarrhoea">
+    android:background="@drawable/diarrhoea_image">
 
     <Button
         android:layout_width="@dimen/button_standard_width"
