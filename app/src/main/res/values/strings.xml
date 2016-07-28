@@ -764,7 +764,7 @@
     <string name="sn_select_text" formatted="false">
         To help us better follow you up and prevent the transmission of certain diseases to your child,
         please select the box(es) below if you have any or both of the corresponding conditions.\n
-        We can\'t access the information you provide, so it is strictly confidential.
+        The information you provide is strictly confidential, so we can\'t access it.
     </string>
     <string name="hiv_checkbox_text">HIV positive?</string>
     <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
@@ -887,7 +887,7 @@
         <b>Bloody Show</b>\n
         As the cervix begins to get thin and dilate (open), a pink or bloody substance could be
         discharged.\n
-        You might also see a “plug” of mucus. This can happen several days before, or at the beginning
+        You might also see a \"plug\" of mucus. This can happen several days before, or at the beginning
         of labour.\n\n
         <b>Ruptured Membranes</b>\n
         This manifests as a gush or slow leak of amniotic fluid from the vagina. If this happens, you
@@ -905,7 +905,7 @@
     <string name="title_activity_pain_management">Coping with Labour Pain</string>
     <string name="pain_management_text" formatted="false">
         There are many effective and helpful ways of reducing the amount of pain you feel when you have
-        contractions. The effect varies from woman to woman, and often a combination of techniques are
+        contractions. The effect varies from woman to woman, and often a combination of techniques is
         used to achieve this.\n
         These techniques help you avoid medications, they are easy to do, and they give personal satisfaction.\n
         Some of these techniques are:\n\n
