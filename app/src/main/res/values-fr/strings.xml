@@ -345,7 +345,7 @@
         un centre de santé.</b>\n\n
         Donnez le même traitement si l\'enfant doit souffrir de diarrhée similaire à l\'avenir.
     </string>
-    <string name="title_activity_little">Little</string>
+    <string name="title_activity_little">Légère</string>
     <string name="title_activity_severe_dehydration">Déshydratation Sévère</string>
     <string name="severe_dehydration_text" formatted="false">
         <b>Cela devrait se faire traité dans un centre hospitalier ou de santé.</b>\n\n
@@ -641,560 +641,596 @@
     <string name="title_activity_notifications">Notifications</string>
 
     <!-- ANC Literature Start -->
-    <string name="title_activity_before_birth_anc">Antenatal Clinic</string>
+    <string name="title_activity_before_birth_anc">Clinique Anténatale</string>
     <string name="anc_intro_button_text">Introduction</string>
-    <string name="anc_package_button_text">ANC Package</string>
+    <string name="anc_package_button_text">Lot de Clinique Anténatale</string>
     <string name="title_activity_ancintro">Introduction</string>
     <string name="anc_intro_text" formatted="false">
-        Antenatal Clinic (ANC) refers to the continuous care given to mothers and their unborn babies
-        throughout the pregnancy period.\n\n
-        ANC provides women and their families with appropriate information and advice for a healthy
-        pregnancy, safe delivery, and recovery after delivery.\n
-        It also includes care of the newborn, promotion of early, exclusive breastfeeding, and assistance
-        with deciding on future pregnancies (family planning) in order to improve pregnancy outcomes.\n\n
-        An effective ANC package depends on competent health care providers in a well-equipped functioning
-        health system, which can provide referral services and has laboratory support.
+        La clinique anténatale fait allusion à la continuité des soins donnés aux mères et à leurs futurs
+        bébés pendant toute la durée de la grossesse.\n\n
+        La clinique anténatale offre aux femmes et à leurs familles des informations appropriées et des
+        conseils pour une grossesse en santé, un accouchement sûr, et la récupération après l\'accouchement.\n
+        Elle offre les soins du nouveau-né, la promotion de l\'allaitement tôt et exclusif, et aide à prendre
+        des décisions sur des futures grossesses (planning familial) afin d\'améliorer les résultats de
+        la grossesse.\n\n
+        Un lot de clinique anténatale éfficace dépend de prestataires compétents de soins de santé dans
+        un système de santé qui fonctionne et est bien équipé, qui peut fournir des services d\'orientation
+        et a un soutien de laboratoire.
     </string>
-    <string name="title_activity_ancpackage">ANC Package</string>
+    <string name="title_activity_ancpackage">Lot de Clinique Anténatale</string>
     <string name="anc_package_text" formatted="false">
-        The World Health Organization (WHO) now recommends each pregnant woman to have at least FOUR
-        focused antenatal care visits before delivery of the baby.\n\n
-        The goals and activities of ANC are summarized in each of the sections below:\n
+        L\'Organisation Mondiale de la Santé (OMS) conseille maintenant à chaque femme enceinte d\'avoir
+        au moins quatre visites de soins anténataux avant l\'accouchement du bébé.\n\n
+        Les objectifs et les activités de la clinique anténatale sont résumés dans les sections ci-dessous:\n
     </string>
-    <string name="first_visit_button_text">First ANC Visit</string>
-    <string name="second_visit_button_text">Second ANC Visit</string>
-    <string name="third_visit_button_text">Third ANC Visit</string>
-    <string name="fourth_visit_button_text">Fourth ANC Visit</string>
-    <string name="title_activity_first_anc_visit">First ANC Visit</string>
+    <string name="first_visit_button_text">Première Visite</string>
+    <string name="second_visit_button_text">Deuxième Visite</string>
+    <string name="third_visit_button_text">Troisième Visite</string>
+    <string name="fourth_visit_button_text">Quatrième Visite</string>
+    <string name="title_activity_first_anc_visit">Première Visite</string>
     <string name="first_anc_visit_text" formatted="false">
-        <b><u>FIRST ANC VISIT (8 - 12 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Confirm pregnancy and calculate estimated date of delivery (EDD).\n
-        \t\u2022 Classify women for basic ANC (four visits) or more specialized care.\n
-        \t\u2022 Screen, treat and give preventive measures for diseases.\n
-        \t\u2022 Develop a birth and emergency plan.\n
-        \t\u2022 Advise and counsel pregnant women.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Family/personal past history\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Haemoglobin\n
-        \t\u2022 Blood/Rhesus group\n
-        \t\u2022 Veneral disease screening\n
-        \t\u2022 Hepatitis B &amp; C/toxoplasmosis/rubella/HIV tests\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Stool analysis\n
-        \t\u2022 Ultrasound\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension)\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Tetanus toxoid\n
-        \t\u2022 Iron and folate supplements\n\n
-        <b>Health education, advice and counseling:</b>\n
-        \t\u2022 Self-care\n
-        \t\u2022 Alcohol and tobacco use\n
+        <b><u>PREMIÈRE VISITE (8 - 12 semaines):</u></b>\n\n
+        <b>Objectifs:</b>\n
+        \t\u2022 Confirmer la grossesse et calculer la date estimée d\'accouchement.\n
+        \t\u2022 Catégoriser les femmes pour la clinique anténatale de base (quatre visites) ou des soins
+        plus approfondis.\n
+        \t\u2022 Trier, traiter et donner des mesures préventives pour les maladies.\n
+        \t\u2022 Établir des plans d\'accouchement et d\'urgence.\n
+        \t\u2022 Conseiller les femmes enceintes.\n\n
+        <b>Dépistage:</b>\n
+        \t\u2022 Famille / antécédents personnels\n
+        \t\u2022 Poids\n
+        \t\u2022 Tension artérielle\n
+        \t\u2022 Anémie\n
+        \t\u2022 hauteur fundal\n\n
+        <b>Examens:</b>\n
+        \t\u2022 Hémoglobine\n
+        \t\u2022 Groupe Sanguin / groupe Rhésus\n
+        \t\u2022 Dépistage de maladies vénériennes\n
+        \t\u2022 Tests de la rubéole / VIH / Hépatite B &amp; C\n
+        \t\u2022 Analyse d\'urine\n
+        \t\u2022 Analyse des selles\n
+        \t\u2022 Ultrason\n\n
+        <b>Traitement:</b>\n
+        \t\u2022 Commencer le traitement du VIH si positif.\n
+        \t\u2022 Traiter les infections / maladies si indiquées.\n
+        \t\u2022 Continuer la gestion des conditions préexistantes / de novo (par exemple le diabète,
+        l\'hypertension)\n\n
+        <b>Mesures de prévention des maladies:</b>\n
+        \t\u2022 Anatoxine tétanique\n
+        \t\u2022 Suppléments de folate et fer\n\n
+        <b>Education sanitaire et conseils:</b>\n
+        \t\u2022 Prendre soin de soi\n
+        \t\u2022 L\'usage de l\'alcool et du tabac\n
         \t\u2022 Nutrition\n
-        \t\u2022 Safe sex\n
-        \t\u2022 Rest\n
-        \t\u2022 Sleeping under ITN\n
-        \t\u2022 Birth and emergency plan
+        \t\u2022 Rapports sexuels sûrs\n
+        \t\u2022 Repos\n
+        \t\u2022 Se coucher sous un moustiquaire\n
+        \t\u2022 Plans d\'accouchement et d\'urgence
     </string>
-    <string name="title_activity_second_anc_visit">Second ANC Visit</string>
+    <string name="title_activity_second_anc_visit">Deuxième Visite</string>
     <string name="second_anc_visit_text" formatted="false">
-        <b><u>SECOND ANC VISIT (22 - 24 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Assess maternal and fetal well-being.\n
-        \t\u2022 Exclude PIH and anaemia.\n
-        \t\u2022 Give preventive measures for diseases.\n
-        \t\u2022 Review and modify birth and emergency plan.\n
-        \t\u2022 Advise and counsel.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Screen for diabetes mellitus\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g diabetes, hypertension)\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Tetanus toxoid\n
-        \t\u2022 Iron and folate supplements\n
+        <b><u>DEUXIÈME VISITE (22 - 24 semaines):</u></b>\n\n
+        <b>Objectifs:</b>\n
+        \t\u2022 Évaluer la mère et le bien-être foetal.\n
+        \t\u2022 Exclure PIH et anémie.\n
+        \t\u2022 Donner des mesures préventives contre les maladies.\n
+        \t\u2022 Examiner et modifier les plans d\'accouchement et d\'urgence.\n
+        \t\u2022 Conseiller.\n\n
+        <b>Dépistage:</b>\n
+        \t\u2022 Poids\n
+        \t\u2022 Tension artérielle\n
+        \t\u2022 Anémie\n
+        \t\u2022 Hauteur fundal\n\n
+        <b>Examens:</b>\n
+        \t\u2022 Analyse d\'urine\n
+        \t\u2022 Dépistage de diabète\n\n
+        <b>Traitement:</b>\n
+        \t\u2022 Commencer le traitement du VIH si positif.\n
+        \t\u2022 Traiter les infections / maladies si indiquées.\n
+        \t\u2022 Continuer la gestion des conditions préexistantes / de novo (par exemple le diabète,
+        l\'hypertension)\n\n
+        <b>Mesures de prévention des maladies:</b>\n
+        \t\u2022 Anatoxine tétanique\n
+        \t\u2022 Suppléments de folate et fer\n
         \t\u2022 IPTp\n
         \t\u2022 ARV\n\n
-        <b>Health education, advice and counseling</b>\n
-        \t\u2022 Birth and emergency plan.\n
-        \t\u2022 Reinforcement of previous advice.
+        <b>Education sanitaire et conseils</b>\n
+        \t\u2022 Plans d\'accouchement et d\'urgence.\n
+        \t\u2022 Renforcement des conseils précédents.
     </string>
-    <string name="title_activity_third_anc_visit">Third ANC Visit</string>
+    <string name="title_activity_third_anc_visit">Troisième Visite</string>
     <string name="third_anc_visit_text" formatted="false">
-        <b><u>THIRD ANC VISIT (32 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Assess maternal and fetal well-being.\n
-        \t\u2022 Exclude PIH, anaemia and multiple pregnancies.\n
-        \t\u2022 Give preventive measures for diseases.\n
-        \t\u2022 Review and modify birth and emergency plan.\n
-        \t\u2022 Advise and counsel.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anaemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Ultrasound\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Iron and folate supplements.\n
+        <b><u>TROISIÈME VISITE (32 semaines):</u></b>\n\n
+        <b>Objectifs:</b>\n
+        \t\u2022 Évaluer la mère et le bien-être fœtal.\n
+        \t\u2022 Exclure PIH, l\'anémie et les grossesses multiples.\n
+        \t\u2022 Donnez des mesures préventives contre les maladies.\n
+        \t\u2022 Examiner et modifier les plans d\'accouchement et d\'urgence.\n
+        \t\u2022 Conseiller.\n\n
+        <b>Dépistage:</b>\n
+        \t\u2022 Poids\n
+        \t\u2022 Tension artérielle\n
+        \t\u2022 Anémie\n
+        \t\u2022 Hauteur fundal\n\n
+        <b>Examens:</b>\n
+        \t\u2022 Analyse d\'urine\n
+        \t\u2022 Ultrason\n\n
+        <b>Traitement:</b>\n
+        \t\u2022 Commencer le traitement du VIH si positif.\n
+        \t\u2022 Traiter les infections / maladies si indiquées.\n
+        \t\u2022 Continuer la gestion des conditions préexistantes / de novo (par exemple le diabète,
+        l\'hypertension).\n\n
+        <b>Mesures de prévention des maladies:</b>\n
+        \t\u2022 Suppléments de folate et fer.\n
         \t\u2022 IPTp\n
         \t\u2022 ARV\n\n
-        <b>Health education, advice and counseling:</b>\n
-        \t\u2022 Birth and emergency plan.\n
-        \t\u2022 Infant feeding.\n
-        \t\u2022 Postpartum/postnatal care.\n
-        \t\u2022 Pregnancy spacing.\n
-        \t\u2022 Reinforcement of previous advice.
+        <b>Education sanitaire et conseils:</b>\n
+        \t\u2022 Plans d\'accouchement et d\'urgence.\n
+        \t\u2022 L\'alimentation du nourrisson.\n
+        \t\u2022 Les soins après l\'accouchement.\n
+        \t\u2022 L\'espacement des grossesses.\n
+        \t\u2022 Renforcement des conseils précédents.
     </string>
-    <string name="title_activity_fourth_anc_visit">Fourth ANC Visit</string>
+    <string name="title_activity_fourth_anc_visit">Quatrième Visite</string>
     <string name="fourth_anc_visit_text" formatted="false">
-        <b><u>FOURTH VISIT (36 weeks):</u></b>\n\n
-        <b>Aim:</b>\n
-        \t\u2022 Assess maternal and fetal well-being.\n
-        \t\u2022 Exclude PIH, anaemia, multiple pregnancies and malpresentation.\n
-        \t\u2022 Give preventive measures for diseases.\n
-        \t\u2022 Review and modify birth and emergency plan.\n
-        \t\u2022 Advise and counsel.\n\n
-        <b>Screening:</b>\n
-        \t\u2022 Weight\n
-        \t\u2022 Blood pressure\n
-        \t\u2022 Anaemia\n
-        \t\u2022 Fundal height\n\n
-        <b>Tests:</b>\n
-        \t\u2022 Urine analysis\n
-        \t\u2022 Ultrasound\n\n
-        <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
-        \t\u2022 Treat infections/diseases if indicated.\n
-        \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n
-        \t\u2022 Rotation/referral for rotation of fetus if in breech.\n\n
-        <b>Preventive measures for diseases:</b>\n
-        \t\u2022 Iron and folate supplements.\n
+        <b><u>QUATRIÈME VISITE (36 semaines):</u></b>\n\n
+        <b>Objectifs:</b>\n
+        \t\u2022 Évaluer la mère et le bien-être fœtal.\n
+        \t\u2022 Exclure PIH, l\'anémie, les grossesses multiples et la malformation.\n
+        \t\u2022 Donnez des mesures préventives contre les maladies.\n
+        \t\u2022 Examiner et modifier les plans d\'accouchement et d\'urgence.\n
+        \t\u2022 Conseiller.\n\n
+        <b>Dépistage:</b>\n
+        \t\u2022 Poids\n
+        \t\u2022 Tension artérielle\n
+        \t\u2022 Anémie\n
+        \t\u2022 Hauteur fundal\n\n
+        <b>Examens:</b>\n
+        \t\u2022 Analyse d\'urine\n
+        \t\u2022 Ultrason\n\n
+        <b>Traitement:</b>\n
+        \t\u2022 Commencer le traitement du VIH si positif.\n
+        \t\u2022 Traiter les infections / maladies si indiquées.\n
+        \t\u2022 Continuer la gestion des conditions préexistantes / de novo (par exemple le diabète,
+        l\'hypertension).\n
+        \t\u2022 Rotation / référence pour la rotation du fœtus si en position de culasse.\n\n
+        <b>Mesures de prévention des maladies:</b>\n
+        \t\u2022 Suppléments de folate et fer.\n
         \t\u2022 ARV\n\n
-        <b>Health education, advice and counseling:</b>\n
-        \t\u2022 Birth and emergency plan.\n
-        \t\u2022 Infant feeding.\n
-        \t\u2022 Postpartum/postnatal care.\n
-        \t\u2022 Pregnancy spacing.\n
-        \t\u2022 Reinforcement of previous advice.
+        <b>Education sanitaire et conseils:</b>\n
+        \t\u2022 Plans d\'accouchement et d\'urgence.\n
+        \t\u2022 L\'alimentation du nourrisson.\n
+        \t\u2022 Les soins après l\'accouchement.\n
+        \t\u2022 L\'espacement des grossesses.\n
+        \t\u2022 Renforcement des conseils précédents.
     </string>
-    <string name="title_activity_expected_date_of_delivery">Expected Date of Delivery</string>
+    <string name="title_activity_expected_date_of_delivery">Date d\'Accouchement Estimée</string>
     <string name="sn_select_text" formatted="false">
-        To help us better follow you up and prevent the transmission of certain diseases to your child,
-        please select the box(es) below if you have any or both of the corresponding conditions.\n
-        We can\'t access the information you provide, so it is strictly confidential.
+        Pour mieux nous aider à vous suivre et éviter la transmission de certaines maladies à votre
+        enfant, veuillez cochez les cases qui indiquent votre condition.\n
+        Cette information est strictement confidentielle et nous n\'y aurons pas accès.
     </string>
-    <string name="hiv_checkbox_text">HIV positive?</string>
-    <string name="hepatitis_checkbox_text">Hepatitis positive?</string>
-    <string name="sn_status_positive">Yes</string>
-    <string name="sn_status_negative">No</string>
-    <string name="submit_button_text">Save</string>
-    <string name="title_activity_before_birth">Before Birth</string>
-    <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
+    <string name="hiv_checkbox_text">VIH positive?</string>
+    <string name="hepatitis_checkbox_text">Hépatite positive?</string>
+    <string name="sn_status_positive">Oui</string>
+    <string name="sn_status_negative">Non</string>
+    <string name="submit_button_text">Enregistrer</string>
+    <string name="title_activity_before_birth">Avant l\'Accouchement</string>
+    <string name="title_activity_heduring_pregnancy">Education Sur la Santé Avant l\'Accouchement</string>
     <string name="he_during_pregnancy_text" formatted="false">
-        <b>Adequate nutrition: </b>Pregnant women are encouraged to eat foods rich in protein, vitamins,
-        iron and calcium.\n\n
-        <b>Clothing: </b>Should be free, light and hanging from shoulders. Avoid high heels, shoes with
-        thin soles, belts and corsets.\n\n
-        <b>Good Hygiene: </b>The mouth and breasts should be kept very clean throughout pregnancy and after
-        delivery.\n\n
-        <b>Sexual activity: </b>To be avoided by pregnant women with threatened abortion, preterm labour
-        or antepartum hemorrhage.\n\n
-        <b>Travelling: </b>It is allowed when comfortable. For patients with a history of antepartum
-        hemorrhage or preterm labour, it is better to avoid travelling.\n\n
-        <b>Weight Gain: </b>1 - 2kg in the first trimester (first three months) of pregnancy, and an
-        average weight gain of 0.4kg/week from 20 weeks onwards.\n\n
-        <b>Baths: </b>Showers are preferable over tub baths. No vaginal douches are allowed.\n\n
-        <b>Exercise: </b>Exercises should be mild. Walking should be the preferred option. House work,
-        if it is not too tiring, is allowed.\n\n
-        <b>Rest and Sleep: </b>Rest eight hours at night and two hours in the afternoon. Increase rest
-        sleep hours towards term.\n\n
-        <b>Drugs: </b>Avoid all unnecessary drugs during pregnancy. Minor should be managed without the
-        use of drugs whenever possible, by reassuring the patient.\n\n
-        <b>Smoking and Alcohol Consumption: </b>These should NOT be attempted during pregnancy given that
-        they cause a lot of complications.\n\n
-        <b>Irradiation: </b>Avoid exposure to irradiation because of its teratogenic effect on the fetus.
+        <b>Une nutrition adéquate: </b>Toute femme enceinte est encouragée à se nourrir d\'aliments riches
+        en protéines, vitamines, fer et calcium.\n\n
+        <b>Vêtements: </b>Ils devraient être relaxants, légers et suspendus à partir des épaules. Eviter
+        de porter des talons hauts, des chaussures à semelles minces, des ceintures et des corsets.\n\n
+        <b>Une bonne hygiène: </b>Garder une bouche et des seins très propres pendant toute la grossesse
+        et après l\'accouchement.\n\n
+        <b>L\'activité sexuelle: </b>Elle devrait être évitée par les femmes enceintes risquant de faire
+        fausse couche, d\'accoucher prématurément ou d\'avoir une hémorragie antepartum.\n\n
+        <b>Les voyages: </b>Ils sont permis si ils sont dans des conditions confortables. Pour des patients
+        ayant des antécédents d\'hémorragie antepartum ou d\'accouchement prématuré, il vaudrait mieux
+        les éviter.\n\n
+        <b>Prise de poids: </b>Vous pourriez prendre 1 à 2kg pendant le premier trimestre (premiers trois
+        mois) de grossesse, et avoir une prise de poids moyenne de 0,4kg/semaine à partir de la 20ème
+        semaine.\n\n
+        <b>Bains: </b>Une douche serait préférable à un bain de baignoire. Les douches vaginales sont
+        fortement déconseillées.\n\n
+        <b>Exercice: </b>Les exercices doivent être légers. Marcher devrait être l\'option préférée. Les
+        tâches ménagères sont permises si elles ne sont pas trop fatigantes.\n\n
+        <b>Le repos et le sommeil: </b>Il est nécéssaire de se reposer pendant huit heures la nuit et
+        deux heures dans l\'après-midi. Augmenter le nombre d\'heures de repos et de sommeil quand vers
+        l\'accouchement.\n\n
+        <b>Médicaments: </b> Eviter de prendre tout médicament non nécéssaire pendant la grossesse.
+        Les plaintes mineures devraient être gérées sans médicaments quand possible, en rassurant le
+        patient.\n\n
+        <b>Le tabagisme et la consommation d\'alcool: </b>Ils devraient à tout prix être évités pendant
+        la grossesse parce qu\'ils causent beaucoup de complications.\n\n
+        <b>Irradiation: </b>Éviter l\'exposition à une irradiation en raison de son effet tératogène
+        sur le foetus.
     </string>
     <string name="title_activity_common_complaints_during_pregnancy">
-        Common Complaints During Pregnancy
+        Plaintes Régulières Pendant la Grossesse
     </string>
     <string name="common_pregnancy_complaints_text" formatted="false">
-        \u2022 Nausea and vomiting\n
-        \u2022 Heart burn\n
-        \u2022 Phyalism (excessive salivation)\n
+        \u2022 Des nausées et vomissements\n
+        \u2022 Sensation de brûlure dans le coeur\n
+        \u2022 Salivation excessive\n
         \u2022 Constipation\n
-        \u2022 Hemorrhoids and varicose veins\n
-        \u2022 Swelling of feet\n
-        \u2022 Leg cramps\n
-        \u2022 Excessive colorless, odorless vaginal discharge not associated with burning sensations or itches.\n
-        \u2022 Back ache
+        \u2022 Les hémorroïdes et varices\n
+        \u2022 Gonflement des pieds\n
+        \u2022 Crampes dans les jambes\n
+        \u2022 Décharge vaginale incolore et inodore excessive, non liée à des sensations de brûlure
+        ou de démangeaison\n
+        \u2022 Mal au dos
     </string>
-    <string name="title_activity_high_risk_pregnancies">High Risk Pregnancies</string>
+    <string name="title_activity_high_risk_pregnancies">Grossesses à Risques Elevés</string>
     <string name="high_risk_pregnancies_text" formatted="false">
+        Certaines grossesses sont classifiées comme ayant des risques élévés parce qu\'elles ont une
+        plus grande probabilité de compromettre les bien-êtres de la mère et du foetus. Ces
         Certain pregnancies are classified as HIGH risk because they have a greater probability of
-        jeopardizing maternal and fetal welfare. These conditions require a keener follow up during
-        pregnancy. They include:\n
-        \t\u2022 Early first pregnancy, less than 18 years old.\n
-        \t\u2022 Late first pregnancy, more than 35 years old.\n
-        \t\u2022 Long duration of marriage with infertility and use of ovulatory drugs.\n
-        \t\u2022 Women who have had 5 or more deliveries.\n
-        \t\u2022 Previous intrauterine death or neonatal death.\n
-        \t\u2022 Previous fetal malformation.\n
-        \t\u2022 Previous second trimester (fourth to sixth months of pregnancy) abortion or preterm labour.\n
-        \t\u2022 Recurrent first trimester (first to third months of pregnancy) abortions.\n
-        \t\u2022 Previous caesarian delivery.\n
-        \t\u2022 Previous postpartum hemorrhage.\n
-        \t\u2022 Past history of hypertension, heart disease or murmur.\n
-        \t\u2022 Chronic illnesses e.g. cancer, diabetes.\n
-        \t\u2022 Previous surgery to uterus, including cervical cerclages.\n
-        \t\u2022 Maternal height less than 1.50m.\n\n
-        Women who fall into any of these groups should inform their attending physicians about this
-        so that special attention can be shown to them or they could be referred to higher levels of
-        health for follow up.
+        jeopardizing maternal and fetal welfare. Ces conditions nécessitent un suivi plus vif au cours
+        de la grossesse. Elles comprennent:\n
+        \t\u2022 Première grossesse à un jeune âge, âgée de moins de 18 ans.\n
+        \t\u2022 Première grossesse tardive, âgée de plus de 35 ans.\n
+        \t\u2022 Longue durée de mariage avec infertilité et utilisation de médicaments ovulatoires.\n
+        \t\u2022 Des femmes qui ont eu plus de 4 accouchements.\n
+        \t\u2022 Mort intra-utérine ou néonatale précédente.\n
+        \t\u2022 Malformation fœtale précédente.\n
+        \t\u2022 Avortement précédent au deuxième trimestre (4 à 6 mois) de grossesse, ou antécédent
+        d\'accouchement prématuré.\n
+        \t\u2022 Avortements au premier trimestre (premiers 3 mois) de grossesse récurrents.\n
+        \t\u2022 Accouchement par césarienne précédente.\n
+        \t\u2022 Hémorragie post-partum précédente.\n
+        \t\u2022 Antécédents d\'hypertension, de maladie cardiaque ou de rythme cardiaque élevé.\n
+        \t\u2022 Des maladies chroniques, par exemple le cancer ou le diabète.\n
+        \t\u2022 Une chirurgie antérieure de l\'utérus, y compris les cerclages cervicaux.\n
+        \t\u2022 Taille maternelle inférieure à 1,50m.\n\n
+        Les femmes qui appartiennent à au moins un des groupes cités ci-dessus devraient en informer
+        leurs médecins de sorte qu\'une attention particulière puisse leur être montrée, ou pour qu\'elles
+        soient dirigées vers des spécialistes pour un suivi.
     </string>
     <string name="title_activity_danger_signs_during_pregnancy">
-        Danger Signs During Pregnancy
+        Signes de Danger Pendant la Grossesse
     </string>
     <string name="pregnancy_danger_signs_text" formatted="false">
-        Pregnant women should seek IMMEDIATE care if they experience any of the following symptoms or
-        signs:\n
-        \t\u2022 Vaginal bleeding, no matter how small it is.\n
-        \t\u2022 Severe swelling (of lower limbs, face or fingers).\n
-        \t\u2022 Spontaneous escape of fluid from the Vagina.\n
-        \t\u2022 Abnormal gain or loss of weight.\n
-        \t\u2022 Decrease or cessation of fetal movements.\n
-        \t\u2022 Severe headache.\n
-        \t\u2022 Epigastric pain.\n
-        \t\u2022 Fever.\n
-        \t\u2022 Persistent vomiting.
+        Si une femme enceinte rencontre un des problèmes suivant, elles devrait IMMEDIATEMENT chercher
+        des soins:\n
+        \t\u2022 Saignement vaginal, peu importe combien il est petit.\n
+        \t\u2022 Gonflement sévère (des membres inférieurs, le visage ou les doigts).\n
+        \t\u2022 Evasion spontanée de fluide du vagin.\n
+        \t\u2022 Prise ou perte de poids anormale.\n
+        \t\u2022 Diminution ou cessation des mouvements foetaux.\n
+        \t\u2022 Maux de tête sévères.\n
+        \t\u2022 Douleur épigastrique.\n
+        \t\u2022 Fièvre.\n
+        \t\u2022 Vomissements persistants.
     </string>
-    <string name="title_activity_labour">Labour</string>
-    <string name="title_activity_when_youll_deliver">Calculate Delivery Date</string>
+    <string name="title_activity_labour">Contractions</string>
+    <string name="title_activity_when_youll_deliver">Calculez la Date d\'Accouchement</string>
     <string name="lmp_text" formatted="false">
-        When was your last menstrual period (LMP)?
+        Quand étaient vos dernières règles?
     </string>
-    <string name="submit_date">Submit Date</string>
+    <string name="submit_date">Suivant</string>
     <string name="edd_text" formatted="false">
-        Your expected date of delivery (EDD) should be displayed here.
+        Votre date d\'accouchement estimée devrait être ici.
     </string>
     <string name="edd_value" formatted="false">
-        Your expected date of delivery is:\n
+        Votre date d\'accouchement estimée est le:\n
     </string>
     <string name="edd_unhandled" formatted="false">
-        Sorry, but we cannot give you an answer for your selected date. Try to remember your LMP and
-        try again.
+        Désolé, mais nous ne pouvons pas vous donnez de reponse pour la date selectionnée. Souvenez-vous
+        de la date de vos dernières règles et réessayez.
     </string>
-    <string name="title_activity_preparing_for_labour">Preparing For Labour</string>
+    <string name="title_activity_preparing_for_labour">Préparations à l\'Accouchement</string>
     <string name="preparing_for_labour_text" formatted="false">
-        Every pregnant woman should have the following things ready by the seventh month (28th week)
-        of pregnancy:\n\n
-        \t\u2022 Many clean napkins\n
-        \t\u2022 An antiseptic soap\n
-        \t\u2022 A packet of sterile gauze\n
-        \t\u2022 A packet of pad\n
-        \t\u2022 10 packets of sterile gloves\n
-        \t\u2022 2 sets of warm baby clothing, and clothing and underwear for the mother\n
-        \t\u2022 Alcohol\n
-        \t\u2022 A clean towel and other toiletries\n
-        \t\u2022 A clean bed sheet\n\n
-        All these have to be well arranged in a box, and the box has to be closed and placed in an easily
-        accessible corner of the house.
+        Toute femme enceinte doit avoir les choses suivantes à sa disposition dès le septième mois (la
+        28ème semaine) de grossesse:\n\n
+        \t\u2022 Plusieurs serviettes de table propres\n
+        \t\u2022 1 savon antiseptique\n
+        \t\u2022 1 paquet de gaze stérile\n
+        \t\u2022 1 paquet de serviettes hygiéniques\n
+        \t\u2022 10 paquets de gants stériles\n
+        \t\u2022 2 ensembles de vêtements pour bébé (au chaud), vêtements et sous-vêtements pour la maman\n
+        \t\u2022 De l\'alcool\n
+        \t\u2022 Une serviette propre et d\'autres articles de toilette\n
+        \t\u2022 Un drap de lit propre\n\n
+        Tous ceux-ci doivent être bien rangés dans une valise qui doit être fermée et posée dans un coin
+        très accessible de la maison.
     </string>
-    <string name="title_activity_signs_of_labour">Signs Of Labour</string>
+    <string name="title_activity_signs_of_labour">Signes d\'Accouchement</string>
     <string name="signs_of_labour_text" formatted="false">
-        <b>Bloody Show</b>\n
-        As the cervix begins to get thin and dilate (open), a pink or bloody substance could be
-        discharged.\n
-        You might also see a “plug” of mucus. This can happen several days before, or at the beginning
-        of labour.\n\n
-        <b>Ruptured Membranes</b>\n
-        This manifests as a gush or slow leak of amniotic fluid from the vagina. If this happens, you
-        should immediately report to the hospital.\n\n
-        <b>Contractions</b>\n
-        When labor begins, the contractions feel like cramps. They become stronger, get closer together,
-        and last longer.\n
-        Usually, first-time mothers come to the hospital when there is an interval of five minutes
-        between contractions (for at least 1-2 hours), each lasting 45-60 seconds.\n
-        Second or third-time mothers come in when there is an interval of ten minutes between contractions
-        which don\’t go away even when you rest.\n\n
-        <b><i>If you experience any of the  above signs of labour, get your emergency box and consult
-            at any health facility of your choice.</i></b>
+        <b>Décharge Sanglante</b>\n
+        Au fur et à mesure que le col de l\'utérus rétrécit et se dilate, une décharge de sang (ou rose)
+        peut se produire.\n
+        Vous pourriez aussi voir un \"bouchon\" de mucus. Ceci peut se produire plusieurs jours avant
+        l\'accouchement, ou juste avant l\'accouchement.\n\n
+        <b>Rupture des Membranes</b>\n
+        Ceci se manifeste comme un jet ou une fuite lente du liquide amniotique du vagin. Si ça arrive,
+        il faudra vous rendre immédiatement à l\'hôpital.\n\n
+        <b>Les Contractions</b>\n
+        Au début de l\'accouchement, les contractions sont semblables à des crampes. Elles deviennent
+        plus intenses, plus rapprochées, et durent plus longtemps.\n
+        En général, les femmes qui sont à leur premier accouchement se rendent à l\'hôpital quand l\'intervalle
+        entre les contractions est de cinq minutes (pendant au moins  1 - 2 heures), chacune ayant une
+        durée de 45 - 60 secondes.\n
+        Les femmes qui sont à leur deuxième ou troisième accouchement se rendent à l\'hôpital quand l\'intervalle
+        entre les contractions est de dix minutes, et ces contractions ne cessent pas même lorsqu\'elles
+        se reposent.\n\n
+        <b><i>Si vous ressentez un de ces signes d\'accouchement, emparez-vous de votre sac d\'urgence
+        et faites-vous consulter dans un centre médical de votre choix.</i></b>
     </string>
-    <string name="title_activity_pain_management">Coping with Labour Pain</string>
+    <string name="title_activity_pain_management">Gestion des Douleurs de Contractions</string>
     <string name="pain_management_text" formatted="false">
-        There are many effective and helpful ways of reducing the amount of pain you feel when you have
-        contractions. The effect varies from woman to woman, and often a combination of techniques are
-        used to achieve this.\n
-        These techniques help you avoid medications, they are easy to do, and they give personal satisfaction.\n
-        Some of these techniques are:\n\n
-        \t\u2022 Childbirth preparation classes. Learning about childbirth has been proven to decrease anxiety.
-        This is one of the activities during ANC. Women mostly learn breathing exercises that decrease
-        labour pain.\n
-        \t\u2022 Help from a supportive individual. Either a partner or close relative/friend is very valuable
-        to help with your comfort and emotional support throughout the labour experience.\n
-        \t\u2022 Being active during labour rather than staying in bed. Position changes like walking, squatting,
-        sitting, moving the hands and knees, and using a birthing ball can all be helpful.\n
-        \t\u2022 Pleasant surroundings - music, dim lights and aromatherapy.\n
-        \t\u2022 Taking a warm water bath or shower may help reduce labour pain.\n\n
-        <b>AVOID DRINKING TRADITIONAL CONCOCTIONS OR HONEY PRIOR TO/DURING LABOUR. THESE SUBSTANCES
-            ARE OXYTOCIC AND THEREFORE INCREASE THE NUMBER OF CONTRACTIONS OCCURRING EACH MINUTE. THIS
-            IS HARMFUL AS IT CAN LEAD TO THE RUPTURE OF THE UTERUS OR CAUSE FETAL DISTRESS.</b>
+        Il existe plusieurs manières efficaces et utiles de réduire la douleur ressentie lors des contractions.
+        Les effets sont différents pour chaque femme, et une combinaison de techniques est souvent employée
+        pour réduire cette douleur.\n
+        Il y a plusieurs avantages liés à l\'utilisation de ces méthodes, dont le fait de ne pas avoir
+        à prendre de médicament. Ces techniques sont simples et elles vous procurent une satisfaction personnelle.\n
+        Voici un liste de certaines de ces techniques:\n\n
+        \t\u2022 Cours de préparation à l\accouchement. L\'éducation sur l\'accouchement démontre une
+        baisse d\'anxiété chez les femmes enceintes. Ceci est l\'une des activités lors de clinique anténatale.
+        Les femmes apprennent surtout des exercices de respiration qui réduisent les douleurs des contractions.\n
+        \t\u2022 De l\'aide d\'une personne de soutien. La présence d\'un partenaire ou d\'un membre de
+        famille ou d\'un(e) ami(e) proche est très importante pour votre confort et soutien émotionnel
+        tout au long de la période de contractions.\n
+        \t\u2022 Etre active pendant la période de contractions plutôt que de rester couchée. Changer de
+        position - marcher, s\'accroupir, s\'asseoir, utiliser un ballon d\'accouchement - peut être utile.\n
+        \t\u2022 Des environnements chalereux à l\'aide de la musique, de lumières tamisées et de l\'aromathérapie.\n
+        \t\u2022 Un bain ou une douche à l\'eau tiède peut aussi aider à réduire les douleurs des contractions.\n\n
+        <b>EVITER DE BOIRE DES MELANGES TRADITIONNELS OU DU MIEL AVANT / DURANT LA PERIODE DE CONTRACTIONS.
+        CES SUBSTANCES SONT OXYTOCIQUES ET AUGMENTENT DONC LE NOMBRE DE CONTRACTIONS PAR MINUTE. CECI
+        EST DANGEREUX ET PEUT ENTRAINER LA RUPTURE DE L\'UTERUS OU UN DETRESSE FOETALE.</b>
     </string>
-    <string name="title_activity_after_birth">After Birth</string>
+    <string name="title_activity_after_birth">Après l\'Accouchement</string>
     <string name="title_activity_after_birth_introduction">Introduction</string>
     <string name="after_birth_intro_text" formatted="false">
-        The postpartum period (period after delivery) is the six week period after child birth, during
-        which body tissues which have undergone changes during pregnancy return to their pre pregnancy
-        state. It is also known as the puerperium. Women have to be aware of the course of these changes
-        so as to reduce unnecessary fear and anxiety in them while the changes occur, and also so that
-        they could quickly be aware if complications arise.
+        La période du post-partum (période après l\'accouchement) est la période de six semaines après
+        la naissance du bébé durant laquelle les tissus corporels qui ont subi du changement pendant
+        la grossesse, retournent à leur état d\'avant la grossesse. Ceci est aussi connu comme étant
+        la puerpéralité. Les femmes doivent être au courant du déroulement de ces changements, afin de
+        limiter la peur et l\'anxieté lorsque ces changements se produisent, et aussi pour qu\'elles
+        puissent être conscientes au cas il y a des complications.
     </string>
-    <string name="title_activity_changes_after_delivery">Changes After Delivery</string>
+    <string name="title_activity_changes_after_delivery">Changements Après l\'Accouchement</string>
     <string name="changes_after_delivery_text1" formatted="false">
-        <b>1. BREASTFEEDING</b>\n
-        \t<b>1.1 Importance of Breastfeeding</b>\n
-        \t\tThe establishment and maintenance of breastfeeding should be one of the major goals of good
-        postpartum care. Human breast milk is the optimal food for newborn infants. It is clean. When
-        other foods are given, especially by bottle feeding, it is very hard to keep things clean enough
-        to prevent the baby from getting diarrhea and other sicknesses. The temperature of breast milk
-        is always right.\n
-        \t\tNot only is the breast milk nutritive, but it is also immune protective as it contains antibodies
-        which protect the body against infections.\n
-        \t\tModified cow milk preparations or “formula” have become readily available. These preparations
-        are close to human milk in nutrient quantity, but still very different in quality, and lacking
-        in immune factors.\n
-        \t\tIn developing countries artificial feeding is associated with a much higher infant morbidity
-        and mortality than breastfeeding, primarily caused by infections and malnutrition.\n\n
-        \t<b>1.2 Initiation of Breastfeeding</b>\n
-        \t\tIt is recommended that the baby is given to the mother to hold immediately after delivery,
-        to provide skin-to-skin contact and for the baby to start suckling as soon as he/she shows signs
-        of readiness - normally within 30 minutes to 1 hour after birth. Early skin-to-skin contact
-        and suckling are associated with more affectionate behavior of mothers towards their infants;
-        mothers who start to breastfeed early have fewer problems with breastfeeding.\n\n
-        \t<b>1.3 Positioning and Attaching the Baby to the Breast</b>\n
-        \t\tIf the baby is incorrectly attached, milk is not effectively removed and the nipple may
-        be damaged by friction as the teat is drawn in and out of the mouth. If the attachment is not
-        corrected, sore nipples and engorgement are more common developments, the baby may get insufficient
-        milk, and the mother is more likely to stop breastfeeding.\n
-        \t\tGood breast feeding positions are illustrated below:
+        <b>1. Allaitement</b>\n
+        \t<b>1.1 Importance de l\'allaitement</b>\n
+        \t\tLa mise en place et le maintien de l\'allaitement doit être un des buts majeurs de bons soins
+        post-partum. Le lait maternel est le repas optimal pour les nouveaux nés. Il est propre. Quand
+        d\'autres repas leurs sont donnés, surtout à l\'aide du biberon, il est difficile que ces derniers
+        soient suffisamment propres pour empêcher le bébé d\'avoir de la diarrhée et d\'autres maladies.
+        La température du lait maternel est toujours idéale.\n
+        \t\tNon seulement le lait maternel est-il nutritif, il est aussi protecteur immunitaire vu qu\'il
+        contient des anticorps qui protègent le bébé des infections.\n
+        \t\tDes préparations de lait de vache modifiées ou \"la formule\" sont désormais disponibles.
+        Ces préparations se rapprochent du lait maternel en terme de quantité nutritive, mais elles restent
+        très différentes en terme de qualité, et manquent de facteurs immunitaires.\n
+        \t\tDans les pays en voie de développement l\'alimentation artificielle est associée à un taux
+        de morbidité et de mortalité d\'enfant beaucoup plus élevé que l\'est l\'allaitement, surtout
+        à cause des infections et la malnutrition.\n\n
+        \t<b>1.2 Initiation à l\'allaitement</b>\n
+        \t\tIl est conseillé qu\'immédiatement après l\'accouchement le bébé soit donné à sa maman pour
+        engager un contact physique et pour que le bébé commence à téter dès qu\'il indique être prêt
+        à le faire – une demi-heure ou une heure normalement après l\'accouchement. Un contact physique
+        précoce et la tétée précoce sont associés à un comportement plus affectueux des mères envers
+        leurs enfants en bas âge; les mères qui commencent à allaiter tôt ont moins de problèmes avec
+        l\'allaitement.\n\n
+        \t<b>1.3 Positionnement et Fixation du Bébé au Sein</b>\n
+        \t\tSi l\'enfant est incorrectement fixé le lait ne coulera pas éfficacement et le mamelon peut
+        être endommagé dû au frottement du téton lors de son insertion et de son retrait de la bouche.
+        Si la fixation n\'est pas corrigée, les mamelons enflammés et les engorgements sont plus fréquents,
+        le bébé peut ne pas obtenir suffisamment de lait et la mère est plus susceptible d\'arrêter
+        l\'allaitement.\n
+        \t\tDe bonnes positions d\'allaitement sont illustrés ci-dessous:
     </string>
-    <string name="breastfeeding_image_description">Breastfeeding positions</string>
+    <string name="breastfeeding_image_description">Positions d\'allaitement</string>
     <string name="changes_after_delivery_text2" formatted="false">
-        \t<b>1.4 The Need to Avoid Supplementary Feeds</b>\n
-        \t\tIn some hospitals it is common practice to give breastfed babies supplements of formula
-        or glucose water while lactation is becoming established. This practice is unnecessary because
-        a healthy baby does not need extra fluids or feeds before breastfeeding is established, and
-        it is harmful because bottle feeding may interfere with the initiation and continuation of
-        breastfeeding. Babies who have had their appetite satisfied with an artificial feed may lose
-        interest in trying to breastfeed.\n
-        \t\tWHO recommends that infants should be fed exclusively on breast milk from birth to at least
-        4 and if possible 6 months of age. Breastfeeding should be given as often as the child desires,
-        day and night, at least eight times in 24 hours. Often a sharp decline in breastfeeding occurs
-        in the weeks after delivery.\n\n
-        \t<b>1.5 Consequences of Not Breastfeeding</b>\n
-        \t\tIf the baby is not put to the breasts early enough, the breasts become engorged about the
-        third to fourth day after delivery because of the increased production of milk at this time.
-        This will cause discomfort to the mother and can later predispose her to infections.\n
-        \t\tThis is also the reason why women who lose their babies during labor are given medication
-        to suppress lactation.\n\n
-        <b>2. After Pains</b>\n
-        This refers to intermittent uterine contractions felt by a breastfeeding mother in the region
-        of the lower abdomen in the course of breastfeeding her baby.\n
-        This is normal and is as a result of physiological processes occurring in the body during the
-        time of breastfeeding. They can be relieved by taking simple pain medication.\n\n
-        <b>3. Return to Normal Size of the Uterus</b>\n
-        The uterus extends above the level of the umbilicus in most women immediately after delivery.
-        It should gradually reduce daily after delivery with the result being that by the end of the second
-        week it should no longer be felt. This is a natural process. As such, practices such as tying
-        the stomach tight or applying very hot water unto it are strongly discouraged.\n
-        Failure of the uterus to reduce in size is not normal, especially if it is associated with fever.
-        This should be reported to a health personnel if noticed.\n\n
-        <b>4. Lochia</b>\n
-        During these same 2 weeks, a woman should experience vaginal discharges called lochia. For the
-        first few days after delivery (1 – 5 days) the lochia appears red. After 4 – 5 days it becomes
-        pale in color. After about the 10th day it becomes yellowish-white in color.\n
-        If lochia persists, or develops an offensive odor, or fails to follow the above pattern of color
-        change, it is not normal and should be reported to a health personnel.\n\n
-        <b>5. Return of Menses</b>\n
-        The time of return of the menses after a normal delivery is quite varied. Many women who are
-        not breastfeeding may resume normal menses about 6 weeks after delivery. For mothers who are
-        breastfeeding, the picture is different. Those who introduce supplemental feeding to breastfeeding
-        quite early may have their menses return before 6 weeks. The women who do exclusive breastfeeding
-        could have their menses delay for as long as six months. However they should be aware that they
-        could still get pregnant despite this absence of menstruation.
+        \t<b>1.4 La Nécessité d\'Eviter les Aliments Complémentaires</b>\n
+        \t\tDans certains hôpitaux, il est pratique courante de donner des suppléments de formule ou
+        de l\'eau de glucose aux bébés allaités au sein, tandis que l\'allaitement est établi. Cette
+        pratique est inutile, car un bébé en bonne santé n\'a pas besoin de liquides supplémentaires
+        ou d\'aliments avant que l\'allaitement ne soit établi, et il est dangereux, car le biberon peut
+        interférer avec l\'initiation et la poursuite de l\'allaitement. Les bébés satisfaits d\'un aliment
+        artificiel peuvent perdre tout intérêt à essayer à la tétée.\n
+        \t\tL\'OMS recommande que les nourrissons soient nourris exclusivement au lait maternel de la
+        naissance à au moins 4 et si possible 6 mois d\'âge. L\'allaitement doit se faire aussi souvent
+        que l\'enfant le désire, jour et nuit, au moins huit fois en 24 heures. Souvent, une forte baisse
+        de l\'allaitement maternel se produit dans les semaines après l\'accouchement.\n\n
+        \t<b>1.5 Conséquences de Ne Pas Allaiter</b>\n
+        \t\tSi le bébé n\'est pas mis assez tôt aux seins, les seins deviennent engorgés entre le troisième
+        et le quatrième jour après l\'accouchement en raison de la production accrue de lait à ce moment.
+        Cela entraînera une gêne à la mère et peut ensuite la prédisposer aux infections.\n
+        \t\tCeci est également la raison pour laquelle les femmes qui perdent leurs bébés pendant l\'accouchement
+        recoivent des médicaments pour empêcher la lactation.\n\n
+        <b>2. Après-douleurs</b>\n
+        Ceci se rapporte à des contractions utérines intermittentes ressenties par une mère qui allaite
+        dans la région du bas-ventre au cours de l\'allaitement de son bébé.\n
+        Ceci est normal et est le résultat de processus physiologiques se produisant dans l\'organisme
+        pendant la durée de l\'allaitement. Ces douleurs peuvent être soulagées par la prise de médicaments
+        contre la douleur.\n\n
+        <b>3. Retour de l\'Utérus à la Taille Normale</b>\n
+        Immédiatement après l\'accouchement l\'utérus se prolonge au-delà du niveau de l\'ombilic chez
+        la plupart des femmes. Il devrait réduire progressivement tous les jours après l\'accouchement
+        et à la fin de la deuxième semaine, il ne devrait plus être ressenti. C\'est un processus naturel.
+        Des pratiques telles que serrer le ventre ou y appliquer de l\'eau très chaude sont donc fortement
+        déconseillées.\n
+        L\'échec du retour de l\'utérus à sa taille normale n\'est pas normal, particulièrement si c\'est
+        associé à la fièvre. Cela devrait être signalé à un personnel de santé si remarqué.\n\n
+        <b>4. Lochies</b>\n
+        Au cours de ces 2 semaines, une femme devrait subir des sécrétions vaginales appelées les lochies.
+        Les premiers jours après l\'accouchement (1 - 5 jours) les lochies paraissent être rouges. Après
+        4 - 5 jours, elles deviennent pâles. Après environ le 10ème jour, elles deviennent jaunâtres.\n
+        Si les lochies persistent ou développent une odeur nauséabonde ou ne suivent pas le modèle de
+        changement de couleur ci-dessus, elles ne sont pas normales et doivent être signalées à un personnel
+        de santé.\n\n
+        <b>5. Retour de la Menstruation</b>\n
+        Le moment du retour des menstrues après un accouchement normal est assez varié. Beaucoup de femmes
+        qui n\'allaitent pas peuvent reprendre les menstrues normales environ 6 semaines après l\'accouchement.
+        Pour les mères qui allaitent, la situation est différente. Celles qui introduisent une alimentation
+        d\'appoint à l\'allaitement maternel assez tôt peuvent avoir leurs règles avant 6 semaines. Les
+        femmes qui font l\'allaitement maternel exclusif pourraient avoir un retard de menstruation pour
+        aussi longtemps que six mois. Cependant, elles doivent être conscientes qu\'elles pourraient
+        encore tomber enceintes malgré cette absence de menstruation.
     </string>
     <string name="title_activity_frequent_complaints_after_delivery">
-        Frequent Complaints After Delivery
+        Plaintes Régulières après l\'Accouchement
     </string>
     <string name="frequent_complaints_text" formatted="false">
-        Women may experience problems following delivery. Occurrence of these problems varies from woman
-        to woman. Women should report to their health care givers if they develop any of the following
-        problems after delivery. They shall be provided with appropriate solutions:\n
-        \t\u2022 Fever\n
-        \t\u2022 Bladder problems (retention of urine)\n
-        \t\u2022 Backache\n
-        \t\u2022 Frequent headaches\n
-        \t\u2022 Pain at the genital region\n
-        \t\u2022 Hemorrhoids\n
-        \t\u2022 Constipation\n
-        \t\u2022 Depression, anxiety and extreme tiredness\n
-        \t\u2022 Breast problems (engorgement, mastitis, cracked/sore/bleeding nipples, inverted nipples)\n
-        \t\u2022 Anemia
+        Les femmes peuvent avoir des problèmes suite à un accouchement. La manifestation de ces problèmes
+        peut varier pour chaque femme. Si les problèmes suivants se manifestent, les femmes doivent en
+        informer leurs fournisseurs de soins de santé. Les solutions appropriées leurs seront fournies.
+        Ceux-ci sont:\n
+        \t\u2022 La fièvre\n
+        \t\u2022 Troubles de la vessie (rétention d\'urine)\n
+        \t\u2022 Douleurs dans le dos\n
+        \t\u2022 Maux de tête fréquents\n
+        \t\u2022 Douleurs autour de la région génitale\n
+        \t\u2022 Les hémorroïdes\n
+        \t\u2022 La constipation\n
+        \t\u2022 La dépression, l\'anxiété et de la fatigue extrême\n
+        \t\u2022 Problèmes de seins (la mastite, des mamelons enflammés / saignants / crevassés)\n
+        \t\u2022 L\'anémie
     </string>
-    <string name="title_activity_heafter_delivery">Health Education After Delivery</string>
+    <string name="title_activity_heafter_delivery">Education Sur la Santé Après l\'Accouchement</string>
     <string name="heafter_delivery_text" formatted="false">
-        This is a very important part of management after delivery as women are taught ways of keeping
-        themselves and their babies healthy.\n
-        Information is also provided for birth spacing in subsequent pregnancies.\n
-        Before leaving the health facility, each woman should receive education on the following:\n\n
-        <b>CARE OF THE NEWBORN</b>\n
-        \t\u2022 Immediately after birth, mothers should ensure that their children receive vitamin K injection
-        to prevent them from developing hemorrhagic disease of the newborn. Also, to prevent a newborn\'s
-        eyes from dangerous conjunctivitis, mothers should ensure that a little tetracycline eye ointment
-        or 1% silver nitrate is dropped in their baby\’s eyes after birth.\n
-        \t\u2022 Protect the baby from cold, but also from too much heat. Dress the baby as warmly as you
-        feel like dressing yourself.\n\n
-        <b>HYGIENE OF THE BABY</b>\n
-        \t\u2022 Change the baby\'s diapers (nappy) each time he wets or dirties them. If the skin gets sore,
-        change the diaper more often, or better still, leave it off.\n
-        \t\u2022 Special care should be shown to keeping the umbilical cord clean. Mothers should be taught
-        how to wash their babies and how to clean the umbilical region especially. After the cord drops
-        off, bathe the baby daily with soap and warm water.\n
-        \t\u2022 If there are flies or mosquitoes, cover the baby\'s crib with mosquito netting or a thin cloth.\n
-        \t\u2022 Persons with open sores, colds, sore throat, tuberculosis or other infectious illnesses
-        should not touch or go near the baby.\n
-        \t\u2022 Keep the baby in a clean place away from smoke and dust.\n\n
-        <b>HYGIENE OF THE MOTHER</b>\n
-        Mothers should be encouraged to bathe at least twice a day, or have at least 2 bed baths for
-        women who gave birth through cesarean deliveries. The breast area should especially be kept
-        clean. Mothers should always wash their hands before feeding their babies. Pads should be changed
-        once they are wet, and women should complain if they notice an offensive discharge.\n\n
+        Ceci est une partie très importante de la gestion après l\'accouchement, vu que les femmes apprennent
+        comment rester en bonne santé ainsi que garder leurs bébés en santé.\n
+        De l\'information est aussi disponible sur l\'espacement des grossesses ultérieures.\n
+        Avant de quitter l\'établissement de santé, chaque femme doit être éduquée sur les aspects suivants:\n\n
+        <b>SOINS DU NOUVEAU NÉ</b>\n
+        \t\u2022 Immédiatement après la naissance, les mères doivent s\'assurer que leurs bébés reçoivent
+        un vaccin de vitamine K pour empêcher le dévelopement de la maladie hémorragique du nouveau né.
+        Pour aussi pouvoir protéger les yeux du nouveau né d\'une conjonctivite dangereuse, les mères
+        doivent s\'assurer qu\'un peu de pommade de tétracycline ou 1% de nitrite d\'argent soit appliqué
+        sous forme de gouttes dans les yeux du bébé après la naissance.\n
+        \t\u2022 Protéger le bébé du froid, mais aussi d\'un excès de chaleur. Le revêtir aussi chaudement
+        que vous le feriez vous-même.\n\n
+        <b>HYGIÈNE DU BÉBE</b>\n
+        \t\u2022 Changer les couches du bébé aussiôt qu\'elles sont mouillées ou sales. Si la peau s\'enflamme,
+        changez les couches plus souvent ou mieux encore ôtez-les.\n
+        \t\u2022 Une attention particulière devrait être portée à la propreté du cordon. Les mères doivent
+        apprendre à  laver leurs bébés et comment nettoyer la région ombilicale en particulier. Après
+        la chute du cordon, baignez le bébé tous les jours avec de l\'eau chaude et du savon.\n
+        \t\u2022 S\'il y a des mouches ou des moustiques, recouvrir le lit du bébé d\'un moustiquaire
+        ou d\'un tissu mince.\n
+        \t\u2022 Les personnes avec des plaies ouvertes, des rhumes, des maux de gorge, de la tuberculose
+        ou d\'autres maladies infectieuses ne doivent pas toucher ou aller près du bébé.\n
+        \t\u2022 Garder le bébé dans un endroit propre, loin de la fumée et de la poussière.\n\n
+        <b>HYGIÈNE DE LA MÈRE</b>\n
+        Les mères devraient être encouragées à se baigner au moins deux fois par jour ou avoir au moins
+        2 bains de lit pour les femmes qui donnent naissance par une césarienne. La zone du sein devrait
+        en particulier être propre. Les mères doivent se laver les mains à chaque fois, avant de nourrir
+        leurs bébés. Les serviettes hygiéniques doivent être changées une fois qu\'elles sont humides
+        et les femmes devraient se plaindre si elles remarquent une décharge offensive.\n\n
         <b>VACCINATION</b>\n
-        Mothers should ensure that their babies receive the required vaccines at birth and thereafter.
-        Mothers should also endeavor to receive all their tetanus toxoid vaccines as scheduled. (Check
-        the section on \"Immunization\" for details)\n\n
-        <b>EDUCATION ON A DISEASE WHICH CAN BE TRANSMITTED FROM MOTHER TO CHILD</b>\n
-        Before being discharged from the hospital, women shall be educated on at least one disease which
-        can be transmitted from mother to child, or on prevention of certain pregnancy complications.
-        Women should be keen on reminding their doctors/nurses/midwives, in case these forget.\n\n
-        <b>FAMILY PLANNING</b>\n
-        Mothers will also be told when it would be appropriate for them to plan their next pregnancy,
-        if that is their desire. To achieve this, they shall be introduced to various methods of contraception,
-        from which they will choose one they are comfortable with.\n
-        Mothers who no longer desire pregnancy will also be proposed methods they can use.\n
-        The aim is to have adequate spacing among children, for a healthy growth.\n\n
-        <b>RENDEZVOUS</b>\n
-        It is recommended that mothers report to the hospital with their babies six weeks after delivery
-        for checkup.
+        Les mères doivent veiller à ce que leurs bébés reçoivent les vaccins nécessaires à la naissance
+        et par la suite. Les mères devraient aussi essayer de recevoir tous les vaccins contre le tétanos
+        comme prévu. (Consultez la section sur la \"vaccination\" pour les détails)\n\n
+        <b>EDUCATION SUR UNE MALADIE TRANSMISSIBLE DE LA MERE A L\'ENFANT</b>\n
+        Avant de partir de l\'hôpital, les femmes doivent être éduquées sur au moins une maladie qui peut
+        être transmise de la mère à l\'enfant, ou sur la prévention de certaines complications dûes à
+        la grossesse. Les femmes devraient le rappeler à leurs médecins / infirmières / sages-femmes,
+        dans le cas où ceux-ci oublient.\n\n
+        <b>PLANNING FAMILIAL</b>\n
+        Les mères seront également informées de quand il serait approprié pour elles de planifier leur
+        prochaine grossesse, si tel est leur désir. Pour ce faire, elles doivent être introduites à
+        diverses méthodes de contraception, à partir desquelles elles choisiront une méthode qui leur
+        sera convenable.\n
+        Les mères qui ne désirent plus être enceintes se verront également proposées des méthodes qu\'elles
+        peuvent explorer.\n
+        L\'objectif est d\'avoir un espacement adéquat entre les enfants, pour une croissance saine.\n\n
+        <b>RENDEZ-VOUS</b>\n
+        Il est conseillé que les mères se rendent à l\'hôpital avec leurs bébés six semaines après l\'accouchement
+        pour un bilan.
     </string>
-    <string name="title_activity_immunization">Immunization</string>
-    <string name="title_activity_child_dob">Child\'s Date Of Birth</string>
+    <string name="title_activity_immunization">Vaccination</string>
+    <string name="title_activity_child_dob">Date de Naissance de l\'Enfant</string>
     <string name="dob_text" formatted="false">
-        When was your child born?
+        Date de naissance de votre enfant?
     </string>
-    <string name="dob_submit_button_text">Submit Date</string>
-    <string name="title_activity_allow_imm_notif">Immunization Notification</string>
+    <string name="dob_submit_button_text">Choisir</string>
+    <string name="title_activity_allow_imm_notif">Notification de Vaccination</string>
     <string name="allow_imm_text1" formatted="false">
-        You are about to save your child\'s date of birth (DOB) as:\n
+        Vous êtes sur le point d\'enregistrer la date suivante comme celle de la naissance de votre enfant:\n
     </string>
     <string name="allow_imm_text2" formatted="false">
-        \nBased on this DOB, you will receive notifications on your child\'s upcoming vaccines to be taken.
-        If the above DOB is correct, click the button below.
+        \nVous recevrez des notifications sur la vaccination de votre enfant en fonction de la date ci-dessus.
+        Si elle est correcte, appuyez le bouton ci-dessous.
     </string>
-    <string name="button_allow_imm_text">Save DOB</string>
-    <string name="displayed_dob_text">Your child\'s DOB is:\n</string>
-    <string name="title_activity_infact_schedule_options">Infact Schedule Options</string>
+    <string name="button_allow_imm_text">Enregistrer</string>
+    <string name="displayed_dob_text">La date de naissance de votre enfant est le:\n</string>
+    <string name="title_activity_infact_schedule_options">Options Pour l\'Enfant</string>
     <string name="first_option_text" formatted="false">
-        To receive notifications to remind you of your child\'s immunization schedule, click the first
-        button below and select your child\'s date of birth (DOB). Note that your child should be less
-        than nine (9) months old.
+        Pour recevoir des notifications pour vous rappeler de la vaccination de votre enfant, appuyez
+        le premier bouton ci-dessous et choisissez la date de naissance de votre enfant.
+        <b>Votre enfant doit avoir moins de neuf (9) mois d\'âge.</b>
     </string>
-    <string name="receive_notifs_button_text">Select Child\'s DOB</string>
+    <string name="receive_notifs_button_text">Faites Suivre Votre Enfant</string>
     <string name="second_option_text" formatted="false">
-        Otherwise click the button below to see a table displaying the regular infant immunization schedule.
+        Sinon appuyez le bouton ci-dessous pour voir un tableau indiquant les vaccins à prendre par l\'enfant.
     </string>
-    <string name="see_infant_schedule_button_text">See Infant Immunization Schedule</string>
-    <string name="title_activity_schedule_for_infants">Schedule For Infants</string>
+    <string name="see_infant_schedule_button_text">Voir Tableau de Vaccins</string>
+    <string name="title_activity_schedule_for_infants">Programme Pour Enfants</string>
     <string name="contact_text"><b>CONTACT</b>\n</string>
-    <string name="contact_1_text"><b>At Birth</b>\n\n</string>
-    <string name="contact_2_text"><b>6 Weeks After\nBirth</b>\n\n\n\n</string>
-    <string name="contact_3_text"><b>10 Weeks After\nBirth</b>\n\n\n</string>
-    <string name="contact_4_text"><b>14 Weeks After\nBirth</b>\n\n</string>
-    <string name="contact_5_text"><b>9 Months After\n Birth</b>\n\n</string>
-    <string name="contact_6_text"><b>12 - 59 Months</b></string>
-    <string name="vaccines_text"><b>VACCINES (ADMINISTRATION SITE)</b>\n</string>
-    <string name="vaccines_1_1_text">BCG (Upper &#8531; of the front face of the left forearm)</string>
-    <string name="vaccines_1_2_text">OPV0 (In the mouth)\n</string>
-    <string name="vaccines_2_1_text">OPV1 (In the mouth)</string>
-    <string name="vaccines_2_2_text">DTC1-HEP B1-Hib1 (Left buttock)</string>
-    <string name="vaccines_2_3_text">Pneumo13.1 (Right buttock)</string>
-    <string name="vaccines_2_4_text">Rota1 (In the mouth)\n</string>
-    <string name="vaccines_3_1_text">OPV2 (In the mouth)</string>
-    <string name="vaccines_3_2_text">DTC2-HEP B2-Hib2 (Left buttock)</string>
-    <string name="vaccines_3_3_text">Pneumo13.2 (Right buttock)</string>
-    <string name="vaccines_3_4_text">Rota2 (In the mouth)\n</string>
-    <string name="vaccines_4_1_text">OPV3 (In the mouth)</string>
-    <string name="vaccines_4_2_text">DTC3-HEP B3-Hib3 (Left buttock)</string>
-    <string name="vaccines_4_3_text">Pneumo13.3 (Right buttock)\n</string>
-    <string name="vaccines_5_1_text">Measles (Left deltoid)</string>
-    <string name="vaccines_5_2_text">Yellow fever (Left buttock)</string>
-    <string name="vaccines_5_3_text">Vitamin A (In the mouth)\n</string>
-    <string name="vaccines_6_text">Vitamin A, 2 times per year (In the mouth)</string>
-    <string name="title_activity_schedule_for_pregnant_women">Schedule For Pregnant Women</string>
+    <string name="contact_1_text"><b>Naissance</b>\n\n</string>
+    <string name="contact_2_text"><b>6 Semaines Après\nLa Naissance</b>\n\n\n\n</string>
+    <string name="contact_3_text"><b>10 Semaines Après\nLa Naissance</b>\n\n\n</string>
+    <string name="contact_4_text"><b>14 Semaines Après\nLa Naissance</b>\n\n</string>
+    <string name="contact_5_text"><b>9 Mois Après\nLa Naissance</b>\n\n</string>
+    <string name="contact_6_text"><b>12 - 59 Mois</b></string>
+    <string name="vaccines_text"><b>VACCINS (VOIE D\'ADMINISTRATION)</b>\n</string>
+    <string name="vaccines_1_1_text">BCG (Intradermique)</string>
+    <string name="vaccines_1_2_text">VPO-0 (Dans la bouche)\n</string>
+    <string name="vaccines_2_1_text">VPO-1 (Dans la bouche)</string>
+    <string name="vaccines_2_2_text">DTC-HepB+Hib1 (Fesse gauche)</string>
+    <string name="vaccines_2_3_text">Pneumo13&#8211;1 (Fesse droite)</string>
+    <string name="vaccines_2_4_text">Rota1 (Dans la bouche)\n</string>
+    <string name="vaccines_3_1_text">VPO-2 (Dans la bouche)</string>
+    <string name="vaccines_3_2_text">DTC-HepB2+Hib2 (Fesse gauche)</string>
+    <string name="vaccines_3_3_text">Pneumo13&#8211;2 (Fesse droite)</string>
+    <string name="vaccines_3_4_text">Rota2 (Dans la bouche)\n</string>
+    <string name="vaccines_4_1_text">VPO-3 (Dans la bouche)</string>
+    <string name="vaccines_4_2_text">DTC-HepB3+Hib3 (Fesse gauche)</string>
+    <string name="vaccines_4_3_text">Pneumo13&#8211;3 (Fesse droite)\n</string>
+    <string name="vaccines_5_1_text">Rougeole (Deltoïde gauche)</string>
+    <string name="vaccines_5_2_text">Fièvre jaune (Fesse gauche)</string>
+    <string name="vaccines_5_3_text">Vitamine A (Dans la bouche)\n</string>
+    <string name="vaccines_6_text">Vitamine A, 2 fois par an (Dans la bouche)</string>
+    <string name="title_activity_schedule_for_pregnant_women">Programme Pour Femmes Enceintes</string>
     <string name="dose_cell_text"><b>DOSE</b></string>
-    <string name="ttv1_text"><b>TTV1</b></string>
-    <string name="ttv2_text"><b>TTV2</b></string>
-    <string name="ttv3_text"><b>TTV3</b></string>
-    <string name="ttv4_text"><b>TTV4</b></string>
-    <string name="ttv5_text"><b>TTV5</b></string>
-    <string name="visit_cell_text"><b>INTERVAL BETWEEN DOSES</b></string>
-    <string name="visit1_text">1st contact or 1st prenatal visit</string>
-    <string name="visit2_text">4 weeks after TTV1</string>
-    <string name="visit3_text">6 months after TTV2</string>
-    <string name="visit4_text">1 year after TTV3</string>
-    <string name="visit5_text">1 year after TTV4</string>
-    <string name="duration_cell_text"><b>DURATION OF PROTECTION</b></string>
+    <string name="ttv1_text"><b>VAT1</b></string>
+    <string name="ttv2_text"><b>VAT2</b></string>
+    <string name="ttv3_text"><b>VAT3</b></string>
+    <string name="ttv4_text"><b>VAT4</b></string>
+    <string name="ttv5_text"><b>VAT5</b></string>
+    <string name="visit_cell_text"><b>INTERVALLE ENTRE DOSES</b></string>
+    <string name="visit1_text">Dès le début de la grossesse</string>
+    <string name="visit2_text">4 semaines au moins après VAT1</string>
+    <string name="visit3_text">6 mois après VAT2</string>
+    <string name="visit4_text">1 an après VAT3</string>
+    <string name="visit5_text">1 an après VAT4</string>
+    <string name="duration_cell_text"><b>DURÉE DE PROTECTION</b></string>
     <string name="duration1_text">0</string>
-    <string name="duration2_text">1 - 3 years</string>
-    <string name="duration3_text">5 years</string>
-    <string name="duration4_text">10 years</string>
-    <string name="duration5_text">Entire child bearing age range</string>
-    <string name="ttv_text"><b>NB:</b> \"TTV\" stands for \"Tetanus Toxoid Vaccine\".</string>
+    <string name="duration2_text">1 &#8211; 3 ans</string>
+    <string name="duration3_text">5 ans</string>
+    <string name="duration4_text">10 ans</string>
+    <string name="duration5_text">Tant que vous pouvez procréer</string>
+    <string name="ttv_text"><b>NB:</b> \"VAT\" signifie \"Vaccin Anatoxine Tetanique\".</string>
     <!-- ANC End -->
 
     <string name="title_activity_home_screen">Mother\'s Love</string>
 
     <!-- Notification Messages -->
-    <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
+    <string name="first_notification_ticker">Meilleurs vœux durant toute votre grossesse!!</string>
     <string name="first_notification_1" formatted="false">
-        Your expected date of delivery saved in the database is:\n
+        Votre date d\'accouchement estimée qui est enregistrée est le:\n
     </string>
     <string name="first_notification_2" formatted="false">
-        You will be receiving notifications based on this date to guide you throughout the remaining
-        phases of your pregnancy.\n
-        You should not forget to reinsert the LMP you just chose if you ever happen to change it along
-        the line so that we can continue guiding you.\n
-        Best regards from the Mother\'s Love team!
+        Vous recevrez des notifications en fonction de cette date pour vous guider durant les prochaines
+        phases de votre grossesse.\n
+        N\'oubliez pas de réinsérer la dernière date de vos règles que vous venez de choisir si vous la
+        changez en cours de route pour que nous puissions continuer de vous guider.\n
+        Meilleurs vœux de l\'équipe Mother\'s Love!
     </string>
     <string name="notification_ticker">Don\'t forget your checkup next week</string>
     <string name="notification_title">Mother\'s Love</string>
