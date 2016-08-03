@@ -82,8 +82,15 @@ public class ZScore extends AppCompatActivity {
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
-                double h = Double.parseDouble(heightInput.getText().toString());
-                double w = Double.parseDouble(weightInput.getText().toString());
+                double h = 0, w = 0;
+                if (heightInput.getText().toString().equals("") || weightInput.getText().toString().equals("")){
+                    zScore.setText(R.string.zscore_empty);
+                }
+                else {
+                    h = Double.parseDouble(heightInput.getText().toString());
+                    w = Double.parseDouble(weightInput.getText().toString());
+                }
+
                 int score;
                 double meanWeight = 0;
                 double standardDeviation = 0;
@@ -787,7 +794,8 @@ public class ZScore extends AppCompatActivity {
 
                 score = (int) ((w - meanWeight) / standardDeviation);
 
-                if (h < 50 || h >= 137.5){
+                if ((h < 50 || h >= 137.5) && h != 0){
+                    relativeLayout.removeView(linkButton); // Remove any previous button first if there is any
                     zScore.setText(R.string.zscore_out_of_bounds);
                 }
                 else {
@@ -798,6 +806,7 @@ public class ZScore extends AppCompatActivity {
 
                         // Add button to link to SevereMalnutrition activity in this case
                         linkButton.setText(getResources().getString(R.string.title_activity_severe_malnutrition));
+                        relativeLayout.removeView(linkButton); // Remove any previous button first if there is any
                         relativeLayout.addView(linkButton, buttonDetails);
                         linkButton.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -807,7 +816,7 @@ public class ZScore extends AppCompatActivity {
                             }
                         });
                     }
-                    else if (score >= -2 && score <= 2) {
+                    else if (score >= -2 && score <= 2 && h != 0) {
                         zScore.setText(R.string.zscore_announcer);
                         zScore.append(" " + score + "\n");
                         zScore.append(getResources().getString(R.string.zscore_normal));
@@ -822,6 +831,7 @@ public class ZScore extends AppCompatActivity {
 
                         // Add button to link to ModerateMalnutrition activity in this case
                         linkButton.setText(getResources().getString(R.string.title_activity_moderate_malnutrition));
+                        relativeLayout.removeView(linkButton); // Remove any previous button first if there is any
                         relativeLayout.addView(linkButton, buttonDetails);
                         linkButton.setOnClickListener(new View.OnClickListener() {
                             @Override
@@ -838,6 +848,7 @@ public class ZScore extends AppCompatActivity {
 
                         // Add button to link to SevereMalnutrition activity in this case
                         linkButton.setText(getResources().getString(R.string.title_activity_severe_malnutrition));
+                        relativeLayout.removeView(linkButton); // Remove any previous button first if there is any
                         relativeLayout.addView(linkButton, buttonDetails);
                         linkButton.setOnClickListener(new View.OnClickListener() {
                             @Override

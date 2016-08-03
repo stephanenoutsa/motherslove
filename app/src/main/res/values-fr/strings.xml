@@ -81,6 +81,9 @@
         Désolé, nous ne pouvons pas calculer votre z-score pour la hauteur donnée. Vérifiez à nouveau
         la hauteur.
     </string>
+    <string name="zscore_empty" formatted="false">
+        Veuillez remplir les deux champs, puis réessayez.
+    </string>
     <string name="zscore_announcer">Le z-score est :</string>
     <string name="zscore_severe_malnutrition" formatted="false">
         Cela implique que votre enfant souffre de malnutrition sévère.\n
