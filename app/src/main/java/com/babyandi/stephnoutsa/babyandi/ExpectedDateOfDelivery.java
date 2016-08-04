@@ -171,6 +171,8 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         int received = 0;
         dbHandler.addReceived(received);
 
+        Toast.makeText(this, getString(R.string.toast_saved), Toast.LENGTH_LONG).show();
+
         // Fire first notification
         alarmStart.instantNotif(context);
 

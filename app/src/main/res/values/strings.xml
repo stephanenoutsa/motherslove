@@ -774,6 +774,7 @@
     <string name="sn_status_positive">Yes</string>
     <string name="sn_status_negative">No</string>
     <string name="submit_button_text">Save</string>
+    <string name="toast_saved">Date saved. Click the message icon to check your notifications.</string>
     <string name="title_activity_before_birth">Before Birth</string>
     <string name="title_activity_heduring_pregnancy">Health Education During Pregnancy</string>
     <string name="he_during_pregnancy_text" formatted="false">
