@@ -33,23 +33,23 @@
     <string name="title_activity_management">Gestion</string>
     <string name="title_activity_introduction_malnutrition">Introduction</string>
     <string name="malnutrition_intro_text" formatted="false">
-        Le diagnostic de la malnutrition peut être fait en utilisant soit « Mid Upper Arm Circumference
-        (MUAC) » ou « Score Z » comme critères principaux, avec ou sans les signes et les symptômes
-        énumérés dans la section « Signes et Symptômes ».
+        Le diagnostic de la malnutrition peut être fait en utilisant soit le « Périmètre Brachial » ou
+        le « Score Z » comme critères principaux, avec ou sans les signes et les symptômes énumérés dans
+        la section « Signes et Symptômes ».
     </string>
     <string name="title_activity_criteria_malnutrition">Critères Principaux</string>
-    <string name="muac_button_text">Mid Upper Arm Circumference</string>
+    <string name="muac_button_text">Périmètre Brachial (PB)</string>
     <string name="or_button_text"><b>OU</b></string>
-    <string name="zscores_button_text">Z-Score (Standard Deviation Score)</string>
+    <string name="zscores_button_text">Score Z</string>
     <string name="muac_text" formatted="false">
-        <b>Mid Upper Arm Circumference (MUAC)</b>\n
-        MUAC est mesurée en utilisant du ruban de tailleur. La bande est placée à mi-chemin entre le
+        <b>Périmètre Brachial (PB)</b>\n
+        Le PB est mesuré en utilisant du ruban de tailleur. La bande est placée à mi-chemin entre le
         coude et l\'épaule comme indiqué ci-dessous:\n
     </string>
-    <string name="muac_image_description">MUAC</string>
-    <string name="muac_image_text">Image indiquant comment mésurer MUAC.\n</string>
+    <string name="muac_image_description">Périmètre Brachial</string>
+    <string name="muac_image_text">Image indiquant comment mésurer le PB.\n</string>
     <string name="muac_interpretation_text"><b><u>INTERPRÉTATION DES RESULTATS</u></b></string>
-    <string name="muac_reading_text"><b>MUAC</b></string>
+    <string name="muac_reading_text"><b>PB</b></string>
     <string name="muac_reading1_text">&gt;12.5cm</string>
     <string name="muac_reading2_text">11.0 - 12.5cm</string>
     <string name="muac_reading3_text">&lt;11.0cm</string>
@@ -58,19 +58,19 @@
     <string name="significance2_text">Malnutrition Modérée</string>
     <string name="significance3_text">Malnutrition Sévère</string>
     <string name="zscore_text" formatted="false">
-        <b>Z-Score (Standard Deviation Score)</b>\n
+        <b>Score Z</b>\n
         \t\u2022 Ceci est calculé à partir du poids et de la hauteur les plus récents de l\'enfant,
         la hauteur ayant été mesurée à l\'aide d\'un ruban.\n
         Vous pouvez déterminer si votre enfant souffre de malnutrition en cliquant le bouton ci-dessous.\n
     </string>
 
     <string name="zscore_text2" formatted="false">
-        \t\u2022 Un Z-score supérieur à +2 indique la malnutrition sévère (surpoids).\n
-        \t\u2022 Un Z-score entre -2 et +2 indique que votre enfant ne souffre pas de malnutrition.\n
-        \t\u2022 Un Z-score entre -3 et -2 indique la malnutrition modérée.\n
-        \t\u2022 Un Z-score inférieur à -3 indique la malnutrition sévère.
+        \t\u2022 Un Score Z supérieur à +2 indique la malnutrition sévère (surpoids).\n
+        \t\u2022 Un Score Z entre -2 et +2 indique que votre enfant ne souffre pas de malnutrition.\n
+        \t\u2022 Un Score Z entre -3 et -2 indique la malnutrition modérée.\n
+        \t\u2022 Un Score Z inférieur à -3 indique la malnutrition sévère.
     </string>
-    <string name="zscore_button_text">Calculez Z-Score</string>
+    <string name="zscore_button_text">Calculez Score Z</string>
     <string name="height_label_text">Entrez la taille (en cm)</string>
     <string name="weight_label_text">Entrez le poids (en kg)</string>
     <string name="calculate_button_text">Calculez</string>
@@ -78,13 +78,13 @@
         Remplissez les champs ci-dessus et cliquez sur le bouton &quot;Calculez&quot;
     </string>
     <string name="zscore_out_of_bounds" formatted="false">
-        Désolé, nous ne pouvons pas calculer votre z-score pour la hauteur donnée. Vérifiez à nouveau
+        Désolé, nous ne pouvons pas calculer votre Score Z pour la hauteur donnée. Vérifiez à nouveau
         la hauteur.
     </string>
     <string name="zscore_empty" formatted="false">
         Veuillez remplir les deux champs, puis réessayez.
     </string>
-    <string name="zscore_announcer">Le z-score est :</string>
+    <string name="zscore_announcer">Le Score Z est :</string>
     <string name="zscore_severe_malnutrition" formatted="false">
         Cela implique que votre enfant souffre de malnutrition sévère.\n
         Pour plus d\'informations, cliquez sur le bouton ci-dessous.\n
@@ -96,9 +96,9 @@
     <string name="zscore_normal" formatted="false">
         Cela implique que votre enfant ne souffre pas de malnutrition.
     </string>
-    <string name="title_activity_zscore">Z-Score</string>
-    <string name="title_activity_muac">Mid Upper Arm Circumference</string>
-    <string name="title_activity_zscores">Z-Score</string>
+    <string name="title_activity_zscore">Score Z</string>
+    <string name="title_activity_muac">Périmètre Brachial (PB)</string>
+    <string name="title_activity_zscores">Score Z</string>
     <string name="title_activity_signs_malnutrition">Signes et Symptômes</string>
     <string name="signs_malnutrition_1" formatted="false">
         Les signes et symptômes suivants indiqueraient que votre enfant souffre de malnutrition:\n
@@ -173,7 +173,7 @@
         \t\t\t<i>Quantité / kg par alimentation: </i>16ml\n
         \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
         \t\t\t<i><u>Jours 6 et suivants:</u></i>\n
-        \t\t\t<i>Fréquence (nombres de repas par heure): </i>Four times each hour.\n
+        \t\t\t<i>Fréquence (nombres de repas par heure): </i>Quatre fois par heure.\n
         \t\t\t<i>Quantité / kg par alimentation: </i>22ml\n
         \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
         \t\t\t<b>*Quantité / kg = chiffre correspondant pour le jour x le poids de l\'enfant en kg</b>\n\n
@@ -289,14 +289,14 @@
     <string name="little_dehydration_text" formatted="false">
         <b>Cela pourrait être fait à la maison si les étapes suivantes sont bien suivies</b>\n\n
         Que devez-vous utiliser? Solution de Réhydratation Orale (SRO). Ceci est vendu en paquets à l\'hôpital,
-        centre de santé ou la pharmacie. La SRO pourrait également être faite à domicile.\n\n
-        <b>Comment préparer SRO à domicile: </b>Dans 1 litre d\'eau propre, ajoutez 8 morceaux de sucre
+        dans un centre de santé ou à la pharmacie. La SRO pourrait également être faite à domicile.\n\n
+        <b>Comment préparer la SRO à domicile: </b>Dans 1 litre d\'eau propre, ajoutez 8 morceaux de sucre
         + 1 cuillère à café de sel + 1 citron. Ensuite, bien mélanger afin que le sucre et le sel se
         dissolvent.\n\n
         <b><i>
             Cliquez sur le bouton ci-dessous pour voir la quantité de SRO à donner à l\'enfant.\n
-            Vous devez donner la SRO par rapport au poids de l\'enfant, et la SOLUTION DOIT ETRE DONNÉE
-            SUR UNE PÉRIODE DE 4 HEURES
+            Vous devez donner la SRO par rapport au poids de l\'enfant, et la SOLUTION DOIT ETRE DONNEE
+            SUR UNE PERIODE DE 4 HEURES
         </i></b>\n
     </string>
     <string name="see_table_button_text">ADMINISTRER LA SRO</string>
@@ -311,7 +311,7 @@
     <string name="weight2_text"><b>6 - &lt;10 kg</b>\n\n</string>
     <string name="weight3_text"><b>10 - &lt;12 kg</b>\n\n</string>
     <string name="weight4_text"><b>12 - 19 kg</b>\n\n</string>
-    <string name="amount_cell_text"><b>QUANTITÉ DE SRO À DONNER</b></string>
+    <string name="amount_cell_text"><b>QUANTITE DE SRO A DONNER</b></string>
     <string name="amount1_text" formatted="false">
         <b>200 - 400 ml</b>\n
         e.g. plus petite bouteille de jus\n
@@ -356,7 +356,7 @@
         Fluides isotoniques comme la solution de «Ringer lactate» (solution d\'Hartmann) et la solution
         saline normale (NaCl à 0,9%).\n\n
         <i>N\'utilisez pas les éléments suivants:</i>\n
-        Glucose à 5% (“dextrose”) ou solution «saline 0,18» avec une solution de glucose à 5%.\n
+        Glucose à 5% (\"dextrose\") ou solution saline avec glucose à 5%.\n
         Ils augmentent le risque d\'hyponatrémie qui peut à son tour provoquer un œdème cérébral.
     </string>
     <string name="title_activity_persistent_diarrhoea_definition">
@@ -450,7 +450,7 @@
         Traitement
     </string>
     <string name="severe_persistent_diarrhoea_treatment" formatted="false">
-        \u2022 <b>Veuillez emmener l\'enfant à l\'hôpital</b>\n
+        \u2022 <b>Veuillez amener l\'enfant à l\'hôpital</b>\n
         \u2022 L\'enfant doit être évalué et traité selon le plan B (Déshydratation Modérée) ou le Plan C
         (Déshydratation Sévère) en fonction du degré de déshydratation.\n
         \u2022 La SRO est efficace pour la plupart des enfants atteints de diarrhée persistante. Toutefois,
@@ -553,13 +553,13 @@
     <string name="hiv_step_5" formatted="false">
         L\'âge auquel votre bébé peut être testé pour le VIH dépend du type de test effectué et de la
         méthode d\'alimentation.\n\n
-        <b>1. TEST « PCR »</b>\n
-        <b>Si le bébé est allaité au sein: </b>le test PCR peut être fait à partir de l\'âge de 1 mois
+        <b>1. Test de Réaction en Chaine par Polymérase (RCP)</b>\n
+        <b>Si le bébé est allaité au sein: </b>le test RCP peut être fait à partir de l\'âge de 1 mois
         et répété 3 mois après que l\'enfant ne cesse de s\'allaiter au sein pour s\'assurer que l\'enfant
         est séronégatif.\n
-        <b>Si l\'enfant n\'est pas allaité au sein: </b>le test PCR peut être fait à partir de l\'âge
+        <b>Si l\'enfant n\'est pas allaité au sein: </b>le test RCP peut être fait à partir de l\'âge
         de 1 mois et répété lorsque l\'enfant est âgé de 4 mois pour confirmer que l\'enfant est séronégatif.\n
-        <b>Si l\'enfant prend névirapine: </b>le test PCR peut être fait à partir de l\'âge de 1 mois
+        <b>Si l\'enfant prend névirapine: </b>le test RCP peut être fait à partir de l\'âge de 1 mois
         et devrait être répétée 2 à 4 semaines après que le traitement névirapine soit arrêté.\n\n
         <b>2. TEST ANTICORPS</b>\n
         Ce test doit être effectué lorsque l\'enfant est âgé d\'au moins 18 mois.\n
@@ -819,6 +819,9 @@
     <string name="sn_status_positive">Oui</string>
     <string name="sn_status_negative">Non</string>
     <string name="submit_button_text">Enregistrer</string>
+    <string name="toast_saved">
+        Date enregistrée. Consultez vos notifications en cliquant sur l\'icone de messages.
+    </string>
     <string name="title_activity_before_birth">Avant l\'Accouchement</string>
     <string name="title_activity_heduring_pregnancy">Education Sur la Santé Avant l\'Accouchement</string>
     <string name="he_during_pregnancy_text" formatted="false">
