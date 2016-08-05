@@ -225,6 +225,19 @@ public class MyDBHandler extends SQLiteOpenHelper {
         }
     }
 
+    // Delete single notification
+    public void deleteNotification(String id) {
+        String query = "DELETE FROM " + TABLE_NOTIFICATIONS + " WHERE " + N_COLUMN_ID + " = " + id + ";";
+        SQLiteDatabase db = this.getWritableDatabase();
+        try {
+            db.execSQL(query);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            db.close();
+        }
+    }
+
     // Add Special Needs details to its table
     public void addSN(SpecialNeed specialNeed) {
         ContentValues values = new ContentValues();
