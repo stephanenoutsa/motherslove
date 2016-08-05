@@ -641,7 +641,13 @@
     </string>
     <!-- Special Needs End -->
 
+    <!-- Notifications Literature Start -->
     <string name="title_activity_notifications">Notifications</string>
+    <string name="item_delete_title">Supprimer</string>
+    <string name="item_delete_warning">Voulez-vous supprimer?</string>
+    <string name="item_delete_ok">OK</string>
+    <string name="item_delete_cancel">Annuler</string>
+    <!-- Notifications End -->
 
     <!-- ANC Literature Start -->
     <string name="title_activity_before_birth_anc">Clinique Anténatale</string>
