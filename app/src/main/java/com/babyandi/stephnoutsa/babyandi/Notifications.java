@@ -1,6 +1,8 @@
 package com.babyandi.stephnoutsa.babyandi;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -10,6 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.app.NotificationManager;
@@ -69,6 +73,36 @@ public class Notifications extends AppCompatActivity {
                 // Set the adapter to display the notifications
                 listView = (ListView) findViewById(R.id.notificationsList);
                 listView.setAdapter(listAdapter);
+
+                listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+                    @Override
+                    public boolean onItemLongClick(AdapterView<?> parent, View view, int position, final long id) {
+                        Notification notification = (Notification) parent.getItemAtPosition(position);
+                        final String _nid = "\'" + notification.get_nid() + "\'";
+                        new AlertDialog.Builder(context).setIcon(R.drawable.delete).
+                                setTitle(getString(R.string.item_delete_title)).
+                                setMessage(getString(R.string.item_delete_warning)).
+                                setPositiveButton(getString(R.string.item_delete_ok), new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dbHandler.deleteNotification(_nid);
+                                        Intent intent = new Intent(Notifications.this, Notifications.class);
+                                        finish();
+                                        overridePendingTransition(0, 0);
+                                        startActivity(intent);
+                                        overridePendingTransition(0, 0);
+                                        //Toast.makeText(context, _nid, Toast.LENGTH_SHORT).show();
+                                    }
+                                }).setNegativeButton(getString(R.string.item_delete_cancel), new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+
+                                    }
+                        }).show();
+
+                        return true;
+                    }
+                });
 
             }
         };
