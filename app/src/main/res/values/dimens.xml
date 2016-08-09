@@ -4,7 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="home_text_height">100dp</dimen>
-    <dimen name="button_home_height">20dp</dimen>
+    <dimen name="button_home_height">25dp</dimen>
     <dimen name="button_home_width">120dp</dimen>
     <dimen name="button_home_radius">20dp</dimen>
     <dimen name="button_home_text_size">10sp</dimen>
