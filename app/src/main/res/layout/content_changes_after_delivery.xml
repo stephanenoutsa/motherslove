@@ -33,14 +33,48 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:layout_below="@+id/changesAfterDelivery"
                 android:id="@+id/breastfeeding"
+                android:src="@drawable/breastfeeding_positions"
+                android:scaleType="fitXY"
                 android:contentDescription="@string/breastfeeding_image_description" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/breastfeeding"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/breastfeeding_image_description"
+                android:id="@+id/breastfeedingDesc"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/breastfeedingDesc"
+                android:id="@+id/breastfeedingTwins"
+                android:src="@drawable/breastfeeding_positions_twins"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/breastfeeding_image_description" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/breastfeedingTwins"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/breastfeeding_twins_image_description"
+                android:id="@+id/breastfeedingTwinsDesc"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/breastfeedingTwinsDesc"
+                android:layout_marginTop="10dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/changes_after_delivery_text2"
                 android:id="@+id/changesAfterDelivery2"
