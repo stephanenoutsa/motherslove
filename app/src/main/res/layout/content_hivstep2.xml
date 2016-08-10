@@ -29,6 +29,17 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:textColor="@color/colorTextPrimary" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/hivStep2"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_standard_border"
+                android:text="@string/title_activity_hivstep3"
+                android:id="@+id/goToStep3" />
+
         </RelativeLayout>
     </ScrollView>
 

@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import static com.babyandi.stephnoutsa.babyandi.R.drawable.android;
@@ -42,6 +44,15 @@ public class HepatitisStep1 extends AppCompatActivity {
         TextView hepatitisStep1 = (TextView) findViewById(R.id.hepatitisStep1);
         Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/mufferaw rg.ttf");
         hepatitisStep1.setTypeface(typeface);
+
+        Button goToStep2 = (Button) findViewById(R.id.goToStep2);
+        goToStep2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), HepatitisStep2.class);
+                startActivity(i);
+            }
+        });
     }
 
     ////////////Intents for menu items////////////
