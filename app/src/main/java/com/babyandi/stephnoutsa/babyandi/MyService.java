@@ -53,6 +53,8 @@ public class MyService extends Service {
             @Override
             public void handleMessage(Message msg) {
                 try {
+                    String ticker;
+
                     // Get the received number from database
                     int received = dbHandler.getReceived();
 
@@ -84,7 +86,8 @@ public class MyService extends Service {
                         if (received == 0) {
                             if (diff >= 55 && diff < 90) {
                                 // Fire notification 1
-                                notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                                ticker = trimText(getString(R.string.notif_msg1));
+                                notification.setTicker(ticker); // Sets the text displayed when notification is received
                                 notification.setWhen(System.currentTimeMillis());
                                 notification.setContentText(cont.getString(R.string.notif_msg1));
                                 int rand = r.nextInt(1000);
@@ -126,58 +129,17 @@ public class MyService extends Service {
                             }
 
                             //Update received number in database
+                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
 
-                        // Handles notifications for users with special needs
-                        /*if(dbHandler.getHepatitisStatus() == "positive") {
-                            // Build the notification for users hepatitis
-                            notification.setSmallIcon(R.drawable.android); // Sets icon to be displayed at the top of the screen
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
-                            notification.setWhen(System.currentTimeMillis());
-                            notification.setContentTitle(cont.getString(R.string.notification_title));
-                            notification.setContentText(cont.getString(R.string.notification_1_text_hepatitis));
-                            notification.setSound(alarmSound);
-
-                            notification.setContentIntent(pendingIntent);
-
-                            // Builds a notification and issues it
-                            nm.notify(rand, notification.build());
-
-                            // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-                            String nday = f.format(new Date().getTime());
-                            String nmessage = cont.getString(R.string.notification_1_text_hepatitis);
-                            notif = new Notification(nday, nmessage);
-                            dbHandler.addNotification(notif);
-                        }
-                        if(dbHandler.getHivStatus() == "positive") {
-                            // Build the notification for users hepatitis
-                            notification.setSmallIcon(R.drawable.android); // Sets icon to be displayed at the top of the screen
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
-                            notification.setWhen(System.currentTimeMillis());
-                            notification.setContentTitle(cont.getString(R.string.notification_title));
-                            notification.setContentText(cont.getString(R.string.notification_1_text_hiv));
-                            notification.setSound(alarmSound);
-
-                            notification.setContentIntent(pendingIntent);
-
-                            // Builds a notification and issues it
-                            nm.notify(rand, notification.build());
-
-                            // Add the notification to the database
-                            DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-                            String nday = f.format(new Date().getTime());
-                            String nmessage = cont.getString(R.string.notification_1_text_hiv);
-                            notif = new Notification(nday, nmessage);
-                            dbHandler.addNotification(notif);
-                        }*/
                     }
 
                     // Fire 2nd notification
                     if (diff >= 90 && diff < 153) {
                         if (received == 1) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg2));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg2));
                             int rand = r.nextInt(1000);
@@ -194,12 +156,14 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
+                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
                     else if (diff >= 153 && diff < 174) {
                         if (received == 2) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg3));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg3));
                             int rand = r.nextInt(1000);
@@ -222,7 +186,8 @@ public class MyService extends Service {
                     }
                     else if (diff >= 174 && diff < 224) {
                         if (received == 3) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg4));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg4));
                             int rand = r.nextInt(1000);
@@ -245,7 +210,8 @@ public class MyService extends Service {
                     }
                     else if (diff >= 224 && diff < 231) {
                         if (received == 4) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg5));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg5));
                             int rand = r.nextInt(1000);
@@ -268,7 +234,8 @@ public class MyService extends Service {
                     }
                     else if (diff >= 231 && diff < 252) {
                         if (received == 5) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg6));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg6));
                             int rand = r.nextInt(1000);
@@ -291,7 +258,8 @@ public class MyService extends Service {
                     }
                     else if (diff >= 252 && diff < 259) {
                         if (received == 6) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg7));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg7));
                             int rand = r.nextInt(1000);
@@ -314,7 +282,8 @@ public class MyService extends Service {
                     }
                     else if (diff >= 259 && diff < 266) {
                         if (received == 7) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg8));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg8));
                             int rand = r.nextInt(1000);
@@ -337,7 +306,8 @@ public class MyService extends Service {
                     }
                     else if (diff == 266) {
                         if (received == 8) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.notif_msg9));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.notif_msg9));
                             int rand = r.nextInt(1000);
@@ -383,4 +353,25 @@ public class MyService extends Service {
     public void onDestroy() {
         super.onDestroy();
     }
+
+    // Trim notification ticker text
+    public static String trimText(String text) {
+
+        String trimmed = "";
+        int requiredNum = 20;
+        int currentNum = text.length();
+
+        if(requiredNum >= currentNum) {
+            trimmed = text;
+        }
+        else {
+            for(int i = 0; i < requiredNum; i++) {
+                trimmed += text.charAt(i);
+            }
+            trimmed += "...";
+        }
+
+        return trimmed;
+    }
+
 }

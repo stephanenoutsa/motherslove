@@ -1,7 +1,6 @@
 package com.babyandi.stephnoutsa.babyandi;
 
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
@@ -32,7 +31,6 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
     AlarmStart alarmStart;
     String eddate, hiv, hepatitis, lmp;
     RadioButton cHivy, cHivn,cHepy, cHepn;
-    Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -174,14 +172,24 @@ public class ExpectedDateOfDelivery extends AppCompatActivity {
         Toast.makeText(this, getString(R.string.toast_saved), Toast.LENGTH_LONG).show();
 
         // Fire first notification
-        alarmStart.instantNotif(context);
+        alarmStart.instantNotif(this);
+
+        // Start Special Needs alarm if necessary
+        if (hiv.equals("positive")) {
+            dbHandler.addHivReceived(0);
+            alarmStart.instantHivCheck(this);
+        }
+        if (hepatitis.equals("positive")) {
+            dbHandler.addHepReceived(0);
+            alarmStart.instantHepCheck(this);
+        }
 
         // Start alarm
-        alarmStart.instantCheck(context);
+        alarmStart.instantCheck(this);
 
         // Enable receiver when device boots
-        ComponentName receiver = new ComponentName(context, BootReceiver.class);
-        PackageManager pm = context.getPackageManager();
+        ComponentName receiver = new ComponentName(this, BootReceiver.class);
+        PackageManager pm = this.getPackageManager();
 
         pm.setComponentEnabledSetting(receiver,
                 PackageManager.COMPONENT_ENABLED_STATE_ENABLED,

@@ -1244,17 +1244,7 @@
         changez en cours de route pour que nous puissions continuer de vous guider.\n
         Meilleurs vœux de l\'équipe Mother\'s Love!
     </string>
-    <string name="notification_ticker">Don\'t forget your checkup next week</string>
     <string name="notification_title">Mother\'s Love</string>
-    <string name="notification_1_text">
-        You are in the first trimester of pregnancy. Next week you need to go for your Antenatal Clinic.
-    </string>
-    <string name="notification_1_text_hepatitis">
-        Remember to follow our guidelines to prevent mother to child transmission of hepatitis.
-    </string>
-    <string name="notification_1_text_hiv">
-        Remember to follow our guidelines to prevent mother to child transmission of HIV.
-    </string>
     <string name="notif_msg1" formatted="false">
         Remember your 1st ANC.
     </string>
@@ -1282,6 +1272,31 @@
     <string name="notif_msg9" formatted="false">
         Content of labour emergency bag. Safe delivery and congratulations in advance.
     </string>
+    <string name="hiv_notif1" formatted="false">
+
+    </string>
+    <string name="hiv_notif2" formatted="false">
+
+    </string>
+    <string name="hiv_notif3" formatted="false">
+
+    </string>
+    <string name="hiv_notif4" formatted="false">
+
+    </string>
+    <string name="hep_notif1" formatted="false">
+
+    </string>
+    <string name="hep_notif2" formatted="false">
+
+    </string>
+    <string name="hep_notif3" formatted="false">
+
+    </string>
+    <string name="hep_notif4" formatted="false">
+
+    </string>
+    <!-- End of Notification messages -->
 
     <!-- About Us text -->
     <string name="title_activity_about">À Propos de Nous</string>

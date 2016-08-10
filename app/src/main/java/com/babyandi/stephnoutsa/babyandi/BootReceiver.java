@@ -8,8 +8,18 @@ public class BootReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         if (intent.getAction().equals("android.intent.action.BOOT_COMPLETED")) {
+            MyDBHandler dbHandler = new MyDBHandler(context, null, null, 1);
             AlarmStart alarmStart = new AlarmStart();
             alarmStart.instantCheck(context);
+            alarmStart.instantImmCheck(context);
+            String hiv = dbHandler.getHivStatus();
+            String hepatitis = dbHandler.getHepatitisStatus();
+            if(hiv.equals("positive")) {
+                alarmStart.instantHivCheck(context);
+            }
+            if(hepatitis.equals("positive")) {
+                alarmStart.instantHepCheck(context);
+            }
         }
     }
 }

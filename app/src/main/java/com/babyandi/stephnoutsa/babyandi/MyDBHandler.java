@@ -11,7 +11,7 @@ import java.util.List;
 
 public class MyDBHandler extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "lmp.db";
     public static final String TABLE_LMP = "lmp";
     public static final String LMP_COLUMN_ID = "_lmpid";
@@ -19,6 +19,12 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String TABLE_RECEIVED = "received";
     public static final String R_COLUMN_ID = "_rid";
     public static final String R_COLUMN_NUMBER = "number";
+    public static final String TABLE_HIV_RECEIVED = "hivreceived";
+    public static final String HIV_COLUMN_ID = "_hivid";
+    public static final String HIV_COLUMN_NUMBER = "hivnumber";
+    public static final String TABLE_HEP_RECEIVED = "hepreceived";
+    public static final String HEP_COLUMN_ID = "_hepid";
+    public static final String HEP_COLUMN_NUMBER = "hepnumber";
     public static final  String TABLE_NOTIFICATIONS = "notifications";
     public static final String N_COLUMN_ID = "_nid";
     public static final String N_COLUMN_DAY = "nday";
@@ -71,6 +77,16 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 R_COLUMN_NUMBER + " INTEGER" + ")";
         db.execSQL(r);
 
+        String hivr = "CREATE TABLE " + TABLE_HIV_RECEIVED + "(" +
+                HIV_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                HIV_COLUMN_NUMBER + " INTEGER" + ")";
+        db.execSQL(hivr);
+
+        String hepr = "CREATE TABLE " + TABLE_HEP_RECEIVED + "(" +
+                HEP_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                HEP_COLUMN_NUMBER + " INTEGER" + ")";
+        db.execSQL(hepr);
+
         String dob = "CREATE TABLE " + TABLE_DOB + "(" +
                 D_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 D_COLUMN_DAY + " TEXT" + ", " +
@@ -85,6 +101,8 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_EDD + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_SPECIAL_NEEDS + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECEIVED + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_HIV_RECEIVED + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_HEP_RECEIVED + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_DOB + ";");
         onCreate(db);
     }
@@ -312,6 +330,72 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void deleteReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "DELETE * FROM " + TABLE_RECEIVED + " WHERE 1;";
+        db.execSQL(query);
+    }
+
+    // Add new hivreceived number
+    public void addHivReceived(int hivreceived) {
+        ContentValues values = new ContentValues();
+        values.put(HIV_COLUMN_NUMBER, hivreceived);
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_HIV_RECEIVED, null, values);
+        db.close();
+    }
+
+    // Get the received number
+    public int getHivReceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_HIV_RECEIVED + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return 0;
+        c.moveToLast();
+        int received = Integer.parseInt(c.getString(c.getColumnIndex(HIV_COLUMN_NUMBER)));
+        try {
+            return received;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Delete the received number
+    public void deleteHivReceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE * FROM " + TABLE_HIV_RECEIVED + " WHERE 1;";
+        db.execSQL(query);
+    }
+
+    // Add new hepreceived number
+    public void addHepReceived(int hepreceived) {
+        ContentValues values = new ContentValues();
+        values.put(HEP_COLUMN_NUMBER, hepreceived);
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_HEP_RECEIVED, null, values);
+        db.close();
+    }
+
+    // Get the received number
+    public int getHepReceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_HEP_RECEIVED + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return 0;
+        c.moveToLast();
+        int received = Integer.parseInt(c.getString(c.getColumnIndex(HEP_COLUMN_NUMBER)));
+        try {
+            return received;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Delete the received number
+    public void deleteHepReceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE * FROM " + TABLE_HEP_RECEIVED + " WHERE 1;";
         db.execSQL(query);
     }
 
