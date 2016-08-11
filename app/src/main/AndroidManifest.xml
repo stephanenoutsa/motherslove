@@ -459,7 +459,12 @@
         <service
             android:name=".MyHepService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity
+            android:name=".References"
+            android:label="@string/title_activity_references"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

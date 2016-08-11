@@ -51,7 +51,7 @@
     <string name="muac_interpretation_text"><b><u>INTERPRÉTATION DES RESULTATS</u></b></string>
     <string name="muac_reading_text"><b>PB</b></string>
     <string name="muac_reading1_text">&gt;12.5cm</string>
-    <string name="muac_reading2_text">11.0 - 12.5cm</string>
+    <string name="muac_reading2_text">11.0 &#8211; 12.5cm</string>
     <string name="muac_reading3_text">&lt;11.0cm</string>
     <string name="significance_text"><b>INTERPRÉTATION</b></string>
     <string name="significance1_text">Normal</string>
@@ -1359,4 +1359,8 @@
         FIEVRE JAUNE). Il sera alors complètement vacciné.
     </string>
     <!-- End of messages -->
+
+    <!-- Start of References activity literature -->
+    <string name="title_activity_references">Références</string>
+    <!-- End of References activity literature -->
 </resources>
