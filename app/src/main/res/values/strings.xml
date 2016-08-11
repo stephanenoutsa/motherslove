@@ -1305,4 +1305,8 @@
         FEVER). Your baby will then be fully immunised according to EPI.
     </string>
     <!-- End of messages -->
+
+    <!-- Start of References activity literature -->
+    <string name="title_activity_references">References</string>
+    <!-- End of References activity literature -->
 </resources>

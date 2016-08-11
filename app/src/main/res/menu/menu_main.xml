@@ -42,4 +42,10 @@
         android:orderInCategory="4"
         android:title="@string/menu_special_needs"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/go_to_ref"
+        android:orderInCategory="5"
+        android:title="@string/title_activity_references"
+        app:showAsAction="never" />
 </menu>
