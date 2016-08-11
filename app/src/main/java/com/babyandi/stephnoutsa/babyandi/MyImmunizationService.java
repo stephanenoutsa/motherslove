@@ -130,7 +130,6 @@ public class MyImmunizationService extends Service {
                             }
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -157,7 +156,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -184,7 +182,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -211,7 +208,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -238,7 +234,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -265,7 +260,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -292,7 +286,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -319,7 +312,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }
@@ -346,7 +338,6 @@ public class MyImmunizationService extends Service {
                             received++;
 
                             // Update DOB
-                            dbHandler.deleteDOB();
                             DOB newDob = new DOB(dday, received);
                             dbHandler.addDOB(newDob);
                         }

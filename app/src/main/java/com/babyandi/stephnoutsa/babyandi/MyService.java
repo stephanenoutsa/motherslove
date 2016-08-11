@@ -129,7 +129,6 @@ public class MyService extends Service {
                             }
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
 
@@ -156,7 +155,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -180,7 +178,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -204,7 +201,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -228,7 +224,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -252,7 +247,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -276,7 +270,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -300,7 +293,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
@@ -324,7 +316,6 @@ public class MyService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteReceived();
                             dbHandler.addReceived(received);
                         }
                     }
