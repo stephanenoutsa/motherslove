@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mother\'s Love</string>
     <string name="app_label">Mother\'s Love</string>
-    <string name="search_hint">Recherchez...</string>
+    <string name="search_hint">Recherchez&#8230;</string>
     <string name="menu_search">Recherchez</string>
     <string name="menu_notifications">Notifications</string>
     <string name="menu_settings">Paramètres</string>
