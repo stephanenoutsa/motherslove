@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="@string/title_activity_presentation_acute_diarrhoea"
+                android:text="@string/title_activity_references"
                 android:id="@+id/toolbarTitle"/>
 
         </android.support.v7.widget.Toolbar>
