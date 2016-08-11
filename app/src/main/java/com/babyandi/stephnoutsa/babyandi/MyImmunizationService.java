@@ -56,6 +56,8 @@ public class MyImmunizationService extends Service {
             @Override
             public void handleMessage(Message msg) {
                 try {
+                    String ticker;
+
                     DOB d = dbHandler.getDOB();
 
                     // Get the received number from database
@@ -87,7 +89,8 @@ public class MyImmunizationService extends Service {
                     // Fire welcome notification
                     if(diff < 302) {
                         if(received == 0) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.welcome_msg));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.welcome_msg));
                             int rand = r.nextInt(1000);
@@ -136,7 +139,8 @@ public class MyImmunizationService extends Service {
                     // Week one message
                     if(diff >= 4 && diff < 12) {
                         if (received == 1) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg2));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg2));
                             int rand = r.nextInt(1000);
@@ -162,7 +166,8 @@ public class MyImmunizationService extends Service {
                     // Week three message
                     else if(diff >= 12 && diff < 26) {
                         if(received == 2) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg3));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg3));
                             int rand = r.nextInt(1000);
@@ -188,7 +193,8 @@ public class MyImmunizationService extends Service {
                     // Week six message
                     else if (diff >= 26 && diff < 39) {
                         if (received == 3) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg4));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg4));
                             int rand = r.nextInt(1000);
@@ -214,7 +220,8 @@ public class MyImmunizationService extends Service {
                     // Week ten message
                     else if (diff >= 39 && diff < 49) {
                         if (received == 4) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg5));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg5));
                             int rand = r.nextInt(1000);
@@ -240,7 +247,8 @@ public class MyImmunizationService extends Service {
                     // Week fourteen message
                     else if (diff >= 67 && diff < 77) {
                         if (received == 5) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg6));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg6));
                             int rand = r.nextInt(1000);
@@ -266,7 +274,8 @@ public class MyImmunizationService extends Service {
                     // Week 14 message
                     else if (diff >= 95 && diff < 105) {
                         if (received == 6) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg7));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg7));
                             int rand = r.nextInt(1000);
@@ -292,7 +301,8 @@ public class MyImmunizationService extends Service {
                     // Month 6 message
                     else if (diff >= 168 && diff < 197) {
                         if (received == 7) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg8));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg8));
                             int rand = r.nextInt(1000);
@@ -318,7 +328,8 @@ public class MyImmunizationService extends Service {
                     // Conclusion message
                     else if (diff >= 273 && diff < 302) {
                         if (received == 8) {
-                            notification.setTicker(cont.getString(R.string.notification_ticker)); // Sets the text displayed when notification is received
+                            ticker = trimText(getString(R.string.msg9));
+                            notification.setTicker(ticker); // Sets the text displayed when notification is received
                             notification.setWhen(System.currentTimeMillis());
                             notification.setContentText(cont.getString(R.string.msg9));
                             int rand = r.nextInt(1000);
@@ -366,4 +377,25 @@ public class MyImmunizationService extends Service {
     public void onDestroy() {
         super.onDestroy();
     }
+
+    // Trim notification ticker text
+    public static String trimText(String text) {
+
+        String trimmed = "";
+        int requiredNum = 20;
+        int currentNum = text.length();
+
+        if(requiredNum >= currentNum) {
+            trimmed = text;
+        }
+        else {
+            for(int i = 0; i < requiredNum; i++) {
+                trimmed += text.charAt(i);
+            }
+            trimmed += "...";
+        }
+
+        return trimmed;
+    }
+
 }
