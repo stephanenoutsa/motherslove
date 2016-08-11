@@ -10,6 +10,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.babyandi.stephnoutsa.babyandi.References"
-    tools:showIn="@layout/activity_references">
+    tools:showIn="@layout/activity_references"
+    android:background="@drawable/background_image">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ref_text"
+        android:textColor="@color/colorTextPrimary"
+        android:id="@+id/refText" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/refText"
+        android:id="@+id/refList"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

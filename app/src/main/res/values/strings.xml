@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Mother\'s Love</string>
     <string name="app_label">Mother\'s Love</string>
+
+    <string name="package_name">com.babyandi.stephnoutsa.babyandi</string>
+
     <string name="search_hint">Search Mother\'s Love</string>
     <string name="menu_search">Search</string>
     <string name="menu_notifications">Notifications</string>
@@ -1308,5 +1311,34 @@
 
     <!-- Start of References activity literature -->
     <string name="title_activity_references">References</string>
+    <string name="ref_text" formatted="false">
+        All borrowed images are listed below together with their sources:
+    </string>
+    <string name="ref_image_desc">Borrowed image</string>
+    <string name="ref_image_link">Borrowed image link</string>
+    <string name="ref_anc_image">image_anc</string>
+    <string name="ref_anc_link" formatted="false">
+        freepik.com/free-vector/pregnant-silhouette_787792.htm#term=pregnant&amp;page=1&amp;position=16
+    </string>
+    <string name="ref_diarrhoea_image">image_diarrhoea</string>
+    <string name="ref_diarrhoea_link" formatted="false">
+        nhp.gov.in/disease/digestive/intestines/diarrhoea
+    </string>
+    <string name="ref_malnutrition_image">image_malnutrition</string>
+    <string name="ref_malnutrition_link" formatted="false">
+        thenounproject.com/term/hunger/14494/
+    </string>
+    <string name="ref_sn_image">image_special_needs</string>
+    <string name="ref_sn_link" formatted="false">
+        123rf.com/stock-photo/drugs_awareness.html?mediapopup=11647351
+    </string>
+    <string name="ref_bfpos_image">breastfeeding_positions</string>
+    <string name="ref_bfpos_link" formatted="false">
+        oxfordcounty.ca/Healthy-you/Pregnancy-babies/Breastfeeding/First-6-8-weeks/Breastfeeding-positions
+    </string>
+    <string name="ref_bfpos_twins_image">breastfeeding_positions_twins</string>
+    <string name="ref_bfpos_twins_link" formatted="false">
+        mumsnet.com/cms/uploads/babies/feedingpositions.jpg
+    </string>
     <!-- End of References activity literature -->
 </resources>

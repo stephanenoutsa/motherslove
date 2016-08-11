@@ -1362,5 +1362,10 @@
 
     <!-- Start of References activity literature -->
     <string name="title_activity_references">Références</string>
+    <string name="ref_text" formatted="false">
+        Toutes les images empruntées sont énumérées ci-dessous ainsi que leurs sources:
+    </string>
+    <string name="ref_image_desc">Image empruntée</string>
+    <string name="ref_image_link">Lien de l\'image empruntée</string>
     <!-- End of References activity literature -->
 </resources>
