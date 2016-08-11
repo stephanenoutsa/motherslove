@@ -97,7 +97,6 @@ public class MyHepService extends Service {
                             }
 
                             //Update received number in database
-                            dbHandler.deleteHepReceived();
                             dbHandler.addHepReceived(received);
                         }
 
@@ -124,7 +123,6 @@ public class MyHepService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHepReceived();
                             dbHandler.addHepReceived(received);
                         }
                     }
@@ -150,7 +148,6 @@ public class MyHepService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHepReceived();
                             dbHandler.addHepReceived(received);
                         }
                     }
@@ -176,7 +173,6 @@ public class MyHepService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHepReceived();
                             dbHandler.addHepReceived(received);
                         }
                     }
@@ -202,7 +198,6 @@ public class MyHepService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHepReceived();
                             dbHandler.addHepReceived(received);
                         }
                     }

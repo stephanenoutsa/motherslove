@@ -97,7 +97,6 @@ public class MyHivService extends Service {
                             }
 
                             //Update received number in database
-                            dbHandler.deleteHivReceived();
                             dbHandler.addHivReceived(received);
                         }
 
@@ -124,7 +123,6 @@ public class MyHivService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHivReceived();
                             dbHandler.addHivReceived(received);
                         }
                     }
@@ -150,7 +148,6 @@ public class MyHivService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHivReceived();
                             dbHandler.addHivReceived(received);
                         }
                     }
@@ -176,7 +173,6 @@ public class MyHivService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHivReceived();
                             dbHandler.addHivReceived(received);
                         }
                     }
@@ -202,7 +198,6 @@ public class MyHivService extends Service {
                             received++;
 
                             //Update received number in database
-                            dbHandler.deleteHivReceived();
                             dbHandler.addHivReceived(received);
                         }
                     }
