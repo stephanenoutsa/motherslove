@@ -91,10 +91,12 @@ public class About extends AppCompatActivity {
         if (id == R.id.notifications) {
             Intent i = new Intent(this, Notifications.class);
             startActivity(i);
+            return true;
         }
         if (id == R.id.about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
+            return true;
         }
         if (id == R.id.go_to_home) {
             onClickHome();
@@ -114,6 +116,11 @@ public class About extends AppCompatActivity {
         }
         if (id == R.id.go_to_special_needs) {
             onClickSpecialNeeds();
+            return true;
+        }
+        if (id == R.id.go_to_ref) {
+            Intent i = new Intent(this, References.class);
+            startActivity(i);
             return true;
         }
 

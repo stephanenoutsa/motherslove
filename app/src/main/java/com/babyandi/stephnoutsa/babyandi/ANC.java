@@ -136,6 +136,11 @@ public class ANC extends AppCompatActivity {
             onClickSpecialNeeds();
             return true;
         }
+        if (id == R.id.go_to_ref) {
+            Intent i = new Intent(this, References.class);
+            startActivity(i);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
