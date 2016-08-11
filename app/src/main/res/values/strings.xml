@@ -51,7 +51,7 @@
     <string name="muac_interpretation_text"><b><u>INTERPRETATION OF RESULTS</u></b></string>
     <string name="muac_reading_text"><b>MUAC</b></string>
     <string name="muac_reading1_text">&gt;12.5cm</string>
-    <string name="muac_reading2_text">11.0 - 12.5cm</string>
+    <string name="muac_reading2_text">11.0 &#8211; 12.5cm</string>
     <string name="muac_reading3_text">&lt;11.0cm</string>
     <string name="significance_text"><b>SIGNIFICANCE</b></string>
     <string name="significance1_text">Normal</string>
@@ -1171,31 +1171,54 @@
     </string>
     <string name="notification_title">Mother\'s Love</string>
     <string name="notif_msg1" formatted="false">
-        Remember your 1st ANC.
+        Hello, you are almost in week 8 of your pregnancy. The World Health Organization (WHO) recommends
+        you go for a minimum of 4 focused Antenatal Care (ANC) visits. You should go for the first of
+        these within the next month for a safer follow up for you and your baby. To know what you can
+        expect during this visit, see the ANC section of this app.
     </string>
     <string name="notif_msg2" formatted="false">
-        We hope you went for your 1st ANC and everything is ok. We\'ll keep in touch.
+        Hello, you are almost in week 13 of your pregnancy. We hope you already went for your first ANC
+        visit and received appropriate guidance. We will be in touch to accompany you and ensure you
+        don\'t miss the next visit.
     </string>
     <string name="notif_msg3" formatted="false">
-        Remember your 2nd ANC.
+        Hello, you are almost in week 22 of your pregnancy. The World Health Organization (WHO) recommends
+        you plan on attending at least your second focused ANC visit within the next two (2) weeks for
+        a safer follow up for you and your baby. To know what you can expect during this visit, see the
+        ANC section of this app.
     </string>
     <string name="notif_msg4" formatted="false">
-        We hope you went for your 2nd ANC and everything is ok. We\'ll keep in touch.
+        Hello, you are almost in week 25 of your pregnancy. We hope you already went for at least your
+        second ANC visit, during which you should have received appropriate guidance. We will be in touch
+        to accompany you and ensure you don\'t miss the next visit.
     </string>
     <string name="notif_msg5" formatted="false">
-        Remember your 3rd ANC.
+        Hello, you are almost in week 32 of your pregnancy. The World Health Organization (WHO) recommends
+        you plan on attending at least your third focused ANC visit within the week for a safer follow
+        up for you and your baby. To know what you can expect during this visit, see the ANC section
+        of this app.
     </string>
     <string name="notif_msg6" formatted="false">
-        We hope you went for your 3rd ANC and everything is ok. We\'ll keep in touch.
+        Hello, you are almost in week 33 of your pregnancy. We hope you already went for at least your
+        third ANC visit, during which you should have received appropriate guidance. We will be in touch
+        to accompany you and ensure you don\'t miss the next visit.
     </string>
     <string name="notif_msg7" formatted="false">
-        Remember your 4th ANC.
+        Hello, you are almost in week 36 of your pregnancy. The World Health Organization (WHO) recommends
+        you plan on attending your final focused ANC visit within the week for a safer follow up for
+        you and your baby. To know what you can expect during this visit, see the ANC section of this
+        app.
     </string>
     <string name="notif_msg8" formatted="false">
-        We hope you went for your 4th ANC and everything is ok. We\'ll keep in touch.
+        Hello, you are in week 37 of your pregnancy. We hope you already went for your final focused
+        ANC visit, during which you should have received appropriate guidance pertaining to a safe delivery.
+        We will be in touch in the coming days.
     </string>
     <string name="notif_msg9" formatted="false">
-        Content of labour emergency bag. Safe delivery and congratulations in advance.
+        Hello, you are in week 38 of your pregnancy. It is important for you to be properly prepared,
+        both psychologically and physically, for delivery as explained under \'LABOUR\' in the Antenatal
+        Care section of this app. We wish you a safe delivery, and heartfelt congratulations in advance.\n
+        Thanks for being a part of the Mother\'s Love Family.
     </string>
     <string name="hiv_notif1" formatted="false">
 
