@@ -7,5 +7,5 @@
         android:height="@dimen/button_standard_height"
         android:width="@dimen/button_standard_width"/>
     <solid
-        android:color="@color/colorPrimary"/>
+        android:color="@color/colorAccent"/>
 </shape>
