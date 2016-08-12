@@ -329,7 +329,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
     // Delete the received number
     public void deleteReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
-        String query = "DELETE * FROM " + TABLE_RECEIVED + " WHERE 1;";
+        String query = "DELETE FROM " + TABLE_RECEIVED + " WHERE 1;";
         db.execSQL(query);
     }
 
@@ -432,8 +432,26 @@ public class MyDBHandler extends SQLiteOpenHelper {
     // Delete the DOB
     public void deleteDOB() {
         SQLiteDatabase db = this.getWritableDatabase();
-        String query = "DELETE * FROM " + TABLE_DOB + " WHERE 1;";
+        String query = "DELETE FROM " + TABLE_DOB + " WHERE 1;";
         db.execSQL(query);
+    }
+
+    // Empty all ANC related tables
+    public void stopAncNotifs() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String lmp = "DELETE FROM " + TABLE_LMP + " WHERE 1;";
+        String edd = "DELETE FROM " + TABLE_EDD + " WHERE 1;";
+        String sn = "DELETE FROM " + TABLE_SPECIAL_NEEDS + " WHERE 1;";
+        String r = "DELETE FROM " + TABLE_RECEIVED + " WHERE 1;";
+        String hivr = "DELETE FROM " + TABLE_HIV_RECEIVED + " WHERE 1;";
+        String hepr = "DELETE FROM " + TABLE_HEP_RECEIVED + " WHERE 1;";
+
+        db.execSQL(lmp);
+        db.execSQL(edd);
+        db.execSQL(sn);
+        db.execSQL(r);
+        db.execSQL(hivr);
+        db.execSQL(hepr);
     }
 
 }
