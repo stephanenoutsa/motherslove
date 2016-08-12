@@ -85,20 +85,22 @@ public class MyService extends Service {
 
                         if (received == 0) {
                             if (diff >= 55 && diff < 90) {
-                                // Fire notification 1
-                                ticker = trimText(getString(R.string.notif_msg1));
-                                notification.setTicker(ticker); // Sets the text displayed when notification is received
-                                notification.setWhen(System.currentTimeMillis());
-                                notification.setContentText(cont.getString(R.string.notif_msg1));
-                                int rand = r.nextInt(1000);
-                                nm.notify(rand, notification.build());
+                                if (diff < 63) {
+                                    // Fire notification 1
+                                    ticker = trimText(getString(R.string.notif_msg1));
+                                    notification.setTicker(ticker); // Sets the text displayed when notification is received
+                                    notification.setWhen(System.currentTimeMillis());
+                                    notification.setContentText(cont.getString(R.string.notif_msg1));
+                                    int rand = r.nextInt(1000);
+                                    nm.notify(rand, notification.build());
 
-                                // Add the notification to the database
-                                DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
-                                String nday = f.format(new Date().getTime());
-                                String nmessage = cont.getString(R.string.notif_msg1);
-                                notif = new Notification(nday, nmessage);
-                                dbHandler.addNotification(notif);
+                                    // Add the notification to the database
+                                    DateFormat f = new SimpleDateFormat("dd/MM/yyyy");
+                                    String nday = f.format(new Date().getTime());
+                                    String nmessage = cont.getString(R.string.notif_msg1);
+                                    notif = new Notification(nday, nmessage);
+                                    dbHandler.addNotification(notif);
+                                }
 
                                 // Increment received notifications count
                                 received++;
@@ -135,7 +137,7 @@ public class MyService extends Service {
                     }
 
                     // Fire 2nd notification
-                    if (diff >= 90 && diff < 153) {
+                    if (diff >= 90 && diff < 98) {
                         if (received == 1) {
                             ticker = trimText(getString(R.string.notif_msg2));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
@@ -158,7 +160,7 @@ public class MyService extends Service {
                             dbHandler.addReceived(received);
                         }
                     }
-                    else if (diff >= 153 && diff < 174) {
+                    else if (diff >= 153 && diff < 161) {
                         if (received == 2) {
                             ticker = trimText(getString(R.string.notif_msg3));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
@@ -181,7 +183,7 @@ public class MyService extends Service {
                             dbHandler.addReceived(received);
                         }
                     }
-                    else if (diff >= 174 && diff < 224) {
+                    else if (diff >= 174 && diff < 182) {
                         if (received == 3) {
                             ticker = trimText(getString(R.string.notif_msg4));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
@@ -227,7 +229,7 @@ public class MyService extends Service {
                             dbHandler.addReceived(received);
                         }
                     }
-                    else if (diff >= 231 && diff < 252) {
+                    else if (diff >= 231 && diff < 239) {
                         if (received == 5) {
                             ticker = trimText(getString(R.string.notif_msg6));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received

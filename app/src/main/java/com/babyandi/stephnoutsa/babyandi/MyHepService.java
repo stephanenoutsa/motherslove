@@ -83,10 +83,10 @@ public class MyHepService extends Service {
                     if (diff < 641) {
 
                         if (received == 0) {
-                            if (diff < 266) {
+                            if (diff < 98) {
                                 received = 1;
                             }
-                            else if (diff == 266) {
+                            else if (diff >= 98 && diff < 267) {
                                 received = 2;
                             }
                             else if (diff >= 267 && diff < 640) {
@@ -103,7 +103,7 @@ public class MyHepService extends Service {
                     }
 
                     // Fire 1st Hepatitis notification
-                    if (diff >= 90 && diff < 266) {
+                    if (diff >= 90 && diff < 98) {
                         if (received == 1) {
                             ticker = trimText(getString(R.string.hep_notif1));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
@@ -153,7 +153,7 @@ public class MyHepService extends Service {
                     }
 
                     // Fire 3rd Hepatitis notification
-                    else if (diff >= 267 && diff < 640) {
+                    else if (diff >= 267 && diff < 324) {
                         if (received == 3) {
                             ticker = trimText(getString(R.string.hep_notif3));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
