@@ -1161,6 +1161,8 @@
     <string name="title_activity_home_screen">Mother\'s Love</string>
 
     <!-- Notification Messages -->
+    <string name="stop_anc_notifs">Stop ANC Notifications</string>
+    <string name="stop_imm_notifs">Stop Immunization Notifications</string>
     <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
     <string name="first_notification_1" formatted="false">
         Your expected date of delivery saved in the database is
@@ -1225,16 +1227,26 @@
         Thanks for being a part of the Mother\'s Love Family.
     </string>
     <string name="hiv_notif1" formatted="false">
-
+        Hello, you are almost in week 13 of your pregnancy. We hope you have begun taking your ARVs.
+        Please <b>DO</b> remember to take them everyday, not only during your pregnancy but for life.
+        This will help you have a normal life and avoid complications for you and your baby.
     </string>
     <string name="hiv_notif2" formatted="false">
-
+        Hello, you are in week 38 of your pregnancy. Please inform the health personnel conducting your
+        delivery about your status so that appropriate dispositions are taken during your delivery for
+        the health of your baby. Please ensure you purchase <b>NEVIRAPINE</b> for your baby so that it
+        can be administered from birth. You are advised to either <b>BREASTFEED EXCLUSIVELY</b> or practise
+        only bottle feeding. <b>DO NOT MIX FEED.</b>\n
+        We wish you a safe delivery.
     </string>
     <string name="hiv_notif3" formatted="false">
-
+        Hello, congratulations on your delivery. We hope your baby is on <b>NEVIRAPINE</b> as your birth
+        attendant instructed you. Please respect the dose and duration as you were cautioned.
     </string>
     <string name="hiv_notif4" formatted="false">
-
+        Hello, we hope you and your baby are fine. To know your baby\'s serology, please get advice from
+        your doctor and follow his / her advice thereafter.\n
+        Thanks for being a part of the MLI family.
     </string>
     <string name="hep_notif1" formatted="false">
         Hello, today marks the 13th week of your pregnancy. We hope you have been for your first ANC

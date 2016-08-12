@@ -103,7 +103,7 @@ public class MyHivService extends Service {
                     }
 
                     // Fire 1st HIV notification
-                    if (diff >= 90 && diff < 266) {
+                    if (diff >= 90 && diff < 98) {
                         if (received == 1) {
                             ticker = trimText(getString(R.string.hiv_notif1));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
@@ -128,7 +128,7 @@ public class MyHivService extends Service {
                     }
 
                     // Fire 2nd HIV notification
-                    else if (diff >= 266 && diff < 295) {
+                    else if (diff >= 266 && diff < 274) {
                         if (received == 2) {
                             ticker = trimText(getString(R.string.hiv_notif2));
                             notification.setTicker(ticker); // Sets the text displayed when notification is received
