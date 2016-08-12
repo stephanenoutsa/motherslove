@@ -1233,8 +1233,8 @@
     <string name="title_activity_home_screen">Mother\'s Love</string>
 
     <!-- Notification Messages -->
-    <string name="stop_anc_notifs">ARRETER NOTIFS (GROSSESSE)</string>
-    <string name="stop_imm_notifs">ARRETER NOTIFS (VACCINS)</string>
+    <string name="stop_anc_notifs">ARRETER NOTIFICATIONS (GROSSESSE)</string>
+    <string name="stop_imm_notifs">ARRETER NOTIFICATIONS (VACCINS)</string>
     <string name="first_notification_ticker">Meilleurs vœux durant toute votre grossesse!!</string>
     <string name="first_notification_1" formatted="false">
         Votre date d\'accouchement estimée qui est enregistrée est le:\n
