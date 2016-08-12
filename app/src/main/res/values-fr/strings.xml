@@ -1246,31 +1246,62 @@
     </string>
     <string name="notification_title">Mother\'s Love</string>
     <string name="notif_msg1" formatted="false">
-        Remember your 1st ANC.
+        Bonjour, vous êtes presque à la 8e semaine de votre grossesse. L\'Organisation Mondiale de la
+        Santé (OMS) recommande d\'aller pour un minimum de 4 visites de soins prénataux concentrés. Vous
+        devriez aller pour le premier de ceux-ci au cours du mois prochain pour un suivi plus sûr pour
+        vous et votre bébé. Pour savoir ce à quoi vous attendre lors de cette visite, veuillez consulter
+        la section \"Soins Anténataux\" de cette application.
     </string>
     <string name="notif_msg2" formatted="false">
-        We hope you went for your 1st ANC and everything is ok. We\'ll keep in touch.
+        Bonjour, vous êtes presque à la 13e semaine de votre grossesse. Nous espérons que vous êtes déjà
+        partie pour votre première visite de soins prénataux et que vous avez reçu des conseils appropriés.
+        Nous serons en contact pour vous accompagner et assurer que vous ne manquez pas la prochaine
+        visite.
     </string>
     <string name="notif_msg3" formatted="false">
-        Remember your 2nd ANC.
+        Bonjour, vous êtes presque à la 22e semaine de votre grossesse. L\'Organisation Mondiale de la
+        Santé (OMS) recommande que vous prévoyiez d\'assister à au moins votre deuxième visite de soins
+        prénataux concentrés dans les deux (2) prochaines semaines pour un suivi plus sûr pour vous et
+        votre bébé. Pour savoir ce à quoi vous attendre lors de cette visite, veuillez consulter
+        la section \"Soins Anténataux\" de cette application.
     </string>
     <string name="notif_msg4" formatted="false">
-        We hope you went for your 2nd ANC and everything is ok. We\'ll keep in touch.
+        Bonjour, vous êtes presque à la 25e semaine de votre grossesse. Nous espérons que vous êtes déjà
+        partie pour au moins votre deuxième visite de soins prénataux et que vous avez reçu des conseils
+        appropriés. Nous serons en contact pour vous accompagner et assurer que vous ne manquez pas la prochaine
+        visite.
     </string>
     <string name="notif_msg5" formatted="false">
-        Remember your 3rd ANC.
+        Bonjour, vous êtes presque à la 32e semaine de votre grossesse. L\'Organisation Mondiale de la
+        Santé (OMS) recommande que vous prévoyiez d\'assister à au moins votre troisième visite de soins
+        prénataux concentrés au cours de la semaine pour un suivi plus sûr pour vous et votre bébé. Pour
+        savoir ce à quoi vous attendre lors de cette visite, veuillez consulter la section \"Soins Anténataux\"
+        de cette application.
     </string>
     <string name="notif_msg6" formatted="false">
-        We hope you went for your 3rd ANC and everything is ok. We\'ll keep in touch.
+        Bonjour, vous êtes presque à la 33e semaine de votre grossesse. Nous espérons que vous êtes déjà
+        partie pour au moins votre troisième visite de soins prénataux et que vous avez reçu des conseils
+        appropriés. Nous serons en contact pour vous accompagner et assurer que vous ne manquez pas la prochaine
+        visite.
     </string>
     <string name="notif_msg7" formatted="false">
-        Remember your 4th ANC.
+        Bonjour, vous êtes presque à la 36e semaine de votre grossesse. L\'Organisation Mondiale de la
+        Santé (OMS) recommande que vous prévoyiez d\'assister à votre dernière visite de soins prénataux
+        concentrés au cours de la semaine pour un suivi plus sûr pour vous et votre bébé. Pour savoir
+        ce à quoi vous attendre lors de cette visite, veuillez consulter la section \"Soins Anténataux\"
+        de cette application.
     </string>
     <string name="notif_msg8" formatted="false">
-        We hope you went for your 4th ANC and everything is ok. We\'ll keep in touch.
+        Bonjour, vous êtes à la 37e semaine de votre grossesse. Nous espérons que vous êtes déjà partie
+        pour votre dernière visite de soins prénataux et que vous avez reçu des conseils appropriés pour
+        un accouchement sûr. Nous serons en contact dans les jours à venir.
     </string>
     <string name="notif_msg9" formatted="false">
-        Content of labour emergency bag. Safe delivery and congratulations in advance.
+        Bonjour, vous êtes à la 38e semaine de votre grossesse. Il est important pour vous d\'être bien
+        préparée, à la fois physiquement et psychologiquement, pour l\'accouchement tel qu\'il est indiqué
+        dans la section \"CONTRACTIONS\" sous \"SOINS ANTENATAUX\" de cette application.\n
+        Nous vous souhaitons un bon accouchement, et sincères félicitations à l\'avance.\n
+        Merci de faire partie de la famille Mother\' Love.
     </string>
     <string name="hiv_notif1" formatted="false">
 
@@ -1285,16 +1316,29 @@
 
     </string>
     <string name="hep_notif1" formatted="false">
-
+        Bonjour, aujourd\'hui marque la 13e semaine de grossesse. Nous espérons que vous êtes partie à
+        votre première visite prénatale et avez partagé votre sérologie d\'hépatite B avec votre médecin.
+        Nous espérons également que vous suivez les conseils qu\'il / elle vous a donné car ils assureront
+        une bonne santé pour vous et votre bébé.
     </string>
     <string name="hep_notif2" formatted="false">
-
+        Bonjour, vous êtes à la 38e semaine de votre grossesse. Veuillez informer le personnel de santé
+        qui aide à votre accouchement de votre sérologie d\'hépatite B. Cela permettra de prendre les
+        dispositions appropriées au cours de l\'accouchement pour assurer la bonne santé et la sécurité
+        de votre bébé. Assurez-vous d\'acheter de l\'immunoglobuline pour l\'hépatite B et des vaccins
+        afin qu\'ils puissent être administrés dans les 3 jours qui suivent l\'accouchement.\n
+        Nous vous souhaitons un accouchement sûr.
     </string>
     <string name="hep_notif3" formatted="false">
-
+        Bonjour, suite à votre accouchement, nous vous recommandons de pratiquer l\'allaitement exclusif
+        pendant au moins 6 mois, dans la mesure où votre bébé a reçu ses immunoglobulines et le vaccin
+        contre l\'hépatite B. Ceci est sans danger pour vous et votre bébé. <b>NE PAS DONNER D\'ALIMENTATION
+        MIXTE A VOTRE BEBE.</b>
     </string>
     <string name="hep_notif4" formatted="false">
-
+        Bonjour, votre bébé est âgé d\'environ 1 an. Vous pouvez le tester pour l\'hépatite B maintenant.
+        Si le résultat est négatif, il est important qu\'il reste ainsi. Si le résultat est positif, veuillez
+        demander les étapes appropriées à suivre à votre médecin.
     </string>
     <!-- End of Notification messages -->
 
