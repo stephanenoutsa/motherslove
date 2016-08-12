@@ -14,11 +14,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.GridView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.app.NotificationManager;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -37,7 +40,7 @@ public class Notifications extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("");
         TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbarTitle);
-        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
+        final Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Love Letters.ttf");
         toolbarTitle.setTypeface(font);
         setSupportActionBar(toolbar);
 
@@ -61,8 +64,15 @@ public class Notifications extends AppCompatActivity {
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
+                GridView gridView = (GridView) findViewById(R.id.gridview);
+
                 // Get all notifications from database
                 notificationList = dbHandler.getAllNotifications();
+
+                int count = dbHandler.getNotificationsCount();
+                if (count == 0) {
+                    gridView.setVisibility(View.INVISIBLE);
+                }
 
                 // Reverse the order of the notifications
                 Collections.reverse(notificationList);
@@ -103,6 +113,15 @@ public class Notifications extends AppCompatActivity {
                         return true;
                     }
                 });
+
+                // Set list of texts for stop buttons
+                List<String> stopList = new ArrayList<>();
+                stopList.add(getString(R.string.stop_anc_notifs));
+                stopList.add(getString(R.string.stop_imm_notifs));
+
+                // Set adapter for stop buttons
+                ListAdapter listAdapter1 = new CustomNotifAdapter(context, stopList);
+                gridView.setAdapter(listAdapter1);
 
             }
         };
