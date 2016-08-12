@@ -1162,7 +1162,19 @@
 
     <!-- Notification Messages -->
     <string name="stop_anc_notifs">Stop ANC Notifications</string>
+    <string name="anc_stop_success" formatted="false">
+        You will stop receiving notifications about your pregnancy
+    </string>
+    <string name="anc_stop_failure" formatted="false">
+        We are not currently following you up.
+    </string>
     <string name="stop_imm_notifs">Stop Immunization Notifications</string>
+    <string name="imm_stop_success" formatted="false">
+        You will stop receiving notifications about your child\'s vaccination
+    </string>
+    <string name="inn_stop_failure" formatted="false">
+        We are not currently following up your child\'s vaccination schedule.
+    </string>
     <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
     <string name="first_notification_1" formatted="false">
         Your expected date of delivery saved in the database is

@@ -1234,7 +1234,19 @@
 
     <!-- Notification Messages -->
     <string name="stop_anc_notifs">ARRETER NOTIFICATIONS (GROSSESSE)</string>
+    <string name="anc_stop_success" formatted="false">
+        Vous ne recevrez plus de notifications concernant votre grossesse
+    </string>
+    <string name="anc_stop_failure" formatted="false">
+        Nous ne vous suivons pas actuellement
+    </string>
     <string name="stop_imm_notifs">ARRETER NOTIFICATIONS (VACCINS)</string>
+    <string name="imm_stop_success" formatted="false">
+        Vous ne recevrez plus de notifications concernant la vaccination de votre enfant
+    </string>
+    <string name="imm_stop_failure" formatted="false">
+        Nous ne suivons pas la vaccination de votre enfant actuellement
+    </string>
     <string name="first_notification_ticker">Meilleurs vœux durant toute votre grossesse!!</string>
     <string name="first_notification_1" formatted="false">
         Votre date d\'accouchement estimée qui est enregistrée est le:\n
