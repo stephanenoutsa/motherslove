@@ -1233,6 +1233,8 @@
     <string name="title_activity_home_screen">Mother\'s Love</string>
 
     <!-- Notification Messages -->
+    <string name="stop_anc_notifs">ARRETER NOTIFS (GROSSESSE)</string>
+    <string name="stop_imm_notifs">ARRETER NOTIFS (VACCINS)</string>
     <string name="first_notification_ticker">Meilleurs vœux durant toute votre grossesse!!</string>
     <string name="first_notification_1" formatted="false">
         Votre date d\'accouchement estimée qui est enregistrée est le:\n
@@ -1304,16 +1306,27 @@
         Merci de faire partie de la famille Mother\' Love.
     </string>
     <string name="hiv_notif1" formatted="false">
-
+        Bonjour, vous êtes presque à la 13e semaine de votre grossesse. Nous espérons que vous avez commencé
+        à prendre vos ARV. Veuillez les prendre chaque jour durant toute votre vie, et non seulement
+        pendant votre période de grossesse. Ceci vous aidera à avoir une vie normale et éviter des complications
+        pour vous et votre bébé.
     </string>
     <string name="hiv_notif2" formatted="false">
-
+        Bonjour, vous êtes à la 38e semaine de votre grossesse. Veuillez informer le personnel de santé
+        qui vous aidera pendant votre accouchement de votre statut afin que des mesures appropriées soient
+        prises pour assurer la santé celle de votre bébé. Veuillez acheter la <b>NEVIRAPINE</b> pour
+        votre bébé pour qu\'elle lui soit administrée dès sa naissance. Nous vous conseillons d\'allaiter
+        soit <b>UNIQUEMENT AU SEIN</b> ou à partir d\'un biberon. <b>NE DONNEZ D\'ALIMENTATION MIXTE</b>
+        à votre enfant.\n
+        Nous vous souhaitons un bon accouchement.
     </string>
     <string name="hiv_notif3" formatted="false">
-
+        Bonjour, félicitations pour votre accouchement. Nous espérons que votre bébé prend de la <b>NEVIRAPINE</b>
+        comme conseillé par votre personnel de santé. Veuillez respecter la dose et la durée conseillées.
     </string>
     <string name="hiv_notif4" formatted="false">
-
+        Bonjour, nous espérons que vous et votre bébé êtes en bonne santé. Pour connaître la sérologie
+        de votre bébé, veuillez obtenir des conseils de votre médecin et les suivre par la suite.
     </string>
     <string name="hep_notif1" formatted="false">
         Bonjour, aujourd\'hui marque la 13e semaine de grossesse. Nous espérons que vous êtes partie à
@@ -1323,10 +1336,10 @@
     </string>
     <string name="hep_notif2" formatted="false">
         Bonjour, vous êtes à la 38e semaine de votre grossesse. Veuillez informer le personnel de santé
-        qui aide à votre accouchement de votre sérologie d\'hépatite B. Cela permettra de prendre les
-        dispositions appropriées au cours de l\'accouchement pour assurer la bonne santé et la sécurité
-        de votre bébé. Assurez-vous d\'acheter de l\'immunoglobuline pour l\'hépatite B et des vaccins
-        afin qu\'ils puissent être administrés dans les 3 jours qui suivent l\'accouchement.\n
+        qui vous aidera pendant votre accouchement de votre sérologie d\'hépatite B. Cela permettra de
+        prendre les dispositions appropriées au cours de l\'accouchement pour assurer la bonne santé
+        et la sécurité de votre bébé. Assurez-vous d\'acheter de l\'immunoglobuline pour l\'hépatite
+        B et des vaccinsafin qu\'ils puissent être administrés dans les 3 jours qui suivent l\'accouchement.\n
         Nous vous souhaitons un accouchement sûr.
     </string>
     <string name="hep_notif3" formatted="false">
