@@ -161,18 +161,18 @@
         \t\t<b>NB:The F75 prepared as shown above should be stored in a fridge and placed in warm water
         before each feed.</b>\n\n
         \t\t<b>How to give F75 to the child</b>\n
-        \t\t\t<i><u>Days 1-2:</u></i>\n
-        \t\t\t<i>Frequency(How often to feed): </i>Two times each hour.\n
-        \t\t\t<i>Quantity/kg per feed: </i>11ml\n
-        \t\t\t<i>Quantity/kg per day: </i>130ml\n\n
-        \t\t\t<i><u>Days 3-5:</u></i>\n
-        \t\t\t<i>Frequency(How often to feed): </i>Three times each hour.\n
-        \t\t\t<i>Quantity/kg per feed: </i>16ml\n
-        \t\t\t<i>Quantity/kg per day: </i>130ml\n\n
-        \t\t\t<i><u>Days 6 onwards:</u></i>\n
-        \t\t\t<i>Frequency(How often to feed): </i>Four times each hour.\n
-        \t\t\t<i>Quantity/kg per feed: </i>22ml\n
-        \t\t\t<i>Quantity/kg per day: </i>130ml\n\n
+        \t\t\t<u>Days 1-2:</u>\n
+        \t\t\tFrequency (How often to feed): Two times each hour.\n
+        \t\t\tQuantity/kg per feed: 11ml\n
+        \t\t\tQuantity/kg per day: 130ml\n\n
+        \t\t\t<u>Days 3-5:</u>\n
+        \t\t\tFrequency (How often to feed): Three times each hour.\n
+        \t\t\tQuantity/kg per feed: 16ml\n
+        \t\t\tQuantity/kg per day: 130ml\n\n
+        \t\t\t<u>Days 6 onwards:</u>\n
+        \t\t\tFrequency (How often to feed): Four times each hour.\n
+        \t\t\tQuantity/kg per feed: 22ml\n
+        \t\t\tQuantity/kg per day: 130ml\n\n
         \t\t\t<b>*Quantity/kg = corresponding figure for day x weight of child in kg</b>\n\n
         \t\tFeed the child from a cup or bowl using a spoon, or better still, a syringe (<b>Without
     the needle</b>).\n\n
@@ -758,7 +758,6 @@
         \t\u2022 Urine analysis\n
         \t\u2022 Ultrasound\n\n
         <b>Treatment:</b>\n
-        \t\u2022 Commence HIV treatment if positive.\n
         \t\u2022 Treat infections/diseases if indicated.\n
         \t\u2022 Continue management of preexisting/de novo conditions (e.g. diabetes, hypertension).\n
         \t\u2022 Rotation/referral for rotation of fetus if in breech.\n\n
@@ -888,7 +887,8 @@
         \t\u2022 A packet of sterile gauze\n
         \t\u2022 A packet of pad\n
         \t\u2022 10 packets of sterile gloves\n
-        \t\u2022 2 sets of warm baby clothing, and clothing and underwear for the mother\n
+        \t\u2022 2 sets of warm baby clothing\n
+        \t\u2022 Clothing and underwear for the mother\n
         \t\u2022 Alcohol\n
         \t\u2022 A clean towel and other toiletries\n
         \t\u2022 A clean bed sheet\n\n
@@ -1072,7 +1072,7 @@
         <b>EDUCATION ON A DISEASE WHICH CAN BE TRANSMITTED FROM MOTHER TO CHILD</b>\n
         Before being discharged from the hospital, women shall be educated on at least one disease which
         can be transmitted from mother to child, or on prevention of certain pregnancy complications.
-        Women should be keen on reminding their doctors/nurses/midwives, in case these forget.\n\n
+        Women should be keen on reminding their doctors/nurses/midwives, in case they forget.\n\n
         <b>FAMILY PLANNING</b>\n
         Mothers will also be told when it would be appropriate for them to plan their next pregnancy,
         if that is their desire. To achieve this, they shall be introduced to various methods of contraception,

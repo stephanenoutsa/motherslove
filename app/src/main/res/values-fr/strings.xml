@@ -164,18 +164,18 @@
         \t\t<b>NB: Le F75 préparé comme indiqué ci-dessus doit être conservé dans un réfrigérateur et
         placé dans de l\'eau chaude avant chaque repas.</b>\n\n
         \t\t<b>Comment donner F75 à l\'enfant:</b>\n
-        \t\t\t<i><u>Jours 1-2:</u></i>\n
-        \t\t\t<i>Fréquence (nombres de repas par heure): </i>deux fois par heure.\n
-        \t\t\t<i>Quantité / kg par alimentation: </i>11ml\n
-        \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
-        \t\t\t<i><u>Jours 3-5:</u></i>\n
-        \t\t\t<i>Fréquence (nombres de repas par heure): </i>trois fois par heure.\n
-        \t\t\t<i>Quantité / kg par alimentation: </i>16ml\n
-        \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
-        \t\t\t<i><u>Jours 6 et suivants:</u></i>\n
-        \t\t\t<i>Fréquence (nombres de repas par heure): </i>Quatre fois par heure.\n
-        \t\t\t<i>Quantité / kg par alimentation: </i>22ml\n
-        \t\t\t<i>Quantité / kg par jour: </i>130ml\n\n
+        \t\t\t<u>Jours 1-2:</u>\n
+        \t\t\tFréquence (nombres de repas par heure): deux fois par heure.\n
+        \t\t\tQuantité / kg par alimentation: 11ml\n
+        \t\t\tQuantité / kg par jour: 130ml\n\n
+        \t\t\t<u>Jours 3-5:</u>\n
+        \t\t\tFréquence (nombres de repas par heure): trois fois par heure.\n
+        \t\t\tQuantité / kg par alimentation: 16ml\n
+        \t\t\tQuantité / kg par jour: 130ml\n\n
+        \t\t\t<u>Jours 6 et suivants:</u>\n
+        \t\t\tFréquence (nombres de repas par heure): Quatre fois par heure.\n
+        \t\t\tQuantité / kg par alimentation: 22ml\n
+        \t\t\tQuantité / kg par jour: 130ml\n\n
         \t\t\t<b>*Quantité / kg = chiffre correspondant pour le jour x le poids de l\'enfant en kg</b>\n\n
         \t\tNourrir l\'enfant à partir d\'une tasse ou un bol à l\'aide d\'une cuillère, ou mieux encore,
         une seringue (<b>sans aiguille</b>).\n\n
@@ -799,7 +799,6 @@
         \t\u2022 Analyse d\'urine\n
         \t\u2022 Ultrason\n\n
         <b>Traitement:</b>\n
-        \t\u2022 Commencer le traitement du VIH si positif.\n
         \t\u2022 Traiter les infections / maladies si indiquées.\n
         \t\u2022 Continuer la gestion des conditions préexistantes / de novo (par exemple le diabète,
         l\'hypertension).\n
