@@ -1377,5 +1377,33 @@
     <string name="ref_bfpos_twins_link" formatted="false">
         mumsnet.com/cms/uploads/babies/feedingpositions.jpg
     </string>
+    <string name="ref_mal1_image">malnutrition1</string>
+    <string name="ref_mal1_link" formatted="false">
+        voices.nationalgeographic.com/2011/03/01/mobile_technology_helps_every_person_count/
+    </string>
+    <string name="ref_mal2_image">malnutrition2</string>
+    <string name="ref_mal2_link" formatted="false">
+        motherchildnutrition.org/early-malnutrition-detection/detection-referral-children-with-acute-malnutrition/screening-for-acute-malnutrition.html
+    </string>
+    <string name="ref_mal3_image">malnutrition3</string>
+    <string name="ref_mal3_link" formatted="false">
+        motherchildnutrition.org/early-malnutrition-detection/detection-referral-children-with-acute-malnutrition/screening-for-acute-malnutrition.html
+    </string>
+    <string name="ref_mal4_image">malnutrition4</string>
+    <string name="ref_mal4_link" formatted="false">
+        loveachild.com/2015/06/effects-of-malnutrition-in-haiti/
+    </string>
+    <string name="ref_mal5_image">malnutrition5</string>
+    <string name="ref_mal5_link" formatted="false">
+        lavdc.net/portail/sante-lutter-contre-la-malnutrition-la-cle-du-developpement/
+    </string>
+    <string name="ref_diarrhoea2_image">diarrhoea</string>
+    <string name="ref_diarrhoea2_link" formatted="false">
+        community.babycenter.com/post/a26067921/anyone_using_similac_alimentum_warning_poop_pix
+    </string>
+    <string name="ref_dysentery_image">dysentery</string>
+    <string name="ref_dysentery_link" formatted="false">
+        pedsinreview.aappublications.org/content/30/4/146
+    </string>
     <!-- End of References activity literature -->
 </resources>

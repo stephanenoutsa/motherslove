@@ -60,6 +60,34 @@ class CustomRefAdapter extends ArrayAdapter<int[]> {
                 resID = res.getIdentifier(res.getString(R.string.ref_bfpos_twins_image), "drawable", pkg);
                 refLink.setText(res.getString(R.string.ref_bfpos_twins_link));
                 break;
+            case 7:
+                resID = res.getIdentifier(res.getString(R.string.ref_mal1_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_mal1_link));
+                break;
+            case 8:
+                resID = res.getIdentifier(res.getString(R.string.ref_mal2_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_mal2_link));
+                break;
+            case 9:
+                resID = res.getIdentifier(res.getString(R.string.ref_mal3_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_mal3_link));
+                break;
+            case 10:
+                resID = res.getIdentifier(res.getString(R.string.ref_mal4_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_mal4_link));
+                break;
+            case 11:
+                resID = res.getIdentifier(res.getString(R.string.ref_mal5_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_mal5_link));
+                break;
+            case 12:
+                resID = res.getIdentifier(res.getString(R.string.ref_diarrhoea2_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_diarrhoea2_link));
+                break;
+            case 13:
+                resID = res.getIdentifier(res.getString(R.string.ref_dysentery_image), "drawable", pkg);
+                refLink.setText(res.getString(R.string.ref_dysentery_link));
+                break;
         }
         refImage.setImageResource(resID);
 

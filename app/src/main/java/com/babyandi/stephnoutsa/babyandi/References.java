@@ -71,6 +71,20 @@ public class References extends AppCompatActivity {
                 refList.add(bfpos);
                 int[] bfposTwins = {6};
                 refList.add(bfposTwins);
+                int[] mal1 = {7};
+                refList.add(mal1);
+                int[] mal2 = {8};
+                refList.add(mal2);
+                int[] mal3 = {9};
+                refList.add(mal3);
+                int[] mal4 = {10};
+                refList.add(mal4);
+                int[] mal5 = {11};
+                refList.add(mal5);
+                int[] diarrhoea2 = {12};
+                refList.add(diarrhoea2);
+                int[] dysentery = {13};
+                refList.add(dysentery);
 
                 // Get the references into an adapter's list
                 ListAdapter listAdapter = new CustomRefAdapter(context, refList);
