@@ -10,8 +10,12 @@ public class BootReceiver extends BroadcastReceiver {
         if (intent.getAction().equals("android.intent.action.BOOT_COMPLETED")) {
             MyDBHandler dbHandler = new MyDBHandler(context, null, null, 1);
             AlarmStart alarmStart = new AlarmStart();
-            alarmStart.instantCheck(context);
-            alarmStart.instantImmCheck(context);
+            if (!dbHandler.getLMP().equals("null")) {
+                alarmStart.instantCheck(context);
+            }
+            if (!dbHandler.getDOB().getDday().equals("null")) {
+                alarmStart.instantImmCheck(context);
+            }
             String hiv = dbHandler.getHivStatus();
             String hepatitis = dbHandler.getHepatitisStatus();
             if(hiv.equals("positive")) {
