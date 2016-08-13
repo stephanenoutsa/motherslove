@@ -25,7 +25,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String TABLE_HEP_RECEIVED = "hepreceived";
     public static final String HEP_COLUMN_ID = "_hepid";
     public static final String HEP_COLUMN_NUMBER = "hepnumber";
-    public static final  String TABLE_NOTIFICATIONS = "notifications";
+    public static final String TABLE_NOTIFICATIONS = "notifications";
     public static final String N_COLUMN_ID = "_nid";
     public static final String N_COLUMN_DAY = "nday";
     public static final String N_COLUMN_MESSAGE = "nmessage";

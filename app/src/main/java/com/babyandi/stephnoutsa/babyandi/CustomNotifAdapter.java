@@ -5,6 +5,8 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.os.Handler;
+import android.os.Message;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,55 +39,69 @@ class CustomNotifAdapter extends ArrayAdapter<String> {
         stopButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (stop.equals(res.getString(R.string.stop_anc_notifs))) {
-                    // Cancel ANC alarm
-                    Intent anc = new Intent(getContext(), MyBroadcastReceiver.class);
-                    PendingIntent ancIntent = PendingIntent.getBroadcast(getContext(), 0, anc, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager ancAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
-                    ancAlarm.cancel(ancIntent);
+                final Handler handler = new Handler() {
+                    @Override
+                    public void handleMessage(Message msg) {
+                        if (stop.equals(res.getString(R.string.stop_anc_notifs))) {
+                            // Cancel ANC alarm
+                            Intent anc = new Intent(getContext(), MyBroadcastReceiver.class);
+                            PendingIntent ancIntent = PendingIntent.getBroadcast(getContext(), 0, anc, PendingIntent.FLAG_UPDATE_CURRENT);
+                            AlarmManager ancAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
+                            ancAlarm.cancel(ancIntent);
 
-                    // Cancel hiv alarm
-                    Intent hiv = new Intent(getContext(), MyBroadcastReceiver.class);
-                    PendingIntent hivIntent = PendingIntent.getBroadcast(getContext(), 0, hiv, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager hivAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
-                    hivAlarm.cancel(hivIntent);
+                            // Cancel hiv alarm
+                            Intent hiv = new Intent(getContext(), MyBroadcastReceiver.class);
+                            PendingIntent hivIntent = PendingIntent.getBroadcast(getContext(), 0, hiv, PendingIntent.FLAG_UPDATE_CURRENT);
+                            AlarmManager hivAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
+                            hivAlarm.cancel(hivIntent);
 
-                    // Cancel hep alarm
-                    Intent hep = new Intent(getContext(), MyBroadcastReceiver.class);
-                    PendingIntent hepIntent = PendingIntent.getBroadcast(getContext(), 0, hep, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager hepAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
-                    hepAlarm.cancel(hepIntent);
+                            // Cancel hep alarm
+                            Intent hep = new Intent(getContext(), MyBroadcastReceiver.class);
+                            PendingIntent hepIntent = PendingIntent.getBroadcast(getContext(), 0, hep, PendingIntent.FLAG_UPDATE_CURRENT);
+                            AlarmManager hepAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
+                            hepAlarm.cancel(hepIntent);
 
-                    // Empty LMP, HIV and HEP tables if neccesary
-                    String lmp = dbHandler.getLMP();
-                    if (!lmp.equals("null")) {
-                        dbHandler.stopAncNotifs();
+                            // Empty LMP, HIV and HEP tables if neccesary
+                            String lmp = dbHandler.getLMP();
+                            if (!lmp.equals("null")) {
+                                dbHandler.stopAncNotifs();
+                            }
+
+                            if (lmp.equals("null")) {
+                                Toast.makeText(getContext(), res.getString(R.string.anc_stop_failure), Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(getContext(), res.getString(R.string.anc_stop_success), Toast.LENGTH_LONG).show();
+                            }
+                        } else if (stop.equals(res.getString(R.string.stop_imm_notifs))) {
+                            // Cancel imm alarm
+                            Intent imm = new Intent(getContext(), MyImmunizationReceiver.class);
+                            PendingIntent immIntent = PendingIntent.getBroadcast(getContext(), 0, imm, PendingIntent.FLAG_UPDATE_CURRENT);
+                            AlarmManager immAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
+                            immAlarm.cancel(immIntent);
+
+                            // Empty dob table if necessary
+                            String dob = dbHandler.getDOB().getDday();
+                            if (!dob.equals("null")) {
+                                dbHandler.deleteDOB();
+                            }
+
+                            if (dob.equals("null")) {
+                                Toast.makeText(getContext(), res.getString(R.string.imm_stop_failure), Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(getContext(), res.getString(R.string.imm_stop_success), Toast.LENGTH_LONG).show();
+                            }
+                        }
                     }
+                };
 
-                    if (lmp.equals("null")) {
-                        Toast.makeText(getContext(), res.getString(R.string.anc_stop_failure), Toast.LENGTH_LONG).show();
-                    } else {
-                        Toast.makeText(getContext(), res.getString(R.string.anc_stop_success), Toast.LENGTH_LONG).show();
+                Runnable r = new Runnable() {
+                    @Override
+                    public void run() {
+                        handler.sendEmptyMessage(0);
                     }
-                } else {
-                    // Cancel imm alarm
-                    Intent imm = new Intent(getContext(), MyBroadcastReceiver.class);
-                    PendingIntent immIntent = PendingIntent.getBroadcast(getContext(), 0, imm, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager immAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
-                    immAlarm.cancel(immIntent);
-
-                    // Empty dob table if necessary
-                    String dob = dbHandler.getDOB().getDday();
-                    if (!dob.equals("null")) {
-                        dbHandler.deleteDOB();
-                    }
-
-                    if (dob.equals("null")) {
-                        Toast.makeText(getContext(), res.getString(R.string.imm_stop_failure), Toast.LENGTH_LONG).show();
-                    } else {
-                        Toast.makeText(getContext(), res.getString(R.string.imm_stop_success), Toast.LENGTH_LONG).show();
-                    }
-                }
+                };
+                Thread thread = new Thread(r);
+                thread.start();
             }
         });
 
