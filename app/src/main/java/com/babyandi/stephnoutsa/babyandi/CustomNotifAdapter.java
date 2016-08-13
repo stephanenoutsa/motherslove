@@ -56,10 +56,12 @@ class CustomNotifAdapter extends ArrayAdapter<String> {
                     AlarmManager hepAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
                     hepAlarm.cancel(hepIntent);
 
-                    // Empty LMP, HIV and HEP tables
-                    dbHandler.stopAncNotifs();
-
+                    // Empty LMP, HIV and HEP tables if neccesary
                     String lmp = dbHandler.getLMP();
+                    if (!lmp.equals("null")) {
+                        dbHandler.stopAncNotifs();
+                    }
+
                     if (lmp.equals("null")) {
                         Toast.makeText(getContext(), res.getString(R.string.anc_stop_failure), Toast.LENGTH_LONG).show();
                     } else {
@@ -72,10 +74,12 @@ class CustomNotifAdapter extends ArrayAdapter<String> {
                     AlarmManager immAlarm = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
                     immAlarm.cancel(immIntent);
 
-                    // Empty dob table
-                    dbHandler.deleteDOB();
-
+                    // Empty dob table if necessary
                     String dob = dbHandler.getDOB().getDday();
+                    if (!dob.equals("null")) {
+                        dbHandler.deleteDOB();
+                    }
+
                     if (dob.equals("null")) {
                         Toast.makeText(getContext(), res.getString(R.string.imm_stop_failure), Toast.LENGTH_LONG).show();
                     } else {
