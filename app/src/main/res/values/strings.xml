@@ -1172,7 +1172,7 @@
     <string name="imm_stop_success" formatted="false">
         You will stop receiving notifications about your child\'s vaccination
     </string>
-    <string name="inn_stop_failure" formatted="false">
+    <string name="imm_stop_failure" formatted="false">
         We are not currently following up your child\'s vaccination schedule.
     </string>
     <string name="first_notification_ticker">Best wishes throughout your pregnancy!!</string>
