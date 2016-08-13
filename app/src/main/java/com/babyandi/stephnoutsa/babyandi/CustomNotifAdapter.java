@@ -59,13 +59,12 @@ class CustomNotifAdapter extends ArrayAdapter<String> {
                     // Empty LMP, HIV and HEP tables
                     dbHandler.stopAncNotifs();
 
-                    Toast.makeText(getContext(), res.getString(R.string.anc_stop_success), Toast.LENGTH_LONG).show();
-
-                    /*if (dbHandler.getLMP() == null) {
+                    String lmp = dbHandler.getLMP();
+                    if (lmp.equals("null")) {
                         Toast.makeText(getContext(), res.getString(R.string.anc_stop_failure), Toast.LENGTH_LONG).show();
                     } else {
                         Toast.makeText(getContext(), res.getString(R.string.anc_stop_success), Toast.LENGTH_LONG).show();
-                    }*/
+                    }
                 } else {
                     // Cancel imm alarm
                     Intent imm = new Intent(getContext(), MyBroadcastReceiver.class);
@@ -76,13 +75,12 @@ class CustomNotifAdapter extends ArrayAdapter<String> {
                     // Empty dob table
                     dbHandler.deleteDOB();
 
-                    Toast.makeText(getContext(), res.getString(R.string.imm_stop_success), Toast.LENGTH_LONG).show();
-
-                    /*if (dbHandler.getDOB() == null) {
+                    String dob = dbHandler.getDOB().getDday();
+                    if (dob.equals("null")) {
                         Toast.makeText(getContext(), res.getString(R.string.imm_stop_failure), Toast.LENGTH_LONG).show();
                     } else {
                         Toast.makeText(getContext(), res.getString(R.string.imm_stop_success), Toast.LENGTH_LONG).show();
-                    }*/
+                    }
                 }
             }
         });

@@ -54,6 +54,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 ")";
         db.execSQL(lmp);
 
+        // Add placeholder values for LMP table
+        LMP lmp1 = new LMP("null");
+        addLMP(lmp1);
+
         String notif = "CREATE TABLE " + TABLE_NOTIFICATIONS + "(" +
                 N_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 N_COLUMN_DAY + " TEXT " + ", " +
@@ -71,6 +75,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 SN_COLUMN_HIV + " TEXT" + ", " +
                 SN_COLUMN_HEPATITIS + " TEXT" + ")";
         db.execSQL(sn);
+
+        // Add placeholder values for SN table
+        SpecialNeed specialNeed = new SpecialNeed("negative", "negative");
+        addSN(specialNeed);
 
         String r = "CREATE TABLE " + TABLE_RECEIVED + "(" +
                 R_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
@@ -92,6 +100,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
                 D_COLUMN_DAY + " TEXT" + ", " +
                 D_COLUMN_R + " INTEGER" + ")";
         db.execSQL(dob);
+
+        // Add placeholder values for DOB table
+        DOB dob1 = new DOB("null", 0);
+        addDOB(dob1);
     }
 
     @Override
@@ -434,6 +446,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "DELETE FROM " + TABLE_DOB + " WHERE 1;";
         db.execSQL(query);
+
+        // Add placeholder values for DOB table
+        DOB dob = new DOB("null", 0);
+        addDOB(dob);
     }
 
     // Empty all ANC related tables
@@ -452,6 +468,14 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.execSQL(r);
         db.execSQL(hivr);
         db.execSQL(hepr);
+
+        // Add placeholder values for LMP table
+        LMP lmp1 = new LMP("null");
+        addLMP(lmp1);
+
+        // Add placeholder values for SN table
+        SpecialNeed specialNeed = new SpecialNeed("negative", "negative");
+        addSN(specialNeed);
     }
 
 }
