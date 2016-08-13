@@ -5,7 +5,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="@string/stop_anc_notifs"
         android:layout_margin="5dp"
         android:id="@+id/stopButton"
