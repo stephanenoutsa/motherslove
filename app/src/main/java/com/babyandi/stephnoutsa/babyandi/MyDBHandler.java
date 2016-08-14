@@ -11,6 +11,8 @@ import java.util.List;
 
 public class MyDBHandler extends SQLiteOpenHelper {
 
+    SQLiteDatabase db = null;
+
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "lmp.db";
     public static final String TABLE_LMP = "lmp";
@@ -47,6 +49,8 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        this.db = db;
+
         //db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP);
         String lmp = "CREATE TABLE " + TABLE_LMP + "(" +
                 LMP_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
@@ -123,9 +127,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void addLMP(LMP lmp) {
         ContentValues values = new ContentValues();
         values.put(LMP_COLUMN_DATE, String.valueOf(lmp.getLmpdate()));
-        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            db = getWritableDatabase();
+        }
         db.insert(TABLE_LMP, null, values);
-        db.close();
     }
 
     // Get the LMP
@@ -273,9 +278,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(SN_COLUMN_HIV, String.valueOf(specialNeed.getHiv()));
         values.put(SN_COLUMN_HEPATITIS, String.valueOf(specialNeed.getHepatitis()));
-        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            db = getWritableDatabase();
+        }
         db.insert(TABLE_SPECIAL_NEEDS, null, values);
-        db.close();
     }
 
     // Get the HIV status
@@ -416,9 +422,10 @@ public class MyDBHandler extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(D_COLUMN_DAY, String.valueOf(dob.getDday()));
         values.put(D_COLUMN_R, dob.getDreceived());
-        SQLiteDatabase db = getWritableDatabase();
+        if (db == null) {
+            db = getWritableDatabase();
+        }
         db.insert(TABLE_DOB, null, values);
-        db.close();
     }
 
     // Get the DOB
