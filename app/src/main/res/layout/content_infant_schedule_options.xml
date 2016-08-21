@@ -41,6 +41,7 @@
                 android:onClick="onClickReceiveNotifs"
                 android:background="@drawable/button_standard_border"
                 android:layout_marginTop="10dp"
+                android:textColor="@color/colorTextPrimary"
                 android:text="@string/receive_notifs_button_text" />
 
             <TextView
@@ -59,6 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/see_infant_schedule_button_text"
+                android:textColor="@color/colorTextPrimary"
                 android:id="@+id/buttonSeeInfantSchedule"
                 android:background="@drawable/button_standard_border"
                 android:layout_below="@+id/secondOptionText"

@@ -23,7 +23,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickPreparingForLabour"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 
     <Button
         android:layout_width="@dimen/button_standard_width"
@@ -33,7 +33,7 @@
         android:layout_below="@+id/buttonPreparingForLabour"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickSignsOfLabour"
         android:background="@drawable/button_standard_border" />
 
@@ -46,6 +46,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:background="@drawable/button_standard_border"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickPainManagement" />
 </RelativeLayout>

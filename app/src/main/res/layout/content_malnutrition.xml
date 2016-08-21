@@ -20,7 +20,7 @@
         android:id="@+id/buttonDiagnose"
         android:onClick="onClickDiagnose"
         android:background="@drawable/button_standard_border"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp" />
 
@@ -34,5 +34,5 @@
         android:layout_marginTop="57dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickManage"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 </RelativeLayout>

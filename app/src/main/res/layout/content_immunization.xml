@@ -20,7 +20,7 @@
         android:id="@+id/buttonScheduleForInfants"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickScheduleForInfants"
         android:background="@drawable/button_standard_border" />
 
@@ -34,5 +34,5 @@
         android:background="@drawable/button_standard_border"
         android:onClick="onClickScheduleForPregnantWomen"
         android:text="@string/title_activity_schedule_for_pregnant_women"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 </RelativeLayout>

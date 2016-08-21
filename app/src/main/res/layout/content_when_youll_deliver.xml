@@ -38,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_activity_when_youll_deliver"
+        android:textColor="@color/colorTextPrimary"
         android:id="@+id/buttonSubmit"
         android:layout_centerHorizontal="true"
         android:onClick="onClickSubmitDate"

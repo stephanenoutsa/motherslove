@@ -30,7 +30,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickHIVStep1"
                 android:background="@drawable/button_standard_border" />
 
@@ -44,7 +44,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHIVStep2"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <Button
                 android:layout_width="@dimen/button_standard_width"
@@ -54,7 +54,7 @@
                 android:layout_below="@+id/buttonHIVStep2"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickHIVStep3"
                 android:background="@drawable/button_standard_border" />
 
@@ -68,7 +68,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHIVStep4"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <Button
                 android:layout_width="@dimen/button_standard_width"
@@ -78,7 +78,7 @@
                 android:layout_below="@+id/buttonHIVStep4"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickHIVStep5"
                 android:background="@drawable/button_standard_border" />
 
@@ -92,7 +92,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHIVStep6"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

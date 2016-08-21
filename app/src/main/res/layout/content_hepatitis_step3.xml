@@ -38,6 +38,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button_standard_border"
                 android:text="@string/title_activity_hepatitis_step4"
+                android:textColor="@color/colorTextPrimary"
                 android:id="@+id/goToStep4" />
 
         </RelativeLayout>

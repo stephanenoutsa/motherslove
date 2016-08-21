@@ -37,6 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/zscore_button_text"
+                android:textColor="@color/colorTextPrimary"
                 android:id="@+id/buttonToZscore"
                 android:layout_below="@+id/muacText2"
                 android:layout_centerHorizontal="true"

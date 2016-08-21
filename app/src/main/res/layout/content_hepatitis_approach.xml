@@ -32,7 +32,7 @@
                 android:layout_marginTop="30dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHepatitisStep1"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <Button
                 android:layout_width="@dimen/button_standard_width"
@@ -42,7 +42,7 @@
                 android:layout_below="@+id/buttonHepatitisStep1"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickHepatitisStep2"
                 android:background="@drawable/button_standard_border" />
 
@@ -56,7 +56,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHepatitisStep3"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <Button
                 android:layout_width="@dimen/button_standard_width"
@@ -66,7 +66,7 @@
                 android:layout_below="@+id/buttonHepatitisStep3"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickHepatitisStep4"
                 android:background="@drawable/button_standard_border" />
 
@@ -80,7 +80,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHepatitisStep5"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

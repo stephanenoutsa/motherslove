@@ -39,7 +39,7 @@
                 android:id="@+id/seeTableButton"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickSeeTable"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -20,7 +20,7 @@
         android:id="@+id/whenYoullDeliver"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickWhenYoullDeliver"
         android:background="@drawable/button_standard_border" />
 
@@ -32,7 +32,7 @@
         android:layout_below="@+id/whenYoullDeliver"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickBeforeBirth"
         android:background="@drawable/button_standard_border" />
 
@@ -46,7 +46,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickLabour"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 
     <Button
         android:layout_width="@dimen/button_standard_width"
@@ -56,7 +56,7 @@
         android:layout_below="@+id/buttonLabour"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickAfterBirth"
         android:background="@drawable/button_standard_border" />
 </RelativeLayout>

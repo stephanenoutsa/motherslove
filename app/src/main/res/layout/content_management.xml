@@ -20,7 +20,7 @@
         android:id="@+id/buttonModerateMalnutrition"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickModerateMalnutrition" />
 
@@ -32,7 +32,7 @@
         android:layout_below="@+id/buttonModerateMalnutrition"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickSevereMalnutrition" />
 </RelativeLayout>

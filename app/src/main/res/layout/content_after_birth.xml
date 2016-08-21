@@ -30,7 +30,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickAfterBirthIntroduction"
                 android:background="@drawable/button_standard_border" />
 
@@ -44,7 +44,7 @@
                 android:layout_marginTop="40dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickChangesAfterDelivery"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <Button
                 android:layout_width="@dimen/button_standard_width"
@@ -54,7 +54,7 @@
                 android:layout_below="@+id/buttonChangesAfterDelivery"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="40dp"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onClickFrequentComplaintsAfterDelivery"
                 android:background="@drawable/button_standard_border" />
 
@@ -68,7 +68,7 @@
                 android:layout_marginTop="40dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickHEAfterDelivery"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
 
             <Button
                 android:layout_width="@dimen/button_standard_width"
@@ -80,7 +80,7 @@
                 android:layout_marginTop="40dp"
                 android:background="@drawable/button_standard_border"
                 android:onClick="onClickImmunization"
-                android:textColor="@color/colorTextSecondary" />
+                android:textColor="@color/colorTextPrimary" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

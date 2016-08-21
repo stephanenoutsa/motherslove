@@ -121,7 +121,7 @@
                 android:id="@+id/submitButton"
                 android:background="@drawable/button_standard_border"
                 android:text="@string/submit_button_text"
-                android:textColor="@color/colorTextSecondary"
+                android:textColor="@color/colorTextPrimary"
                 android:onClick="onSubmitSN"
                 android:layout_marginTop="10dp" />
 

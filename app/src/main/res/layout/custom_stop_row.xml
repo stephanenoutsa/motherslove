@@ -7,6 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:text="@string/stop_anc_notifs"
+        android:textColor="@color/colorTextPrimary"
         android:layout_margin="5dp"
         android:id="@+id/stopButton"
         android:background="@drawable/button_stop_border" />

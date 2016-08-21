@@ -20,7 +20,7 @@
         android:id="@+id/buttonHIVIntroduction"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:textColor="@color/colorTextSecondary"
+        android:textColor="@color/colorTextPrimary"
         android:onClick="onClickHIVIntroduction"
         android:background="@drawable/button_standard_border" />
 
@@ -34,5 +34,5 @@
         android:layout_marginTop="57dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickHIVApproach"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 </RelativeLayout>

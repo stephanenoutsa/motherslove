@@ -22,7 +22,7 @@
         android:layout_marginTop="100dp"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickMalnutritionIntro"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         android:layout_alignStart="@+id/buttonIntroduction"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickMalnutritionCriteria"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 
     <Button
         android:layout_width="wrap_content"
@@ -48,5 +48,5 @@
         android:layout_alignStart="@+id/buttonCriteria"
         android:background="@drawable/button_standard_border"
         android:onClick="onClickMalnutritionSigns"
-        android:textColor="@color/colorTextSecondary" />
+        android:textColor="@color/colorTextPrimary" />
 </RelativeLayout>
