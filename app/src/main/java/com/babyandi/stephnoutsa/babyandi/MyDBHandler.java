@@ -13,11 +13,14 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
     SQLiteDatabase db = null;
 
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private static final String DATABASE_NAME = "lmp.db";
     public static final String TABLE_LMP = "lmp";
     public static final String LMP_COLUMN_ID = "_lmpid";
     public static final String LMP_COLUMN_DATE = "lmpdate";
+    public static final String TABLE_DRECEIVED = "dreceived";
+    public static final String DR_COLUMN_ID = "_drid";
+    public static final String DR_COLUMN_NUMBER = "dnumber";
     public static final String TABLE_RECEIVED = "received";
     public static final String R_COLUMN_ID = "_rid";
     public static final String R_COLUMN_NUMBER = "number";
@@ -41,7 +44,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public static final String TABLE_DOB = "dob";
     public static final String D_COLUMN_ID = "_did";
     public static final String D_COLUMN_DAY = "dday";
-    public static final String D_COLUMN_R = "dreceived";
 
     public MyDBHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
@@ -51,7 +53,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         this.db = db;
 
-        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP);
         String lmp = "CREATE TABLE " + TABLE_LMP + "(" +
                 LMP_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 LMP_COLUMN_DATE + " DATE " +
@@ -84,6 +85,11 @@ public class MyDBHandler extends SQLiteOpenHelper {
         SpecialNeed specialNeed = new SpecialNeed("negative", "negative");
         addSN(specialNeed);
 
+        String dr = "CREATE TABLE " + TABLE_DRECEIVED + "(" +
+                DR_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
+                DR_COLUMN_NUMBER + " INTEGER" + ")";
+        db.execSQL(dr);
+
         String r = "CREATE TABLE " + TABLE_RECEIVED + "(" +
                 R_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
                 R_COLUMN_NUMBER + " INTEGER" + ")";
@@ -101,12 +107,11 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
         String dob = "CREATE TABLE " + TABLE_DOB + "(" +
                 D_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT " + ", " +
-                D_COLUMN_DAY + " TEXT" + ", " +
-                D_COLUMN_R + " INTEGER" + ")";
+                D_COLUMN_DAY + " TEXT" + ")";
         db.execSQL(dob);
 
         // Add placeholder values for DOB table
-        DOB dob1 = new DOB("null", 0);
+        DOB dob1 = new DOB("null");
         addDOB(dob1);
     }
 
@@ -360,7 +365,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.close();
     }
 
-    // Get the received number
+    // Get the hivreceived number
     public int getHivReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_HIV_RECEIVED + " WHERE 1;";
@@ -377,7 +382,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
         }
     }
 
-    // Delete the received number
+    // Delete the hivreceived number
     public void deleteHivReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "DELETE * FROM " + TABLE_HIV_RECEIVED + " WHERE 1;";
@@ -393,7 +398,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.close();
     }
 
-    // Get the received number
+    // Get the hepreceived number
     public int getHepReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "SELECT * FROM " + TABLE_HEP_RECEIVED + " WHERE 1;";
@@ -410,10 +415,43 @@ public class MyDBHandler extends SQLiteOpenHelper {
         }
     }
 
-    // Delete the received number
+    // Delete the hepreceived number
     public void deleteHepReceived() {
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "DELETE * FROM " + TABLE_HEP_RECEIVED + " WHERE 1;";
+        db.execSQL(query);
+    }
+
+    // Add new immunization received number
+    public void addDreceived(int dreceived) {
+        ContentValues values = new ContentValues();
+        values.put(DR_COLUMN_NUMBER, dreceived);
+        SQLiteDatabase db = getWritableDatabase();
+        db.insert(TABLE_DRECEIVED, null, values);
+        db.close();
+    }
+
+    // Get the immunization received number
+    public int getDreceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "SELECT * FROM " + TABLE_DRECEIVED + " WHERE 1;";
+        Cursor c = db.rawQuery(query, null);
+        if (c == null)
+            return 0;
+        c.moveToLast();
+        int dreceived = Integer.parseInt(c.getString(c.getColumnIndex(DR_COLUMN_NUMBER)));
+        try {
+            return dreceived;
+        } finally {
+            c.close();
+            db.close();
+        }
+    }
+
+    // Delete the immunization received number
+    public void deleteDreceived() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = "DELETE FROM " + TABLE_DRECEIVED + " WHERE 1;";
         db.execSQL(query);
     }
 
@@ -421,7 +459,6 @@ public class MyDBHandler extends SQLiteOpenHelper {
     public void addDOB(DOB dob) {
         ContentValues values = new ContentValues();
         values.put(D_COLUMN_DAY, String.valueOf(dob.getDday()));
-        values.put(D_COLUMN_R, dob.getDreceived());
         if (db == null) {
             db = getWritableDatabase();
         }
@@ -436,10 +473,9 @@ public class MyDBHandler extends SQLiteOpenHelper {
         if (c == null)
             return null;
         c.moveToLast();
-        int _did = c.getInt(c.getColumnIndex(D_COLUMN_ID));
+        int _did = Integer.parseInt(c.getString(c.getColumnIndex(D_COLUMN_ID)));
         String dday = c.getString(c.getColumnIndex(D_COLUMN_DAY));
-        int dreceived = c.getInt(c.getColumnIndex(D_COLUMN_R));
-        DOB dob = new DOB(_did, dday, dreceived);
+        DOB dob = new DOB(_did, dday);
         try {
             return dob;
         } finally {
@@ -455,7 +491,7 @@ public class MyDBHandler extends SQLiteOpenHelper {
         db.execSQL(query);
 
         // Add placeholder values for DOB table
-        DOB dob = new DOB("null", 0);
+        DOB dob = new DOB("null");
         addDOB(dob);
     }
 

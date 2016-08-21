@@ -84,10 +84,14 @@ public class AllowImmNotif extends AppCompatActivity {
 
     // Function to set immunization notification schedule
     public void onClickAllowImmNotif(View view) {
-        DOB d = new DOB(dob, 0);
+        DOB d = new DOB(dob);
 
         // Save the DOB to the database
         dbHandler.addDOB(d);
+
+        // Add immunization received number to the database
+        int received = 0;
+        dbHandler.addDreceived(received);
 
         // Display saved DOB in toast
         String date = getResources().getString(R.string.displayed_dob_text);

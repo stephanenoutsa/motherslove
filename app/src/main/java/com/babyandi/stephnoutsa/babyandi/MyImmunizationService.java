@@ -58,18 +58,16 @@ public class MyImmunizationService extends Service {
                 try {
                     String ticker;
 
-                    DOB d = dbHandler.getDOB();
-
                     // Get the received number from database
-                    int received = d.getDreceived();
-                    String dday = d.getDday();
+                    int received = dbHandler.getDreceived();
 
                     // Check which notification to display, if any
-                    String dobString = d.getDday();
+                    DOB d = dbHandler.getDOB();
+                    String dday = d.getDday();
                     String expectedPattern = "dd/MM/yyyy";
                     sdf = new SimpleDateFormat(expectedPattern);
 
-                    dob = sdf.parse(dobString);
+                    dob = sdf.parse(dday);
                     today = new Date();
                     long diffInMs = today.getTime() - dob.getTime();
                     long diff =  diffInMs / (1000 * 60 * 60 * 24);
@@ -129,9 +127,8 @@ public class MyImmunizationService extends Service {
                                 received = 8;
                             }
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -155,9 +152,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -181,9 +177,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -207,9 +202,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -233,9 +227,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -259,9 +252,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -285,9 +277,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -311,9 +302,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 
@@ -337,9 +327,8 @@ public class MyImmunizationService extends Service {
                             // Increment received notifications count
                             received++;
 
-                            // Update DOB
-                            DOB newDob = new DOB(dday, received);
-                            dbHandler.addDOB(newDob);
+                            //Update received number in database
+                            dbHandler.addDreceived(received);
                         }
                     }
 

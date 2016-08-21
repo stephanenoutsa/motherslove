@@ -7,7 +7,6 @@ public class DOB {
     // Private variables
     int _did;
     String dday;
-    int dreceived;
 
     // Empty constructor
     public DOB() {
@@ -15,16 +14,14 @@ public class DOB {
     }
 
     // Constructor
-    public DOB(int _did, String dday, int dreceived) {
+    public DOB(int _did, String dday) {
         this._did = _did;
         this.dday = dday;
-        this.dreceived = dreceived;
     }
 
     // Constructor
-    public DOB(String dday, int dreceived) {
+    public DOB(String dday) {
         this.dday = dday;
-        this.dreceived = dreceived;
     }
 
     // Getter and setter methods
@@ -42,13 +39,5 @@ public class DOB {
 
     public void setDday(String dday) {
         this.dday = dday;
-    }
-
-    public int getDreceived() {
-        return dreceived;
-    }
-
-    public void setDreceived(int dreceived) {
-        this.dreceived = dreceived;
     }
 }
