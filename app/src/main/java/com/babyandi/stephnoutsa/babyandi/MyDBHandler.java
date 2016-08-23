@@ -117,14 +117,15 @@ public class MyDBHandler extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP + ";");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NOTIFICATIONS + ";");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_EDD + ";");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_SPECIAL_NEEDS + ";");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECEIVED + ";");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_HIV_RECEIVED + ";");
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_HEP_RECEIVED + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_LMP + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_NOTIFICATIONS + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_EDD + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_SPECIAL_NEEDS + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECEIVED + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_HIV_RECEIVED + ";");
+        //db.execSQL("DROP TABLE IF EXISTS " + TABLE_HEP_RECEIVED + ";");
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_DOB + ";");
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_DRECEIVED + ";");
         onCreate(db);
     }
 
